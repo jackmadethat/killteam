@@ -1,0 +1,62 @@
+function UniversalEquipment() {
+  return (
+    <div className="sectionContent" id="universalEquipment">
+        
+        <p>The following equipment options are available to all kill teams, alongside their faction equipment. You cannot select each option more than once per battle.</p>
+        <h3>1x Ammo Cache</h3>
+        <img src="./src/img/ammo-cache.png" className="imgGraphic" style="max-width: 200px; max-height: 200px;" />
+        <p>Before the battle, you can set up one of your Ammo Cache markers wholly within your territory. Friendly operatives can perform the following mission action during the battle.</p>
+        <div>Ammo Resupply</div>
+        <div>0AP</div>
+        <ul>
+            <li><img src="./src/img/yes.svg" className="svgImg" /> One of your Ammo Cache markers the active operative controls is used this turning point.</li>
+            <li><img src="./src/img/yes.svg" className="svgImg" /> Until the start of the next turning point, whenever this operative is shooting with a weapon from its datacard, you can re-roll one of your attack dice.</li>
+            <li><img src="./src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, if that marker isn’t yours, or if that marker has been used this turning point.</li>
+        </ul>
+        <h3>1x Comms Device</h3>
+        <img src="./src/img/comms-device.png" className="imgGraphic" style="max-width: 200px; max-height: 200px;" />
+        <p>Before the battle, you can set up one of your Comms Device markers wholly within your territory. While a friendly operative controls this marker, add 3" to the distance requirements of its <b>SUPPORT</b> rules that refer to friendly operatives (e.g., "select a friendly operative within 6" would be "within 9" instead"). Note you cannot benefit from your opponent’s Comms Device markers.</p>
+        <h3>1x Mines</h3>
+        <img src="./src/img/mines.png" className="imgGraphic" style="max-width: 200px; max-height: 200px;" />
+        <p>Before the battle, you can set up up to one of your Mines markers wholly within your territory and more than 2" from other markers, access points and accesible terrain. The first time that marker is within an operative’s control range, remove that marker and inflict D3+3 damage on that operative.</p>
+        <h3>1x Razor Wire</h3>
+        <img src="./src/img/razor-wire.png" className="imgGraphic" style="max-width: 200px; max-height: 200px;" />
+        <p>Razor wire is Exposed and Obstructing terrain. Before the battle, you can set it up wholly within your territory, on the killzone floor and more than 2" from all other equipment terrain features, access points and accesible terrain.</p>
+        <p><strong>Obstructing:</strong> Whenever an operative would cross over this terrain feature within 1" of it, treat the distance as an additional 1".</p>
+        <h3>2x Light Barricades</h3>
+        <img src="./src/img/light-barricade.png" className="imgGraphic" style="max-width: 200px; max-height: 200px;" />
+        <p>Light barricades are Light terrain, except the feet, which are Insignificant and Exposed. Before the battle, you can set up any number of them wholly within your territory, on the killzone floor and more than 2" from other equipment terrain features, access points and accesible terrain.</p>
+        <h3>1x Heavy Barricade</h3>
+        <img src="./src/img/heavy-barricade.png" className="imgGraphic" style="max-width: 200px; max-height: 200px;" />
+        <p>A heavy barricade is Heavy terrain. Before the battle, you can set it up wholly within 4" of your drop zone, on the killzone floor and more than 2” from other equipment terrain features, access points and accesible terrain.</p>
+        <h3>2x Ladders</h3>
+        <img src="./src/img/ladder.png" className="imgGraphic" style="max-width: 200px; max-height: 200px;" />
+        <p>Ladders are Exposed terrain. Before the battle, you can set up any number of them as follows:</p>
+        <ul>
+            <li>Wholly within your territory.</li>
+            <li>Upright against terrain that has a height of at least 2".</li>
+            <li>More than 2" from other equipment terrain features.</li>
+            <li>More than 1" from doors and access points.</li>
+        </ul>
+        <p>Additionally, an operative can either move thorugh ladders as if they aren\'t there (but cannot finish on them), or climb them. Once per action, whenever an operative is climbing this terrain feature, treat the vertical distance as 1". Note that if an operative then continues climbing another terrain feature during that action (including another ladder), that distance is determined as normal.</p>
+        <h3>1x Portable Barricade</h3>
+        <img src="./src/img/portable-barricade.png" className="imgGraphic" style="max-width: 200px; max-height: 200px;" />
+        <p>A portable barricade is Light, Protective and Portable terrain. Before the battle, you can set it up wholly within your territory, on the killzone floor and more than 2" from all other equipment terrain features, access points and accesible terrain.</p>
+        <p><b>Protective:</b> While an operative is in Cover behind this terrain feature, improve its Save stat by 1 (to a maximum of 2+).</p>
+        <p><b>Portable:</b> This terrain feature only provides cover while an operative is connected to it and if the shield is intervening (ignore its feet). Operatives connected to the inside of it can perform the following unique action during the battle.</p>
+        <div>Move with Barricade</div>
+        <div>1AP</div>
+        <ul>
+            <li><img src="./src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except the active operative can move no more than its Move stat minus 2" and cannot climb, drop, jump or use any kill team\'s rules that remove it and set it back up again (e.g. HEARTHKYN SALVAGER FLY, MANDRAKE SHADOW PASSAGE).</li>
+            <li><img src="./src/img/yes.svg" className="svgImg" /> Before this operative moves, remove the portable barricade it is connected to. After the operative moves, set up the portable barricade so that it is once again, but the portable barricade cannot be set up within 2" of other equipment terrain features, access points or Accessible terrain. If this is not possible, the portable barricade is not set up again.</li>
+            <li><img src="./src/img/no.svg" className="svgImg" /> This action is treated as a <b>Reposition</b> action. An operative cannot perform the Move with Barricade action in the same turning point in which it performed the <b>Fall Back</b> or <b>Charge</b> actions.</li>
+        </ul>
+        <figure>
+            <img src="./src/img/portable_barricade-1.png" className="imgGraphic" style="max-width: 200px; max-height: 200px;" />
+            <p>The operative must contact both feet of the inside of the portable barricade to be connected to it.</p>
+        </figure>
+    </div>
+  )
+}
+
+export default UniversalEquipment
