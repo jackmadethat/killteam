@@ -5,13 +5,27 @@ function Considerations() {
         <h3>Datacards</h3>
         <p>Datacards contain specific rules for each operative, including key stats.</p>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/datacard-example.png" className="imgGraphic" alt="Datacard" />
-        <h3>Agent type</h3>
         <h3>Operative stats</h3>
         <ul>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/apl.svg" className="svgImg" alt="APL" /> <b>APL (Action point limit):</b> The total cost of actions an operative can perform during its activation, and a stat used to determine control of markers. Some rare rules change an operative’s APL. Regardless of how many APL stat changes an operative is affected by, the total can never be more than -1 or +1 from its normal APL. This takes precedence over all stat changes.<p><em>If an operative has an APL of 2, and two rules say to add 1 to the operative’s APL, it would have an APL of 3.</em></p></li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" /> <b>Move:</b> The operative’s move distance, used when performing the <b>Reposition</b>, <b>Fall Back</b> and <b>Charge</b> actions. An operative’s Move stat can never be changed to less than 4”. This takes precedence over all stat changes.<p><em>If an operative’s stats are changed during an action, apply the change once the action has been completed.</em></p></li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Save" /> <b>Save:</b> The result required for successful defence dice whenever another operative is shooting the operative.<p><em>Note that a higher numbered Hit and Save stat is worse because your chance of rolling a success decreases. This is important if a rule requires you to improve or worsen such a stat. For example, a 4+ Hit stat worsened by 1 is 5+.</em></p></li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" /> <b>Wounds:</b> The operative’s starting number of wounds, which is reduced as damage is inflicted upon it.</li>
+            <li>
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/apl.svg" className="svgImg" alt="APL" /> 
+                <b>APL (Action point limit):</b> The total cost of actions an operative can perform during its activation, and a stat used to determine control of markers. Some rare rules change an operative’s APL. Regardless of how many APL stat changes an operative is affected by, the total can never be more than -1 or +1 from its normal APL. This takes precedence over all stat changes.
+                <p className="indentNote"><em>If an operative has an APL of 2, and two rules say to add 1 to the operative’s APL, it would have an APL of 3.</em></p>
+                </li>
+            <li>
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" /> 
+                <b>Move:</b> The operative’s move distance, used when performing the <b>Reposition</b>, <b>Fall Back</b> and <b>Charge</b> actions. An operative’s Move stat can never be changed to less than 4”. This takes precedence over all stat changes.
+                <p className="indentNote"><em>If an operative’s stats are changed during an action, apply the change once the action has been completed.</em></p>
+                </li>
+            <li>
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Save" /> 
+                <b>Save:</b> The result required for successful defence dice whenever another operative is shooting the operative.
+                <p className="indentNote"><em>Note that a higher numbered Hit and Save stat is worse because your chance of rolling a success decreases. This is important if a rule requires you to improve or worsen such a stat. For example, a 4+ Hit stat worsened by 1 is 5+.</em></p>
+                </li>
+            <li>
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" /> 
+                <b>Wounds:</b> The operative’s starting number of wounds, which is reduced as damage is inflicted upon it.
+                </li>
         </ul>
         <h3>Weapon stats</h3>
         <ul>

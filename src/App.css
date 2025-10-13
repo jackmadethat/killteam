@@ -4,6 +4,8 @@
 
 html {
     overflow-y: auto;
+    overflow-x: hidden;
+    max-width: 100%;
     scrollbar-width: none;
     font-family: 'Kode Mono';
 }
@@ -11,33 +13,112 @@ html {
 body {
     margin-left: 5%;
     margin-right: 5%;
+    background-color: #181818;
+    color: #FFF;
 }
 
 h1 {
-    font-size: 4.5em;
+    font-size: 3.5em;
+    font-weight: lighter;
+    user-select: none;
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2.25em;
+    letter-spacing: 0.25em;
+    font-weight: lighter;
+    user-select: none;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+b {
+    font-weight: bold;
+}
+
+em {
+    color: #e97c00;
+}
+
+figure {
+    text-align: center;
+    font-size: 0.8em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#bgImageContainer {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: -200px;
+    left: 50%;
+    translate: -960px 0px;
+    z-index: -1;
+}
+
+#bgImage {
+    user-select: none;
+    filter: opacity(0.25) saturate(40%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%), linear-gradient(to right, black 70%, transparent 100%), linear-gradient(to left, black 70%, transparent 100%);
+    mask-composite: intersect;
+}
+
+#content {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#disclaimer {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 0.75em;
+    opacity: 0.7;
 }
 
 .subHeading {
-    font-size: 2.1em;
+    font-size: 1.8em;
+    letter-spacing: 0em;
+    font-weight: lighter;
+}
+
+.hovered {
+    cursor: pointer;
 }
 
 .textCenter {
     text-align: center;
 }
 
+.footer {
+    text-align: center;
+    font-size: 0.65em;
+    user-select: none;
+    opacity: 0.4;
+}
+
+.indentNote {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.actionList {
+    list-style-type: none;
+}
+
 .logoImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    min-width: 200px;
+    min-width: 250px;
+    min-height: 250px;
+    background-color: #F80;
+    mask-image: url("https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/killteamLogo.svg");
+    mask-size: 100% 100%;
 }
 
 #nightModeToggle {
@@ -46,7 +127,11 @@ h3 {
     left: 5px;
     width: 25px;
     height: 25px;
-    border: 1px red solid;
+    background-color: #FFF;
+    mask-image: url("https://raw.githubusercontent.com/jackmadethat/scndrl/refs/heads/main/sun.svg");
+    mask-size: 100% 100%;
+    opacity: 0.5;
+    z-index: 10;
 }
 
 #header {
@@ -54,26 +139,93 @@ h3 {
 }
 
 .sectionButton {
-    border: 1px red solid;
+    border: 1px #F80 solid;
+    padding: -2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+}
+
+.categoryButton {
+    border: 1px #F80 solid;
+    padding: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
     :hover {
-      cursor: pointer;
+        cursor: pointer;
     }
+}
+
+.sectionContent {
+    font-weight: 50;
+    padding: 1px 2% 2% 2%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .svgImg {
     width: 1.2em;
     height: 1.2em;
+    transform: translate(0, 3px);
+}
+
+.imgGraphic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.blackIcon {
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(-5deg) brightness(100%) contrast(100%);
 }
 
 
 @media (max-width: 1920px) {
-    .logoImg {
-        width: 20%;
-        height: 20%;
-    }
     .imgGraphic {
         width: 35%;
         height: 35%;
+        width: 400px;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    .logoImg {
+        min-width: 150px;
+        min-height: 150px;
+
+    }
+    .imgGraphic {
+        width: 70%;
+        height: 70%;
         max-width: 400px;
+    }
+    #bgImageContainer {
+        translate: -960px -153px;
+    }
+    #bgImage {
+        scale: 35%;
+    }
+    .indentNote {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+    .sectionButton {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    body {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #disclaimer {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }

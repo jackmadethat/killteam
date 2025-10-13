@@ -18,11 +18,11 @@ function Equipment() {
   return (
     <>
       <div className="sectionButton" onClick={toggleUniversalEquipment}>
-        <h2 className="textCenter subHeading">Universal Equipment</h2>
+        <div className="hovered"><h2 className="textCenter subHeading">Universal Equipment</h2></div>
         {visible_UniversalEquipment && <UniversalEquipment />}
       </div>
       <div className="sectionButton" onClick={toggleGrenades}>
-        <h2 className="textCenter subHeading">Grenades</h2>
+        <div className="hovered"><h2 className="textCenter subHeading">Grenades</h2></div>
         {visible_Grenades && <Grenades />}
       </div>
     </>

@@ -1,10 +1,10 @@
-function Header() {
+function Footer() {
 
   return (
-    <p className="textCenter">
+    <p className="footer">
       jackmadethat.github.io
     </p>
   )
 }
 
-export default Header
+export default Footer

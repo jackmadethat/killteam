@@ -30,19 +30,19 @@ function CorePrinciples() {
   return (
     <>
       <div className="sectionButton" onClick={toggleStrategyPhase}>
-        <h2 className="textCenter subHeading">Strategy Phase</h2>
-      </div>
+        <div className="hovered"><h2 className="textCenter subHeading">Strategy Phase</h2></div>
         {visible_StrategyPhase && <StrategyPhase />}
+      </div>
       <div className="sectionButton" onClick={toggleFirefightPhase}>
-        <h2 className="textCenter subHeading">Firefight Phase</h2>
+        <div className="hovered"><h2 className="textCenter subHeading">Firefight Phase</h2></div>
         {visible_FirefightPhase && <FirefightPhase />}
       </div>
       <div className="sectionButton" onClick={toggleConsiderations}>
-        <h2 className="textCenter subHeading">Considerations</h2>
+        <div className="hovered"><h2 className="textCenter subHeading">Considerations</h2></div>
         {visible_Considerations && <Considerations />}
       </div>
       <div className="sectionButton" onClick={toggleKeyPrinciples}>
-        <h2 className="textCenter subHeading">Key Fundamentals</h2>
+        <div className="hovered"><h2 className="textCenter subHeading">Key Fundamentals</h2></div>
         {visible_KeyPrinciples && <KeyPrinciples />}
       </div>
     </>
