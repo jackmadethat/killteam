@@ -23,16 +23,16 @@ function Actions() {
 
   return (
     <>
-      <div className="sectionButton" onClick={toggleUniversalActions}>
-        <h2 className="textCenter subHeading">Universal Actions</h2>
+      <div className="sectionButton">
+        <div className="hovered" onClick={toggleUniversalActions}><h2 className="textCenter subHeading">Universal Actions</h2></div>
         {visible_UniversalActions && <UniversalActions />}
       </div>
-      <div className="sectionButton" onClick={toggleGuard}>
-        <h2 className="textCenter subHeading">Guard</h2>
+      <div className="sectionButton">
+        <div className="hovered" onClick={toggleGuard}><h2 className="textCenter subHeading">Guard</h2></div>
         {visible_Guard && <Guard />}
       </div>
-      <div className="sectionButton" onClick={toggleCounteract}>
-        <h2 className="textCenter subHeading">Counteract</h2>
+      <div className="sectionButton">
+        <div className="hovered" onClick={toggleCounteract}><h2 className="textCenter subHeading">Counteract</h2></div>
         {visible_Counteract && <Counteract />}
       </div>
     </>

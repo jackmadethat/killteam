@@ -34,32 +34,32 @@ function App() {
   };
 
   return (
-    <>
-      <div className="sectionButton" onClick={toggleCorePrinciples}>
+    <div id="content">
+      <div className="categoryButton" onClick={toggleCorePrinciples}>
         <h2 className="textCenter">Core Principles</h2>
       </div>
       {visible_CorePrinciples && <CorePrinciples />}
 
-      <div className="sectionButton" onClick={toggleEquipment}>
+      <div className="categoryButton" onClick={toggleEquipment}>
         <h2 className="textCenter">Equipment</h2>
       </div>
       {visible_Equipment && <Equipment />}
 
-      <div className="sectionButton" onClick={toggleActions}>
+      <div className="categoryButton" onClick={toggleActions}>
         <h2 className="textCenter">Actions</h2>
       </div>
       {visible_Actions && <Actions />}
 
-      <div className="sectionButton" onClick={toggleWeapons}>
+      <div className="categoryButton" onClick={toggleWeapons}>
         <h2 className="textCenter">Weapons</h2>
       </div>
       {visible_Weapons && <Weapons />}
 
-      <div className="sectionButton" onClick={toggleTerrain}>
+      <div className="categoryButton" onClick={toggleTerrain}>
         <h2 className="textCenter">Terrain</h2>
       </div>
       {visible_Terrain && <Terrain />}
-    </>
+    </div>
   )
 }
 
