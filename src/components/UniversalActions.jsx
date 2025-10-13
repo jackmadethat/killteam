@@ -111,7 +111,7 @@ function UniversalActions() {
                     <li>Two normal successes can block a critical success.</li>
                     <li>A critical success can block a normal success or a critical success.</li>
                 </ul>
-            </li>
+            </li><br />
             <li>Resolve Attack Dice
                 <p>All successful unblocked attack dice inflict damage on the target operative.</p>
                 <ul>

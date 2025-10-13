@@ -29,20 +29,20 @@ function Terrain() {
 
   return (
     <>
-      <div className="sectionButton" onClick={toggleTerrainMovement}>
-        <div className="hovered"><h2 className="textCenter subHeading">Terrain & Movement</h2></div>
+      <div className="sectionButton">
+        <div className="hovered" onClick={toggleTerrainMovement}><h2 className="textCenter subHeading">Terrain & Movement</h2></div>
         {visible_TerrainMovement && <TerrainMovement />}
       </div>
-      <div className="sectionButton" onClick={toggleTerrainBasics}>
-        <div className="hovered"><h2 className="textCenter subHeading">Terrain Basics</h2></div>
+      <div className="sectionButton">
+        <div className="hovered" onClick={toggleTerrainBasics}><h2 className="textCenter subHeading">Terrain Basics</h2></div>
         {visible_TerrainBasics && <TerrainBasics />}
       </div>
-      <div className="sectionButton" onClick={toggleDoorsHatchways}>
-        <div className="hovered"><h2 className="textCenter subHeading">Doors & Hatchways</h2></div>
+      <div className="sectionButton">
+        <div className="hovered" onClick={toggleDoorsHatchways}><h2 className="textCenter subHeading">Doors & Hatchways</h2></div>
         {visible_DoorsHatchways && <DoorsHatchways />}
       </div>
-      <div className="sectionButton" onClick={toggleTerrainRules}>
-        <div className="hovered"><h2 className="textCenter subHeading">Terrain Rules</h2></div>
+      <div className="sectionButton">
+        <div className="hovered" onClick={toggleTerrainRules}><h2 className="textCenter subHeading">Terrain Rules</h2></div>
         {visible_TerrainRules && <TerrainRules />}
       </div>
     </>

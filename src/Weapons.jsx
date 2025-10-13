@@ -12,7 +12,7 @@ function Weapons() {
   return (
     <>
       <div className="sectionButton">
-        <div className="hovered"><h2 className="textCenter subHeading" onClick={toggleWeaponRules}>Weapon Rules</h2></div>
+        <div className="hovered"onClick={toggleWeaponRules}><h2 className="textCenter subHeading" >Weapon Rules</h2></div>
         {visible_WeaponRules && <WeaponRules />}
       </div>
     </>
