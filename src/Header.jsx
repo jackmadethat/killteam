@@ -18,7 +18,7 @@ function Header() {
       element.style.color = '#e97c00';
     });
     document.querySelector('#nightModeToggle').style.backgroundColor = isNightMode ? '#181818' : '#FFF';
-    document.querySelector('#nightModeToggle').style.maskImage = isNightMode ? 'url("https://raw.githubusercontent.com/jackmadethat/scndrl/refs/heads/main/moon.svg")' : 'url("https://raw.githubusercontent.com/jackmadethat/scndrl/refs/heads/main/sun.svg")';
+    document.querySelector('#nightModeToggle').style.maskImage = isNightMode ? 'url("https://raw.githubusercontent.com/jackmadethat/killteam/8c93ba3a2e264ab26877e9ba861363731e544023/src/img/moon.svg")' : 'url("https://raw.githubusercontent.com/jackmadethat/killteam/8c93ba3a2e264ab26877e9ba861363731e544023/src/img/sun.svg")';
     document.querySelector('h1').style.color = isNightMode ? '#181818' : '#FFF';
     document.querySelector('button').style.color = '#000';
     document.querySelector('#bgImage').style.opacity = isNightMode ? 0 : 1;
