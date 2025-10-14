@@ -60,6 +60,10 @@ figure {
     font-size: 0.8em;
 }
 
+li::marker {
+  color: var(--darkerOrange);
+}
+
 /**
 Structural Styles
 **/

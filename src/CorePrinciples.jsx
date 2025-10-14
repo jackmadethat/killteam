@@ -38,11 +38,11 @@ function CorePrinciples() {
         {visible_FirefightPhase && <FirefightPhase />}
       </div>
       <div className="sectionButton">
-        <div className="hovered" onClick={toggleConsiderations}><h2 className="textCenter subHeading">Considerations</h2></div>
+        <div className="hovered" onClick={toggleConsiderations}><h2 className="textCenter subHeading">Operatives</h2></div>
         {visible_Considerations && <Considerations />}
       </div>
       <div className="sectionButton">
-        <div className="hovered" onClick={toggleKeyPrinciples}><h2 className="textCenter subHeading">Key Fundamentals</h2></div>
+        <div className="hovered" onClick={toggleKeyPrinciples}><h2 className="textCenter subHeading">Core Principles</h2></div>
         {visible_KeyPrinciples && <KeyPrinciples />}
       </div>
     </>

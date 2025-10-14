@@ -18,7 +18,7 @@ function Considerations() {
                 <p className="indentNote"><em>If an operative’s stats are changed during an action, apply the change once the action has been completed.</em></p>
                 </li>
             <li>
-                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Save" /> 
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/save.svg" className="svgImg" alt="Save" /> 
                 <b>&nbsp;Save:</b> The result required for successful defence dice whenever another operative is shooting the operative.
                 <p className="indentNote"><em>Note that a higher numbered Hit and Save stat is worse because your chance of rolling a success decreases. This is important if a rule requires you to improve or worsen such a stat. For example, a 4+ Hit stat worsened by 1 is 5+.</em></p>
                 </li>

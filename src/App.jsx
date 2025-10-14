@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import PvPReference from './PvPReference'
 import CorePrinciples from './CorePrinciples'
 import Equipment from './Equipment'
 import Actions from './Actions'
@@ -7,11 +8,16 @@ import Weapons from './Weapons'
 import Terrain from './Terrain'
 
 function App() {
+  const [visible_PvPReference, setVisible_PvPReference] = useState(false);
   const [visible_CorePrinciples, setVisible_CorePrinciples] = useState(false);
   const [visible_Equipment, setVisible_Equipment] = useState(false);
   const [visible_Actions, setVisible_Actions] = useState(false);
   const [visible_Weapons, setVisible_Weapons] = useState(false);
   const [visible_Terrain, setVisible_Terrain] = useState(false);
+
+  const togglePvPReference = () => {
+    setVisible_PvPReference(!visible_PvPReference);
+  };
 
   const toggleCorePrinciples = () => {
     setVisible_CorePrinciples(!visible_CorePrinciples);
@@ -35,8 +41,13 @@ function App() {
 
   return (
     <div id="content">
+      <div className="categoryButton" onClick={togglePvPReference}>
+        <h2 className="textCenter">Reference</h2>
+      </div>
+      {visible_PvPReference && <PvPReference />}
+
       <div className="categoryButton" onClick={toggleCorePrinciples}>
-        <h2 className="textCenter">Core Principles</h2>
+        <h2 className="textCenter">Fundamentals</h2>
       </div>
       {visible_CorePrinciples && <CorePrinciples />}
 
@@ -59,6 +70,7 @@ function App() {
         <h2 className="textCenter">Terrain</h2>
       </div>
       {visible_Terrain && <Terrain />}
+
     </div>
   )
 }
