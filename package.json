@@ -1,24 +1,15 @@
 {
   "name": "killteam",
   "private": true,
-<<<<<<< HEAD
-  "version": "0.0.0",
-  "homepage": "http://github.com/yourusername/yourreponame.git",
-=======
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://github.com/jackmadethat/killteam.git",
->>>>>>> c30d430568a38e6b0be9d540974276236615470f
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-<<<<<<< HEAD
-    "predeploy": "npm run build",
-=======
     "predeploy" : "npm run build",
->>>>>>> c30d430568a38e6b0be9d540974276236615470f
     "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
