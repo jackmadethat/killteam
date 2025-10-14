@@ -33,13 +33,8 @@ function Header() {
             <h1>Kill Team</h1>
         </div>
         <div className="textCenter">
-<<<<<<< HEAD
           <button className="disclaimerBtn" onClick={toggleVisibility}><span style={{ color: 'white' }}>DISCLAIMER</span></button>
           {isVisible && <p id="disclaimer"><i>The following is a hand-made personal project made as a labor of love and to be used as a quick reference. It is not intended to be a replacement for the official Kill Team rulebook. The information provided here may differ from official rules or may be deprecated. Kill Team is the property of Games Workshop. Support your local game store; buy a physical copy of Kill Team Core Rules.</i></p>}
-=======
-          <button onClick={toggleVisibility}>Disclaimer</button>
-          {isVisible && <p id="disclaimer"><i>The following is a hand-made personal project made as a labor of love and to be used as a quick reference. It is not intended to be a replacement for the official Kill Team rulebook. The information provided here may differ from official rules or may be deprecated. Support your local game store; buy a physical copy of Kill Team Core Rules.</i></p>}
->>>>>>> c30d430568a38e6b0be9d540974276236615470f
         </div>
     </>
   )

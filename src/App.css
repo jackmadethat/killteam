@@ -5,16 +5,11 @@
 html {
     overflow-y: auto;
     overflow-x: hidden;
-<<<<<<< HEAD
-=======
-    max-width: 100%;
->>>>>>> c30d430568a38e6b0be9d540974276236615470f
     scrollbar-width: none;
     font-family: 'Kode Mono';
 }
 
 body {
-<<<<<<< HEAD
     overflow-x: hidden;
     position: relative;
     background-color: #181818;
@@ -22,22 +17,13 @@ body {
     top: -8px;
     left: -8px;
     width: 100%;
-=======
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: #181818;
-    color: #FFF;
->>>>>>> c30d430568a38e6b0be9d540974276236615470f
 }
 
 h1 {
     font-size: 3.5em;
     font-weight: lighter;
     user-select: none;
-<<<<<<< HEAD
     margin-bottom: 45px;
-=======
->>>>>>> c30d430568a38e6b0be9d540974276236615470f
 }
 
 h2 {
@@ -88,11 +74,8 @@ figure {
     max-width: 1366px;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
     padding-left: 1%;
     padding-right: 1%;
-=======
->>>>>>> c30d430568a38e6b0be9d540974276236615470f
 }
 
 #disclaimer {
@@ -136,10 +119,7 @@ figure {
     display: block;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
     margin-bottom: -15px;
-=======
->>>>>>> c30d430568a38e6b0be9d540974276236615470f
     min-width: 250px;
     min-height: 250px;
     background-color: #F80;
@@ -149,13 +129,8 @@ figure {
 
 #nightModeToggle {
     position: absolute;
-<<<<<<< HEAD
     top: 10px;
     left: 11px;
-=======
-    top: 5px;
-    left: 5px;
->>>>>>> c30d430568a38e6b0be9d540974276236615470f
     width: 25px;
     height: 25px;
     background-color: #FFF;
@@ -167,7 +142,6 @@ figure {
 
 #header {
     text-align: center;
-<<<<<<< HEAD
     margin-top: 40px;
     margin-bottom: -25px;
 }
@@ -181,8 +155,6 @@ figure {
     height: 30px;
     margin-bottom: 0px;
     font-family: 'Kode Mono';
-=======
->>>>>>> c30d430568a38e6b0be9d540974276236615470f
 }
 
 .sectionButton {
@@ -190,13 +162,8 @@ figure {
     padding: -2%;
     margin-top: 20px;
     margin-bottom: 20px;
-<<<<<<< HEAD
     margin-left: 2%;
     margin-right: 2%;
-=======
-    margin-left: 5%;
-    margin-right: 5%;
->>>>>>> c30d430568a38e6b0be9d540974276236615470f
     border-radius: 15px;
 }
 
