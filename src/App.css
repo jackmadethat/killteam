@@ -1,3 +1,8 @@
+:root {
+    --bg: #F80;
+    --darkerOrange: #f05e25;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -122,7 +127,7 @@ figure {
     margin-bottom: -15px;
     min-width: 250px;
     min-height: 250px;
-    background-color: #F80;
+    background-color: var(--bg);
     mask-image: url("https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/killteamLogo.svg");
     mask-size: 100% 100%;
 }
@@ -149,7 +154,7 @@ figure {
 .disclaimerBtn {
     background-color: #00000000;
     color: white;
-    border: 1px #F80 solid;
+    border: 1px var(--bg) solid;
     border-radius: 10px;
     width: 95px;
     height: 30px;
@@ -158,7 +163,7 @@ figure {
 }
 
 .sectionButton {
-    border: 1px #F80 solid;
+    border: 1px var(--bg) solid;
     padding: -2%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -168,7 +173,7 @@ figure {
 }
 
 .categoryButton {
-    border: 1px #F80 solid;
+    border: 1px var(--bg) solid;
     padding: 2%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -200,6 +205,106 @@ figure {
 
 .blackIcon {
     filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(-5deg) brightness(100%) contrast(100%);
+}
+
+.weaponLine {
+    height: 2px;
+    width: 100%;
+    margin-top: -1em;
+    border: 1px solid var(--darkerOrange);
+    opacity: 0.65;
+}
+
+.actionDiv {
+    font-size: 0.8em;
+    font-weight: 40;
+    border: 2px var(--darkerOrange) solid;
+    border-bottom-right-radius: 20px;
+}
+
+.actionLine {
+    height: 2px;
+    width: 100%;
+    margin-bottom: 3px;
+    border: 1px solid var(--darkerOrange);
+}
+
+.titleBlock {
+    background-color: var(--darkerOrange);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.actionName {
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 1.7em;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+}
+
+.actionCost {
+    grid-area: 1 / 2 / 2 / 3;
+    text-align: right;
+    font-size: 1.7em;
+    margin: 0;
+    padding: 0;
+}
+
+.actionList {
+    margin-left: -30px;
+    padding-right: 15px;
+    li {
+        margin-bottom: 10px;
+        margin-left: 25px;
+    }
+    img {
+        margin-left: -24px;
+    }
+}
+
+.weaponTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width: 650px;
+    margin-bottom: 10px;
+    th:first-of-type {
+        text-align: left;
+    }
+    td:first-of-type {
+        text-align: left;
+    }
+    th {
+        font-size: 1.25em;
+        border-bottom: 2px solid var(--darkerOrange);
+    }
+    td {
+        text-align: center;
+    }
+}
+
+.weaponRulesTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width: 650px;
+    th:first-of-type {
+        text-align: left;
+    }
+    th {
+        font-size: 1.25em;
+        border-bottom: 2px solid var(--darkerOrange);
+    }
+    td {
+        text-align: left;
+    }
 }
 
 

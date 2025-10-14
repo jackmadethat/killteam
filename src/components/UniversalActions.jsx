@@ -16,13 +16,19 @@ function UniversalActions() {
             </li>
         </ul>
         <p className="indentNote"><em>If an operative performs a free action outside of their activation, it does not prevent them from performing that action during their activation, or vice versa.</em></p>
-        <h3>Reposition</h3>
-        <p>1AP</p>
-        <ul className="actionList">
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Move the active operative up to its Move stat to a location it can be placed. This must be done in one or more straight-line increments, and increments are always rounded up to the nearest inch.</li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> It cannot move within control range of an enemy operative, unless one or more other friendly operatives are already within control range of that enemy operative, in which case it can move within control range of that enemy operative but cannot finish the move there.</li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the Fall Back or Charge action.</li>
-        </ul>
+        
+        <div className="actionLine"></div>
+        <div className="actionDiv">
+            <div className="titleBlock">
+                <p className="actionName">REPOSITION</p>
+                <p className="actionCost"><b>1AP</b></p>
+            </div>
+            <ul className="actionList">
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Move the active operative up to its Move stat to a location it can be placed. This must be done in one or more straight-line increments, and increments are always rounded up to the nearest inch.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> It cannot move within control range of an enemy operative, unless one or more other friendly operatives are already within control range of that enemy operative, in which case it can move within control range of that enemy operative but cannot finish the move there.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the Fall Back or Charge action.</li>
+            </ul>
+        </div>
         <p className="indentNote"><em>Moving in increments allows for greater precision and clarity.</em></p>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/reposition-example-1.png" className="imgGraphic" alt="Heavy terrain" />
@@ -33,50 +39,87 @@ function UniversalActions() {
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/reposition-example-2.png" className="imgGraphic" alt="Heavy terrain" />
             <p>The operative first moves in a straight-line increment of 0.5” to clear the corner of a wall, but as increments are rounded up, this is treated as 1”. It then moves in a straight-line increment of 2.75”, but again, this is rounded up to 3”. It has moved 4” in total.</p>
         </figure>
-        <h3>Dash</h3>
-        <p>1AP</p>
-        <ul className="actionList">
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except don’t use the active operative’s Move stat – it can move up to 3” instead. In addition, it cannot climb during this move, but it can drop and jump.</li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the <b>Charge</b> action.</li>
-        </ul>
+
+        <div className="actionLine"></div>
+        <div className="actionDiv">
+            <div className="titleBlock">
+                <p className="actionName">DASH</p>
+                <p className="actionCost"><b>1AP</b></p>
+            </div>
+            <ul className="actionList">
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except don’t use the active operative’s Move stat – it can move up to 3” instead. In addition, it cannot climb during this move, but it can drop and jump.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the <b>Charge</b> action.</li>
+            </ul>
+        </div>
         <p className="indentNote"><em>Since operatives cannot perform the same action more than once in their activation, Dash actions are the way operatives can move a greater distance.</em></p>
-        <h3>Fall Back</h3>
-        <p>2AP</p>
-        <ul className="actionList">
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except the active operative can move within control range of an enemy operative, but cannot finish the move there.</li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action unless an enemy operative is within its control range. It cannot perform this action during the same activation in which it performed the <b>Reposition</b> or <b>Charge</b> action.</li>
-        </ul>
+        
+        <div className="actionLine"></div>
+        <div className="actionDiv">
+            <div className="titleBlock">
+                <p className="actionName">FALL BACK</p>
+                <p className="actionCost"><b>2AP</b></p>
+            </div>
+            <ul className="actionList">
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except the active operative can move within control range of an enemy operative, but cannot finish the move there.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action unless an enemy operative is within its control range. It cannot perform this action during the same activation in which it performed the <b>Reposition</b> or <b>Charge</b> action.</li>
+            </ul>
+        </div>
         <p className="indentNote"><em>If an operative is activated within the control range of an enemy operative, the Fall Back action is a way to withdraw. It costs 2AP, so most operatives will not be able to perform more actions in that activation.</em></p>
-        <h3>Charge</h3>
-        <p>1AP</p>
-        <ul className="actionList">
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except the active operative can move an additional 2”.</li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> It can move, and must finish the move, within control range of an enemy operative. If it moves within control range of an enemy operative that no other friendly operatives are within control range of, it cannot leave that operative’s control range.</li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while it has a Conceal order, if it’s already within control range of an enemy operative, or during the same activation in which it performed the <b>Reposition</b>, <b>Dash</b> or <b>Fall Back</b> action.</li>
-        </ul>
+        
+        <div className="actionLine"></div>
+        <div className="actionDiv">
+            <div className="titleBlock">
+                <p className="actionName">CHARGE</p>
+                <p className="actionCost"><b>1AP</b></p>
+            </div>
+            <ul className="actionList">
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except the active operative can move an additional 2”.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> It can move, and must finish the move, within control range of an enemy operative. If it moves within control range of an enemy operative that no other friendly operatives are within control range of, it cannot leave that operative’s control range.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while it has a Conceal order, if it’s already within control range of an enemy operative, or during the same activation in which it performed the <b>Reposition</b>, <b>Dash</b> or <b>Fall Back</b> action.</li>
+            </ul>
+        </div>
         <p className="indentNote"><em>Charge actions allow operatives to effectively pin down enemies, but since they need to be in an engagement order to do so, they may become vulnerable to enemy shooting.</em></p>
-        <h3>Pick Up Marker</h3>
-        <p>1AP</p>
-        <ul className="actionList">
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Remove a marker the active operative controls that the <b>Pick Up</b> Marker action can be performed upon. That operative is now carrying, contesting and controlling that marker.</li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or while it’s already carrying a marker.</li>
-        </ul>
+        
+        <div className="actionLine"></div>
+        <div className="actionDiv">
+            <div className="titleBlock">
+                <p className="actionName">PICK UP MARKER</p>
+                <p className="actionCost"><b>1AP</b></p>
+            </div>
+            <ul className="actionList">
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Remove a marker the active operative controls that the <b>Pick Up</b> Marker action can be performed upon. That operative is now carrying, contesting and controlling that marker.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or while it’s already carrying a marker.</li>
+            </ul>
+        </div>
         <p className="indentNote"><em>If the <b>Pick Up</b> Marker action can be performed on a marker, it will be specified elsewhere, such as in your mission pack.</em></p>
-        <h3>Place Marker</h3>
-        <p>1AP</p>
-        <ul className="actionList">
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Place a marker the active operative is carrying within its control range.</li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> If an operative carrying a marker is incapacitated (see damage on pg 47), it must perform this action before being removed from the killzone, but does so for 0AP. This takes precedence over all rules that prevent it from doing so.</li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action during the same activation in which it already performed the <b>Pick Up Marker</b> action (unless incapacitated).</li>
-        </ul>
+        
+        <div className="actionLine"></div>
+        <div className="actionDiv">
+            <div className="titleBlock">
+                <p className="actionName">PLACE MARKER</p>
+                <p className="actionCost"><b>1AP</b></p>
+            </div>
+            <ul className="actionList">
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Place a marker the active operative is carrying within its control range.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> If an operative carrying a marker is incapacitated (see damage on pg 47), it must perform this action before being removed from the killzone, but does so for 0AP. This takes precedence over all rules that prevent it from doing so.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action during the same activation in which it already performed the <b>Pick Up Marker</b> action (unless incapacitated).</li>
+            </ul>
+        </div>
         <p className="indentNote"><em>Similarly, if there is any marker carried by the operative, it will be specified elsewhere.</em></p>
-        <h3>Shoot</h3>
-        <p>1AP</p>
-        <ul className="actionList">
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Shoot with the active operative by following the sequence below. The active operative’s player is the attacker. The selected enemy operative’s player is the defender.</li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative.</li>
-        </ul>
+        
+        <div className="actionLine"></div>
+        <div className="actionDiv">
+            <div className="titleBlock">
+                <p className="actionName">SHOOT</p>
+                <p className="actionCost"><b>1AP</b></p>
+            </div>
+            <ul className="actionList">
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Shoot with the active operative by following the sequence below. The active operative’s player is the attacker. The selected enemy operative’s player is the defender.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative.</li>
+            </ul>
+        </div>
         <p className="indentNote"><em>To no one’s surprise, Kill Team can be a very lethal game, so if you frequently lose operatives to enemy shooting, consider playing more defensively, placing your operatives in cover and using a Conceal order.</em></p>
+        
         <ol>
             <li>Select Weapon
                 <p>The attacker selects one ranged weapon (<img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" />) to use that their operative has and collects their attack dice — a number of D6 equal to the weapon’s Atk stat.</p>
@@ -122,13 +165,20 @@ function UniversalActions() {
             </li>
         </ol>
         <p className="indentNote"><em>Some weapons fire multiple times in the same action, like those with the Area and Torrent weapon rules (pg. 111). Therefore, operatives do not withdraw until the entire action is resolved.</em></p>
-        <h3>Fight</h3>
-        <p>1AP</p>
-        <ul className="actionList">
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Fight with the active operative by following the sequence below. The active operative’s player is the attacker. The selected enemy operative’s player is the defender.</li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action unless an enemy operative is within its control range.</li>
-        </ul>
+        
+        <div className="actionLine"></div>
+        <div className="actionDiv">
+            <div className="titleBlock">
+                <p className="actionName">FIGHT</p>
+                <p className="actionCost"><b>1AP</b></p>
+            </div>
+            <ul className="actionList">
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Fight with the active operative by following the sequence below. The active operative’s player is the attacker. The selected enemy operative’s player is the defender.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action unless an enemy operative is within its control range.</li>
+            </ul>
+        </div>
         <p className="indentNote"><em>Unlike shooting, combat is a brutal back-and-forth. Be careful when choosing whom you fight, as they will fight back.</em></p>
+        
         <ol>
             <li>Select Enemy Operative
                 <p>The attacker selects an enemy operative within the active operative’s control range to fight against. That enemy operative will retaliate in this action.</p>
