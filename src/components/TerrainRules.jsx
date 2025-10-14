@@ -87,11 +87,11 @@ function TerrainRules() {
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/largeruin-example-1.png" className="imgGraphic" />
             <ul style={{ textAlign: 'left' }}>
-                <li><strong>A</strong> The upper level of a large ruin terrain feature is Ceiling and Vantage terrain. For the purposes of intervening and targeting lines, treat this level as the same height as the first upper level of a stronghold terrain feature.</li>
-                <li><strong>B</strong> The upper rampart is Light terrain.</li>
-                <li><strong>C</strong> The door is Accessible and Heavy terrain.</li>
-                <li><strong>D</strong> The door’s viewpoint is Blocking terrain.</li>
-                <li><strong>E</strong> Unbroken windows are Barred and Heavy terrain.
+                <li><b>A</b> The upper level of a large ruin terrain feature is Ceiling and Vantage terrain. For the purposes of intervening and targeting lines, treat this level as the same height as the first upper level of a stronghold terrain feature.</li>
+                <li><b>B</b> The upper rampart is Light terrain.</li>
+                <li><b>C</b> The door is Accessible and Heavy terrain.</li>
+                <li><b>D</b> The door’s viewpoint is Blocking terrain.</li>
+                <li><b>E</b> Unbroken windows are Barred and Heavy terrain.
                     <p><strong>Barred terrain:</strong> Visibility cannot be drawn through this terrain unless the operative or what they’re trying to see is horizontally within 1” of it.</p>
                 </li>
                 <li>All other parts of it are Heavy terrain.</li>
