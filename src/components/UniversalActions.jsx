@@ -23,7 +23,7 @@ function UniversalActions() {
                 <p className="actionName">REPOSITION</p>
                 <p className="actionCost"><b>1AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Move the active operative up to its Move stat to a location it can be placed. This must be done in one or more straight-line increments, and increments are always rounded up to the nearest inch.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> It cannot move within control range of an enemy operative, unless one or more other friendly operatives are already within control range of that enemy operative, in which case it can move within control range of that enemy operative but cannot finish the move there.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the Fall Back or Charge action.</li>
@@ -46,7 +46,7 @@ function UniversalActions() {
                 <p className="actionName">DASH</p>
                 <p className="actionCost"><b>1AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except don’t use the active operative’s Move stat – it can move up to 3” instead. In addition, it cannot climb during this move, but it can drop and jump.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the <b>Charge</b> action.</li>
             </ul>
@@ -59,7 +59,7 @@ function UniversalActions() {
                 <p className="actionName">FALL BACK</p>
                 <p className="actionCost"><b>2AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except the active operative can move within control range of an enemy operative, but cannot finish the move there.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action unless an enemy operative is within its control range. It cannot perform this action during the same activation in which it performed the <b>Reposition</b> or <b>Charge</b> action.</li>
             </ul>
@@ -72,7 +72,7 @@ function UniversalActions() {
                 <p className="actionName">CHARGE</p>
                 <p className="actionCost"><b>1AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except the active operative can move an additional 2”.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> It can move, and must finish the move, within control range of an enemy operative. If it moves within control range of an enemy operative that no other friendly operatives are within control range of, it cannot leave that operative’s control range.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while it has a Conceal order, if it’s already within control range of an enemy operative, or during the same activation in which it performed the <b>Reposition</b>, <b>Dash</b> or <b>Fall Back</b> action.</li>
@@ -86,7 +86,7 @@ function UniversalActions() {
                 <p className="actionName">PICK UP MARKER</p>
                 <p className="actionCost"><b>1AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Remove a marker the active operative controls that the <b>Pick Up</b> Marker action can be performed upon. That operative is now carrying, contesting and controlling that marker.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or while it’s already carrying a marker.</li>
             </ul>
@@ -99,7 +99,7 @@ function UniversalActions() {
                 <p className="actionName">PLACE MARKER</p>
                 <p className="actionCost"><b>1AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Place a marker the active operative is carrying within its control range.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> If an operative carrying a marker is incapacitated (see damage on pg 47), it must perform this action before being removed from the killzone, but does so for 0AP. This takes precedence over all rules that prevent it from doing so.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action during the same activation in which it already performed the <b>Pick Up Marker</b> action (unless incapacitated).</li>
@@ -113,7 +113,7 @@ function UniversalActions() {
                 <p className="actionName">SHOOT</p>
                 <p className="actionCost"><b>1AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Shoot with the active operative by following the sequence below. The active operative’s player is the attacker. The selected enemy operative’s player is the defender.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative.</li>
             </ul>
@@ -172,7 +172,7 @@ function UniversalActions() {
                 <p className="actionName">FIGHT</p>
                 <p className="actionCost"><b>1AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Fight with the active operative by following the sequence below. The active operative’s player is the attacker. The selected enemy operative’s player is the defender.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action unless an enemy operative is within its control range.</li>
             </ul>

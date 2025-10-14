@@ -14,7 +14,7 @@ function UniversalEquipment() {
                 <p className="actionName">AMMO RESUPPLY</p>
                 <p className="actionCost"><b>0AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> One of your Ammo Cache markers the active operative controls is used this turning point.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Until the start of the next turning point, whenever this operative is shooting with a weapon from its datacard, you can re-roll one of your attack dice.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, if that marker isn’t yours, or if that marker has been used this turning point.</li>
@@ -66,7 +66,7 @@ function UniversalEquipment() {
                 <p className="actionName">MOVE WITH BARRICADE</p>
                 <p className="actionCost"><b>1AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except the active operative can move no more than its Move stat minus 2" and cannot climb, drop, jump or use any kill team\'s rules that remove it and set it back up again (e.g. HEARTHKYN SALVAGER FLY, MANDRAKE SHADOW PASSAGE).</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Before this operative moves, remove the portable barricade it is connected to. After the operative moves, set up the portable barricade so that it is once again, but the portable barricade cannot be set up within 2" of other equipment terrain features, access points or Accessible terrain. If this is not possible, the portable barricade is not set up again.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> This action is treated as a <b>Reposition</b> action. An operative cannot perform the Move with Barricade action in the same turning point in which it performed the <b>Fall Back</b> or <b>Charge</b> actions.</li>

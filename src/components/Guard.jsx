@@ -8,14 +8,14 @@ function Guard() {
                 <p className="actionName">GUARD</p>
                 <p className="actionCost"><b>1AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The operative is on guard (see below) until any of the following are true:
-                    <ul>
-                        <li>It performs any action, including Reposition.</li>
-                        <li>An enemy operative ends an action within its control range and you don’t interrupt that activation (see below).</li>
-                        <li>It's order is changed.</li>
-                        <li>It’s the start of the next turning point.</li>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The operative is on guard until any of the following are true:
+                    <ul style={{ listStyleType: 'disc', marginLeft: -50 + 'px' }}>
+                        <li style={{ marginBottom: 3 + 'px',  marginTop: 4 + 'px' }}>It performs any action, including Reposition.</li>
+                        <li style={{ marginBottom: 3 + 'px' }}>An enemy operative ends an action within its control range and you don’t interrupt that activation (see below).</li>
+                        <li style={{ marginBottom: 3 + 'px' }}>It's order is changed.</li>
+                        <li style={{ marginBottom: 3 + 'px' }}>It’s the start of the next turning point.</li>
                     </ul>
                 </li>
                 <li>

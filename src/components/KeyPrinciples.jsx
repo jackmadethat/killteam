@@ -143,8 +143,11 @@ function KeyPrinciples() {
         </ul>
         <p>If you do, that friendly operative cannot counteract during the turning point.</p>
         <p className="indentNote"><em>Determine the target as normal for these actions. This means you don’t have to target the operative you interrupted.</em></p>
-        <p><b>Command Re-Roll</b><br />1CP</p>
+
+        <div className="strategyPloy">
+        <p><b>Command Re-Roll</b><br /><span style={{ fontSize: 1.3 + 'em' }}>1CP</span></p>
         <p>Use this firefight ploy after rolling your attack or defence dice. You can re-roll one of those dice.</p>
+        </div>
         
         <h3>Precedence</h3>
         <p>Some rare rules will conflict with each other, so it must be established which takes precedence. In order of priority, a rule takes precedence if:</p>

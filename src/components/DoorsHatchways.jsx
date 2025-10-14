@@ -11,7 +11,7 @@ function DoorsHatchways() {
                 <p className="actionName">OPERATE DOOR</p>
                 <p className="actionCost"><b>1AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Open or close a door/hatchway that’s access point is within the operative’s control range.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative can perform this action during a <b>Dash</b> or <b>Reposition</b> action, and any remaining move distance can be used after it does so.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or if that door/hatchway is open and its access point is within an enemy operative’s control range.</li>
@@ -46,7 +46,7 @@ function DoorsHatchways() {
                 <p className="actionName">DOOR FIGHT</p>
                 <p className="actionCost"><b>1AP</b></p>
             </div>
-            <ul className="actionList">
+            <ul>
                 <li>
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Fight with the active operative
                 </li>
