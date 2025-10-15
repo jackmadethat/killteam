@@ -335,6 +335,45 @@ Weapon Stats Table
 }
 
 /**
+Mission Ops
+**/
+
+.missionGrid {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.missionOp {
+    border: 1px solid #888;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    font-size: 0.85em;
+    max-width: 350px;
+    width: 350px;
+}
+
+.opTitle {
+    color: #FFF;
+    background-color: var(--darkerOrange);
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    font-weight: 100;
+    font-size: 1.6em;
+}
+
+.opSubHeading {
+    color: var(--darkerOrange);
+    margin-bottom: 0px;
+}
+
+/**
 Media Rules
 **/
 
@@ -342,7 +381,19 @@ Media Rules
     .imgGraphic {
         width: 35%;
         height: 35%;
-        width: 400px;
+        width: 650px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .missionGrid {
+        flex: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    .missionGrid {
+        flex: 100%;
     }
 }
 
@@ -358,7 +409,7 @@ Media Rules
     .imgGraphic {
         width: 70%;
         height: 70%;
-        max-width: 400px;
+        max-width: 450px;
     }
     #bgImageContainer {
         translate: -960px -153px;
@@ -367,8 +418,8 @@ Media Rules
         scale: 35%;
     }
     .indentNote {
-    padding-left: 5%;
-    padding-right: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .sectionButton {
         margin-left: 1%;

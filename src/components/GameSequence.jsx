@@ -38,8 +38,9 @@ function GameSequence() {
         <li>Start Battle
           <ul>
             <br /><li>First Turning Point (TP) initiative is decided by the Scouting options: 1 beats 2, 2 beats 3, 3 beats 1. If options are the same, the player who didn't have initiative during setup decides initiative</li>
-            <li>As a Strategic Gambit for 0CP, each player secretly selects one Op to be their <em>Primary Op</em> (the Crit Op, their Tac Op or the Kill Op)</li><br />
+            <li>As a Strategic Gambit for 0CP, each player secretly selects one Op to be their <em>Primary Op</em> (the Crit Op, their Tac Op or the Kill Op)</li>
           </ul>
+          <p className="indentNote"><em>Strategic Gambit is the term for all the rules and abilities that happen in the Strategic Phase. This includes Strategic Ploys, but that's not all. All Strategic Ploys are Strategic Gambits, but not all Strategic Gambits are ploys.</em></p>
         </li>
         <li>Turning Points
           <ul>
@@ -77,6 +78,9 @@ function GameSequence() {
         <li><b>TAC OP</b>: Score VP as described on the Tac Op (Max 6VP per game)</li>
         <li><b>PRIMARY OP</b>: At the first TP, players will have selected one Op to be their Primary Op. At the end of the battle, their score for their selected Primary Op is multiplied by 1.5, rounding up</li>
       </ul>
+      <figure>
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/killop.JPG" className="imgGraphic" />
+      </figure>
     </div>
   )
 }
