@@ -440,6 +440,23 @@ Kill Op Table
 }
 
 /**
+Map Grid
+**/
+
+.mapGrid {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mapImage {
+    max-width: 400px;
+    max-height: 400px;
+    padding: 10px;
+}
+
+/**
 Media Rules
 **/
 

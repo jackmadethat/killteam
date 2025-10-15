@@ -1,4 +1,4 @@
-function StrategyPhase() {
+const StrategyPhase = () => {
   return (
     <div className="sectionContent" id="strategyPhase">
       <p>The strategy phase happens at the start of each turning point and is resolved in this order:</p>

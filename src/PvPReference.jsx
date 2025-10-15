@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import GameSequence from './components/GameSequence'
 
-function PvPReference() {
+const PvPReference = () => {
   const [visible_GameSequence, setVisible_GameSequence] = useState(false);
 
   const toggleGameSequence = () => {

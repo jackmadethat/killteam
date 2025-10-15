@@ -9,7 +9,7 @@ import Terrain from './Terrain'
 import Missions from './Missions'
 import Killzones from './Killzones'
 
-function App() {
+const App = () => {
   const [visible_PvPReference, setVisible_PvPReference] = useState(false);
   const [visible_CorePrinciples, setVisible_CorePrinciples] = useState(false);
   const [visible_Equipment, setVisible_Equipment] = useState(false);

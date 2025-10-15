@@ -1,4 +1,4 @@
-function MapsTombWorld() {
+const MapsTombWorld = () => {
   return (
     <div className="sectionContent" id="tombworld">
 

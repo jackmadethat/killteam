@@ -1,4 +1,4 @@
-function UniversalEquipment() {
+const UniversalEquipment = () => {
   return (
     <div className="sectionContent" id="universalEquipment">
         

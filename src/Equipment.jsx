@@ -3,7 +3,7 @@ import './App.css'
 import UniversalEquipment from './components/UniversalEquipment'
 import Grenades from './components/Grenades'
 
-function Equipment() {
+const Equipment = () => {
   const [visible_UniversalEquipment, setVisible_UniversalEquipment] = useState(false);
   const [visible_Grenades, setVisible_Grenades] = useState(false);
 

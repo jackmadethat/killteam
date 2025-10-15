@@ -1,41 +1,52 @@
 import { useState } from 'react'
 import './App.css'
-import MissionOps from './components/MissionOps'
-import TacOps from './components/TacOps'
-import KillOps from './components/KillOps'
+import MapsOpen from './components/Maps_Open'
+import MapsTombWorld from './components/Maps_TombWorld'
+import MapsBhetaDecima from './components/Maps_BhetaDecima'
+import MapsGallowdark from './components/Maps_Gallowdark'
 
-function Killzones() {
-  const [visible_CritOps, setVisible_CritOps] = useState(false);
-  const [visible_TacOps, setVisible_TacOps] = useState(false);
-  const [visible_KillOps, setVisible_KillOps] = useState(false);
+const Killzones = () => {
+  const [visible_mapsOpen, setVisible_mapsOpen] = useState(false);
+  const [visible_mapsTombWorld, setVisible_mapsTombWorld] = useState(false);
+  const [visible_mapsBhetaDecima, setVisible_mapsBhetaDecima] = useState(false);
+  const [visible_mapsGallowdark, setVisible_mapsGallowdark] = useState(false);
 
-  const toggleCritOps = () => {
-    setVisible_CritOps(!visible_CritOps);
+  const toggleOpenMaps = () => {
+    setVisible_mapsOpen(!visible_mapsOpen);
   };
 
-  const toggleTacOps = () => {
-    setVisible_TacOps(!visible_TacOps);
+  const toggleTombWorld = () => {
+    setVisible_mapsTombWorld(!visible_mapsTombWorld);
   };
 
-  const toggleKillOps = () => {
-    setVisible_KillOps(!visible_KillOps);
+  const toggleBhetaDecima = () => {
+    setVisible_mapsBhetaDecima(!visible_mapsBhetaDecima);
+  };
+
+  const toggleGallowdark = () => {
+    setVisible_mapsGallowdark(!visible_mapsGallowdark);
   };
 
   return (
     <>
       <div className="sectionButton">
-        <div className="hovered" onClick={toggleCritOps}><h2 className="textCenter subHeading">Critical Ops</h2></div>
-        {visible_CritOps && <MissionOps />}
+        <div className="hovered" onClick={toggleOpenMaps}><h2 className="textCenter subHeading">Open Maps</h2></div>
+        {visible_mapsOpen && <MapsOpen />}
       </div>
 
       <div className="sectionButton">
-        <div className="hovered" onClick={toggleTacOps}><h2 className="textCenter subHeading">Tactical Ops</h2></div>
-        {visible_TacOps && <TacOps />}
+        <div className="hovered" onClick={toggleTombWorld}><h2 className="textCenter subHeading">Tomb World</h2></div>
+        {visible_mapsTombWorld && <MapsTombWorld />}
       </div>
 
       <div className="sectionButton">
-        <div className="hovered" onClick={toggleKillOps}><h2 className="textCenter subHeading">Kill Ops</h2></div>
-        {visible_KillOps && <KillOps />}
+        <div className="hovered" onClick={toggleGallowdark}><h2 className="textCenter subHeading">Gallowdark</h2></div>
+        {visible_mapsGallowdark && <MapsGallowdark />}
+      </div>
+
+      <div className="sectionButton">
+        <div className="hovered" onClick={toggleBhetaDecima}><h2 className="textCenter subHeading">Bheta-Decima</h2></div>
+        {visible_mapsBhetaDecima && <MapsBhetaDecima />}
       </div>
     </>
   )

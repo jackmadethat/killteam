@@ -1,4 +1,4 @@
-function Counteract() {
+const Counteract = () => {
   return (
     <div className="sectionContent" id="counteract">
         <div className="actionLine"></div>

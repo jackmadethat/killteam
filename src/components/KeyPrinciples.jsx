@@ -1,4 +1,4 @@
-function KeyPrinciples() {
+const KeyPrinciples = () => {
   return (
     <div className="sectionContent" id="keyPrinciples">
         <h3>Bases</h3>

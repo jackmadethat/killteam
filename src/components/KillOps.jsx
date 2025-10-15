@@ -1,4 +1,4 @@
-function KillOps() {
+const KillOps = () => {
   return (
     <div className="sectionContent" id="killops">
 

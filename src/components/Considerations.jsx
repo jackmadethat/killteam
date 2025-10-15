@@ -1,4 +1,4 @@
-function Considerations() {
+const Considerations = () => {
   return (
     <div className="sectionContent" id="considerations">
 

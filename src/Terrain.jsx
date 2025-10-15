@@ -5,7 +5,7 @@ import TerrainBasics from './components/TerrainBasics'
 import DoorsHatchways from './components/DoorsHatchways'
 import TerrainRules from './components/TerrainRules'
 
-function Terrain() {
+const Terrain = () => {
   const [visible_TerrainMovement, setVisible_TerrainMovement] = useState(false);
   const [visible_TerrainBasics, setVisible_TerrainBasics] = useState(false);
   const [visible_DoorsHatchways, setVisible_DoorsHatchways] = useState(false);

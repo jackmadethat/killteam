@@ -1,4 +1,4 @@
-function TerrainRules() {
+const TerrainRules = () => {
   return (
     <div className="sectionContent" id="terrainRules">
         <h3>Bheta-Decima</h3>

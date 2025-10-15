@@ -1,4 +1,4 @@
-function UniversalActions() {
+const UniversalActions = () => {
   return (
     <div className="sectionContent" id="universalActions">
         <p>Actions have effects (<img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" />) and conditions (<img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" />). <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> are conditions that must be fulfilled for the operative to perform that action, whilst <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> are effects when an operative is performing that action, including any requirements when doing so. There are four different types of actions: universal, unique, mission and free.</p>

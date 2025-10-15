@@ -1,4 +1,4 @@
-function TacOps() {
+const TacOps = () => {
   return (
     <div className="sectionContent" id="tacOps">
 

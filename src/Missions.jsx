@@ -4,7 +4,7 @@ import MissionOps from './components/MissionOps'
 import TacOps from './components/TacOps'
 import KillOps from './components/KillOps'
 
-function Missions() {
+const Missions = () => {
   const [visible_CritOps, setVisible_CritOps] = useState(false);
   const [visible_TacOps, setVisible_TacOps] = useState(false);
   const [visible_KillOps, setVisible_KillOps] = useState(false);

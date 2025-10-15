@@ -1,4 +1,4 @@
-function TerrainBasics() {
+const TerrainBasics = () => {
   return (
     <div className="sectionContent" id="terrainBasics">
         <p>A terrain feature is composed of different parts, each of which is a type of terrain (one part can be more than one type). If you are using a terrain feature from a specific killzone, the type of each part of that terrain feature will be specified. If you are using a terrain feature from a killzone of your own creation, you must specify the type of each part of that terrain feature before the battle. The most common types of terrain are below, but some killzones have their own types.</p>

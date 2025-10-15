@@ -5,7 +5,7 @@ import FirefightPhase from './components/FirefightPhase'
 import Considerations from './components/Considerations'
 import KeyPrinciples from './components/KeyPrinciples'
 
-function CorePrinciples() {
+const CorePrinciples = () => {
   const [visible_StrategyPhase, setVisible_StrategyPhase] = useState(false);
   const [visible_FirefightPhase, setVisible_FirefightPhase] = useState(false);
   const [visible_Considerations, setVisible_Considerations] = useState(false);

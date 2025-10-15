@@ -1,4 +1,4 @@
-function Guard() {
+const Guard = () => {
   return (
     <div className="sectionContent" id="guard">
 

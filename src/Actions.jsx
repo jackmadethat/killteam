@@ -4,7 +4,7 @@ import UniversalActions from './components/UniversalActions'
 import Guard from './components/Guard'
 import Counteract from './components/Counteract'
 
-function Actions() {
+const Actions = () => {
   const [visible_UniversalActions, setVisible_UniversalActions] = useState(false);
   const [visible_Guard, setVisible_Guard] = useState(false);
   const [visible_Counteract, setVisible_Counteract] = useState(false);

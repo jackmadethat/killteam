@@ -1,4 +1,4 @@
-function MissionOps() {
+const MissionOps = () => {
   return (
     <div className="sectionContent" id="critops">
 

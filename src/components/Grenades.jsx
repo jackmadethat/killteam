@@ -1,4 +1,4 @@
-function Grenades() {
+const Grenades = () => {
   return (
     <div className="sectionContent" id="grenades">
 

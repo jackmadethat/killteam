@@ -1,4 +1,4 @@
-function FirefightPhase() {
+const FirefightPhase = () => {
   return (
     <div className="sectionContent" id="firefightPhase">              
       <p>The player who has initiative activates a ready friendly operative. Once that activation ends, their opponent activates one of their ready friendly operatives. The players repeat this process, alternating activations until all of one player’s operatives are expended, at which point they can <b>counteract</b> between their opponent’s remaining activations. Once all operatives are expended, the Firefight phase ends.</p>

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function Header() {
+const Header = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isNightMode, setIsNightMode] = useState(true);
 

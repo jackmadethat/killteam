@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import WeaponRules from './components/WeaponRules'
 
-function Weapons() {
+const Weapons = () => {
   const [visible_WeaponRules, setVisible_WeaponRules] = useState(false);
 
   const toggleWeaponRules = () => {

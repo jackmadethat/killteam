@@ -1,4 +1,4 @@
-function TerrainMovement() {
+const TerrainMovement = () => {
   return (
       <div className="sectionContent" id="terrainMovement">
           <p>Operatives cannot move through terrain — they must move around, climb over or drop/jump off it.</p>

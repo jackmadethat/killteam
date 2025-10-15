@@ -1,4 +1,4 @@
-function GameSequence() {
+const GameSequence = () => {
   return (
     <div className="sectionContent" id="gameSequence">
       <ol>

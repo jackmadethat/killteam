@@ -1,4 +1,4 @@
-function DoorsHatchways() {
+const DoorsHatchways = () => {
   return (
     <div className="sectionContent" id="doors">
         <h3>Door/Hatchway</h3>
