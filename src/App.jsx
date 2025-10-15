@@ -39,6 +39,8 @@ function App() {
     setVisible_Terrain(!visible_Terrain);
   };
 
+  // https://kt3.albecortes.com/
+
   return (
     <div id="content">
       <div className="categoryButton" onClick={togglePvPReference}>

@@ -368,9 +368,34 @@ Mission Ops
     font-size: 1.6em;
 }
 
+.killOptable {
+	max-width: 400px;
+    border: 1px solid red;
+    th {
+        border: 1px solid blue;
+    }
+    td {
+        border: 1px solid green;
+    }
+}
+
+.opTitleTac {
+    color: #FFF;
+    background-color: var(--darkerOrange);
+    margin-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    font-weight: 100;
+    font-size: 1.6em;
+}
+
 .opSubHeading {
     color: var(--darkerOrange);
     margin-bottom: 0px;
+}
+
+.tacOpType {
+    font-size: 0.65em;
 }
 
 /**
