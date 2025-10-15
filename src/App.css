@@ -449,11 +449,19 @@ Media Rules
         height: 35%;
         width: 650px;
     }
+    #disclaimer {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 }
 
 @media (max-width: 1200px) {
     .missionGrid {
         flex: 50%;
+    }
+    #disclaimer {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
