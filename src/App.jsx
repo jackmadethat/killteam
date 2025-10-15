@@ -6,6 +6,8 @@ import Equipment from './Equipment'
 import Actions from './Actions'
 import Weapons from './Weapons'
 import Terrain from './Terrain'
+import Missions from './Missions'
+import Killzones from './Killzones'
 
 function App() {
   const [visible_PvPReference, setVisible_PvPReference] = useState(false);
@@ -14,6 +16,8 @@ function App() {
   const [visible_Actions, setVisible_Actions] = useState(false);
   const [visible_Weapons, setVisible_Weapons] = useState(false);
   const [visible_Terrain, setVisible_Terrain] = useState(false);
+  const [visible_Missions, setVisible_Missions] = useState(false);
+  const [visible_Killzones, setVisible_Killzones] = useState(false);
 
   const togglePvPReference = () => {
     setVisible_PvPReference(!visible_PvPReference);
@@ -39,6 +43,14 @@ function App() {
     setVisible_Terrain(!visible_Terrain);
   };
 
+  const toggleMissions = () => {
+    setVisible_Missions(!visible_Missions);
+  };
+
+  const toggleKillzones = () => {
+    setVisible_Killzones(!visible_Killzones);
+  };
+
   // https://kt3.albecortes.com/
 
   return (
@@ -52,6 +64,16 @@ function App() {
         <h2 className="textCenter">Fundamentals</h2>
       </div>
       {visible_CorePrinciples && <CorePrinciples />}
+
+      <div className="categoryButton" onClick={toggleMissions}>
+        <h2 className="textCenter">Missions</h2>
+      </div>
+      {visible_Missions && <Missions />}
+
+      <div className="categoryButton" onClick={toggleKillzones}>
+        <h2 className="textCenter">Killzones</h2>
+      </div>
+      {visible_Killzones && <Killzones />}
 
       <div className="categoryButton" onClick={toggleEquipment}>
         <h2 className="textCenter">Equipment</h2>
