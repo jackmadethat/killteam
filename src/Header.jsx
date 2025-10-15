@@ -9,6 +9,7 @@ function Header() {
   };
 
   const toggleNightMode = () => {
+    // Disabling night mode for now
     setIsNightMode(!isNightMode);
     document.querySelector('body').style.backgroundColor = isNightMode ? '#FFF' : '#181818';
     document.querySelectorAll('*').forEach((element) => {
@@ -32,7 +33,7 @@ function Header() {
 
   return (
     <>
-      <div id="nightModeToggle" className="hovered" onClick={toggleNightMode}></div>
+      {/* <div id="nightModeToggle" className="hovered" onClick={toggleNightMode}></div> */}
 
         <div id="header">
             <div className="logoImg" style={{ backgroundColor: isNightMode ? '#F80' : '#000' }}></div>
