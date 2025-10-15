@@ -26,6 +26,8 @@ body {
     top: -8px;
     left: -8px;
     width: 100%;
+    background-image: url('https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/hex.png');
+    background-blend-mode: overlay;
 }
 
 h1 {
