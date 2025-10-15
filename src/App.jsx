@@ -42,7 +42,7 @@ function App() {
   return (
     <div id="content">
       <div className="categoryButton" onClick={togglePvPReference}>
-        <h2 className="textCenter">Reference</h2>
+        <h2 className="textCenter">Overview</h2>
       </div>
       {visible_PvPReference && <PvPReference />}
 
