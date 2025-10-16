@@ -215,7 +215,7 @@ Formatting
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    max-width: 800px;
+    max-width: 400px;
 }
 
 .blackIcon {
@@ -468,60 +468,74 @@ Datacard
     width: 80%;
     border: 1px solid #888;
     margin-bottom: 20px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
     border-radius: 5px;
+    tbody {
+        tr {
+            th:nth-child(1) {
+                font-size: 1.2em;
+            }
+            th:nth-child(n+2):nth-child(-n+5) {
+                width: 80px;
+            }
+        }
+    }
+    .weaponStats {
+        text-align: center;
+        width: 100%;
+        tbody tr:has(td):nth-child(odd) {
+            background-color: #ffffff1a;
+        }
+        td {
+            vertical-align: top;
+            vertical-align: middle;
+        }
+        th:nth-child(1) {
+            font-size: 0.9em;
+            width: 35%;
+            text-align: left;
+            padding-left: 5px;
+        }
+        th:nth-child(n+2):nth-child(-n+4) {
+            font-size: 0.9em;
+            width: 40px;
+        }
+        th:nth-child(n+2):nth-child(-n+4) {
+            font-size: 0.9em;
+            width: 40px;
+        }
+        th:nth-child(5) {
+            font-size: 0.85em;
+            width: calc(100% - 40% - 180px);
+            text-align: left;
+            padding-left: 10px;
+        }
+        td:nth-child(1) {
+            font-size: 0.9em;
+        }
+        td:nth-child(5) {
+            text-align: left;
+            font-size: 0.85em;
+            padding-left: 5px;
+        }
+    }
 }
 
-.dataCard > tbody > tr > th:nth-child(1) {
-    font-size: 1.2em;
-}
-
-.dataCard > tbody > tr > th:nth-child(n+2):nth-child(-n+5) {
-    width: 80px;
-}
-
-.dataCard .weaponStats {
+.baseSize {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    color: #fff;
     text-align: center;
-    width: 100%;
-}
-
-.dataCard .weaponStats th:nth-child(1) {
-    font-size: 0.9em;
-    width: 35%;
-    text-align: left;
-    padding-left: 5px;
-}
-
-.dataCard .weaponStats th:nth-child(n+2):nth-child(-n+4) {
-    font-size: 0.9em;
-    width: 40px;
-}
-
-.dataCard .weaponStats th:nth-child(5) {
-    font-size: 0.9em;
-    width: calc(100% - 40% - 180px);
-    text-align: left;
-    padding-left: 10px;
-}
-
-.dataCard .weaponStats td:nth-child(1) {
-    font-size: 0.9em;
-}
-
-.dataCard .weaponStats td:nth-child(n+2):nth-child(-n+4) {
-    font-size: 0.9em;
-    width: 40px;
-}
-
-.dataCard .weaponStats td:nth-child(5) {
-    text-align: left;
-    font-size: 0.85em;
-    padding-left: 5px;
-}
-
-.dataCard .weaponStats td {
-    vertical-align: top;
-    vertical-align: middle;
+    line-height: 20px;
+    font-size: 12px;
+    padding-top: 2px;
+    margin-top: 20px;
 }
 
 .datacardAdditionalRules {
@@ -536,10 +550,6 @@ Datacard
     }
 }
 
-.weaponStats tbody tr:has(td):nth-child(odd) {
-  background-color: #ffffff1a;
-}
-
 /**
 Media Rules
 **/
@@ -548,7 +558,7 @@ Media Rules
     .imgGraphic {
         width: 35%;
         height: 35%;
-        width: 650px;
+        width: 500px;
     }
     #disclaimer {
         margin-left: 25%;
@@ -571,9 +581,9 @@ Media Rules
         flex: 100%;
     }
     .imgGraphic {
-        width: 70%;
-        height: 70%;
-        max-width: 450px;
+        width: 50%;
+        height: 50%;
+        max-width: 400px;
     }
 }
 
@@ -593,7 +603,7 @@ Media Rules
     .imgGraphic {
         width: 70%;
         height: 70%;
-        max-width: 450px;
+        max-width: 400px;
     }
     #bgImageContainer {
         translate: -960px -153px;

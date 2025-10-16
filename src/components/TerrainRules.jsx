@@ -1,7 +1,7 @@
 const TerrainRules = () => {
   return (
     <div className="sectionContent" id="terrainRules">
-        <h3>Bheta-Decima</h3>
+        <h3><em>Bheta-Decima</em></h3>
         <p>Killzone: Bheta-Decima has 2x short gantries, 4x medium gantries, 2x long gantries and 1x thermometric condenser.</p>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/gallowdark-esceno.png" className="imgGraphic" />
@@ -57,14 +57,53 @@ const TerrainRules = () => {
             <p>The footprint of a gantry is between operatives A and B, therefore operative B is not a valid target (and neither would operative A be in reverse). Note that the left gantry is ignored when determining this, as operative A is on it.</p>
         </figure>
         
-        <h3>Equipment</h3>
-        <p>Equipment can be set up on Vantage terrain, on the killzone floor and within 2" of Accessible terrain (this takes precedence over the usual restrictions).</p>
+        <h3><em>Gallowdark</em></h3>
+        <p>Killzone: Gallowdark uses a 606mm x 703mm game board with a 6x7 grid system for setting up. It has 4x short walls with hatchway and pillars and 2x each other terrain feature. It also has 8x left and 8x right pillars, and 30x pillar caps to complete terrain configuration. Note that some mission maps use less than this.</p>
         
-        <h3>Volkus</h3>
+        <h3>Gallowdark Wall</h3>
+        <p>A Gallowdark wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway.</p>
+        <p><b>Wall terrain:</b></p>
+        <ul>
+            <li>Operatives cannot move over or through Wall terrain (this takes precedence over all other rules).</li>
+            <li>Visibility cannot be determined over or through Wall terrain.</li>
+            <li>Other than to areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be measured over or through Wall terrain; they must be measured around it using the shortest possible route.</li>
+            <li>For the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene, unless the active operative has passed it.</li>
+        </ul>
+        <figure>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-1.png" className="imgGraphic" />
+            <p>Operative A would usually be within 3” of operative B, but as distances cannot be measured over or through Wall terrain, it must be measured around the Gallowdark wall. This would make operative A more than 3” from operative B.</p>
+        </figure>
+        <figure>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-2.png" className="imgGraphic" />
+            <p>Operative B is not in cover as a corner or end of the wall is not intervening. Note that minor parts of the wall that protrude do not make a corner or end alone; it must be the main structure of the wall that turns a corner or ends, as shown in the following diagrams.</p>
+        </figure>
+        <figure>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-3.png" className="imgGraphic" />
+            <p>A corner of the wall is intervening, therefore operative B is in cover.</p>
+        </figure>
+        <figure>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-4.png" className="imgGraphic" />
+            <p>Operative A has passed the corner of the wall, therefore it’s not intervening and operative B is not in cover. Note that if operative A was wholly on the left side of the dotted black line, the wall would be intervening and operative B would be in cover.</p>
+        </figure>
+        <figure>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-5.png" className="imgGraphic" />
+            <p>An end of the wall is intervening, therefore operative B is in cover.</p>
+        </figure>
+        <figure>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-6.png" className="imgGraphic" />
+            <p>As the hatchway is open, an end of the wall is intervening. It’s more than 1” from both operatives, therefore operative B is obscured.</p>
+        </figure>
+
+        <h3><em>Volkus</em></h3>
         <p>Killzone: Volkus has 2x strongholds, 2x large ruins, 2x small ruins, 2x heavy rubble, and 3x light rubble.</p>
         
         <h3>Stronghold</h3>
-        <ul>
+        <figure>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/stronghold-example-1.png" className="imgGraphic" />
+        </figure>
+        <figure>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/stronghold-example-2.png" className="imgGraphic" />
+            <ul style={{ textAlign: 'left' }}>
             <li><b>A</b> The upper level(s) of a stronghold terrain feature is Ceiling and Vantage terrain.</li>
             <li><b>B</b> The door is Accessible and Heavy terrain.</li>
             <li><b>C</b> The fire steps are Vantage, Insignificant, and Exposed terrain.</li>
@@ -76,11 +115,6 @@ const TerrainRules = () => {
             <li>All other parts of it are Heavy terrain.</li>
             <li>For the purposes of control range, ignore the door and parts of this terrain feature less than 2” high when determining visibility.</li>
         </ul>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/stronghold-example-1.png" className="imgGraphic" />
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/stronghold-example-2.png" className="imgGraphic" />
         </figure>
         
         <h3>Large Ruin</h3>
@@ -114,15 +148,14 @@ const TerrainRules = () => {
         </figure>
         
         <h3>Condensed Stronghold</h3>
-        <p>Whenever an operative is shooting with a weapon that has the Blast, Torrent and/or x” Devastating (i.e., Devastating with a distance requirement) weapon rule, it also has the Lethal 5+ weapon rule (pg. 111) if the target is wholly within a stronghold terrain feature and on the killzone floor or a fire step.</p>
+        <p>Whenever an operative is shooting with a weapon that has the Blast, Torrent and/or x” Devastating (i.e., Devastating with a distance requirement) weapon rule, it also has the Lethal 5+ weapon rule if the target is wholly within a stronghold terrain feature and on the killzone floor or a fire step.</p>
         <p className="indentNote"><em>The Condensed Stronghold rule always relates to the target’s location, so if the primary target is wholly within a stronghold, but the secondary target isn’t, then this rule doesn’t apply to that secondary target.</em></p>
         
         <h3>Garrisoned Stronghold</h3>
         <p>When an operative wholly within a stronghold terrain feature is retaliating against an operative that isn’t, the defender resolves first (this takes precedence over the normal fight resolution order).</p>
         
-        <h3>Tomb World</h3>
-        <p>Killzone: Tomb World uses a 606mm x 703mm game board with a 6x7 grid system for setting up. It has 1x sarcophagus, 4x debris and 2x each other terrain feature specified on page 76-77. It also has 16x half pillars to complete terrain configuration. Note that some mission maps use less than this.</p>
-        <p className="indentNote"><em><b>Note:</b> This killzone is similar to Killzone: Gallowdark from the Kill Team Core Book. To maintainconsistency of rules - especially for those printed elsewhere - we’ve kept the terms the same. For example, even though Killzone: Tomb World uses portals rather than hatches, we still call it a hatchway and operatives perform the <b>Operate Hatch</b> action.</em></p>
+        <h3><em>Tomb World</em></h3>
+        <p>Killzone: Tomb World uses a 606mm x 703mm game board with a 6x7 grid system for setting up. It has 1x sarcophagus, 4x debris and 2x each other terrain feature. It also has 16x half pillars to complete terrain configuration. Note that some mission maps use less than this.</p>
         
         <h3>Tomb World Wall</h3>
         <p>A Tomb World wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway (pg 55) or a breach point (pg 56).</p>

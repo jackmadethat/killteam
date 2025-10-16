@@ -41,9 +41,6 @@ const KeyPrinciples = () => {
         <p className="indentNote"><em>Keep track of each operative’s remaining wounds with dice, tokens or by writing it down.</em></p>
         <p className="indentNote"><em>‘Incapacitated’ and ‘removed from the killzone’ are separate. Some rules take effect when an operative is incapacitated, but before it’s removed.</em></p>
         
-        <h3>Datacards</h3>
-        <p>Datacards contain specific rules for each operative, including key stats.</p>
-        
         <h3>Dice (D6, D3)</h3>
         <p>Use 6-sided dice to determine the outcome of various rules. This will often require x+, where x is the lowest possible result, e.g., 3+. Sometimes a result within a range will be required, e.g., 1-3. Some rare rules require you to roll a D3. To do so, roll one D6 and halve the result (rounding up). Some require xD6 or xD3 (e.g., 2D6 or 3D3). Roll x number of dice and add the results together. Some require D6+x or D3+x (e.g., D6+2 or D3+3). Roll that dice and add x to the result.</p>
         <p>Some rules allow you to re-roll a dice roll. You can never re-roll a dice roll more than once, and you cannot select the original result, even if the new result is worse. If it’s an attack or defence dice, you re-roll before it’s retained or discarded. If you can re-roll multiple different dice, you can do this in any order, including seeing the result of one re-roll before deciding on the next. If multiple players can re-roll dice at the same time (e.g., during a <b>Fight</b> action), they alternate either re-rolling a dice or passing until they both pass in succession, starting with the player with initiative (this takes precedence over initiative and rules that would happen at the same time).</p>
@@ -79,11 +76,7 @@ const KeyPrinciples = () => {
             <p>Most commonly, targeting lines can be drawn in a two-dimensional (top down) manner for ease. However, if there’s a difference in height between the operatives (e.g., one of them is on Vantage terrain), targeting lines should be drawn in a three-dimensional manner.</p>
             <p>None of these targeting lines cross terrain feature A, therefore it’s not intervening.</p>
         </figure>
-        
-        <h3>Keywords</h3>
-        <p>Keywords are an identification method for certain rules. You will most commonly use keywords with operatives – some rules will only affect operatives with the relevant keywords.</p>
-        <p>Some rare rules also have keywords, e.g., <b>SUPPORT</b> or <b>STRATEGIC GAMBIT</b>. These keywords mean nothing on their own, but other rules interact with them. Keywords are shown in <b>KEYWORD BOLD</b> font. Those in orange with a skull symbol, e.g., <img src="https://raw.githubusercontent.com/jackmadethat/killteam/8c93ba3a2e264ab26877e9ba861363731e544023/src/img/skull.svg" className="svgImg blackIcon" /><b style={{ color: '#F80' }}>TEMPESTUS AQUILON</b>, are faction keywords used to identify all operatives/rules from that kill team.</p>
-        
+                
         <h3>Markers</h3>
         <p>Markers are placed in precise locations (this must be a location in which they can be placed) and impact the game and operatives around them. They can be placed underneath operatives (temporarily remove operatives to do so), and operatives can be placed upon them. Objective markers are 40mm in diameter. All other markers are 20mm in diameter. Some markers are known as mission markers. This means nothing on its own, but other rules interact with it.</p>
         <p>Operatives contest markers within their control range. Friendly operatives control a marker if the total APL of those contesting it is greater than that of enemy operatives, but control cannot change during an action. While an operative is carrying a marker, it contests and controls that marker, and is the only operative that can.</p>
@@ -115,10 +108,7 @@ const KeyPrinciples = () => {
             <p>There’s intervening Heavy terrain. Whilst parts of it are within 1” of the operatives, part of it isn’t, therefore operative B is obscured.</p>
             <p className="indentNote"><em>In other words, an operative being within 1" of a terrain feature doesn’t prevent the whole terrain feature from being obscuring, only the part within 1" of the operative.</em></p>
         </figure>
-        
-        <h3>Operatives</h3>
-        <p>Operatives are the Citadel miniatures used in the game. Your operatives are friendly operatives, and your opponent’s operatives are enemy operatives.</p>
-        
+                
         <h3>Orders</h3>
         <p><b>Engage: The operative can perform actions as normal and can counteract.</b></p>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/order-engage.png" className="imgGraphic" style={{ maxWidth: 100 + 'px', maxHeight: 100 + 'px', marginLeft: 2 + '%' }} alt="Order" />

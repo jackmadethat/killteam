@@ -1,10 +1,12 @@
 const Considerations = () => {
   return (
     <div className="sectionContent" id="considerations">
+        <p>Operatives are the models used in the game. Your operatives are friendly operatives, and your opponent’s operatives are enemy operatives.</p>
 
         <h3>Datacards</h3>
         <p>Datacards contain specific rules for each operative, including key stats.</p>
-        
+        <br />
+
         <table className="weaponTable dataCard">
             <tbody>
                 <tr>
@@ -54,7 +56,11 @@ const Considerations = () => {
                     <td colspan="5" className="datacardAdditionalRules"><b>Grenadier</b>: This operative can use frag and krak grenades (see universal equipment). Doing so doesn't count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives). Whenever it's doing so, improve the Hit stat of that weapon by 1.</td>
                 </tr>
                 <tr>
-                    <td colspan="5" className="datacardKeywords"><span>ANGEL OF DEATH</span>, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, GRENADIER</td>
+                    <td colspan="4" className="datacardKeywords"><span>ANGEL OF DEATH</span>, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, GRENADIER</td>
+                    <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">32</span></td>
+                </tr>
+                <tr>
+                    
                 </tr>
             </tbody>
         </table>
@@ -82,7 +88,7 @@ const Considerations = () => {
         </ul>
         <h3>Weapon stats</h3>
         <ul>
-            <li>The kill team selection pages in your kill team’s rules specify what weapons an operative has. If it doesn’t specify, an operative has all the weapons on its datacard.</li>
+            <li>Beneath the operative's stats are the weapons it can equip. Your kill team's rules will specify the weapons each of your operatives can equip, and if it doesn’t specify, it can equip all the weapons on its datacard.</li>
             <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Shoot" /> <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> <b>Weapon type:</b> <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Shoot" /> are ranged weapons for whenever an operative is shooting, <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> are melee weapons for whenever an operative is fighting or retaliating.</li>
             <li><b>Atk:</b> The number of attack dice to roll whenever an operative uses this weapon.</li>
             <li><b>Hit:</b> The result required for successful attack dice whenever an operative uses this weapon.</li>
@@ -90,18 +96,11 @@ const Considerations = () => {
             <li>Sometimes different weapons will have the same primary name but different secondary names, represented in brackets, e.g. “plasma gun (standard)” and “plasma gun (supercharge)”. These are effectively separate profiles of the same weapon, but used as different weapons. If a rule refers to just the primary name, it includes all weapons with that primary name.</li>
         </ul>
         <h3>Additional rules</h3>
-        <ul>
-            <li>Additional rules the operative has.</li>
-            <li>Unique actions that can be performed by the operative.</li>
-        </ul>
+        <p>Beneath the operative's weapon loadout are any relevant additional rules for the operative and any unique acions that the operative can perform.</p>
         <h3>Keywords</h3>
-        <ul>
-            <li>Used to identify the operative for rules – some rules will only affect operatives with the relevant keywords.</li>
-            <li>Shown in <b>KEYWORD BOLD</b> font.</li>
-            <li>Keywords in orange with a skull symbol, e.g. <span>TEMPESTUS AQUILON</span>, are faction keywords – used to identify all operatives from that kill team.</li>
-        </ul>
+        <p>At the bottom of the datacard are any relevant keywords for the operative. Keywords are used as identifiers for certain rules that apply to specific operatives and operative types. Keywords in orange with a skull symbol, e.g. <b style={{ color: '#F80' }}>ANGELS OF DEATH</b><img src="https://raw.githubusercontent.com/jackmadethat/killteam/8c93ba3a2e264ab26877e9ba861363731e544023/src/img/skull.svg" className="svgImg blackIcon" />, are faction keywords – used to identify all operatives from that kill team.</p>
         <h3>Bases</h3>
-        <p>Bases size in mm.</p>
+        <p>In the bottom-right corner of the datacard is the units base size in mm.</p>
     </div>
   )
 }

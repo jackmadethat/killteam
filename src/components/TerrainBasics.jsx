@@ -73,44 +73,10 @@ const TerrainBasics = () => {
         
         <h3>Ceiling</h3>
         <p>Operatives with a round base of 50mm or less, or an oval base of 60x35mm, can move underneath Ceiling terrain regardless of the operative’s height (this takes precedence over Terrain and Movement on pg 56). The operative must still finish the action in a location it can be placed.</p>
-        
-        <h3>Gallowdark</h3>
-        <p>Killzone: Gallowdark uses a 606mm x 703mm game board with a 6x7 grid system for setting up. It has 4x short walls with hatchway and pillars and 2x each other terrain feature specified on page 109. It also has 8x left and 8x right pillars, and 30x pillar caps to complete terrain configuration. Note that some mission maps use less than this.</p>
-        
-        <h3>Gallowdark Wall</h3>
-        <p>A Gallowdark wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway, which is explained separately on page 69.</p>
-        <p><b>Wall terrain:</b></p>
-        <ul>
-            <li>Operatives cannot move over or through Wall terrain (this takes precedence over all other rules).</li>
-            <li>Visibility cannot be determined over or through Wall terrain.</li>
-            <li>Other than to areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be measured over or through Wall terrain; they must be measured around it using the shortest possible route.</li>
-            <li>For the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene, unless the active operative has passed it (see examples on pages 67-68).</li>
-        </ul>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-1.png" className="imgGraphic" />
-            <p>Operative A would usually be within 3” of operative B, but as distances cannot be measured over or through Wall terrain, it must be measured around the Gallowdark wall. This would make operative A more than 3” from operative B.</p>
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-2.png" className="imgGraphic" />
-            <p>Operative B is not in cover as a corner or end of the wall is not intervening. Note that minor parts of the wall that protrude do not make a corner or end alone; it must be the main structure of the wall that turns a corner or ends, as shown in the following diagrams.</p>
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-3.png" className="imgGraphic" />
-            <p>A corner of the wall is intervening, therefore operative B is in cover.</p>
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-4.png" className="imgGraphic" />
-            <p>Operative A has passed the corner of the wall, therefore it’s not intervening and operative B is not in cover. Note that if operative A was wholly on the left side of the dotted black line, the wall would be intervening and operative B would be in cover.</p>
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-5.png" className="imgGraphic" />
-            <p>An end of the wall is intervening, therefore operative B is in cover.</p>
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-6.png" className="imgGraphic" />
-            <p>As the hatchway is open, an end of the wall is intervening. It’s more than 1” from both operatives, therefore operative B is obscured.</p>
-        </figure>
-        
+
+        <h3>Equipment</h3>
+        <p>Equipment can be set up on Vantage terrain, on the killzone floor and within 2" of Accessible terrain (this takes precedence over the usual restrictions).</p>
+
         <h3>Condensed Environment</h3>
         <p>Weapons with the Blast, Torrent and/or x” Devastating (i.e. Devastating with a distance requirement) weapon rule also have the Lethal 5+ weapon rule (pg. 111).</p>
     </div>
