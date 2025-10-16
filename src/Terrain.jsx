@@ -38,7 +38,7 @@ const Terrain = () => {
         {visible_TerrainBasics && <TerrainBasics />}
       </div>
       <div className="sectionButton">
-        <div className="hovered" onClick={toggleDoorsHatchways}><h2 className="textCenter subHeading">Doors & Hatchways</h2></div>
+        <div className="hovered" onClick={toggleDoorsHatchways}><h2 className="textCenter subHeading">Doors</h2></div>
         {visible_DoorsHatchways && <DoorsHatchways />}
       </div>
       <div className="sectionButton">
