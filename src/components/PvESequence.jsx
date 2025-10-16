@@ -18,7 +18,7 @@ const PvESequence = () => {
         <li>Setup Operatives & Equipment
           <ul>
             <br /><li>Players select their operatives and equipment options</li>
-            <li>Player gains 2 Command Points (CP), NPO gains none for the game</li>
+            <li>Player gains 2 Command Points (CP), NPO gains none for the duration of the game</li>
             <li>No Tac Op is selected</li>
             <li>Set up appropriate equipment terrian for NPOs, the player team, then set up operatives with a conceal order</li>
           </ul>
@@ -32,12 +32,12 @@ const PvESequence = () => {
         <li>Start Battle
           <ul>
             <br /><li>First Turning Point (TP) initiative is decided with a roll-off</li>
-            <li>Turning points function in the same fashion as a PvP game, but NPOs always pass on gambits and don't gain CP.</li><br />
+            <li>Turning points function in the same fashion as a PvP game, but NPOs don't gain CP or use gambits unless the mission calls for it.</li><br />
           </ul>
         </li>
         <li>Resolve Battle
           <ul><br />
-            <li>The battle ends after 4 Turning Points or based on mission criteria.</li>
+            <li>The battle ends when the mission's Victory condition is met (win) or all player operatives are incapacitated (loss).</li>
           </ul>
         </li>
       </ol>
@@ -119,10 +119,84 @@ const PvESequence = () => {
                       <th>WEAPON RULES</th>
                     </tr>
                     <tr>
-                      <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> Blades</td>
+                      <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> Melee Weapon</td>
                       <td>4</td>
                       <td>4+</td>
                       <td>3/4</td>
+                      <td>Ceaseless</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          <tr>
+            <td colspan="5" className="datacardAdditionalRules"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table className="weaponTable dataCard">
+        <tbody>
+          <tr>
+            <th>BRAWLER: TOUGH</th>
+            <th>APL<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/apl.svg" className="svgImg" alt="APL" />2</th>
+            <th>MOV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" />6"</th>
+            <th>SAV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/save.svg" className="svgImg" alt="Save" />4+</th>
+            <th>WND<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" />10</th>
+          </tr>
+            <tr>
+              <td colspan="5">
+                <table className="weaponTable weaponStats">
+                  <tbody>
+                    <tr>
+                      <th>NAME</th>
+                      <th>ATK</th>
+                      <th>HIT</th>
+                      <th>DMG</th>
+                      <th>WEAPON RULES</th>
+                    </tr>
+                    <tr>
+                      <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> Melee Weapon</td>
+                      <td>4</td>
+                      <td>4+</td>
+                      <td>4/5</td>
+                      <td>Ceaseless</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          <tr>
+            <td colspan="5" className="datacardAdditionalRules"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table className="weaponTable dataCard">
+        <tbody>
+          <tr>
+            <th>BRAWLER: HEAVY</th>
+            <th>APL<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/apl.svg" className="svgImg" alt="APL" />3</th>
+            <th>MOV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" />6"</th>
+            <th>SAV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/save.svg" className="svgImg" alt="Save" />3+</th>
+            <th>WND<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" />14</th>
+          </tr>
+            <tr>
+              <td colspan="5">
+                <table className="weaponTable weaponStats">
+                  <tbody>
+                    <tr>
+                      <th>NAME</th>
+                      <th>ATK</th>
+                      <th>HIT</th>
+                      <th>DMG</th>
+                      <th>WEAPON RULES</th>
+                    </tr>
+                    <tr>
+                      <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> Melee Weapon</td>
+                      <td>5</td>
+                      <td>3+</td>
+                      <td>4/5</td>
                       <td>Ceaseless</td>
                     </tr>
                     <tr>
@@ -137,10 +211,161 @@ const PvESequence = () => {
               </td>
             </tr>
           <tr>
+            <td colspan="5" className="datacardAdditionalRules">This operative can perform two <b>Fight</b> actions per activation.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table className="weaponTable dataCard">
+        <tbody>
+          <tr>
+            <th>MARKSMAN: TROOPER</th>
+            <th>APL<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/apl.svg" className="svgImg" alt="APL" />2</th>
+            <th>MOV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" />6"</th>
+            <th>SAV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/save.svg" className="svgImg" alt="Save" />5+</th>
+            <th>WND<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" />7</th>
+          </tr>
+            <tr>
+              <td colspan="5">
+                <table className="weaponTable weaponStats">
+                  <tbody>
+                    <tr>
+                      <th>NAME</th>
+                      <th>ATK</th>
+                      <th>HIT</th>
+                      <th>DMG</th>
+                      <th>WEAPON RULES</th>
+                    </tr>
+                    <tr>
+                      <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Shoot" /> Firearm</td>
+                      <td>4</td>
+                      <td>4+</td>
+                      <td>2/3</td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Shoot" /> Special Weapon*</td>
+                      <td>4</td>
+                      <td>4+</td>
+                      <td>4/5</td>
+                      <td>Piercing 1</td>
+                    </tr>
+                    <tr>
+                      <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> Melee Weapon</td>
+                      <td>3</td>
+                      <td>4+</td>
+                      <td>2/3</td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          <tr>
+            <td colspan="5" className="datacardAdditionalRules">*Only 1 in 3 of this operative type can have this weapon.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table className="weaponTable dataCard">
+        <tbody>
+          <tr>
+            <th>MARKSMAN: WARRIOR</th>
+            <th>APL<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/apl.svg" className="svgImg" alt="APL" />2</th>
+            <th>MOV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" />6"</th>
+            <th>SAV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/save.svg" className="svgImg" alt="Save" />4+</th>
+            <th>WND<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" />8</th>
+          </tr>
+            <tr>
+              <td colspan="5">
+                <table className="weaponTable weaponStats">
+                  <tbody>
+                    <tr>
+                      <th>NAME</th>
+                      <th>ATK</th>
+                      <th>HIT</th>
+                      <th>DMG</th>
+                      <th>WEAPON RULES</th>
+                    </tr>
+                    <tr>
+                      <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Shoot" /> Firearm</td>
+                      <td>4</td>
+                      <td>4+</td>
+                      <td>2/3</td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> Melee Weapon</td>
+                      <td>3</td>
+                      <td>4+</td>
+                      <td>2/3</td>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          <tr>
             <td colspan="5" className="datacardAdditionalRules"></td>
           </tr>
         </tbody>
       </table>
+
+      <table className="weaponTable dataCard">
+        <tbody>
+          <tr>
+            <th>MARKSMAN: HEAVY</th>
+            <th>APL<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/apl.svg" className="svgImg" alt="APL" />3</th>
+            <th>MOV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" />6"</th>
+            <th>SAV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/save.svg" className="svgImg" alt="Save" />3+</th>
+            <th>WND<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" />14</th>
+          </tr>
+            <tr>
+              <td colspan="5">
+                <table className="weaponTable weaponStats">
+                  <tbody>
+                    <tr>
+                      <th>NAME</th>
+                      <th>ATK</th>
+                      <th>HIT</th>
+                      <th>DMG</th>
+                      <th>WEAPON RULES</th>
+                    </tr>
+                    <tr>
+                      <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Shoot" /> Firearm</td>
+                      <td>4</td>
+                      <td>3+</td>
+                      <td>3/4</td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> Melee Weapon</td>
+                      <td>4</td>
+                      <td>3+</td>
+                      <td>3/4</td>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          <tr>
+            <td colspan="5" className="datacardAdditionalRules">This operative can perform two <b>Shoot</b> actions per activation.</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Missions: Joint Operations</h3>
+      <p>The following are example missions designed for co-op or single-player games.</p>
+      <h3><em>Breach</em></h3>
+      <h3><em>Sabotage</em></h3>
+      <h3><em>Escape</em></h3>
     </div>
   )
 }

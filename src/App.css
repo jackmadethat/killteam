@@ -466,6 +466,10 @@ Datacard
 
 .dataCard {
     width: 80%;
+    border: 1px solid #888;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .dataCard > tbody > tr > th:nth-child(1) {
@@ -527,7 +531,6 @@ Datacard
 .datacardKeywords {
     font-size: 1em;
     padding-top: 10px;
-    padding-bottom: 10px;
     span {
         color: var(--darkerOrange);
     }
