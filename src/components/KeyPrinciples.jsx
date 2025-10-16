@@ -2,8 +2,7 @@ const KeyPrinciples = () => {
   return (
     <div className="sectionContent" id="keyPrinciples">
         <h3>Bases</h3>
-        <p>All operatives are on bases. The base is an important part of the miniature for rules purposes, in particular measuring distances. Each operative’s base size is specified on its datacard. The sides of different bases can touch, but a base cannot be placed on another. Friendly operatives can move through other friendly operatives (the base and the miniature), but not through enemy operatives. Bases cannot move through terrain, or be over the edge of the killzone.</p>
-        <p className="indentNote"><em>As you play through your first few games, you’ll gain better context for applying key principles, and can simply refer back to them when needed.</em></p>
+        <p>All operatives are on bases and are used for measuring distances. The sides of different bases can touch, but a base cannot be placed on another. Friendly operatives can move through other friendly operatives (the base and the miniature), but not through enemy operatives. Bases cannot move through terrain, or be over the edge of the killzone.</p>
         
         <h3>Control Range</h3>
         <p>Many rules relate to control range such as moving, fighting and using cover. Something is within an operative’s control range if it’s visible to and within 1" of that operative.</p>
@@ -41,7 +40,7 @@ const KeyPrinciples = () => {
         <p className="indentNote"><em>Keep track of each operative’s remaining wounds with dice, tokens or by writing it down.</em></p>
         <p className="indentNote"><em>‘Incapacitated’ and ‘removed from the killzone’ are separate. Some rules take effect when an operative is incapacitated, but before it’s removed.</em></p>
         
-        <h3>Dice (D6, D3)</h3>
+        <h3>Dice</h3>
         <p>Use 6-sided dice to determine the outcome of various rules. This will often require x+, where x is the lowest possible result, e.g., 3+. Sometimes a result within a range will be required, e.g., 1-3. Some rare rules require you to roll a D3. To do so, roll one D6 and halve the result (rounding up). Some require xD6 or xD3 (e.g., 2D6 or 3D3). Roll x number of dice and add the results together. Some require D6+x or D3+x (e.g., D6+2 or D3+3). Roll that dice and add x to the result.</p>
         <p>Some rules allow you to re-roll a dice roll. You can never re-roll a dice roll more than once, and you cannot select the original result, even if the new result is worse. If it’s an attack or defence dice, you re-roll before it’s retained or discarded. If you can re-roll multiple different dice, you can do this in any order, including seeing the result of one re-roll before deciding on the next. If multiple players can re-roll dice at the same time (e.g., during a <b>Fight</b> action), they alternate either re-rolling a dice or passing until they both pass in succession, starting with the player with initiative (this takes precedence over initiative and rules that would happen at the same time).</p>
         <p className="indentNote"><em>For example, if a 4+ is required, a dice result of 4, 5 or 6 fulfils this, and if a 1-4 is required, a dice result of 1, 2, 3 or 4 fulfils this.</em></p>
@@ -124,15 +123,6 @@ const KeyPrinciples = () => {
             <li>Firefight ploys are used in the Firefight phase and apply rules as the ploy specifies.</li>
         </ul>
         <p>All players have access to the Command Re-roll firefight ploy below and the ploys in their kill team’s rules. Other than Command Re-roll, each player cannot use each ploy more than once per turning point.</p>
-        <p>On Guard: Once during each enemy operative’s activation, after that enemy operative performs an action, you can interrupt that activation and select one friendly operative on guard to perform the <b>Fight</b> or <b>Shoot</b> action for free (including actions that are treated as such, e.g. <b>Hatchway Fight</b> see Terrain).</p>
-        <p>That friendly operative can even perform the Shoot action while within control range of an enemy operative (this takes precedence over the normal Shoot action conditions). This is known as a point-blank shot and has the following additional rules while your operative is doing it:</p>
-        <ul>
-            <li>Target the enemy operative within your operative’s control range (even if it wouldn’t normally be a valid target).</li>
-            <li>Worsen the Hit stat of your operative’s weapons by 1.</li>
-            <li>Until the end of the interrupted enemy operative’s activation, your operative cannot retaliate.</li>
-        </ul>
-        <p>If you do, that friendly operative cannot counteract during the turning point.</p>
-        <p className="indentNote"><em>Determine the target as normal for these actions. This means you don’t have to target the operative you interrupted.</em></p>
 
         <div className="strategyPloy">
         <p><b>Command Re-Roll</b><br /><span style={{ fontSize: 1.3 + 'em' }}>1CP</span></p>

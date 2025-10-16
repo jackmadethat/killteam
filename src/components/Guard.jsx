@@ -23,13 +23,16 @@ const Guard = () => {
                 </li>
             </ul>
         </div>
-        <p>Once during each enemy operative’s activation, after that enemy operative performs an action, you can interrupt that activation and select one friendly operative on guard to perform the <b>Fight</b> or <b>Shoot</b> action for free (including actions that are treated as such, e.g. <b>Door Fight</b> opposite).</p>
+        <p>Once during each enemy operative’s activation, after that enemy operative performs an action, you can interrupt that activation and select one friendly operative on guard to perform the <b>Fight</b> or <b>Shoot</b> action for free (including actions that are treated as such, e.g. <b>Door Fight</b>).</p>
         <p>That friendly operative can even perform the <b>Shoot</b> action while within control range of an enemy operative (this takes precedence over the normal <b>Shoot</b> action conditions). This is known as a point-blank shot and has the following additional rules while your operative is doing it:</p>
         <ul>
             <li>Target the enemy operative within your operative’s control range (even if it wouldn’t normally be a valid target).</li>
             <li>Worsen the Hit stat of your operative’s weapons by 1.</li>
             <li>Until the end of the interrupted enemy operative’s activation, your operative cannot retaliate.</li>
         </ul>
+
+        <p>If you choose to perform an action for the operative while it is on guard, that operative cannot counteract during the turning point.</p>
+
         <p className="indentNote"><em>Determine the target as normal for these actions. This means you don’t have to target the operative you interrupted.</em></p>
         <p><b>Guard</b> is a powerful action that allows an operative to attack later, at the opportune moment. It can change the dynamic of the game, so try to avoid enemy operatives on guard, or consider how best to utilise it yourself. Use the token above to indicate any operatives that are on guard.</p>
     </div>
