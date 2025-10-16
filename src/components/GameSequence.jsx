@@ -4,7 +4,7 @@ const GameSequence = () => {
       <ol>
         <li>Setup Mission & Killzone
           <ul>
-            <br /><li>Players select Kill Teams, the Killzone, mission, and set up terrain</li>
+            <br /><li>Players select kill teams, the killzone, mission, and set up terrain</li>
             <li>Players roll off with the winner assigning initiative</li>
             <li>Player with initiative selects their drop zone</li>
           </ul>

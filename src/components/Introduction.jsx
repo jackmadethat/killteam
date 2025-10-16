@@ -15,7 +15,7 @@ const Introduction = () => {
         <li>A measurement device, such as measuring tape or a ruler</li>
         <li>Around 10 six-sided dice (D6)</li>
         <li>Gameplay tokens
-          <p className="indentNote"><em><a href="">Click here</a> to download printable A4 sheets with all the tokens you'll need for a game of Kill Team.</em></p>
+          <p className="indentNote"><em><a href="https://github.com/jackmadethat/killteam/raw/refs/heads/main/src/assets/KillTeamTokens_Printable.zip">Click here</a> to download printable A4 sheets with all the tokens you'll need for a game of Kill Team.</em></p>
         </li>
       </ul>
     </div>

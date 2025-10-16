@@ -1,7 +1,146 @@
 const PvESequence = () => {
   return (
     <div className="sectionContent" id="pveSequence">
-
+      <p>Kill Team can be played alone or cooperatively with another player versus procedurally-managed non-player operatives (NPOs). NPOs have their own rules regarding stats and behavior, so they require minimal micro-management and provide a functional 'CPU' side.</p>
+      <ol>
+        <li>Setup Mission & Killzone
+          <ul>
+            <br /><li>Select Kill Team(s) for the battle</li>
+            <li>Select the killzone and setup terrain</li>
+            <li>Select the mission/Crit Op and setup objective markers
+              <p className="indentNote"><em>Some single-player and co-op missions specify special rules for NPOs. Refer to your mission pack for details.</em></p>
+            </li>
+            <li>Roll for initiative, both for the player(s) and non-player side, winner selecting drop zone (if mission-applicable)
+              <p className="indentNote"><em>If the non-player wins initiative, it always chooses to keep it.</em></p>
+            </li>
+          </ul>
+        </li>
+        <li>Setup Operatives & Equipment
+          <ul>
+            <br /><li>Players select their operatives and equipment options</li>
+            <li>Player gains 2 Command Points (CP), NPO gains none for the game</li>
+            <li>No Tac Op is selected</li>
+            <li>Set up appropriate equipment terrian for NPOs, the player team, then set up operatives with a conceal order</li>
+          </ul>
+          <p className="indentNote"><em>When playing a co-op mission, players still act as one 'side', so don't double up on CP or equipment selections, manage them as a team.</em></p>
+        </li>
+        <li>Scouting
+          <ul><br />
+            <li>Skip the scouting step</li><br />
+          </ul>
+        </li>
+        <li>Start Battle
+          <ul>
+            <br /><li>First Turning Point (TP) initiative is decided with a roll-off</li>
+            <li>Turning points function in the same fashion as a PvP game, but NPOs always pass on gambits and don't gain CP.</li><br />
+          </ul>
+        </li>
+        <li>Resolve Battle
+          <ul><br />
+            <li>The battle ends after 4 Turning Points or based on mission criteria.</li>
+          </ul>
+        </li>
+      </ol>
+      <h3>NPO Behavior</h3>
+      <p>When making decisions for NPOs, you may choose to use the <em>threat principle</em>: choose the worst option for the player. This can determine which NPO activates, how it moves, how it shoots, how it fights, as well as how to resolve their dice, etc. Alternatively, you may choose to use <em>action priorities</em> for NPOs based on their type.</p>
+      <h3 style={{ fontSize: 1.2 + 'em' }}><em><b>Threat Principle:</b></em></h3>
+      <ol style={{ fontSize: 0.9 + 'em' }}>
+        <li><b>Activation Priority</b><br /><br />Select the ready NPO that:<br />
+          <ol><br />
+            <li>Can do <b>Fight</b> or <b>Shoot</b> using their best weapon to incapacitate a player's operative</li>
+            <li>Is <b>not in cover</b> from player operatives</li>
+            <li>Is <b>closest to</b> a player operative</li>
+          </ol><br />
+        </li>
+        <li><b>Reposition or Dash Action</b><br /><br />NPOs move <b>to cover</b> where they have a <b>valid target</b>. If there are multiple potential cover locations with valid targets, choose the best one for <b>Shoot</b>.<br />
+        </li><br />
+        <li><b>Shoot Action</b><br /><br />If there are multiple valid Shoot targets, pick one that fulfils the most of these conditions:
+          <ul><br />
+            <li>Is <b>not obscured</b></li>
+            <li>Is <b>not in cover</b></li>
+            <li>Is <b>in control range</b> of an objective marker</li>
+            <li>Is <b>closest</b></li>
+            <li>Is <b>wounded</b></li>
+            <li>Is <b>ready</b></li>
+          </ul><br />
+        </li>
+        <li><b>Fight Action</b><br /><br />If there are multiple valid Fight targets, pick one that fulfils the most of these conditions:
+          <ul><br />
+            <li>Is <b>wounded</b></li>
+            <li>Is <b>in control range</b> of an objective marker</li>
+            <li>Is <b>ready</b></li>
+          </ul>
+        </li>
+      </ol>
+      <h3 style={{ fontSize: 1.2 + 'em' }}><em><b>Action Priority:</b></em></h3>
+      <ul style={{ fontSize: 0.9 + 'em' }}>
+        <li><b>All Brawlers</b>
+          <p>The NPO will move towards the enemy to fight them, but will seek cover on the way. The NPO will perform an action if (listed by priority):</p>
+          <p>If the NPO can <b>Fight</b> or <b>Charge</b>, give the engage order and do:</p>
+          <ol>
+            <li><b>Fight</b></li>
+            <li><b>Charge</b> the closest player operative</li>
+          </ol>
+          <p>If the NPO cannot <b>Fight</b> or <b>Charge</b>, give the conceal order and do:</p>
+          <ol>
+            <li><b>Reposition</b> towards nearest enemy (prefer <b>cover</b>, can <b>Dash</b> afterwards)</li>
+            <li><b>Dash</b> towards the closest player operative (preferring <b>cover</b>)</li>
+          </ol>
+        </li><br />
+        <li><b>All Marksmen</b>
+          <p>The NPO will move to an ideal position to shoot player operatives. The NPO will perform an action if (listed by priority):</p>
+          <p>If the NPO can <b>Shoot</b>, give the engage order, otherwise give the conceal order, then do:</p>
+          <ol>
+            <li><b>Fall Back</b> to <b>cover</b> if possible, where a valid target is not <b>obscured</b>. If not, to the nearest visible objective marker</li>
+            <li><b>Shoot</b> at a target using conditions listed above or using your best judgement, choosing the worst target for the player</li>
+            <li><b>Reposition</b> to <b>cover</b> if possible, where a valid target is not <b>obscured</b>. If not, to the nearest visible objective marker (it can also <b>Dash</b>)</li>
+          </ol>
+        </li>
+      </ul>
+      <h3>NPO Types</h3>
+      <table className="weaponTable dataCard">
+        <tbody>
+          <tr>
+            <th>BRAWLER: TROOPER</th>
+            <th>APL<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/apl.svg" className="svgImg" alt="APL" />2</th>
+            <th>MOV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" />6"</th>
+            <th>SAV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/save.svg" className="svgImg" alt="Save" />5+</th>
+            <th>WND<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" />7</th>
+          </tr>
+            <tr>
+              <td colspan="5">
+                <table className="weaponTable weaponStats">
+                  <tbody>
+                    <tr>
+                      <th>NAME</th>
+                      <th>ATK</th>
+                      <th>HIT</th>
+                      <th>DMG</th>
+                      <th>WEAPON RULES</th>
+                    </tr>
+                    <tr>
+                      <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> Blades</td>
+                      <td>4</td>
+                      <td>4+</td>
+                      <td>3/4</td>
+                      <td>Ceaseless</td>
+                    </tr>
+                    <tr>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          <tr>
+            <td colspan="5" className="datacardAdditionalRules"></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   )
 }

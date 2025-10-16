@@ -34,7 +34,7 @@ const PvPReference = () => {
       </div>
 
       <div className="sectionButton">
-        <div className="hovered" onClick={togglePvEGameSequence}><h2 className="textCenter subHeading">Solo/Co-Op Rules</h2></div>
+        <div className="hovered" onClick={togglePvEGameSequence}><h2 className="textCenter subHeading">Solo/Co-Op Gameplay</h2></div>
         {visible_PvESequence && <PvESequence />}
       </div>
     </>

@@ -16,8 +16,8 @@ const StrategyPhase = () => {
       <p className="indentNote"><em>In some mission packs you will also determine initiative when setting up the battle. The player with initiative decides the order of resolution for simultaneous rules that happen before the battle begins.</em></p>
       <h3>Ready</h3>
       <ul>
-          <li>Each player gains 1 Command Point (CP). In each turning point after the first, the player who doesn’t have initiative gains 2CP instead. Players keep CP until spent.</li>
-          <li>Each player readies all friendly operatives.</li>
+          <li>Each player gains 2 Command Point (CP). In each turning point after the first, the player who doesn’t have initiative gains 2CP instead. Players keep CP until spent.</li>
+          <li>Each player readies all friendly operatives by setting their order token light-side-up.</li>
       </ul>
       <p className="indentNote"><em>CP are a valuable resource used to activate additional rules called ploys.</em></p>
       <p className="indentNote"><em>An order token with the lighter side up shows an operative as ready.</em></p>

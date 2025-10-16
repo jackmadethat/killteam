@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
@@ -461,6 +461,83 @@ Map Grid
 }
 
 /**
+Datacard
+**/
+
+.dataCard {
+    width: 80%;
+}
+
+.dataCard > tbody > tr > th:nth-child(1) {
+    font-size: 1.2em;
+}
+
+.dataCard > tbody > tr > th:nth-child(n+2):nth-child(-n+5) {
+    width: 80px;
+}
+
+.dataCard .weaponStats {
+    text-align: center;
+    width: 100%;
+}
+
+.dataCard .weaponStats th:nth-child(1) {
+    font-size: 0.9em;
+    width: 35%;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.dataCard .weaponStats th:nth-child(n+2):nth-child(-n+4) {
+    font-size: 0.9em;
+    width: 40px;
+}
+
+.dataCard .weaponStats th:nth-child(5) {
+    font-size: 0.9em;
+    width: calc(100% - 40% - 180px);
+    text-align: left;
+    padding-left: 10px;
+}
+
+.dataCard .weaponStats td:nth-child(1) {
+    font-size: 0.9em;
+}
+
+.dataCard .weaponStats td:nth-child(n+2):nth-child(-n+4) {
+    font-size: 0.9em;
+    width: 40px;
+}
+
+.dataCard .weaponStats td:nth-child(5) {
+    text-align: left;
+    font-size: 0.85em;
+    padding-left: 5px;
+}
+
+.dataCard .weaponStats td {
+    vertical-align: top;
+    vertical-align: middle;
+}
+
+.datacardAdditionalRules {
+    font-size: 0.8em;
+}
+
+.datacardKeywords {
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    span {
+        color: var(--darkerOrange);
+    }
+}
+
+.weaponStats tbody tr:has(td):nth-child(odd) {
+  background-color: #ffffff1a;
+}
+
+/**
 Media Rules
 **/
 
@@ -501,7 +578,7 @@ Media Rules
     h1 {
         font-size: 2.5em;
     }
-    ul {
+    ul, ol {
         li {
             margin-left: -20px;
         }
@@ -536,5 +613,8 @@ Media Rules
     #disclaimer {
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .weaponTable {
+        width: 450px;
     }
 }

@@ -4,7 +4,60 @@ const Considerations = () => {
 
         <h3>Datacards</h3>
         <p>Datacards contain specific rules for each operative, including key stats.</p>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/datacard-example.png" className="imgGraphic" alt="Datacard" />
+        
+        <table className="weaponTable dataCard">
+            <tbody>
+                <tr>
+                    <th>ASSAULT INTERCESSOR GRENADIER</th>
+                    <th>APL<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/apl.svg" className="svgImg" alt="APL" />3</th>
+                    <th>MOV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" />6"</th>
+                    <th>SAV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/save.svg" className="svgImg" alt="Save" />3+</th>
+                    <th>WND<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" />14</th>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table className="weaponTable weaponStats">
+                            <tbody>
+                                <tr>
+                                    <th>NAME</th>
+                                    <th>ATK</th>
+                                    <th>HIT</th>
+                                    <th>DMG</th>
+                                    <th>WEAPON RULES</th>
+                                </tr>
+                                <tr>
+                                    <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Shoot" /> Heavy Bolt Pistol</td>
+                                    <td>4</td>
+                                    <td>3+</td>
+                                    <td>3/4</td>
+                                    <td>Range 8", Piercing Crits 1</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> Chainsword</td>
+                                    <td>5</td>
+                                    <td>3+</td>
+                                    <td>4/5</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" className="datacardAdditionalRules"><b>Grenadier</b>: This operative can use frag and krak grenades (see universal equipment). Doing so doesn't count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives). Whenever it's doing so, improve the Hit stat of that weapon by 1.</td>
+                </tr>
+                <tr>
+                    <td colspan="5" className="datacardKeywords"><span>ANGEL OF DEATH</span>, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, GRENADIER</td>
+                </tr>
+            </tbody>
+        </table>
         <h3>Operative stats</h3>
         <ul>
             <li>
