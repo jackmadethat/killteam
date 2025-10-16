@@ -14,7 +14,7 @@ const GameSequence = () => {
             <br /><li>Players select their operatives and equipment options
               <p className="indentNote"><em>Players can choose to select their operatives and equipment in secret, then reveal to each other at the same time, or during deployment.</em></p>
             </li>
-            <li>Each player gains 2CP</li>
+            <li>Each player gains 2 Command Points (CP)</li>
             <li>Determine the <em>Critical Operation (Crit Op)</em> for the mission and place relevant markers</li>
             <li>Players alternate setting up equipment by item (not option)</li>
             <li>Players alternate setting up their Kill Team in thirds, rounding up, all with a conceal order
@@ -58,8 +58,9 @@ const GameSequence = () => {
                 <li>The operative can perform actions until it's APL is reached.</li>
                 <li>Set the operative to expended by setting it's order token light-side-down.</li>
               </ul>
-            </li><br />
+            </li>
           </ul>
+          <p className="indentNote"><em>A game of Kill Team generally lasts for 4 turning points, unless the mission specifies otherwise.</em></p>
         </li>
         <li>Resolve Battle
           <ul>

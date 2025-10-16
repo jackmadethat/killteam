@@ -64,6 +64,10 @@ li::marker {
   color: var(--darkerOrange);
 }
 
+a {
+    color: #F00;
+}
+
 /**
 Structural Styles
 **/
