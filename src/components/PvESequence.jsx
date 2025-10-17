@@ -431,7 +431,7 @@ const PvESequence = () => {
           <p className="actionCost"><b>0AP</b></p>
         </div>
         <ul>
-          <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The player’ operatives can move wholly over the NPO’s killzone edge (this takes precedence over bases and the edge of the killzone) Any that do so have escaped - remove them from the killzone.</li>
+          <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The player’s operatives can move wholly over the NPO’s killzone edge (this takes precedence over bases and the edge of the killzone) Any that do so have escaped - remove them from the killzone.</li>
         </ul>
       </div>
 
