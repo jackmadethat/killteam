@@ -18,20 +18,7 @@ const KeyPrinciples = () => {
         <p>Cover is determined from one operative to another, usually when one of them is shooting. An operative is in cover if there’s intervening terrain within its control range. However, it cannot be in cover within 2" of the other operative.</p>
         <p className="indentNote"><em>An operative in cover with a Conceal order is not a valid target. An operative in cover with an Engage order is a valid target, but has a cover save.</em></p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/cover-example-1.png" className="imgGraphic" alt="Cover Example" />
-            <p>There’s intervening terrain within operative A’s control range, therefore it’s in cover.</p>
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/cover-example-2.png" className="imgGraphic" alt="Cover Example" />
-            <p>There’s intervening terrain, but it’s not within operative A’s control range, therefore it’s not in cover.</p>
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/cover-example-3.png" className="imgGraphic" alt="Cover Example" />
-            <p>There’s terrain within operative A’s control range, but the terrain is not intervening, therefore it’s not in cover.</p>
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/cover-example-4.png" className="imgGraphic" alt="Cover Example" />
-            <p>There’s intervening terrain within operative A’s control range, but operative B is within 2" of operative A, therefore it’s not in cover.</p>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/cover.JPG" className="imgGraphic" alt="Cover Example" />
         </figure>
         
         <h3>Damage</h3>
