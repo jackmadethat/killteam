@@ -361,11 +361,81 @@ const PvESequence = () => {
           </tr>
         </tbody>
       </table>
+
       <h3>Missions: Joint Operations</h3>
-      <p>The following are example missions designed for co-op or single-player games.</p>
+      <p>The following are example missions designed for co-op or single-player games. Place terrain and other details at your discretion, or in accordance with specific killzone rulesets.</p>
+      
       <h3><em>Breach</em></h3>
+      <p>An enemy facility has been identified as a vital command post, supply base or other strategic asset that must be eliminated. With your operatives assembled, you must now secure entrance to the site.</p>
+      <figure>
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/JointOps_Breach.JPG" className="imgGraphic" />
+      </figure> 
+
+      <b>Mission Rule</b>
+      <ul>
+        <li><b>NPOs</b>: Any combination of NPOs with a combined wounds stat of up to 90. Set them up with a conceal order wholly within the NPO Deployment Zone and spread out in cover.</li>
+      </ul>
+      <b>Victory Condition</b>
+      <ul>
+        <li><b>Win</b>: If all NPOs are incapacitated, the battle ends with a player victory.</li>
+        <li><b>Lose</b>: If all player operatives are incapacitated or the game exceeds 4 turning points, the battle ends with a player defeat.</li>
+      </ul>
+
       <h3><em>Sabotage</em></h3>
+      <p>Having forced passage into the enemy facility, it now falls to your operatives to locate and sabotage key systems and strategic assets while eleminating the waves of the enemy soldiers rushing to defend them.</p>
+      <figure>
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/JointOps_Sabotage.JPG" className="imgGraphic" />
+      </figure> 
+
+      <b>Mission Rule</b>
+      <ul>
+        <li><b>NPOs</b>: Any combination of NPOs with a combined wounds stat of up to 90. Set them up with a conceal order wholly within the NPO Deployment Zone and spread out in cover.</li>
+        <li><b>Reinforcements</b>: Each strategy phase, if half of the NPOs are incapacitated, they call in reinforcements as a Strategic Gambit. Randomly select two incapacitated NPOs (excluding Heavy NPOs) or one incapacitated Heavy NPO. Set them up with a conceal order and in cover (if possible) within 3" of a reinforcement marker.</li>
+      </ul>
+      <b>Victory Condition</b>
+      <ul>
+        <li><b>Win</b>: If all NPOs are incapacitated or all objective markers are sabotaged, the battle ends with a player victory.</li>
+        <li><b>Lose</b>: If all player operatives are incapacitated or the game exceeds 4 turning points, the battle ends with a player defeat.</li>
+      </ul>
+      <div className="actionLine"></div>
+      <div className="actionDiv">
+        <div className="titleBlock">
+          <p className="actionName">SABOTAGE</p>
+          <p className="actionCost"><b>1AP</b></p>
+        </div>
+        <ul>
+          <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> One objective marker the active operative controls is sabotaged.</li>
+          <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been sabotaged.</li>
+        </ul>
+      </div>
+
       <h3><em>Escape</em></h3>
+      <p>The facility burns. Vital enemy assets have been annihilated thanks to your operatives’ efforts. With vengeful foes closing in from all sides, now is the time to make good your escape.</p>
+      <figure>
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/JointOps_Escape.JPG" className="imgGraphic" />
+      </figure> 
+
+      <b>Mission Rule</b>
+      <ul>
+        <li><b>NPOs</b>: Any combination of NPOs with a combined wounds stat of up to 77. Set them up with a conceal order wholly within the NPO Deployment Zone and spread out in cover.</li>
+        <li><b>Reinforcements</b>: Each strategy phase, if half of the NPOs are incapacitated, they call in reinforcements as a Strategic Gambit. Randomly select two incapacitated NPOs (excluding Heavy NPOs) or one incapacitated Heavy NPO. Set them up with a conceal order and in cover (if possible) within 6" of a killzone edge and more than 6" from friendly operatives.</li>
+      </ul>
+      <b>Victory Condition</b>
+      <ul>
+        <li><b>Win</b>: If all player operatives escape within 4 turning points, the battle ends with a player victory.</li>
+        <li><b>Lose</b>: If all player operatives are incapacitated or the game exceeds 4 turning points, the battle ends with a player defeat.</li>
+      </ul>
+      <div className="actionLine"></div>
+      <div className="actionDiv">
+        <div className="titleBlock">
+          <p className="actionName">ESCAPE</p>
+          <p className="actionCost"><b>0AP</b></p>
+        </div>
+        <ul>
+          <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The player’ operatives can move wholly over the NPO’s killzone edge (this takes precedence over bases and the edge of the killzone) Any that do so have escaped - remove them from the killzone.</li>
+        </ul>
+      </div>
+
     </div>
   )
 }

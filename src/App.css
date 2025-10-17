@@ -247,6 +247,9 @@ Action Card
     font-weight: 40;
     border: 2px var(--darkerOrange) solid;
     border-bottom-right-radius: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     ul {
         list-style-type: none;
         margin-left: -30px;
@@ -263,9 +266,11 @@ Action Card
 
 .actionLine {
     height: 2px;
-    width: 100%;
+    width: 90%;
     margin-bottom: 3px;
     border: 1px solid var(--darkerOrange);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .titleBlock {
