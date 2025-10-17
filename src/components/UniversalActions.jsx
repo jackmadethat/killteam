@@ -122,12 +122,14 @@ const UniversalActions = () => {
         
         <ol>
             <li>Select Weapon
-                <p>The attacker selects one ranged weapon (<img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" />) to use that their operative has and collects their attack dice — a number of D6 equal to the weapon’s Atk stat.</p>
+                <p>The attacker selects one of their operative's ranged weapons (<img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" />) and attack dice (D6) equal to the weapon’s Atk stat.</p>
             </li>
             <li>Select Valid Target
                 <p>The attacker selects an enemy operative that’s a valid target and has no friendly operatives within its control range.</p>
-                <p>If the intended target has an <b>Engage</b> order, it’s a valid target if it’s visible to the active operative.</p> 
-                <p>If the intended target has a <b>Conceal</b> order, it’s a valid target if it’s visible to the active operative and not in cover.</p> 
+                <ul>
+                    <li>If the intended target has an <b>Engage</b> order, it’s a valid target if it’s visible to the active operative.</li>
+                    <li>If the intended target has a <b>Conceal</b> order, it’s a valid target if it’s visible to the active operative and not in cover.</li>
+                </ul>
                 <p>An operative is visible if the active operative can see it. An operative is in cover if there’s intervening terrain within its control range. However, it cannot be in cover while within 2” of the active operative.</p>
                 <p>An operative cannot be in cover from and obscured by the same terrain feature. If it would be, the defender must select one of them (cover or obscured) for that sequence when their operative is selected as the valid target.</p>
                 <p style={{ paddingLeft: 5 + '%', paddingRight: 10 + '%' }}><em>In some very rare cases, you will be both the attacker and the defender, such as when resolving a shot against a friendly operative as a result of the Blast rule. When this occurs, you roll both the attack and defense dice (not your opponent).</em></p>
@@ -177,15 +179,15 @@ const UniversalActions = () => {
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action unless an enemy operative is within its control range.</li>
             </ul>
         </div>
-        <p className="indentNote"><em>Unlike shooting, combat is a brutal back-and-forth. Be careful when choosing whom you fight, as they will fight back.</em></p>
+        <p className="indentNote"><em>Unlike shooting, combat is a brutal back-and-forth. Be careful when choosing who you fight, as they will fight back.</em></p>
         
         <ol>
             <li>Select Enemy Operative
-                <p>The attacker selects an enemy operative within the active operative’s control range to fight against. That enemy operative will retaliate in this action.</p>
+                <p>The attacker selects an enemy operative within the active operative’s control range to fight. That enemy operative will retaliate in this action.</p>
                 <p style={{ paddingLeft: 5 + '%', paddingRight: 10 + '%' }}><em>The difference between a fighting operative and a retaliating one is important. The fighting operative is the active operative, while the retaliating operative is the chosen enemy operative.</em></p>
             </li>
             <li>Select Weapons
-                <p>Both players select one melee weapon (<img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" />) to use that their operative has and collect their attack dice — a number of D6 equal to the weapon’s Atk stat.</p>
+                <p>Both players select one of their operative's melee weapons (<img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" />) collect their attack dice (D6) equal to the weapon’s Atk stat.</p>
                 <p style={{ paddingLeft: 5 + '%', paddingRight: 10 + '%' }}><em>If a rule indicates that an operative cannot retaliate, you can still fight against them, but no attack dice can be gathered or resolved for them.</em></p>
             </li>
             <li>Roll Attack Dice
@@ -194,14 +196,14 @@ const UniversalActions = () => {
                 <p style={{ paddingLeft: 5 + '%', paddingRight: 10 + '%' }}><em>Having multiple friendly operatives in the control range of an enemy operative does not allow them to fight all at once, but having assistance makes it more likely to succeed on attack dice.</em></p>
             </li>
             <li>Resolve Attack Dice
-                <p>Starting with the attacker, the players alternate resolving one of their successful unblocked attack dice. The players repeat this process until one player has resolved all their dice (in which case their opponent resolves all their remaining dice), or one operative in that fight is incapacitated (see damage on pg 47). When a player resolves a dice, they must strike or block with it.</p>
+                <p>Starting with the attacker, the players alternate resolving one of their successful unblocked attack dice. The players repeat this process until one player has resolved all their dice (in which case their opponent resolves all their remaining dice), or one operative in that fight is incapacitated. When a player resolves a dice, they must strike or block with it.</p>
                 <p style={{ paddingLeft: 5 + '%', paddingRight: 10 + '%' }}><em>Striking directly inflicts damage, making it an effective way to harm enemies.</em></p>
                 <p>If they strike, inflict damage on the enemy operative, then discard that dice.</p>
                 <ul>
                     <li>A normal success inflicts damage equal to the weapon’s Normal Dmg stat.</li>
                     <li>A critical success inflicts damage equal to the weapon’s Critical Dmg stat.</li>
                 </ul>
-                <p style={{ paddingLeft: 5 + '%', paddingRight: 10 + '%' }}><em>Blocking doesn’t stop a strike that’s already happening; it stops a success that is still unresolved.</em></p>
+                <p style={{ paddingLeft: 5 + '%', paddingRight: 10 + '%' }}><em>Blocking doesn’t stop a strike that’s already happening; it stops a success that is unresolved.</em></p>
                 <p>If they block, they can allocate that dice to block one of their opponent’s unresolved successes.</p>
                 <ul>
                     <li>A normal success can block a normal success.</li>
