@@ -89,7 +89,7 @@ const PvESequence = () => {
         </li><br />
         <li><b>All Marksmen</b>
           <p>The NPO will move to an ideal position to shoot player operatives. The NPO will perform an action if (listed by priority):</p>
-          <p>If the NPO can <b>Shoot</b>, give the engage order, otherwise give the conceal order, then do:</p>
+          <p>If the NPO can <b>Shoot</b>, give the engage order and perform it's shoot action, otherwise give the conceal order, then do:</p>
           <ol>
             <li><b>Fall Back</b> to <b>cover</b> if possible, where a valid target is not <b>obscured</b>. If not, to the nearest visible objective marker</li>
             <li><b>Shoot</b> at a target using conditions listed above or using your best judgement, choosing the worst target for the player</li>
