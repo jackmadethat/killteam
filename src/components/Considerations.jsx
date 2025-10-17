@@ -5,7 +5,7 @@ const Considerations = () => {
 
         <h3>Datacards</h3>
         <p>Datacards contain specific rules for each operative, including key stats.</p>
-        <p className="indentNote"><em>Below is an example of an operative's datacard from the Angels of Death kill team (available on the Warhammer Community website).</em></p>
+        <p className="indentNote"><em>Below is an example of an operative's datacard from the Angels of Death kill team (available free on the Warhammer Community website).</em></p>
         <br />
 
         <table className="weaponTable dataCard">
