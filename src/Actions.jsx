@@ -31,10 +31,12 @@ const Actions = () => {
         <div className="hovered" onClick={toggleGuard}><h2 className="textCenter subHeading">Guard</h2></div>
         {visible_Guard && <Guard />}
       </div>
+      {/*
       <div className="sectionButton">
         <div className="hovered" onClick={toggleCounteract}><h2 className="textCenter subHeading">Counteract</h2></div>
         {visible_Counteract && <Counteract />}
       </div>
+       */}
     </>
   )
 }

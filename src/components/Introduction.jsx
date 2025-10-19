@@ -13,6 +13,7 @@ const Introduction = () => {
         </li>
         <li>Terrain and equipment markers, either from official Kill Team box sets or improvised from elsewhere (Jenga blocks are a surprisingly effective proxy for terrain)</li>
         <li>A measurement device, such as measuring tape or a ruler</li>
+        <li>A way to track score and other data for the duration of the game, such as a notepad</li>
         <li>Around 10 six-sided dice (D6)</li>
         <li>Gameplay tokens
           <p className="indentNote"><em><a href="https://github.com/jackmadethat/killteam/raw/refs/heads/main/src/assets/KillTeamTokens_Printable.zip">Click here</a> to download printable A4 sheets with all the tokens you'll need for a game of Kill Team.</em></p>

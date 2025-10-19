@@ -1,6 +1,7 @@
 const TacOps = () => {
   return (
     <div className="sectionContent" id="tacOps">
+      <p style={{ marginBottom: 40 + 'px' }}>A Tac Op is a secret objective that each player chooses individually at the start of the game by selecting one from one of their team's archetypes (for example, Warpcoven must select either <b>Security</b> or <b>Recon</b>). Each Tac Op explains how it is scored and other relevant information, such as Op-specific actions. Each player can score a maximum of 6VP total (for the entire game) from their Tac Op.</p>
 
       <div className="missionGrid">
         <div className="missionOp">

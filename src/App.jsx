@@ -76,11 +76,6 @@ const App = () => {
       </div>
       {visible_Killzones && <Killzones />}
 
-      <div className="categoryButton" onClick={toggleEquipment}>
-        <h2 className="textCenter">Equipment</h2>
-      </div>
-      {visible_Equipment && <Equipment />}
-
       <div className="categoryButton" onClick={toggleActions}>
         <h2 className="textCenter">Actions</h2>
       </div>
@@ -90,6 +85,11 @@ const App = () => {
         <h2 className="textCenter">Weapons</h2>
       </div>
       {visible_Weapons && <Weapons />}
+
+      <div className="categoryButton" onClick={toggleEquipment}>
+        <h2 className="textCenter">Equipment</h2>
+      </div>
+      {visible_Equipment && <Equipment />}
 
       <div className="categoryButton" onClick={toggleTerrain}>
         <h2 className="textCenter">Terrain</h2>

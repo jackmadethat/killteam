@@ -119,7 +119,7 @@ const UniversalActions = () => {
             </ul>
         </div>
         <p className="indentNote"><em>To no one’s surprise, Kill Team can be a very lethal game, so if you frequently lose operatives to enemy shooting, consider playing more defensively, placing your operatives in cover and using a Conceal order.</em></p>
-        
+        <h3>Shooting</h3>
         <ol>
             <li>Select Weapon
                 <p>The attacker selects one of their operative's ranged weapons (<img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" />) and attack dice (D6) equal to the weapon’s Atk stat.</p>
@@ -180,7 +180,7 @@ const UniversalActions = () => {
             </ul>
         </div>
         <p className="indentNote"><em>Unlike shooting, combat is a brutal back-and-forth. Be careful when choosing who you fight, as they will fight back.</em></p>
-        
+        <h3>Fighting</h3>
         <ol>
             <li>Select Enemy Operative
                 <p>The attacker selects an enemy operative within the active operative’s control range to fight. That enemy operative will retaliate in this action.</p>

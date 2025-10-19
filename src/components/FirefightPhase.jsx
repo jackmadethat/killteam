@@ -33,7 +33,16 @@ const FirefightPhase = () => {
       </ul>
       <p className="indentNote"><em>An order token with the darker side up shows an operative as expended.</em></p>
       <h3>Counteract</h3>
-      <p>When you would activate a ready friendly operative, if all your operatives are expended but your opponent still has ready operatives, you can select an expended friendly operative with an <b>Engage</b> order to perform a <b>free</b> 1AP action. Each operative can only counteract once per turning point, and cannot move more than 2" while counteracting (this is not a change to its Move stat and takes precedence over all other rules).</p>
+        <div className="actionLine"></div>
+        <div className="actionDiv">
+            <div className="titleBlock">
+                <p className="actionName">COUNTERACT</p>
+                <p className="actionCost"><b>0AP</b></p>
+            </div>
+            <ul>
+              <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> When you would activate a ready friendly operative, if all your operatives are expended but your opponent still has ready operatives, you can select an expended friendly operative with an Engage order to perform a <b>1AP</b> action for free (excluding Guard). Each operative can only counteract once per turning point, and cannot move more than 2", or must be set up wholly within 2" if it’s removed and set up again, while counteracting (this is not a change to its Move stat, and takes precedence over all other rules). </li>
+            </ul>
+        </div>
       <p>Counteracting is optional; you can choose not to. In either case, activation alternates back to your opponent afterwards.</p>
       <p className="indentNote"><em>Counteracting isn’t an activation, it’s instead of activating. This difference is important; for instance, it means action restrictions won’t apply.</em></p>
     </div>
