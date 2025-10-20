@@ -112,8 +112,8 @@ const KeyPrinciples = () => {
         <p>All players have access to the Command Re-roll firefight ploy below and the ploys in their kill team’s rules. Other than Command Re-roll, each player cannot use each ploy more than once per turning point.</p>
 
         <div className="strategyPloy">
-        <p><b>Command Re-Roll</b><br /><span style={{ fontSize: 1.3 + 'em' }}>1CP</span></p>
-        <p>Use this firefight ploy after rolling your attack or defence dice. You can re-roll one of those dice.</p>
+            <p><b>Command Re-Roll</b><br /><span style={{ fontSize: 1.3 + 'em' }}>1CP</span></p>
+            <p>Use this firefight ploy after rolling your attack or defence dice. You can re-roll one of those dice.</p>
         </div>
         
         <h3>Precedence</h3>

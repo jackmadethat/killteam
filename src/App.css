@@ -238,6 +238,14 @@ Formatting
     background-color: #ffffff10;
 }
 
+.enviroNote {
+    border: 2px solid rgba(255, 0, 0, 0.3);
+    text-align: center;
+    padding-bottom: 3px;
+    padding-top: 6px;
+    background-color: #ff00002d;
+}
+
 /**
 Action Card
 **/
@@ -254,6 +262,10 @@ Action Card
         list-style-type: none;
         margin-left: -30px;
         padding-right: 15px;
+        ul {
+            list-style-type: disc;
+            margin-left: -50px;
+        }
         li {
             margin-bottom: 10px;
             margin-left: 25px;
@@ -364,6 +376,12 @@ Mission Ops
     font-size: 0.85em;
     max-width: 350px;
     width: 350px;
+    ul {
+        margin-left: -10px;
+    }
+    .actionDiv li {
+        margin-left: 5px;
+    }
 }
 
 .opTitle {
