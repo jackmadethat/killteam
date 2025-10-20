@@ -119,7 +119,7 @@ const Considerations = () => {
                         <br />
                     </td>
                 </tr>
-                <tr><br /><br /></tr>
+                <tr></tr>
             </tbody>
         </table>
 
