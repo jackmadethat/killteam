@@ -321,7 +321,7 @@ Weapon Stats Table
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    max-width: 650px;
+    max-width: 800px;
     margin-bottom: 10px;
     th:first-of-type {
         text-align: left;
@@ -353,6 +353,11 @@ Weapon Stats Table
     td {
         text-align: left;
     }
+}
+
+.continueText {
+    background-color: var(--darkerOrange);
+    text-align: right;
 }
 
 /**
@@ -488,7 +493,8 @@ Datacard
 **/
 
 .dataCard {
-    width: 80%;
+    width: 90%;
+    min-height: 350px;
     border: 1px solid #888;
     margin-bottom: 20px;
     padding-top: 5px;
@@ -518,17 +524,17 @@ Datacard
         }
         th:nth-child(1) {
             font-size: 0.9em;
-            width: 35%;
+            width: 40%;
             text-align: left;
             padding-left: 5px;
         }
         th:nth-child(n+2):nth-child(-n+4) {
             font-size: 0.9em;
-            width: 40px;
+            width: 30px;
         }
         th:nth-child(n+2):nth-child(-n+4) {
             font-size: 0.9em;
-            width: 40px;
+            width: 30px;
         }
         th:nth-child(5) {
             font-size: 0.85em;
@@ -541,7 +547,7 @@ Datacard
         }
         td:nth-child(5) {
             text-align: left;
-            font-size: 0.85em;
+            font-size: 0.75em;
             padding-left: 5px;
         }
     }
@@ -558,16 +564,18 @@ Datacard
     line-height: 20px;
     font-size: 12px;
     padding-top: 2px;
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .datacardAdditionalRules {
     font-size: 0.8em;
+    vertical-align: top;
 }
 
 .datacardKeywords {
-    font-size: 1em;
-    padding-top: 10px;
+    font-size: 0.9em;
+    padding-top: 0px;
     span {
         color: var(--darkerOrange);
     }

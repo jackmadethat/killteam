@@ -11,11 +11,11 @@ const Considerations = () => {
         <table className="weaponTable dataCard">
             <tbody>
                 <tr>
-                    <th>ASSAULT INTERCESSOR GRENADIER</th>
+                    <th>ELIMINATOR SNIPER</th>
                     <th>APL<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/apl.svg" className="svgImg" alt="APL" />3</th>
-                    <th>MOV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" />6"</th>
+                    <th>MOV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" />7"</th>
                     <th>SAV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/save.svg" className="svgImg" alt="Save" />3+</th>
-                    <th>WND<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" />14</th>
+                    <th>WND<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" />12</th>
                 </tr>
                 <tr>
                     <td colspan="5">
@@ -29,17 +29,38 @@ const Considerations = () => {
                                     <th>WEAPON RULES</th>
                                 </tr>
                                 <tr>
-                                    <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Shoot" /> Heavy Bolt Pistol</td>
+                                    <td style={{ paddingLeft: 5 + 'px' }}><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Shoot" /> Bolt Pistol</td>
                                     <td>4</td>
                                     <td>3+</td>
                                     <td>3/4</td>
-                                    <td>Range 8", Piercing Crits 1</td>
+                                    <td>Range 8"</td>
                                 </tr>
                                 <tr>
-                                    <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> Chainsword</td>
-                                    <td>5</td>
+                                    <td style={{ paddingLeft: 5 + 'px' }}><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Attack" /> Bolt Sniper Rifle (executioner)</td>
+                                    <td>4</td>
+                                    <td>2+</td>
+                                    <td>3/4</td>
+                                    <td>Heavy (<b>Dash</b> only), Saturate, Seek Light, Silent</td>
+                                </tr>
+                                <tr>
+                                    <td style={{ paddingLeft: 5 + 'px' }}><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Attack" /> Bolt Sniper Rifle (hyperfrag)</td>
+                                    <td>4</td>
+                                    <td>2+</td>
+                                    <td>2/4</td>
+                                    <td>Blast 1", Heavy (<b>Dash</b> only), Silent</td>
+                                </tr>
+                                <tr>
+                                    <td style={{ paddingLeft: 5 + 'px' }}><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Attack" /> Bolt Sniper Rifle (mortis)</td>
+                                    <td>4</td>
+                                    <td>2+</td>
+                                    <td>3/3</td>
+                                    <td>Devastating 3, Heavy (<b>Dash</b> only), Piercing 1, Silent</td>
+                                </tr>
+                                <tr>
+                                    <td style={{ paddingLeft: 5 + 'px' }}><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" alt="Attack" /> Fists</td>
+                                    <td>4</td>
                                     <td>3+</td>
-                                    <td>4/5</td>
+                                    <td>3/4</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
@@ -53,18 +74,55 @@ const Considerations = () => {
                         </table>
                     </td>
                 </tr>
+                <br />
+                <br />
                 <tr>
-                    <td colspan="5" className="datacardAdditionalRules"><b>Grenadier</b>: This operative can use frag and krak grenades (see universal equipment). Doing so doesn't count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives). Whenever it's doing so, improve the Hit stat of that weapon by 1.</td>
+                    <td colspan="5" className="datacardAdditionalRules continueText" style={{ textAlign: 'right' }}><b>RULES CONTINUE NEXT PANEL &gt;</b></td>
                 </tr>
                 <tr>
                     <td colspan="4" className="datacardKeywords"><span>ANGEL OF DEATH</span>, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, GRENADIER</td>
-                    <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">32</span></td>
+                    <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">40</span></td>
                 </tr>
                 <tr>
                     
                 </tr>
             </tbody>
         </table>
+
+        <table className="weaponTable dataCard">
+            <tbody>
+                <tr>
+                    <th>ELIMINATOR SNIPER</th>
+                    <th>APL<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/apl.svg" className="svgImg" alt="APL" />3</th>
+                    <th>MOV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" />7"</th>
+                    <th>SAV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/save.svg" className="svgImg" alt="Save" />3+</th>
+                    <th>WND<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" />12</th>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td colspan="1" className="datacardAdditionalRules"><b>Camo Cloak</b>: Whenever an operative is shooting this operative, ignore the Saturate weapon rule. This operative has the Stealthy <b>CHAPTER TACTIC</b>. If you selected that <b>CHAPTER TACTIC</b>, you can do both of its options (i.e. retain two cover saves – one normal and one critical success).</td>
+                    <td colspan="4" className="datacardAdditionalRules">
+                        <div className="actionLine"></div>
+                        <div className="actionDiv">
+                            <div className="titleBlock">
+                                <p className="actionName">OPTICS</p>
+                                <p className="actionCost"><b>1AP</b></p>
+                            </div>
+                            <ul style={{ textAlign: 'left' }}>
+                                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Until the start of this operative’s next activation, whenever it’s shooting, enemy operatives cannot be obscured.</li>
+                                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative.
+                                </li>
+                            </ul>
+                        </div>
+                        <br />
+                    </td>
+                </tr>
+                <tr><br /><br /></tr>
+            </tbody>
+        </table>
+
         <h3>Operative stats</h3>
         <ul>
             <li>
