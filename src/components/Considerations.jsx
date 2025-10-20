@@ -102,8 +102,8 @@ const Considerations = () => {
                 <tr></tr>
                 <tr></tr>
                 <tr>
-                    <td colspan="1" className="datacardAdditionalRules"><b>Camo Cloak</b>: Whenever an operative is shooting this operative, ignore the Saturate weapon rule. This operative has the Stealthy <b>CHAPTER TACTIC</b>. If you selected that <b>CHAPTER TACTIC</b>, you can do both of its options (i.e. retain two cover saves – one normal and one critical success).</td>
-                    <td colspan="4" className="datacardAdditionalRules">
+                    <td colspan="2" className="datacardAdditionalRules"><b>Camo Cloak</b>: Whenever an operative is shooting this operative, ignore the Saturate weapon rule. This operative has the Stealthy <b>CHAPTER TACTIC</b>. If you selected that <b>CHAPTER TACTIC</b>, you can do both of its options (i.e. retain two cover saves – one normal and one critical success).</td>
+                    <td colspan="3" className="datacardAdditionalRules">
                         <div className="actionLine"></div>
                         <div className="actionDiv">
                             <div className="titleBlock">

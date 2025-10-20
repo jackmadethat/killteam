@@ -493,7 +493,6 @@ Datacard
 **/
 
 .dataCard {
-    width: 90%;
     min-height: 350px;
     border: 1px solid #888;
     margin-bottom: 20px;
