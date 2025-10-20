@@ -152,7 +152,9 @@ const TacOps = () => {
             <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>ADDITIONAL RULES</h3>
             <p>Whenever an enemy operative is incapacitated, before it's removed from the killzone, place one of your Confirm Kill mission markers within it's control range.</p>
             <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
-            <p>At the end of each turning point after the first, if a friendly operative controls one of your Confirm Kill mission markers, that marker is not contested by enemy operatives and no enemy operatives are within are within the friendly operative's control range, you can remove that mission marker to score 1VP or 2VP if it was placed for an enemy operative with a Wounds state of 12 or more.</p>
+            <ul>
+              <li>At the end of each turning point after the first, if a friendly operative controls one of your Confirm Kill mission markers, that marker is not contested by enemy operatives and no enemy operatives are within are within the friendly operative's control range, you can remove that mission marker to score 1VP or 2VP if it was placed for an enemy operative with a Wounds state of 12 or more.</li>
+            </ul>
             <p>You can score a maximum of 2VP from this Tac Op per turning point.</p>
           </div>
 
@@ -181,8 +183,10 @@ const TacOps = () => {
                 </ul>
             </div>
             <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
-            <p>Once per turning point after the first, whenever one of your Beacon mission markers is placed wholly within your territory, you score 1VP.</p>
-            <p>Once per turning point after the first, whenever one of your Beacon mission markers is placed wholly within your opponent's territory, you score 1VP.</p>
+            <ul>
+              <li>Once per turning point after the first, whenever one of your Beacon mission markers is placed wholly within your territory, you score 1VP.</li>
+              <li>Once per turning point after the first, whenever one of your Beacon mission markers is placed wholly within your opponent's territory, you score 1VP.</li>
+            </ul>
           </div>
 
           <div className="missionOp">
@@ -192,7 +196,9 @@ const TacOps = () => {
             <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>ADDITIONAL RULES</h3>
             <p>When revealed, your opponent places one of your Item mission markers on the centreline and one within 2" of your territory. You then place one more than 6" from your territory. All of your Item mission markers must be more than 2" from other markers (including other Item mission markers). Your operatives can perform the <b>PICK UP MARKER</b> action on your Item mission markers after the first turning point.</p>
             <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
-            <p>At the end of the fourth turning point, for each of your Item mission markers that both the <b>PICK UP MARKER</b> action has been performed upon and a friendly operative controls, you score 2VP. Markers do not need to be carried to score, but each of them must have been carried by a friendly operative at some point during the battle.</p>
+            <ul>
+              <li>At the end of the fourth turning point, for each of your Item mission markers that both the <b>PICK UP MARKER</b> action has been performed upon and a friendly operative controls, you score 2VP. Markers do not need to be carried to score, but each of them must have been carried by a friendly operative at some point during the battle.</li>
+            </ul>
           </div>
 
           <div className="missionOp">
@@ -288,7 +294,9 @@ const TacOps = () => {
             <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>ADDITIONAL RULES</h3>
             <p>As a <b>STRATEGIC GAMBIT</b> in each turning point after the first, you can select one friendly operative to be your Champion for the duration of the turning point.</p>
             <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
-            <p>In each turning point after the first, whenever your Champion incapacitates an enemy operative you score 1VP or 2VP if that enemy operative has a Wounds state of 12 or more. In either case, you can gain a maximum of 2VP per turning point with this Tac Op.</p>
+            <ul>
+              <li>In each turning point after the first, whenever your Champion incapacitates an enemy operative you score 1VP or 2VP if that enemy operative has a Wounds state of 12 or more. In either case, you can gain a maximum of 2VP per turning point with this Tac Op.</li>
+            </ul>
           </div>
 
           <div className="missionOp">
@@ -410,6 +418,8 @@ const TacOps = () => {
             <h3 className="opTitleTac" style={{ backgroundColor: '#222766ff' }}><span className="tacOpType">SECURITY</span><br />TAKE GROUND</h3>
             <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
             <p>When you first score VP from this Op.</p>
+            <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>ADDITIONAL RULES</h3>
+            <p>An operative contests a stronghold terrain feature it's wholly within. An operative contests all other terrain features within their control range, or while underneath a terrain feature's Vantage terrian. Friendly operatives control each such terrain feature if the total APL stat of those contesting it is greater than that of enemy operatives.</p>
             <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
             <p>At the end of each turning point after the first:</p>
             <ul>
@@ -417,7 +427,6 @@ const TacOps = () => {
               <li>If <b>Killzone: Gallowdark</b> - For each access point that's on the centreline or within your opponent's territory that friendly operatives control, you score 1VP.</li>
               <li>If <b>any other killzone</b> - For each terrain feature with Heavy terrain within your opponent's territoy that friendly operatives control, you score 1VP.</li>
             </ul>
-            <p>An operative contests a stronghold terrain feature it's wholly within. An operative contests all other terrain features within their control range, or while underneath a terrain feature's Vantage terrian. Friendly operatives control each such terrain feature if the total APL stat of those contesting it is greater than that of enemy operatives.</p>
           </div>
 
         </div>
