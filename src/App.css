@@ -494,6 +494,7 @@ Datacard
 
 .dataCard {
     width: 100%;
+    display: block;
     min-height: 350px;
     border: 1px solid #888;
     margin-bottom: 20px;
@@ -659,6 +660,6 @@ Media Rules
         margin-right: 5%;
     }
     .weaponTable {
-        width: 450px;
+        width: 100%;
     }
 }
