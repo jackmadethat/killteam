@@ -3,8 +3,8 @@ import MapsKey from './Maps_Key'
 const MapsGallowdark = () => {
   return (
     <div className="sectionContent" id="gallowdark">
+      <p>The <i>Gallowdark</i> is a derelict space hulk – a conglomeration of ships pressed together over many centuries, filled with buckled corridors, bulkheads, and jagged metal. Filled with technology, relics, or the mysteries of the past, small teams of warriors will often cross paths with enemy operatives in the twisted corridors.</p>
       <figure>
-        <p>The <i>Gallowdark</i> is a derelict space hulk – a conglomeration of ships pressed together over many centuries, filled with buckled corridors, bulkheads, and jagged metal. Filled with technology, relics, or the mysteries of the past, small teams of warriors will often cross paths with enemy operatives in the twisted corridors.</p>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Gallowdark.JPG" className="imgGraphic" />
       </figure>
       <br />
