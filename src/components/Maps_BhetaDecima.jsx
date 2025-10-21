@@ -6,6 +6,7 @@ const MapsBhetaDecima = () => {
       <p>The toxic seas of <i>Bheta-Decima</i> are deadly, but they contain the remains of a vital facility containing relics and technology that could turn the tide of war. Teams of elite operatives clash over the exposed gantries, contending with the hungry depths as much as the enemy.</p>
       <figure>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Bheta-Decima.JPG" className="imgGraphic" />
+        <p className="indentNote"><em>Areas marked in blue are hazardous terrain.</em></p>
       </figure>
       <br />
       <MapsKey />
