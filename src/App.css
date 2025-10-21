@@ -341,8 +341,8 @@ Weapon Stats Table
 .weaponRulesTable {
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    max-width: 650px;
+    width: 100%;
+    max-width: 800px;
     th:first-of-type {
         text-align: left;
     }

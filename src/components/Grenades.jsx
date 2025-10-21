@@ -43,7 +43,7 @@ const Grenades = () => {
         <p>The forces of the 41st Millennium utilise a wide range of offensive grenades, from simple fragmentation grenades to plasma and gravitic concussion grenades, and even more exotic devices employed to pierce enemy armour.</p>
         <p>When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak). Each selection is a unique weapon your operatives can use, but your kill team can only use that weapon a total number of times during the battle equal to your selection.</p>
         
-        <table className="weaponTable">
+        <table className="weaponTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
                 <tr>
                     <th>NAME</th>
@@ -59,7 +59,7 @@ const Grenades = () => {
                 </tr>
             </tbody>
         </table>
-        <table className="weaponRulesTable">
+        <table className="weaponRulesTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
                 <tr>
                     <th>WEAPON RULES</th>
@@ -74,7 +74,7 @@ const Grenades = () => {
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/explosivegrenades-example-1.png" className="imgGraphic" />
         </figure>
 
-        <table className="weaponTable">
+        <table className="weaponTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
                 <tr>
                     <th>NAME</th>
@@ -90,7 +90,7 @@ const Grenades = () => {
                 </tr>
             </tbody>
         </table>
-        <table className="weaponRulesTable">
+        <table className="weaponRulesTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
                 <tr>
                     <th>WEAPON RULES</th>
