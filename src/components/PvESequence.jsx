@@ -97,7 +97,7 @@ const PvESequence = () => {
         </li>
       </ul>
       <h3>NPO Types</h3>
-      <table className="weaponTable dataCard">
+      <table className="weaponTable dataCard" style={{ minHeight: 100 + 'px' }}>
         <tbody>
           <tr>
             <th>BRAWLER: TROOPER</th>
@@ -131,10 +131,13 @@ const PvESequence = () => {
           <tr>
             <td colspan="5" className="datacardAdditionalRules"></td>
           </tr>
+          <tr>
+            <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">32</span></td>
+          </tr>
         </tbody>
       </table>
 
-      <table className="weaponTable dataCard">
+      <table className="weaponTable dataCard" style={{ minHeight: 100 + 'px' }}>
         <tbody>
           <tr>
             <th>BRAWLER: TOUGH</th>
@@ -168,10 +171,13 @@ const PvESequence = () => {
           <tr>
             <td colspan="5" className="datacardAdditionalRules"></td>
           </tr>
+          <tr>
+            <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">32</span></td>
+          </tr>
         </tbody>
       </table>
 
-      <table className="weaponTable dataCard">
+      <table className="weaponTable dataCard" style={{ minHeight: 100 + 'px' }}>
         <tbody>
           <tr>
             <th>BRAWLER: HEAVY</th>
@@ -212,10 +218,13 @@ const PvESequence = () => {
           <tr>
             <td colspan="5" className="datacardAdditionalRules">This operative can perform two <b>Fight</b> actions per activation.</td>
           </tr>
+          <tr>
+            <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">40</span></td>
+          </tr>
         </tbody>
       </table>
 
-      <table className="weaponTable dataCard">
+      <table className="weaponTable dataCard" style={{ minHeight: 100 + 'px' }}>
         <tbody>
           <tr>
             <th>MARKSMAN: TROOPER</th>
@@ -270,10 +279,13 @@ const PvESequence = () => {
           <tr>
             <td colspan="5" className="datacardAdditionalRules">*Only 1 in 3 of this operative type can have this weapon.</td>
           </tr>
+          <tr>
+            <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">32</span></td>
+          </tr>
         </tbody>
       </table>
 
-      <table className="weaponTable dataCard">
+      <table className="weaponTable dataCard" style={{ minHeight: 100 + 'px' }}>
         <tbody>
           <tr>
             <th>MARKSMAN: WARRIOR</th>
@@ -314,10 +326,13 @@ const PvESequence = () => {
           <tr>
             <td colspan="5" className="datacardAdditionalRules"></td>
           </tr>
+          <tr>
+            <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">32</span></td>
+          </tr>
         </tbody>
       </table>
 
-      <table className="weaponTable dataCard">
+      <table className="weaponTable dataCard" style={{ minHeight: 100 + 'px' }}>
         <tbody>
           <tr>
             <th>MARKSMAN: HEAVY</th>
@@ -357,6 +372,9 @@ const PvESequence = () => {
             </tr>
           <tr>
             <td colspan="5" className="datacardAdditionalRules">This operative can perform two <b>Shoot</b> actions per activation.</td>
+          </tr>
+          <tr>
+            <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">40</span></td>
           </tr>
         </tbody>
       </table>

@@ -90,8 +90,10 @@ const TacOps = () => {
             <p>Whenever a friendly operative is shooting an enemy operative within 6" of it, when you would resolve an attack die, you can implant the enemy operative instead of inflict damage with that die (then discard that die).</p>
             <p>Each operative can only be implanted once and cannot be implanted during the first turning point.</p>
             <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
-            <p>Once per turning point after the first, if you implant an enemy operative, you score 1VP.</p>
-            <p>At the end of each turning point after the first, if any implanted enemy operatives are in the killzone, you score 1VP.</p>
+            <ul>
+              <li>Once per turning point after the first, if you implant an enemy operative, you score 1VP.</li>
+              <li>At the end of each turning point after the first, if any implanted enemy operatives are in the killzone, you score 1VP.</li>
+            </ul>
           </div>
 
           <div className="missionOp">
