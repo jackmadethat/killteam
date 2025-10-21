@@ -206,13 +206,13 @@ const TerrainRules = () => {
                 <p>Killzone: Tomb World uses a 606mm x 703mm game board with a 6x7 grid system for setting up. It has 1x sarcophagus, 4x debris and 2x each other terrain feature. It also has 16x half pillars to complete terrain configuration. Note that some mission maps use less than this.</p>
                 
                 <h3>Tomb World Wall</h3>
-                <p>A Tomb World wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway (pg 55) or a breach point (pg 56).</p>
+                <p>A Tomb World wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway or a breach point.</p>
                 <p>Wall terrain:</p>
                 <ul>
                     <li>Operatives cannot move over or through Wall terrain (this takes precedence over all other rules).</li>
                     <li>Visibility cannot be determined over or through Wall terrain.</li>
                     <li>Other than to areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be measured over or through Wall terrain; they must be measured around it using the shortest possible route.</li>
-                    <li>For the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene, unless the active operative has passed it (see examples on pg 54).</li>
+                    <li>For the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene, unless the active operative has passed it.</li>
                 </ul>
                 <figure>
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/tomb-world-walls-1.png" className="imgGraphic" />
@@ -294,7 +294,7 @@ const TerrainRules = () => {
                 </figure>
                 
                 <h3>Condensed Environment</h3>
-                <p>Weapons with the Blast, Torrent and/or x” Devastating (i.e. Devastating with a distance requirement) weapon rule also have the Lethal 5+ weapon rule (pg. 111).</p>
+                <p>Weapons with the Blast, Torrent and/or x” Devastating (i.e. Devastating with a distance requirement) weapon rule also have the Lethal 5+ weapon rule.</p>
             </>
         }
     </div>
