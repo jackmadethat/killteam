@@ -75,10 +75,10 @@ const GameSequence = () => {
       </ol>
       <h3>Scoring</h3>
       <ul>
-        <li><b>CRIT OP</b>: Score VP by performing mission actions and controlling objective markers (Max 6VP per game)</li>
-        <li><b>KILL OP</b>: Score VP for each enemy operative eliminated or per Kill Op card (Max 6VP per game)</li>
+        <li><b>CRIT OP</b>: Score VP by performing mission actions and controlling objective markers (Max 6VP per game).</li>
+        <li><b>KILL OP</b>: Score VP for each enemy operative eliminated or per Kill Op card (Max 6VP per game).</li>
         <li><b>TAC OP</b>: Score VP as described on the Tac Op (Max 6VP per game).</li>
-        <li><b>PRIMARY OP</b>: Before the first TP, players will have selected one Op to be their Primary Op. At the end of the battle, their score for their selected Primary Op is multiplied by 1.5, rounding up</li>
+        <li><b>PRIMARY OP</b>: Before the first TP, players will have selected one Op to be their Primary Op. At the end of the battle, they are awarded an additional half of their score for their selected Primary Op (Primary Op score * 1.5).</li>
       </ul>
     </div>
   )
