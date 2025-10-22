@@ -80,7 +80,7 @@ const Considerations = () => {
                     <td colspan="5" className="datacardAdditionalRules continueText" style={{ textAlign: 'right' }}><b>RULES CONTINUE NEXT PANEL &gt;</b></td>
                 </tr>
                 <tr>
-                    <td colspan="4" className="datacardKeywords"><span>ANGEL OF DEATH</span>, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, GRENADIER</td>
+                    <td colspan="4" className="datacardKeywords"><span>ANGELS OF DEATH</span>, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, GRENADIER</td>
                     <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">40</span></td>
                 </tr>
                 <tr>

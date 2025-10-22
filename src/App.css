@@ -220,6 +220,7 @@ Formatting
 
 .blackIcon {
     filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(-5deg) brightness(100%) contrast(100%);
+    height: 17px;
 }
 
 .weaponLine {
