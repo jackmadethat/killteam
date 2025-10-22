@@ -51,7 +51,6 @@ const App = () => {
     setVisible_Killzones(!visible_Killzones);
   };
 
-  // https://kt3.albecortes.com/
   // https://ktdash.app/
 
   return (
