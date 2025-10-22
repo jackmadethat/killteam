@@ -41,7 +41,7 @@ const Header = () => {
         </div>
         <div className="textCenter">
           <button className="disclaimerBtn" onClick={toggleVisibility}><span style={{ color: 'white' }}>DISCLAIMER</span></button>
-          {isVisible && <p id="disclaimer"><i>This is a hand-made personal project made as a labor of love. It should not be used as a substitute for the official Kill Team rulebook as the information provided here differs from official rules or is out-of-date. The information displayed here has been compiled from freely available, legal sources such as Scribd, reddit, YouTube, and the Warhammer Community website. The author accepts no payments, donations or compensation of any kind for this work.<br /><br />Kill Team is the property of Games Workshop. Support your local game store; buy a physical copy of Kill Team Core Rules and a Kill Team box set.</i></p>}
+          {isVisible && <p id="disclaimer"><i>This is a hand-made personal project made for the love of the game. It should not be used as a substitute for the official Kill Team rulebook as the information provided here differs from official rules or is out-of-date. The information displayed here has been compiled from freely available, legal sources such as Scribd, reddit, YouTube, and the Warhammer Community website. The author accepts no payments, donations or compensation of any kind for this work.<br /><br />Kill Team is the property of Games Workshop. Support your local game store; buy a physical copy of Kill Team Core Rules and a Kill Team box set.</i></p>}
         </div>
     </>
   )
