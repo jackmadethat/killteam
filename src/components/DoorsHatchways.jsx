@@ -1,9 +1,8 @@
 const DoorsHatchways = () => {
   return (
     <div className="sectionContent" id="doors">
-        <h3>Doors</h3>
-        <p>A door has two statuses: closed and open. It has two parts — an access point and a door/hatch — and their terrain types depend upon the status. Operatives can perform the <b>Operate Door</b> mission action to change its status. Doors and hatchways begin the battle closed.</p>
-        <p>Some killzones may use different terminology such as 'Hatchway' instead of 'Door' but the principles and functionality remains the same unless specified otherwise.</p>
+        <p>A door has two states: open and closed. It has two parts — an access point and the door itself — and their terrain types depend upon the state. Operatives can perform the <b>Operate Door</b> mission action to change its state. Doors and hatchways begin the battle closed and, depending on specific rules and types, may only be opened from one side.</p>
+        <p>Some killzones may use different terminology such as 'Hatchway' instead of 'Door' but the principles and functionality remains the same unless specified otherwise. For example, the 'Operate Hatchway' action is identical in function to the 'Operate Door' action.</p>
         <p className="indentNote"><em>As an open door’s access point is Exposed terrain, the walls either side of it must be used for cover and obscuring instead of the access point.</em></p>
         
         <div className="actionLine"></div>
@@ -26,7 +25,7 @@ const DoorsHatchways = () => {
             <p>While a door is closed:</p>
             <ul style={{ textAlign: 'left' }}>
                 <li>Its door must be fully shut.</li>
-                <li>The access point and hatch are Heavy and Wall terrain.</li>
+                <li>The access point and door itself are Heavy and Wall terrain.</li>
             </ul>
         </figure>
         <figure>
@@ -38,7 +37,7 @@ const DoorsHatchways = () => {
                 <li>Its access point is Accessible, Insignificant and Exposed terrain.</li>
                 <li>Its door is Heavy and Wall terrain, and the gap directly underneath it is Blocking terrain.</li>
             </ul>
-            <p className="indentNote"><em>If operatives would prevent the door from fully opening or closing, temporarily remove them from the killzone, open or close the door, then return the operatives as close as possible to their original location. If an operative is within an enemy operative’s control range before a door is opened, it must be returned there.</em></p>
+            <p className="indentNote"><em>If the door has a physical hinge and operatives would prevent the door from fully opening or closing, just pick up the model, open the door, then place the model back as close as possible to it's original position. If an operative is within an enemy operative’s control range before a door is opened, it must be returned there.</em></p>
         </figure>
 
         <div className="actionLine"></div>
@@ -55,7 +54,7 @@ const DoorsHatchways = () => {
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> In the Select Enemy Operative step, instead select an enemy operative within 2” of, and on the other side of, an open door’s access point the active operative is touching. For the duration of that action, those operatives are treated as being within each other’s control range.
                 </li>
                 <li>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> This action is treated as a <b>Fight</b> action. An operative cannot perform this action while within control range of an enemy operative, or if its base isn’t touching an open door’s access point.
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> This action is treated as a <b>Fight</b> action. An operative cannot perform this action while within control range of an enemy operative, or if it's base isn’t touching an open door’s access point.
                 </li>
             </ul>
         </div>
