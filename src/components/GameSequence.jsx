@@ -68,7 +68,7 @@ const GameSequence = () => {
             <li>Players calculate their accumulated VP from the Crit Op, their selected Tac Op, and the Kill Op</li>
             <li>Players reveal their Primary Op and calculate their score by multiplying their awarded VP by 1.5 (rounding up)</li>
             <li>At the battle's end, the player with the most Victory Points (VP) wins, or it's a draw
-              <p className="indentNote"><em>Players can only earn VP after the first Turning Point</em></p>
+              <p className="indentNote"><em>Players can only earn VP after the first Turning Point.</em></p>
             </li>
           </ul>
         </li>
