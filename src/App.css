@@ -269,10 +269,11 @@ Action Card
         }
         li {
             margin-bottom: 10px;
-            margin-left: 20px;
+            margin-left: 28px;
         }
         img {
-            margin-left: -20px;
+            margin-left: -27px;
+            margin-right: 4px;
         }
     }
 }

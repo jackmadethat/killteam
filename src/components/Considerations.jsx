@@ -111,8 +111,8 @@ const Considerations = () => {
                                 <p className="actionCost"><b>1AP</b></p>
                             </div>
                             <ul style={{ textAlign: 'left' }}>
-                                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Until the start of this operative’s next activation, whenever it’s shooting, enemy operatives cannot be obscured.</li>
-                                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative.
+                                <li style={{ marginLeft: 17 + 'px' }}><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Until the start of this operative’s next activation, whenever it’s shooting, enemy operatives cannot be obscured.</li>
+                                <li style={{ marginLeft: 17 + 'px' }}><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action while within control range of an enemy operative.
                                 </li>
                             </ul>
                         </div>
