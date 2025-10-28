@@ -252,13 +252,13 @@ Action Card
 **/
 
 .actionDiv {
+    position: relative;
     font-size: 0.8em;
     font-weight: 40;
-    border: 2px var(--darkerOrange) solid;
-    border-bottom-right-radius: 20px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 6px;
     ul {
         list-style-type: none;
         margin-left: -30px;
@@ -276,6 +276,14 @@ Action Card
             margin-right: 4px;
         }
     }
+}
+
+.actionDiv:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--darkerOrange);
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 30px),calc(100% - 30px) 100%,0 100%,0 0,2px  2px ,2px calc(100% - 2px),calc(100% - 30px - 0.83px) calc(100% - 2px),calc(100% - 2px) calc(100% - 30px - 0.83px),calc(100% - 2px) 2px,2px 2px);
 }
 
 .actionLine {
@@ -503,7 +511,7 @@ Datacard
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 0px;
-    border-radius: 5px;
+    border-radius: 15px;
     tbody {
         tr {
             th:nth-child(1) {

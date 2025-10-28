@@ -77,7 +77,7 @@ const Considerations = () => {
                 <br />
                 <br />
                 <tr>
-                    <td colspan="5" className="datacardAdditionalRules continueText" style={{ textAlign: 'right' }}><b>RULES CONTINUE NEXT PANEL &gt;</b></td>
+                    <td colspan="5" className="datacardAdditionalRules continueText" style={{ textAlign: 'right', marginRight: 15 + 'px' }}><b>RULES CONTINUE NEXT PANEL &gt;</b></td>
                 </tr>
                 <tr>
                     <td colspan="4" className="datacardKeywords"><span>ANGELS OF DEATH</span>, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, GRENADIER</td>
