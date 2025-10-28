@@ -34,7 +34,7 @@ const Missions = () => {
       </div>
 
       <div className="sectionButton">
-        <div className="hovered" onClick={toggleKillOps}><h2 className="textCenter subHeading">Kill Ops</h2></div>
+        <div className="hovered" onClick={toggleKillOps}><h2 className="textCenter subHeading">Kill Op</h2></div>
         {visible_KillOps && <KillOps />}
       </div>
     </>
