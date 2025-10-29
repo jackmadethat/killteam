@@ -10,7 +10,7 @@ const PvESequence = () => {
             <li>Select the mission/Crit Op and setup objective markers
               <p className="indentNote"><em>Some single-player and co-op missions specify special rules for NPOs. Refer to your mission pack for details.</em></p>
             </li>
-            <li>Roll for initiative, both for the player(s) and non-player side, winner selecting drop zone (if mission-applicable)
+            <li>Roll for initiative, both for the player(s) and non-player side
               <p className="indentNote"><em>If the non-player wins initiative, it always chooses to keep it.</em></p>
             </li>
           </ul>
