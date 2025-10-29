@@ -20,7 +20,6 @@ const UniversalEquipment = () => {
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, if that marker isn’t yours, or if that marker has been used this turning point.</li>
             </ul>
         </div>
-
         
         <h3>Comms Device</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/comms-device.png" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%' }} />

@@ -283,7 +283,7 @@ Action Card
     position: absolute;
     inset: 0;
     background: var(--darkerOrange);
-    clip-path: polygon(0 0,100% 0,100% calc(100% - 30px),calc(100% - 30px) 100%,0 100%,0 0,2px  2px ,2px calc(100% - 2px),calc(100% - 30px - 0.83px) calc(100% - 2px),calc(100% - 2px) calc(100% - 30px - 0.83px),calc(100% - 2px) 2px,2px 2px);
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%,0 0,2px  2px ,2px calc(100% - 2px),calc(100% - 20px - 0.83px) calc(100% - 2px),calc(100% - 2px) calc(100% - 20px - 0.83px),calc(100% - 2px) 2px,2px 2px);
 }
 
 .actionLine {
