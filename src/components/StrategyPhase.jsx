@@ -16,16 +16,18 @@ const StrategyPhase = () => {
       <p className="indentNote"><em>In some mission packs you will also determine initiative when setting up the battle. The player with initiative decides the order of resolution for simultaneous rules that happen before the battle begins.</em></p>
       <h3>Ready</h3>
       <ul>
-          <li>Each player gains 2 Command Point (CP). In each turning point after the first, the player who doesn’t have initiative gains 2CP instead. Players keep CP until spent.</li>
+          <li>In the first turning point, each player gains 1 Command Point (CP). In each turning point after the first, the player who doesn’t have initiative gains 2CP instead. Players keep CP until spent.</li>
           <li>Each player readies all friendly operatives by setting their order token light-side-up.</li>
       </ul>
-      <p className="indentNote"><em>CP are a valuable resource used to activate additional rules called ploys.</em></p>
+      <p className="indentNote"><em>CP are used to activate Strategic and Firefight Ploys.</em></p>
+      <p className="indentNote"><em>To summarize CP acquisition: At game start, both players have 2CP. In the first turning point, both players gain 1CP. At the start of every turning point after the first, the player with initiative gains 1CP and the player without gains 2CP.</em></p>
       <p className="indentNote"><em>An order token with the lighter side up shows an operative as ready.</em></p>
       <h3>Gambit</h3>
       <ul>
           <li>Starting with the player who has initiative, each player alternates either using a Strategic Gambit or passing.</li>
           <li>Repeat this process until both players have passed in succession.</li>
-          <li>Strategy ploys are the most common Strategic Gambit, but any rule labelled Strategic Gambit can be used. You cannot use each Strategic Gambit more than once per turning point.</li>
+          <li>Strategy ploys are the most common Strategic Gambit, but any rule labelled Strategic Gambit can be used. All Strategy Ploys are Strategic Gambits, but not all Strategic Gambits are Strategy Ploys.</li>
+          <li>You cannot use each Strategic Gambit more than once per turning point.</li>
       </ul>
     </div>
   )
