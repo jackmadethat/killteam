@@ -53,6 +53,12 @@ const FirefightPhase = () => {
     
       <h3>Firefight Ploys</h3>
       <p>You can use CP to activate Firefight Ploys as outlined in your kill team's rules. The timing and circumstance of Firefight Ploys are described in the ploys themselves. You can only use Firefight ploys during the Firefight phase, and require CP to be used. Typically, Strategic Ploys/Gambits affect your whole team, while Firefight Ploys affect single operatives.</p>
+    
+      <div className="strategyPloy">
+          <p><b>Command Re-Roll</b><br /><span style={{ fontSize: 1.3 + 'em' }}>1CP</span></p>
+          <p>Use this Firefight Ploy after rolling your attack or defence dice. You can re-roll one of those dice.</p>
+      </div>
+
     </div>
   )
 }

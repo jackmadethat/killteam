@@ -1,17 +1,19 @@
 const TerrainBasics = () => {
   return (
     <div className="sectionContent" id="terrainBasics">
-        <p>A terrain feature is composed of different parts, each of which is a type of terrain (one part can be more than one type). If you are using a terrain feature from a specific killzone, the type of each part of that terrain feature will be specified. If you are using a terrain feature from a killzone of your own creation, you must specify the type of each part of that terrain feature before the battle. The most common types of terrain are below, but some killzones have their own types.</p>
+        <p>A terrain feature is composed of different parts, each of which is a type of terrain (one part can be more than one type). If you are using a terrain feature from a specific killzone, the type of each part of that terrain feature will be specified. If you are using a terrain feature from a killzone of your own creation, you must specify the type of each part of that terrain feature before the battle.</p>
+        <p>Circumstances may arise where cover, obscurity and visibility may not be clear, such as when an operative is partially concealed by heavy terrain. In these cases, some intuition and friendly sportsmanship should be employed: For example, an operative with an engage order partially concealed by heavy terrain can be considered to be in cover, but not obscured. An operative with a conceal order that is in cover, even partially, is not a valid shooting target.</p>
+        <p>The most common types of terrain are below, but some killzones have their own types.</p>
         
         <h3>Heavy</h3>
-        <p>Larger terrain is Heavy. It can obscure operatives.</p>
+        <p>Larger terrain is Heavy. It provides cover and can obscure operatives.</p>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-heavy-1.png" className="imgGraphic" />
             <p><em>It’s good to have a mixture of Light and Heavy terrain in your killzone, as some other rules interact with each type differently.</em></p>
         </figure>
         
         <h3>Light</h3>
-        <p>Smaller terrain is Light. It doesn’t have any additional rules, but other rules interact with it differently (e.g., Vantage terrain).</p>
+        <p>Smaller terrain is Light. It provides cover without obscuring operatives.</p>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-light-1.png" className="imgGraphic" />
         </figure>
