@@ -26,7 +26,7 @@ const TerrainBasics = () => {
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-blocking-1.png" className="imgGraphic" />
             <p>The gap under this pipe is blocking terrain.</p>
-            <p><em>Technically, Blocking terrain isn’t actually physical terrain, but rather the gaps operatives shouldn’t be able to see through. Blocking terrain is rare, but it exists for the necessary instances.</em></p>
+            <p><em>Technically, Blocking terrain isn’t actually physical terrain, but rather the gaps operatives shouldn’t be able to see through. Blocking terrain is rare, but it exists for necessary instances.</em></p>
         </figure>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-blocking-2.png" className="imgGraphic" />
@@ -34,11 +34,11 @@ const TerrainBasics = () => {
         </figure>
         
         <h3>Vantage</h3>
-        <p>Vantage terrain is the upper levels of the killzone—areas operatives can be placed upon above the game board. If terrain is not Vantage terrain, then operatives can move over it, but they cannot finish a move or be set up on it. Vantage terrain is also Light terrain. Vantage terrain has the following main features.</p>
+        <p>Vantage terrain is the upper levels of the killzone - areas operatives can be placed upon above the killzone floor. If terrain is not Vantage terrain, then operatives can move over it, but they cannot finish a move or be set up on it. Vantage terrain is also Light terrain. Vantage terrain has the following main features:</p>
         <ul>
-            <li>Firstly, whenever an operative on Vantage terrain is shooting an operative that has an Engage order, its ranged weapon has the Accurate 1 weapon rule if the target operative is at least 2" lower than it, or Accurate 2 if the target operative is at least 4" lower than it.</li>
-            <li>Secondly, whenever you are selecting a valid target for an operative on Vantage terrain, operatives at least 2" lower than that operative with a Conceal order cannot use Light terrain for cover. Whilst this can allow such operatives to be targeted (assuming they’re visible), it doesn’t remove their cover save, and the defender can retain it as a critical success instead, or retain one additional cover save.</li>
-            <li>Thirdly, for the purposes of obscured, ignore Heavy terrain connected to Vantage terrain the active operative or the intended target is on.</li>
+            <li>Whenever an operative on Vantage terrain is shooting an operative that has an Engage order, its ranged weapon has the Accurate 1 weapon rule if the target operative is at least 2" lower than it, or Accurate 2 if the target operative is at least 4" lower than it.</li>
+            <li>Whenever you are selecting a valid target for an operative on Vantage terrain, operatives at least 2" lower than that operative with a Conceal order cannot use Light terrain for cover. Whilst this can allow such operatives to be targeted (assuming they’re visible), it doesn’t remove their cover save, and the defender can retain it as a critical success instead, or retain one additional cover save.</li>
+            <li>For the purposes of obscured, ignore Heavy terrain connected to Vantage terrain the active operative or the intended target is on.</li>
         </ul>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-vantage-1.png" className="imgGraphic" />
@@ -76,7 +76,7 @@ const TerrainBasics = () => {
         <p>Equipment can be set up on Vantage terrain, on the killzone floor and within 2" of Accessible terrain (this takes precedence over the usual restrictions).</p>
 
         <h3>Condensed Environment</h3>
-        <p>Weapons with the Blast, Torrent and/or x” Devastating (i.e. Devastating with a distance requirement) weapon rule also have the Lethal 5+ weapon rule (pg. 111).</p>
+        <p>Weapons with the Blast, Torrent and/or x” Devastating (i.e. Devastating with a distance requirement) weapon rule also have the Lethal 5+ weapon rule.</p>
     </div>
   )
 }
