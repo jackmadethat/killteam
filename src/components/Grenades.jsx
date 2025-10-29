@@ -117,8 +117,9 @@ const Grenades = () => {
             <li><b><em>Destructive</em></b>: If a Ladder, Light Barricade or Portable Barricade falls under a frag grenade's blast range, it is destroyed and removed from the killzone.</li>
             <li><b><em>Lobbing</em></b>: Grenades can be thrown 50% further than their maximum range (for example, if the grenade has a range of 6" it can be lobbed 9", as 50% of 6 is 3). When lobbing a grenade, nominate the desired location then roll a scatter dice and a d3; the grenade lands at a distance equal to the value of the d3 in inches away from the desired location and in the direction the scatter dice is pointing.</li>
         </ul>
+        <br />
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/scatter-dice.jpg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/scatter-dice.jpg" className="imgGraphic" style={{ maxWidth: 200 + 'px' }} />
             <p>Scatter dice. If the die lands on the crosshair, the throw is accurate and the grenade lands on target.</p>
         </figure>
     </div>
