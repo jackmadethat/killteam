@@ -58,12 +58,8 @@ const TerrainBasics = () => {
         </figure>
         
         <h3>Insignificant</h3>
-        <p>Insignificant terrain is usually very small. For the purposes of climbing and dropping, ignore it.</p>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-insignificant-1.png" className="imgGraphic" alt="Insignificant terrain" />
-            <p>Small piles of rubble are insignificant terrain.</p>
-            <p><em>An operative can move over and across Insignificant terrain without going up and down.</em></p>
-        </figure>
+        <p>Insignificant terrain is usually very small, such as small piles of rubble. For the purposes of climbing and dropping, ignore it.</p>
+        <p><em>An operative can move over and across Insignificant terrain without going up and down.</em></p>
         
         <h3>Exposed</h3>
         <p>Exposed terrain is usually very small, or terrain with large gaps that operatives shouldn’t be able to take cover behind.</p>
