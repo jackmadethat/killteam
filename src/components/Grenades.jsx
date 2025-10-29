@@ -3,7 +3,7 @@ const Grenades = () => {
     <div className="sectionContent" id="grenades">
 
         <h3>Utility Grenades</h3>
-        <p>When you select this equipment, select two utility grenades (2 smoke, 2 stun, or 1 smoke and 1 stun). Each selection is a unique action your operatives can perform, but your kill team can only use that weapon a total number of times during the battle equal to your selection.</p>
+        <p>When you select this equipment, select two utility grenades (2 smoke, 2 stun, or 1 smoke and 1 stun). Each selection is a unique action your operatives can perform, limited by the number you choose.</p>
 
         <div className="actionLine"></div>
         <div className="actionDiv">
@@ -41,7 +41,7 @@ const Grenades = () => {
 
         <h3>Explosive Grenades</h3>
         <p>The forces of the 41st Millennium utilise a wide range of offensive grenades, from simple fragmentation grenades to plasma and gravitic concussion grenades, and even more exotic devices employed to pierce enemy armour.</p>
-        <p>When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak). Each selection is a unique weapon your operatives can use, but your kill team can only use that weapon a total number of times during the battle equal to your selection.</p>
+        <p>When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak). Each selection is a unique action your operatives can perform, limited by the number you choose.</p>
         
         <table className="weaponTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
