@@ -59,7 +59,7 @@ const TerrainBasics = () => {
         
         <h3>Insignificant</h3>
         <p>Insignificant terrain is usually very small, such as small piles of rubble. For the purposes of climbing and dropping, ignore it.</p>
-        <p><em>An operative can move over and across Insignificant terrain without going up and down.</em></p>
+        <p className="indentNote"><em>An operative can move over and across Insignificant terrain without going up and down.</em></p>
         
         <h3>Exposed</h3>
         <p>Exposed terrain is usually very small, or terrain with large gaps that operatives shouldn’t be able to take cover behind.</p>
@@ -76,7 +76,7 @@ const TerrainBasics = () => {
         <p>Equipment can be set up on Vantage terrain, on the killzone floor and within 2" of Accessible terrain (this takes precedence over the usual restrictions).</p>
 
         <h3>Condensed Environment</h3>
-        <p>Weapons with the Blast, Torrent and/or x” Devastating (i.e. Devastating with a distance requirement) weapon rule also have the Lethal 5+ weapon rule.</p>
+        <p>Weapons with the Blast, Torrent and/or x" Devastating (i.e. Devastating with a distance requirement) weapon rule also have the Lethal 5+ weapon rule.</p>
     </div>
   )
 }
