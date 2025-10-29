@@ -105,7 +105,7 @@ const Grenades = () => {
 
         <h3>Grenade Rules</h3>
         <p>Grenades are a Universal equipment option so any operative can use them (limited by the number that the player selects and availability detailed in your kill team's rules), Utility grenades as an action and Explosive grenades as a ranged weapon. You do not need to nominate which operative is carrying which grenade ahead of time, you only need to track the number of grenades team-wide. The exception to this is operatives with the Grenadier type, which have different grenade rules and limitations.</p>
-        <p className="indentNote"><em>As an equipment option, selected grenades, either Utility or Explosive, represent 2 grenades of that type for a maximum of 4 grenades.</em></p>
+        <p className="indentNote"><em>As an equipment option, selected grenades, either Utility or Explosive, represent 2 grenades of that type.</em></p>
         <p>Explosive grenades, due to being a ranged weapon, require a <em>valid target</em> to use, while utility grenades can be thrown anywhere within their range.</p>
 
         <h3>Advanced Grenade Rules</h3>
