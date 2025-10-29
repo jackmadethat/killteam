@@ -14,7 +14,7 @@ const Grenades = () => {
             <ul>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Place one of your smoke grenade markers within 6" of this operative. It must be visible to this operative or set on vantage terrain or a terrain feature visible to this operative. The marker creates a 1" horizontally and vertically unlimited smoke area from it (but not below it).</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> While an operative is wholly within a smoke area, it is considered obscured to operatives more than 2" away from it and vice versa. Additionally, when an operative shoots at an enemy operative that is wholly within a smoke area, the Piercing rule is ignored unless both operatives are within 2" of each other.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> In the Ready Step of the next Strategy Phase, roll a D3. Remove that smoke grenade marker once a number of activations equal to the result of that D3 is completed, or at the end of the turning point (whichever occurs first).</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> In the Ready step of the next Strategy Phase, roll a D3. Remove that smoke grenade marker once a number of activations equal to the result of that D3 is completed, or at the end of the turning point (whichever occurs first).</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within the control range of an enemy operative, or if the total number of times your kill team can perform it has been reached.</li>
             </ul>
         </div>
@@ -40,8 +40,7 @@ const Grenades = () => {
         </figure>
 
         <h3>Explosive Grenades</h3>
-        <p>The forces of the 41st Millennium utilise a wide range of offensive grenades, from simple fragmentation grenades to plasma and gravitic concussion grenades, and even more exotic devices employed to pierce enemy armour.</p>
-        <p>When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak). Each selection is a unique action your operatives can perform, limited by the number you choose.</p>
+        <p>When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak). Each selection is a ranged weapon your operatives can use as a Shoot action, limited by the number you choose.</p>
         
         <table className="weaponTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
@@ -103,6 +102,20 @@ const Grenades = () => {
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/explosivegrenades-example-2.png" className="imgGraphic" />
         </figure>
+
+        <h3>Grenade Rules</h3>
+        <p>Grenades are a Universal equipment option so any operative can use them (limited by the number that the player selects and availability detailed in your kill team's rules), Utility grenades as an action and Explosive grenades as a ranged weapon. You do not need to nominate which operative is carrying which grenade ahead of time, you only need to track the number of grenades team-wide. The exception to this is operatives with the Grenadier type, which have different grenade rules and limitations.</p>
+        <p className="indentNote"><em>As an equipment option, selected grenades, either Utility or Explosive, represent 2 grenades of that type for a maximum of 4 grenades.</em></p>
+        <p>Explosive grenades, due to being a ranged weapon, require a <em>valid target</em> to use, while utility grenades can be thrown anywhere within their range.</p>
+
+        <h3>Advanced Grenade Rules</h3>
+        <p>The following grenade rules are unofficial and optional.</p>
+        <ul>
+            <li><b>Point Targeting</b>: All grenades can be thrown at specific locations rather than requiring valid targets.</li>
+            <li><b>Ricochet</b>: Grenades can be thrown at walls to bounce them around corners. Angles must be approximated in a realistic way, bounces are limited to 1 per grenade throw, and the grenade can't travel further than it's maximum range.</li>
+            <li><b>Breaching</b>: Explosive grenades can be thrown at doors (and hatchways, etc) to blow the door out. From that point on, the door is open and can't be closed.</li>
+            <li><b>Lobbing</b>: Grenades can be thrown 50% further than their maximum range (for example, 9" instead of 6", as 50% of 6 is 3). When lobbing a grenade, nominate the desired location then roll a scatter dice and a d3; the grenade lands at a distance equal to the value of the d3 in inches away from the desired location and in the direction the scatter dice is pointing.</li>
+        </ul>
     </div>
   )
 }

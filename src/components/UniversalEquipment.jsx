@@ -2,7 +2,7 @@ const UniversalEquipment = () => {
   return (
     <div className="sectionContent" id="universalEquipment">
         
-        <p>Equipment is either Universal (available to all factions, listed below) or Faction (specific to your particular kill team, detailed in your kill team's rules). Teams can choose a <em>maximum of 4 equipment options</em> from either Universal or Faction Equipment to be used freely during the game. Refer to your kill team's rules for further details on available equipment, particularly when and how equipment can be used and limitations on how many of each option can be selected.</p>
+        <p>Equipment is either Universal (listed below) or Faction (specific to your particular kill team, detailed in your kill team's rules). Teams can choose a <em>maximum of 4 equipment options</em> from either Universal or Faction Equipment listed in that kill team's rules. Note that not all Universal equipment is available to all kill teams.</p>
         
         <h3>Ammo Cache</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/ammo-cache.png" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%' }} />
