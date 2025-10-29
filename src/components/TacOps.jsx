@@ -44,9 +44,9 @@ const TacOps = () => {
                     <p className="actionCost"><b>1AP</b></p>
                 </div>
                 <ul>
-                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The active operative has gathered surveillance.</li>
-                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while it has an engage order. It must be wholly within your opponent's territory to perform this action, and there must be an enemy operative that's a valid target for it.</li>
-                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action during the first turning point or while within control range of an enemy operative.
+                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> The active operative has gathered surveillance.</li>
+                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action while it has an engage order. It must be wholly within your opponent's territory to perform this action, and there must be an enemy operative that's a valid target for it.</li>
+                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point or while within control range of an enemy operative.
                     </li>
                 </ul>
             </div>
@@ -69,8 +69,8 @@ const TacOps = () => {
                     <p className="actionCost"><b>1AP</b></p>
                 </div>
                 <ul>
-                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Place one of your Wiretap mission markers within the active operative's control range. In the ready step of the next Strategy Phase, remove that marker.</li>
-                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, during an activation in which it was set up, or if a friendly operative has already performed this action during the turning point.
+                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Place one of your Wiretap mission markers within the active operative's control range. In the ready step of the next Strategy Phase, remove that marker.</li>
+                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, during an activation in which it was set up, or if a friendly operative has already performed this action during the turning point.
                     </li>
                 </ul>
             </div>
@@ -172,15 +172,15 @@ const TacOps = () => {
                     <p className="actionCost"><b>1AP</b></p>
                 </div>
                 <ul>
-                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Place one of your Beacon mission markers:
-                      <ul>
+                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Place one of your Beacon mission markers:
+                      <ul style={{ marginLeft: -35 + 'px' }}>
                         <li>Within the active operative's control range</li>
                         <li>More than 4" from your drop zone</li>
                         <li>More than 6" from your other Beacon mission markers</li>
                         <li>With no part of it underneath Vantage terrain</li>
                       </ul>
                     </li>
-                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or during an activation in which it was set up.
+                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or during an activation in which it was set up.
                     </li>
                 </ul>
             </div>
@@ -215,9 +215,9 @@ const TacOps = () => {
                     <p className="actionCost"><b>1AP</b></p>
                 </div>
                 <ul>
-                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> If the active operative controls an objective marker that hasn’t been searched by friendly operatives, that operative is now carrying one of your Retrieval mission markers and that objective marker has been searched by friendly operatives. Friendly operatives can perform the <b>Pick Up Marker</b> action on your Retrieval mission markers.
+                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> If the active operative controls an objective marker that hasn’t been searched by friendly operatives, that operative is now carrying one of your Retrieval mission markers and that objective marker has been searched by friendly operatives. Friendly operatives can perform the <b>Pick Up Marker</b> action on your Retrieval mission markers.
                     </li>
-                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action during the first turning point, or while within control range of an enemy operative.
+                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, or while within control range of an enemy operative.
                     </li>
                 </ul>
             </div>
@@ -240,9 +240,9 @@ const TacOps = () => {
                     <p className="actionCost"><b>1AP</b></p>
                 </div>
                 <ul>
-                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Select one ready enemy operative visible to and more than 6" from the active operative. That enemy operative is now monitored until the Ready step of the next Strategy phase.
+                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Select one ready enemy operative visible to and more than 6" from the active operative. That enemy operative is now monitored until the Ready step of the next Strategy phase.
                     </li>
-                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while it has an Engage order, during the first turning point, or while within control range of an enemy operative.
+                    <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action while it has an Engage order, during the first turning point, or while within control range of an enemy operative.
                     </li>
                 </ul>
             </div>
