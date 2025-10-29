@@ -47,7 +47,7 @@ const PvESequence = () => {
       <ol style={{ fontSize: 0.9 + 'em' }}>
         <li><b>Activation Priority</b><br /><br />Select the ready NPO that:<br />
           <ol><br />
-            <li>Can do <b>Fight</b> or <b>Shoot</b> using their best weapon to incapacitate a player's operative</li>
+            <li>Can perform a <b>Fight</b> or <b>Shoot</b> action using their best weapon to incapacitate a player's operative</li>
             <li>Is <b>not in cover</b> from player operatives</li>
             <li>Is <b>closest to</b> a player operative</li>
           </ol><br />
