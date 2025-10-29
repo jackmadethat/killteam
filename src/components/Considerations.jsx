@@ -74,33 +74,6 @@ const Considerations = () => {
                         </table>
                     </td>
                 </tr>
-                <br />
-                <br />
-                <tr>
-                    <td colspan="5" className="datacardAdditionalRules continueText" style={{ textAlign: 'right', marginRight: 15 + 'px' }}><b>RULES CONTINUE NEXT PANEL &gt;</b></td>
-                </tr>
-                <tr>
-                    <td colspan="4" className="datacardKeywords"><span>ANGELS OF DEATH</span>, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, GRENADIER</td>
-                    <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">40</span></td>
-                </tr>
-                <tr>
-                    
-                </tr>
-            </tbody>
-        </table>
-
-        <table className="weaponTable dataCard">
-            <tbody>
-                <tr>
-                    <th>ELIMINATOR SNIPER</th>
-                    <th>APL<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/apl.svg" className="svgImg" alt="APL" />3</th>
-                    <th>MOV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/move.svg" className="svgImg" alt="Move" />7"</th>
-                    <th>SAV<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/save.svg" className="svgImg" alt="Save" />3+</th>
-                    <th>WND<br /><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/wounds.svg" className="svgImg" alt="Wounds" />12</th>
-                </tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
                 <tr>
                     <td colspan="2" className="datacardAdditionalRules"><b>Camo Cloak</b>: Whenever an operative is shooting this operative, ignore the Saturate weapon rule. This operative has the Stealthy <b>CHAPTER TACTIC</b>. If you selected that <b>CHAPTER TACTIC</b>, you can do both of its options (i.e. retain two cover saves – one normal and one critical success).</td>
                     <td colspan="3" className="datacardAdditionalRules">
@@ -119,7 +92,21 @@ const Considerations = () => {
                         <br />
                     </td>
                 </tr>
-                <tr></tr>
+                {/*
+                <tr>
+                    <td colspan="5" className="datacardAdditionalRules continueText" style={{ textAlign: 'right', marginRight: 15 + 'px' }}><b>RULES CONTINUE NEXT PANEL &gt;</b></td>
+                </tr>
+                */}
+                <tr>
+                  <td colspan="5"><div className="actionLine" style={{ width: 100 + '%' }}></div></td>
+                </tr>
+                <tr>
+                    <td colspan="4" className="datacardKeywords" style={{ paddingLeft: 10 + 'px' }}><span>ANGELS OF DEATH</span>, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, GRENADIER</td>
+                    <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">40</span></td>
+                </tr>
+                <tr>
+                    
+                </tr>
             </tbody>
         </table>
 
