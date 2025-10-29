@@ -292,9 +292,6 @@ const TerrainRules = () => {
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/tw-lightrubble-example-1.png" className="imgGraphic" />
                     <p>This is Light terrain.</p>
                 </figure>
-                
-                <h3>Condensed Environment</h3>
-                <p>Weapons with the Blast, Torrent and/or x” Devastating (i.e. Devastating with a distance requirement) weapon rule also have the Lethal 5+ weapon rule.</p>
             </>
         }
     </div>
