@@ -56,7 +56,7 @@ const FirefightPhase = () => {
     
       <div className="strategyPloy">
           <p><b>Command Re-Roll</b><br /><span style={{ fontSize: 1.3 + 'em' }}>1CP</span></p>
-          <p>Use this Firefight Ploy after rolling your attack or defence dice. You can re-roll one of those dice.</p>
+          <p>Use this Firefight Ploy after rolling your attack or defence dice. You can re-roll one of those dice. This Firefight Ploy is available to all factions. </p>
       </div>
 
     </div>
