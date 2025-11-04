@@ -23,20 +23,22 @@ const PvPReference = () => {
 
   return (
     <>
-      <div className="sectionButton">
-        <div className="hovered" onClick={toggleIntroduction}><h2 className="textCenter subHeading">Introduction</h2></div>
+      <div>
+        <div onClick={toggleIntroduction}><h2 className="subcategoryBtn">Introduction</h2></div>
         {visible_Introduction && <Introduction />}
       </div>
 
-      <div className="sectionButton">
-        <div className="hovered" onClick={toggleGameSequence}><h2 className="textCenter subHeading">Core Gameplay</h2></div>
+      <div>
+        <div onClick={toggleGameSequence}><h2 className="subcategoryBtn">Core Gameplay</h2></div>
         {visible_GameSequence && <GameSequence />}
       </div>
 
-      <div className="sectionButton">
-        <div className="hovered" onClick={togglePvEGameSequence}><h2 className="textCenter subHeading">Solo/Co-Op Gameplay</h2></div>
+      <div>
+        <div onClick={togglePvEGameSequence}><h2 className="subcategoryBtn">Solo/Co-Op Gameplay</h2></div>
         {visible_PvESequence && <PvESequence />}
       </div>
+
+      <div style={{ height: 15 + 'px' }}></div>
     </>
   )
 }

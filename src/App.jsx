@@ -19,6 +19,9 @@ const App = () => {
   const [visible_Missions, setVisible_Missions] = useState(false);
   const [visible_Killzones, setVisible_Killzones] = useState(false);
 
+  const [visible_Rules, setVisible_Rules] = useState(false);
+  const [visible_Tracker, setVisible_Tracker] = useState(false);
+
   const togglePvPReference = () => {
     setVisible_PvPReference(!visible_PvPReference);
   };
@@ -51,50 +54,76 @@ const App = () => {
     setVisible_Killzones(!visible_Killzones);
   };
 
+
+  const toggleRules = () => {
+    setVisible_Rules(!visible_Rules);
+  };
+
+  const toggleTracker = () => {
+    setVisible_Tracker(!visible_Tracker);
+  };
+
   // https://ktdash.app/
 
   return (
     <div id="content">
-      <div className="categoryButton" onClick={togglePvPReference}>
-        <h2 className="textCenter">Overview</h2>
+      <div className="primaryButton" onClick={toggleTracker}>
+        <h2 className="textCenter">Game Tracker</h2>
       </div>
-      {visible_PvPReference && <PvPReference />}
 
-      <div className="categoryButton" onClick={toggleCorePrinciples}>
-        <h2 className="textCenter">Fundamentals</h2>
+      {visible_Tracker && 
+        <div>
+          <p>Coming Soon</p>
+        </div>
+      }
+
+      <div className="primaryButton" onClick={toggleRules}>
+        <h2 className="textCenter">Rulebook</h2>
       </div>
-      {visible_CorePrinciples && <CorePrinciples />}
 
-      <div className="categoryButton" onClick={toggleActions}>
-        <h2 className="textCenter">Actions</h2>
-      </div>
-      {visible_Actions && <Actions />}
+      {visible_Rules && 
+        <div>
+          <div onClick={togglePvPReference}>
+            <h2 className="categoryBtn">Overview</h2>
+          </div>
+          {visible_PvPReference && <PvPReference />}
 
-      <div className="categoryButton" onClick={toggleWeapons}>
-        <h2 className="textCenter">Weapons</h2>
-      </div>
-      {visible_Weapons && <Weapons />}
+          <div onClick={toggleCorePrinciples}>
+            <h2 className="categoryBtn">Fundamentals</h2>
+          </div>
+          {visible_CorePrinciples && <CorePrinciples />}
 
-      <div className="categoryButton" onClick={toggleEquipment}>
-        <h2 className="textCenter">Equipment</h2>
-      </div>
-      {visible_Equipment && <Equipment />}
+          <div onClick={toggleActions}>
+            <h2 className="categoryBtn">Actions</h2>
+          </div>
+          {visible_Actions && <Actions />}
 
-      <div className="categoryButton" onClick={toggleMissions}>
-        <h2 className="textCenter">Missions</h2>
-      </div>
-      {visible_Missions && <Missions />}
+          <div onClick={toggleWeapons}>
+            <h2 className="categoryBtn">Weapons</h2>
+          </div>
+          {visible_Weapons && <Weapons />}
 
-      <div className="categoryButton" onClick={toggleKillzones}>
-        <h2 className="textCenter">Killzones</h2>
-      </div>
-      {visible_Killzones && <Killzones />}
+          <div onClick={toggleEquipment}>
+            <h2 className="categoryBtn">Equipment</h2>
+          </div>
+          {visible_Equipment && <Equipment />}
 
-      <div className="categoryButton" onClick={toggleTerrain}>
-        <h2 className="textCenter">Terrain</h2>
-      </div>
-      {visible_Terrain && <Terrain />}
+          <div onClick={toggleMissions}>
+            <h2 className="categoryBtn">Missions</h2>
+          </div>
+          {visible_Missions && <Missions />}
 
+          <div onClick={toggleKillzones}>
+            <h2 className="categoryBtn">Killzones</h2>
+          </div>
+          {visible_Killzones && <Killzones />}
+
+          <div onClick={toggleTerrain}>
+            <h2 className="categoryBtn">Terrain</h2>
+          </div>
+          {visible_Terrain && <Terrain />}
+        </div>
+      }
     </div>
   )
 }

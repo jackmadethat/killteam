@@ -20,12 +20,14 @@ html {
 
 body {
     overflow-x: hidden;
+    scrollbar-width: none;
     position: relative;
     background-color: #181818;
     color: #FFF;
     top: -8px;
     left: -8px;
     width: 100%;
+    height: 100%;
 }
 
 h1 {
@@ -179,12 +181,46 @@ Structural Styles
 
 .categoryButton {
     border: 1px var(--bg) solid;
-    padding: 2%;
+    padding: 1%;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 15px;
     :hover {
         cursor: pointer;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+}
+
+.categoryBtn {
+    border-bottom: 1px var(--bg) solid;
+    font-size: 1.9em;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.subcategoryBtn {
+    border-bottom: 1px var(--bg) solid;
+    font-size: 1.4em;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.primaryButton {
+    border: 1px var(--bg) solid;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    :hover {
+        cursor: pointer;
+    }
+    h2 {
+        font-size: 1.7em;
     }
 }
 
