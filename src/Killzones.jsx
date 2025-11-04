@@ -5,6 +5,7 @@ import MapsTombWorld from './components/Maps_TombWorld'
 import MapsBhetaDecima from './components/Maps_BhetaDecima'
 import MapsGallowdark from './components/Maps_Gallowdark'
 import MapsVolkus from './components/Maps_Volkus'
+import MapsOctarius from './components/Maps_Octarius'
 
 const Killzones = () => {
   const [visible_mapsOpen, setVisible_mapsOpen] = useState(false);
@@ -12,6 +13,7 @@ const Killzones = () => {
   const [visible_mapsBhetaDecima, setVisible_mapsBhetaDecima] = useState(false);
   const [visible_mapsGallowdark, setVisible_mapsGallowdark] = useState(false);
   const [visible_mapsVolkus, setVisible_mapsVolkus] = useState(false);
+  const [visible_mapsOctarius, setVisible_mapsOctarius] = useState(false);
 
   const toggleOpenMaps = () => {
     setVisible_mapsOpen(!visible_mapsOpen);
@@ -33,11 +35,30 @@ const Killzones = () => {
     setVisible_mapsVolkus(!visible_mapsVolkus);
   };
 
+  const toggleOctarius = () => {
+    setVisible_mapsOctarius(!visible_mapsOctarius);
+  };
+
   return (
     <div style={{ marginBottom: 40 + 'px' }}>
       <div>
         <div className="hovered" onClick={toggleOpenMaps}><h2 className="subcategoryBtn">Open Maps</h2></div>
         {visible_mapsOpen && <MapsOpen />}
+      </div>
+
+      <div>
+        <div className="hovered" onClick={toggleBhetaDecima}><h2 className="subcategoryBtn">Bheta-Decima</h2></div>
+        {visible_mapsBhetaDecima && <MapsBhetaDecima />}
+      </div>
+
+      <div>
+        <div className="hovered" onClick={toggleGallowdark}><h2 className="subcategoryBtn">Gallowdark</h2></div>
+        {visible_mapsGallowdark && <MapsGallowdark />}
+      </div>
+
+      <div>
+        <div className="hovered" onClick={toggleOctarius}><h2 className="subcategoryBtn">Octarius</h2></div>
+        {visible_mapsOctarius && <MapsOctarius />}
       </div>
 
       <div>
@@ -48,16 +69,6 @@ const Killzones = () => {
       <div>
         <div className="hovered" onClick={toggleVolkus}><h2 className="subcategoryBtn">Volkus</h2></div>
         {visible_mapsVolkus && <MapsVolkus />}
-      </div>
-
-      <div>
-        <div className="hovered" onClick={toggleGallowdark}><h2 className="subcategoryBtn">Gallowdark</h2></div>
-        {visible_mapsGallowdark && <MapsGallowdark />}
-      </div>
-
-      <div>
-        <div className="hovered" onClick={toggleBhetaDecima}><h2 className="subcategoryBtn">Bheta-Decima</h2></div>
-        {visible_mapsBhetaDecima && <MapsBhetaDecima />}
       </div>
     </div>
   )

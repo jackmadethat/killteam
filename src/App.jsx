@@ -84,42 +84,42 @@ const App = () => {
       {visible_Rules && 
         <div>
           <div onClick={togglePvPReference}>
-            <h2 className="categoryBtn">Overview</h2>
+            <h2 className="categoryBtn hovered">Overview</h2>
           </div>
           {visible_PvPReference && <PvPReference />}
 
           <div onClick={toggleCorePrinciples}>
-            <h2 className="categoryBtn">Fundamentals</h2>
+            <h2 className="categoryBtn hovered">Fundamentals</h2>
           </div>
           {visible_CorePrinciples && <CorePrinciples />}
 
           <div onClick={toggleActions}>
-            <h2 className="categoryBtn">Actions</h2>
+            <h2 className="categoryBtn hovered">Actions</h2>
           </div>
           {visible_Actions && <Actions />}
 
           <div onClick={toggleWeapons}>
-            <h2 className="categoryBtn">Weapons</h2>
+            <h2 className="categoryBtn hovered">Weapons</h2>
           </div>
           {visible_Weapons && <Weapons />}
 
           <div onClick={toggleEquipment}>
-            <h2 className="categoryBtn">Equipment</h2>
+            <h2 className="categoryBtn hovered">Equipment</h2>
           </div>
           {visible_Equipment && <Equipment />}
 
           <div onClick={toggleMissions}>
-            <h2 className="categoryBtn">Missions</h2>
+            <h2 className="categoryBtn hovered">Missions</h2>
           </div>
           {visible_Missions && <Missions />}
 
           <div onClick={toggleKillzones}>
-            <h2 className="categoryBtn">Killzones</h2>
+            <h2 className="categoryBtn hovered">Killzones</h2>
           </div>
           {visible_Killzones && <Killzones />}
 
           <div onClick={toggleTerrain}>
-            <h2 className="categoryBtn">Terrain</h2>
+            <h2 className="categoryBtn hovered">Terrain</h2>
           </div>
           {visible_Terrain && <Terrain />}
         </div>

@@ -5,6 +5,7 @@ const TerrainRules = () => {
   const [visible_Volkus, setVisible_Volkus] = useState(false);
   const [visible_TombWorld, setVisible_TombWorld] = useState(false);
   const [visible_GallowDark, setVisible_GallowDark] = useState(false);
+  const [visible_Octarius, setVisible_Octarius] = useState(false);
 
   const toggleBhetaDecima = () => {
     setVisible_BhetaDecima(!visible_BhetaDecima);
@@ -20,6 +21,10 @@ const TerrainRules = () => {
 
   const toggleGallowDark = () => {
     setVisible_GallowDark(!visible_GallowDark);
+  };
+
+  const toggleOctarius = () => {
+    setVisible_Octarius(!visible_Octarius);
   };
 
   return (
@@ -132,69 +137,41 @@ const TerrainRules = () => {
             </>
         }
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleVolkus}><em>Volkus</em></h2>
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleOctarius}><em>Octarius</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
 
-        {visible_Volkus &&
+        {visible_Octarius &&
             <>
-                <p>Killzone: Volkus has 2x strongholds, 2x large ruins, 2x small ruins, 2x heavy rubble, and 3x light rubble.</p>
-                
-                <h3>Stronghold</h3>
-                <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/stronghold-example-1.png" className="imgGraphic" />
-                </figure>
-                <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/stronghold-example-2.png" className="imgGraphic" />
-                    <ul style={{ textAlign: 'left' }}>
-                    <li><b>A</b> The upper level(s) of a stronghold terrain feature is Ceiling and Vantage terrain.</li>
-                    <li><b>B</b> The door is Accessible and Heavy terrain.</li>
-                    <li><b>C</b> The fire steps are Vantage, Insignificant, and Exposed terrain.</li>
-                    <li><b>D</b> The broken vent is Blocking terrain.</li>
-                    <li><b>E</b> The three barrel containers on Stronghold A are Blocking and Heavy terrain.</li>
-                    <li><b>F</b> The small broken ramparts on the edge of the Vantage terrain of Stronghold A are Insignificant and Exposed terrain and Ceiling.</li>
-                    <li><b>G</b> The gap on the lower Vantage terrain of Stronghold B is Accessible terrain.</li>
-                    <li><b>H</b> You cannot have more than one friendly operative on the highest upper level of Stronghold B at once, and that operative must be placed on one side or the other of that level, it cannot be placed in the middle (this means an enemy operative cannot be prevented from moving onto or being set up on the other side). If an operative’s base is too big to be placed there, it must move (or be set up) on as far as possible (otherwise it cannot complete that move), then place it to one side instead and treat it as being there. Hold it as far on that level as possible when it matters for checking other rules (e.g. control range, visibility, distance to other operatives, etc.). This takes precedence over the rules for bases and being in a location it can be placed.</li>
-                    <li>All other parts of it are Heavy terrain.</li>
-                    <li>For the purposes of control range, ignore the door and parts of this terrain feature less than 2” high when determining visibility.</li>
-                </ul>
-                </figure>
-                
-                <h3>Large Ruin</h3>
-                <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/largeruin-example-1.png" className="imgGraphic" />
-                    <ul style={{ textAlign: 'left' }}>
-                        <li><b>A</b> The upper level of a large ruin terrain feature is Ceiling and Vantage terrain. For the purposes of intervening and targeting lines, treat this level as the same height as the first upper level of a stronghold terrain feature.</li>
-                        <li><b>B</b> The upper rampart is Light terrain.</li>
-                        <li><b>C</b> The door is Accessible and Heavy terrain.</li>
-                        <li><b>D</b> The door’s viewpoint is Blocking terrain.</li>
-                        <li><b>E</b> Unbroken windows are Barred and Heavy terrain.
-                            <p><strong>Barred terrain:</strong> Visibility cannot be drawn through this terrain unless the operative or what they’re trying to see is horizontally within 1” of it.</p>
-                        </li>
-                        <li>All other parts of it are Heavy terrain.</li>
+                <p>Killzone: Octarius uses 4x Ramshackle Walls, 3x Ramshackle Barricades, 3x Scrap Piles and 1x Oil Pump.</p>
+                <h3>Ramshackle Wall</h3>
+                <p>Ramshackle Walls are mixed terrain with light, heavy and vantage elements and may include doors. There are also hatchways in the vantage elements that can be accessed vertically, both upwards and downwards, using the Operate Hatchway action.</p>
+                <h3>Scrap Piles</h3>
+                <p>An operative cannot climb over a Scrap Pile. Instead it must perform an action to navigate through and around a Scrap Pile.</p>
+                <div className="actionLine"></div>
+                <div className="actionDiv">
+                    <div className="titleBlock">
+                        <p className="actionName">SCRAMBLE REPOSITION</p>
+                        <p className="actionCost"><b>1AP</b></p>
+                    </div>
+                    <ul>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative can perform this action while within control range of a Scrap Pile. Remove this operative from the killzone then set it up within control range of the Scrap Pile it started within range of for this action. It cannot be setup within control range of enemy operatives.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative. This action is treated as a <b>Reposition</b> action.</li>
                     </ul>
-                </figure>
-                <h3>Small Ruin</h3>
-                <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/smallruin-example-1.png" className="imgGraphic" />
-                    <p>This is Heavy terrain.</p>
-                </figure>
-                <h3>Heavy Rubble</h3>
-                <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/heavyrubble-example-1.png" className="imgGraphic" />
-                    <p>This is Heavy terrain.</p>
-                </figure>
-                <h3>Light Rubble</h3>
-                <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/lightrubble-example-1.png" className="imgGraphic" />
-                    <p>This is Light terrain.</p>
-                </figure>
-                
-                <h3>Condensed Stronghold</h3>
-                <p>Whenever an operative is shooting with a weapon that has the Blast, Torrent and/or x” Devastating (i.e., Devastating with a distance requirement) weapon rule, it also has the Lethal 5+ weapon rule if the target is wholly within a stronghold terrain feature and on the killzone floor or a fire step.</p>
-                <p className="indentNote"><em>The Condensed Stronghold rule always relates to the target’s location, so if the primary target is wholly within a stronghold, but the secondary target isn’t, then this rule doesn’t apply to that secondary target.</em></p>
-                
-                <h3>Garrisoned Stronghold</h3>
-                <p>When an operative wholly within a stronghold terrain feature is retaliating against an operative that isn’t, the defender resolves first (this takes precedence over the normal fight resolution order).</p>
+                </div>
+                <br />
+                <div className="actionLine"></div>
+                <div className="actionDiv">
+                    <div className="titleBlock">
+                        <p className="actionName">SCRAMBLE CHARGE</p>
+                        <p className="actionCost"><b>1AP</b></p>
+                    </div>
+                    <ul>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative can perform this action while within control range of a Scrap Pile. Remove this operative from the killzone then set it up within control range of the Scrap Pile it started within range of for this action. It must be setup within control range of at least 1 enemy operative after being placed.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative and/or if it has a conceal order. This action is treated as a <b>Charge</b> action, however, an operative can still perform the <b>Dash</b> action before or after a <b>Scramble Charge</b>.</li>
+                    </ul>
+                </div>
+
+
             </>
         }
 
@@ -292,6 +269,72 @@ const TerrainRules = () => {
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/tw-lightrubble-example-1.png" className="imgGraphic" />
                     <p>This is Light terrain.</p>
                 </figure>
+            </>
+        }
+
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleVolkus}><em>Volkus</em></h2>
+        <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
+
+        {visible_Volkus &&
+            <>
+                <p>Killzone: Volkus has 2x strongholds, 2x large ruins, 2x small ruins, 2x heavy rubble, and 3x light rubble.</p>
+                
+                <h3>Stronghold</h3>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/stronghold-example-1.png" className="imgGraphic" />
+                </figure>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/stronghold-example-2.png" className="imgGraphic" />
+                    <ul style={{ textAlign: 'left' }}>
+                    <li><b>A</b> The upper level(s) of a stronghold terrain feature is Ceiling and Vantage terrain.</li>
+                    <li><b>B</b> The door is Accessible and Heavy terrain.</li>
+                    <li><b>C</b> The fire steps are Vantage, Insignificant, and Exposed terrain.</li>
+                    <li><b>D</b> The broken vent is Blocking terrain.</li>
+                    <li><b>E</b> The three barrel containers on Stronghold A are Blocking and Heavy terrain.</li>
+                    <li><b>F</b> The small broken ramparts on the edge of the Vantage terrain of Stronghold A are Insignificant and Exposed terrain and Ceiling.</li>
+                    <li><b>G</b> The gap on the lower Vantage terrain of Stronghold B is Accessible terrain.</li>
+                    <li><b>H</b> You cannot have more than one friendly operative on the highest upper level of Stronghold B at once, and that operative must be placed on one side or the other of that level, it cannot be placed in the middle (this means an enemy operative cannot be prevented from moving onto or being set up on the other side). If an operative’s base is too big to be placed there, it must move (or be set up) on as far as possible (otherwise it cannot complete that move), then place it to one side instead and treat it as being there. Hold it as far on that level as possible when it matters for checking other rules (e.g. control range, visibility, distance to other operatives, etc.). This takes precedence over the rules for bases and being in a location it can be placed.</li>
+                    <li>All other parts of it are Heavy terrain.</li>
+                    <li>For the purposes of control range, ignore the door and parts of this terrain feature less than 2” high when determining visibility.</li>
+                </ul>
+                </figure>
+                
+                <h3>Large Ruin</h3>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/largeruin-example-1.png" className="imgGraphic" />
+                    <ul style={{ textAlign: 'left' }}>
+                        <li><b>A</b> The upper level of a large ruin terrain feature is Ceiling and Vantage terrain. For the purposes of intervening and targeting lines, treat this level as the same height as the first upper level of a stronghold terrain feature.</li>
+                        <li><b>B</b> The upper rampart is Light terrain.</li>
+                        <li><b>C</b> The door is Accessible and Heavy terrain.</li>
+                        <li><b>D</b> The door’s viewpoint is Blocking terrain.</li>
+                        <li><b>E</b> Unbroken windows are Barred and Heavy terrain.
+                            <p><strong>Barred terrain:</strong> Visibility cannot be drawn through this terrain unless the operative or what they’re trying to see is horizontally within 1” of it.</p>
+                        </li>
+                        <li>All other parts of it are Heavy terrain.</li>
+                    </ul>
+                </figure>
+                <h3>Small Ruin</h3>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/smallruin-example-1.png" className="imgGraphic" />
+                    <p>This is Heavy terrain.</p>
+                </figure>
+                <h3>Heavy Rubble</h3>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/heavyrubble-example-1.png" className="imgGraphic" />
+                    <p>This is Heavy terrain.</p>
+                </figure>
+                <h3>Light Rubble</h3>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/lightrubble-example-1.png" className="imgGraphic" />
+                    <p>This is Light terrain.</p>
+                </figure>
+                
+                <h3>Condensed Stronghold</h3>
+                <p>Whenever an operative is shooting with a weapon that has the Blast, Torrent and/or x” Devastating (i.e., Devastating with a distance requirement) weapon rule, it also has the Lethal 5+ weapon rule if the target is wholly within a stronghold terrain feature and on the killzone floor or a fire step.</p>
+                <p className="indentNote"><em>The Condensed Stronghold rule always relates to the target’s location, so if the primary target is wholly within a stronghold, but the secondary target isn’t, then this rule doesn’t apply to that secondary target.</em></p>
+                
+                <h3>Garrisoned Stronghold</h3>
+                <p>When an operative wholly within a stronghold terrain feature is retaliating against an operative that isn’t, the defender resolves first (this takes precedence over the normal fight resolution order).</p>
             </>
         }
     </div>
