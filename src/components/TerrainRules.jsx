@@ -27,7 +27,7 @@ const TerrainRules = () => {
         <p style={{ marginBottom: 40 + 'px' }}>Different killzones can have different rules, terrain types, and features.<br /><br />
         <em>Click on a sub-heading below to see various killzone-specific rules.</em></p>
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.7 + 'em' }} onClick={toggleBhetaDecima}><em>Bheta-Decima</em></h2>
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleBhetaDecima}><em>Bheta-Decima</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
 
         {visible_BhetaDecima &&
@@ -89,7 +89,7 @@ const TerrainRules = () => {
             </>
         }
         
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.7 + 'em' }} onClick={toggleGallowDark}><em>Gallowdark</em></h2>
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleGallowDark}><em>Gallowdark</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
 
         {visible_GallowDark &&
@@ -132,7 +132,7 @@ const TerrainRules = () => {
             </>
         }
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.7 + 'em' }} onClick={toggleVolkus}><em>Volkus</em></h2>
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleVolkus}><em>Volkus</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
 
         {visible_Volkus &&
@@ -198,7 +198,7 @@ const TerrainRules = () => {
             </>
         }
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.7 + 'em' }} onClick={toggleTombWorld}><em>Tomb World</em></h2>
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleTombWorld}><em>Tomb World</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
 
         {visible_TombWorld &&

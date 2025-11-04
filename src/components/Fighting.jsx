@@ -1,6 +1,7 @@
 const Fighting = () => {
   return (
     <div className="sectionContent" id="fighting">
+        <div style={{ height: 20+ 'px' }}></div>
         <div className="actionLine"></div>
         <div className="actionDiv">
             <div className="titleBlock">

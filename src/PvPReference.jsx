@@ -22,7 +22,7 @@ const PvPReference = () => {
   };
 
   return (
-    <>
+    <div style={{ marginBottom: 40 + 'px' }}>
       <div>
         <div onClick={toggleIntroduction}><h2 className="subcategoryBtn">Introduction</h2></div>
         {visible_Introduction && <Introduction />}
@@ -37,9 +37,7 @@ const PvPReference = () => {
         <div onClick={togglePvEGameSequence}><h2 className="subcategoryBtn">Solo/Co-Op Gameplay</h2></div>
         {visible_PvESequence && <PvESequence />}
       </div>
-
-      <div style={{ height: 15 + 'px' }}></div>
-    </>
+    </div>
   )
 }
 

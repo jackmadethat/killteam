@@ -1,6 +1,7 @@
 const Shooting = () => {
   return (
     <div className="sectionContent" id="shooting">
+        <div style={{ height: 20+ 'px' }}></div>
         <div className="actionLine"></div>
         <div className="actionDiv">
             <div className="titleBlock">

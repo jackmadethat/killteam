@@ -16,6 +16,11 @@ html {
     overflow-x: hidden;
     scrollbar-width: none;
     font-family: 'Kode Mono';
+    height: 100%;
+}
+
+#root {
+    height: 100%;
 }
 
 body {
@@ -45,8 +50,13 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4em;
-    font-weight: bold;
+    font-size: 1.25em;
+    font-weight: lighter;
+}
+
+h4 {
+    font-size: 1.15em;
+    font-weight: lighter;
 }
 
 b {
@@ -121,6 +131,7 @@ Structural Styles
     font-size: 0.65em;
     user-select: none;
     opacity: 0.4;
+    padding-bottom: 80px;
 }
 
 .textCenter {
@@ -198,22 +209,25 @@ Structural Styles
     font-size: 1.9em;
     padding-bottom: 10px;
     padding-left: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .subcategoryBtn {
     border-bottom: 1px var(--bg) solid;
     font-size: 1.4em;
     margin-left: 20px;
+    margin-right: 2%;
     padding-bottom: 5px;
     padding-left: 5px;
 }
 
 .primaryButton {
     border: 1px var(--bg) solid;
+    border-radius: 15px;
     max-width: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
     :hover {
@@ -227,8 +241,9 @@ Structural Styles
 .sectionContent {
     font-weight: 50;
     padding: 1px 2% 2% 2%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -20px;
 }
 
 /**

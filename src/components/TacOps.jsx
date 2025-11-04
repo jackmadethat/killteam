@@ -28,7 +28,7 @@ const TacOps = () => {
       <p style={{ marginBottom: 40 + 'px' }}>A Tac Op is a secret objective that each player chooses individually at the start of the game by selecting one from one of their team's archetypes (for example, Warpcoven must select either <b>Security</b> or <b>Recon</b>). Each Tac Op explains how it is scored and other relevant information, such as Op-specific actions. Each player can score a maximum of 6VP total (for the entire game) from their Tac Op.<br /><br />
       <em>Click on a sub-heading below to see available Tac Ops.</em></p>
 
-      <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.7 + 'em' }} onClick={toggleInfiltration}><em>Infiltration</em></h2>
+      <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleInfiltration}><em>Infiltration</em></h2>
       <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
 
       {visible_Infiltration &&
@@ -39,7 +39,7 @@ const TacOps = () => {
         </div>
       }
 
-      <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.7 + 'em' }} onClick={toggleRecon}><em>Recon</em></h2>
+      <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleRecon}><em>Recon</em></h2>
       <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
 
       {visible_Recon &&
@@ -50,7 +50,7 @@ const TacOps = () => {
         </div>
       }
 
-      <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.7 + 'em' }} onClick={toggleSeekDestroy}><em>Seek & Destroy</em></h2>
+      <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleSeekDestroy}><em>Seek & Destroy</em></h2>
       <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
 
       {visible_SeekDestroy &&
@@ -61,7 +61,7 @@ const TacOps = () => {
         </div>
       }
 
-      <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.7 + 'em' }} onClick={toggleSecurity}><em>Security</em></h2>
+      <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleSecurity}><em>Security</em></h2>
       <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
 
       {visible_Security &&
