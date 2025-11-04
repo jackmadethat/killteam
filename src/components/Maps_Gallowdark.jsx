@@ -1,4 +1,5 @@
 import MapsKey from './Maps_Key'
+import { Killzones } from './Data_Killzones'
 
 const MapsGallowdark = () => {
   return (
@@ -10,14 +11,10 @@ const MapsGallowdark = () => {
       <br />
       <MapsKey />
       <div className="mapGrid">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-itd-1-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-itd-2-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-itd-3-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-itd-4-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-itd-5-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-itd-6-min.png" className="mapImage" />
+        {Killzones.slice(30, 36).map((item) => (
+          <div key={item.id}>{item.image}</div>
+        ))}
       </div>
-
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import MapsKey from './Maps_Key'
+import { Killzones } from './Data_Killzones'
 
 const MapsBhetaDecima = () => {
   return (
@@ -11,20 +12,10 @@ const MapsBhetaDecima = () => {
       <MapsKey />
       <p className="textCenter"><em>Areas marked in blue are hazardous terrain.</em></p>
       <div className="mapGrid">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-bd-1-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-bd-2-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-bd-3-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-bd-4-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-bd-5-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-bd-6-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-bd-7-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-bd-8-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-bd-9-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-bd-10-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-bd-11-min.png" className="mapImage" />
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-bd-12-min.png" className="mapImage" />
+        {Killzones.slice(18, 30).map((item) => (
+          <div key={item.id}>{item.image}</div>
+        ))}
       </div>
-
     </div>
   )
 }

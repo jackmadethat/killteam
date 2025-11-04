@@ -210,6 +210,14 @@ Formatting
     transform: translate(0, 3px);
 }
 
+.archetype {
+    position: absolute;
+    width: 4.7em;
+    height: 4.7em;
+    padding-top: 17px;
+    margin-left: 267px;
+}
+
 .imgGraphic {
     display: block;
     margin-left: auto;

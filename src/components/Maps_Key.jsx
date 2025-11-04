@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const MapsKey = () => {
+export const MapsKey = () => {
   const [keyVisible, setKeyVisible] = useState(false);
 
   const toggleKey = () => {
