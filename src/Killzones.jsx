@@ -48,37 +48,58 @@ const Killzones = () => {
   return (
     <div style={{ marginBottom: 40 + 'px' }}>
       <div>
-        <div className="hovered" onClick={toggleOpenMaps}><h2 className="subcategoryBtn">Open Maps</h2></div>
+        <div className="hovered" onClick={toggleOpenMaps}>
+          <h2 className="subcategoryBtn">Open Maps</h2>
+          <p className="subsectionNo">7.1</p>
+        </div>
         {visible_mapsOpen && <MapsOpen />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleBhetaDecima}><h2 className="subcategoryBtn">Bheta-Decima</h2></div>
+        <div className="hovered" onClick={toggleBhetaDecima}>
+          <h2 className="subcategoryBtn">Bheta-Decima</h2>
+          <p className="subsectionNo">7.2</p>
+        </div>
         {visible_mapsBhetaDecima && <MapsBhetaDecima />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleGallowdark}><h2 className="subcategoryBtn">Gallowdark</h2></div>
+        <div className="hovered" onClick={toggleGallowdark}>
+          <h2 className="subcategoryBtn">Gallowdark</h2>
+          <p className="subsectionNo">7.3</p>
+        </div>
         {visible_mapsGallowdark && <MapsGallowdark />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleMechelen}><h2 className="subcategoryBtn">Mechelen</h2></div>
+        <div className="hovered" onClick={toggleMechelen}>
+          <h2 className="subcategoryBtn">Mechelen</h2>
+          <p className="subsectionNo">7.4</p>
+        </div>
         {visible_mapsMechelen && <MapsMechelen />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleOctarius}><h2 className="subcategoryBtn">Octarius</h2></div>
+        <div className="hovered" onClick={toggleOctarius}>
+          <h2 className="subcategoryBtn">Octarius</h2>
+          <p className="subsectionNo">7.5</p>
+        </div>
         {visible_mapsOctarius && <MapsOctarius />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleTombWorld}><h2 className="subcategoryBtn">Tomb World</h2></div>
+        <div className="hovered" onClick={toggleTombWorld}>
+          <h2 className="subcategoryBtn">Tomb World</h2>
+          <p className="subsectionNo">7.6</p>
+        </div>
         {visible_mapsTombWorld && <MapsTombWorld />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleVolkus}><h2 className="subcategoryBtn">Volkus</h2></div>
+        <div className="hovered" onClick={toggleVolkus}>
+          <h2 className="subcategoryBtn">Volkus</h2>
+          <p className="subsectionNo">7.7</p>
+        </div>
         {visible_mapsVolkus && <MapsVolkus />}
       </div>
     </div>

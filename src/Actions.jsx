@@ -42,23 +42,38 @@ const Actions = () => {
   return (
     <div style={{ marginBottom: 40 + 'px' }}>
       <div>
-        <div className="hovered" onClick={toggleUniversalActions}><h2 className="subcategoryBtn">Universal Actions</h2></div>
+        <div className="hovered" onClick={toggleUniversalActions}>
+          <h2 className="subcategoryBtn">Universal Actions</h2>
+          <p className="subsectionNo">3.1</p>
+        </div>
         {visible_UniversalActions && <UniversalActions />}
       </div>
       <div>
-        <div className="hovered" onClick={toggleShooting}><h2 className="subcategoryBtn">Shooting</h2></div>
+        <div className="hovered" onClick={toggleShooting}>
+          <h2 className="subcategoryBtn">Shooting</h2>
+          <p className="subsectionNo">3.2</p>
+        </div>
         {visible_Shooting && <Shooting />}
       </div>
       <div>
-        <div className="hovered" onClick={toggleFighting}><h2 className="subcategoryBtn">Fighting</h2></div>
+        <div className="hovered" onClick={toggleFighting}>
+          <h2 className="subcategoryBtn">Fighting</h2>
+          <p className="subsectionNo">3.3</p>
+        </div>
         {visible_Fighting && <Fighting />}
       </div>
       <div>
-        <div className="hovered" onClick={toggleGuard}><h2 className="subcategoryBtn">Guard</h2></div>
+        <div className="hovered" onClick={toggleGuard}>
+          <h2 className="subcategoryBtn">Guard</h2>
+          <p className="subsectionNo">3.4</p>
+        </div>
         {visible_Guard && <Guard />}
       </div>
       <div>
-        <div className="hovered" onClick={toggleSpecialActions}><h2 className="subcategoryBtn">Special Actions</h2></div>
+        <div className="hovered" onClick={toggleSpecialActions}>
+          <h2 className="subcategoryBtn">Special Actions</h2>
+          <p className="subsectionNo">3.5</p>
+        </div>
         {visible_SpecialActions && <SpecialActions />}
       </div>
       {/*

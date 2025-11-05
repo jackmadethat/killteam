@@ -12,7 +12,10 @@ const Weapons = () => {
   return (
     <div style={{ marginBottom: 40 + 'px' }}>
       <div>
-        <div className="hovered"onClick={toggleWeaponRules}><h2 className="subcategoryBtn" >Weapon Rules</h2></div>
+        <div className="hovered"onClick={toggleWeaponRules}>
+          <h2 className="subcategoryBtn" >Weapon Rules</h2>
+          <p className="subsectionNo">4.1</p>
+        </div>
         {visible_WeaponRules && <WeaponRules />}
       </div>
     </div>

@@ -30,19 +30,31 @@ const CorePrinciples = () => {
   return (
     <div style={{ marginBottom: 40 + 'px' }}>
       <div>
-        <div className="hovered" onClick={toggleConsiderations}><h2 className="subcategoryBtn">Operatives</h2></div>
+        <div className="hovered" onClick={toggleConsiderations}>
+          <h2 className="subcategoryBtn">Operatives</h2>
+          <p className="subsectionNo">2.1</p>
+        </div>
         {visible_Considerations && <Considerations />}
       </div>
       <div>
-        <div className="hovered" onClick={toggleStrategyPhase}><h2 className="subcategoryBtn">Strategy Phase</h2></div>
+        <div className="hovered" onClick={toggleStrategyPhase}>
+          <h2 className="subcategoryBtn">Strategy Phase</h2>
+          <p className="subsectionNo">2.2</p>
+        </div>
         {visible_StrategyPhase && <StrategyPhase />}
       </div>
       <div>
-        <div className="hovered" onClick={toggleFirefightPhase}><h2 className="subcategoryBtn">Firefight Phase</h2></div>
+        <div className="hovered" onClick={toggleFirefightPhase}>
+          <h2 className="subcategoryBtn">Firefight Phase</h2>
+          <p className="subsectionNo">2.3</p>
+        </div>
         {visible_FirefightPhase && <FirefightPhase />}
       </div>
       <div>
-        <div className="hovered" onClick={toggleKeyPrinciples}><h2 className="subcategoryBtn">Core Principles</h2></div>
+        <div className="hovered" onClick={toggleKeyPrinciples}>
+          <h2 className="subcategoryBtn">Core Principles</h2>
+          <p className="subsectionNo">2.4</p>
+        </div>
         {visible_KeyPrinciples && <KeyPrinciples />}
       </div>
     </div>

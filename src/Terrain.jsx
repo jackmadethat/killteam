@@ -30,19 +30,31 @@ const Terrain = () => {
   return (
     <div style={{ marginBottom: 40 + 'px' }}>
       <div>
-        <div className="hovered" onClick={toggleTerrainMovement}><h2 className="subcategoryBtn">Terrain & Movement</h2></div>
+        <div className="hovered" onClick={toggleTerrainMovement}>
+          <h2 className="subcategoryBtn">Terrain & Movement</h2>
+          <p className="subsectionNo">8.1</p>
+        </div>
         {visible_TerrainMovement && <TerrainMovement />}
       </div>
       <div>
-        <div className="hovered" onClick={toggleTerrainBasics}><h2 className="subcategoryBtn">Terrain Basics</h2></div>
+        <div className="hovered" onClick={toggleTerrainBasics}>
+          <h2 className="subcategoryBtn">Terrain Basics</h2>
+          <p className="subsectionNo">8.2</p>
+        </div>
         {visible_TerrainBasics && <TerrainBasics />}
       </div>
       <div>
-        <div className="hovered" onClick={toggleDoorsHatchways}><h2 className="subcategoryBtn">Doors</h2></div>
+        <div className="hovered" onClick={toggleDoorsHatchways}>
+          <h2 className="subcategoryBtn">Doors</h2>
+          <p className="subsectionNo">8.3</p>
+        </div>
         {visible_DoorsHatchways && <DoorsHatchways />}
       </div>
       <div>
-        <div className="hovered" onClick={toggleTerrainRules}><h2 className="subcategoryBtn">Terrain Rules</h2></div>
+        <div className="hovered" onClick={toggleTerrainRules}>
+          <h2 className="subcategoryBtn">Terrain Rules</h2>
+          <p className="subsectionNo">8.4</p>
+        </div>
         {visible_TerrainRules && <TerrainRules />}
       </div>
     </div>

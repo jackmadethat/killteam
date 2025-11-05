@@ -89,6 +89,7 @@ const App = () => {
               <polygon points="0,0 0,20 20,10" fill="#f80" />
             </svg>
             Overview</h2>
+            <p className="chapterNo">1.0</p>
           </div>
           {visible_PvPReference && <PvPReference />}
 
@@ -98,6 +99,7 @@ const App = () => {
               <polygon points="0,0 0,20 20,10" fill="#f80" />
             </svg>
             Fundamentals</h2>
+            <p className="chapterNo">2.0</p>
           </div>
           {visible_CorePrinciples && <CorePrinciples />}
 
@@ -107,6 +109,7 @@ const App = () => {
               <polygon points="0,0 0,20 20,10" fill="#f80" />
             </svg>
             Actions</h2>
+            <p className="chapterNo">3.0</p>
           </div>
           {visible_Actions && <Actions />}
 
@@ -116,6 +119,7 @@ const App = () => {
               <polygon points="0,0 0,20 20,10" fill="#f80" />
             </svg>
             Weapons</h2>
+            <p className="chapterNo">4.0</p>
           </div>
           {visible_Weapons && <Weapons />}
 
@@ -125,6 +129,7 @@ const App = () => {
               <polygon points="0,0 0,20 20,10" fill="#f80" />
             </svg>
             Equipment</h2>
+            <p className="chapterNo">5.0</p>
           </div>
           {visible_Equipment && <Equipment />}
 
@@ -134,6 +139,7 @@ const App = () => {
               <polygon points="0,0 0,20 20,10" fill="#f80" />
             </svg>
             Missions</h2>
+            <p className="chapterNo">6.0</p>
           </div>
           {visible_Missions && <Missions />}
 
@@ -143,6 +149,7 @@ const App = () => {
               <polygon points="0,0 0,20 20,10" fill="#f80" />
             </svg>
             Killzones</h2>
+            <p className="chapterNo">7.0</p>
           </div>
           {visible_Killzones && <Killzones />}
 
@@ -152,6 +159,7 @@ const App = () => {
               <polygon points="0,0 0,20 20,10" fill="#f80" />
             </svg>
             Terrain</h2>
+            <p className="chapterNo">8.0</p>
           </div>
           {visible_Terrain && <Terrain />}
         </div>

@@ -18,11 +18,17 @@ const Equipment = () => {
   return (
     <div style={{ marginBottom: 40 + 'px' }}>
       <div>
-        <div className="hovered" onClick={toggleUniversalEquipment}><h2 className="subcategoryBtn">Universal Equipment</h2></div>
+        <div className="hovered" onClick={toggleUniversalEquipment}>
+          <h2 className="subcategoryBtn">Universal Equipment</h2>
+          <p className="subsectionNo">5.1</p>
+        </div>
         {visible_UniversalEquipment && <UniversalEquipment />}
       </div>
       <div>
-        <div className="hovered" onClick={toggleGrenades}><h2 className="subcategoryBtn">Grenades</h2></div>
+        <div className="hovered" onClick={toggleGrenades}>
+          <h2 className="subcategoryBtn">Grenades</h2>
+          <p className="subsectionNo">5.2</p>
+        </div>
         {visible_Grenades && <Grenades />}
       </div>
     </div>

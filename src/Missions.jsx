@@ -24,17 +24,26 @@ const Missions = () => {
   return (
     <div style={{ marginBottom: 40 + 'px' }}>
       <div>
-        <div className="hovered" onClick={toggleCritOps}><h2 className="subcategoryBtn">Critical Ops</h2></div>
+        <div className="hovered" onClick={toggleCritOps}>
+          <h2 className="subcategoryBtn">Critical Ops</h2>
+          <p className="subsectionNo">6.1</p>
+        </div>
         {visible_CritOps && <MissionOps />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleTacOps}><h2 className="subcategoryBtn">Tactical Ops</h2></div>
+        <div className="hovered" onClick={toggleTacOps}>
+          <h2 className="subcategoryBtn">Tactical Ops</h2>
+          <p className="subsectionNo">6.2</p>
+        </div>
         {visible_TacOps && <TacOps />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleKillOps}><h2 className="subcategoryBtn">Kill Op</h2></div>
+        <div className="hovered" onClick={toggleKillOps}>
+          <h2 className="subcategoryBtn">Kill Op</h2>
+          <p className="subsectionNo">6.3</p>
+        </div>
         {visible_KillOps && <KillOps />}
       </div>
     </div>
