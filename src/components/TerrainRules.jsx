@@ -143,10 +143,17 @@ const TerrainRules = () => {
         {visible_Octarius &&
             <>
                 <p>Killzone: Octarius uses 4x Ramshackle Walls, 3x Ramshackle Barricades, 3x Scrap Piles and 1x Oil Pump.</p>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OctariusTerrain.JPG" className="imgGraphic" />
+                </figure>
                 <h3>Ramshackle Wall</h3>
                 <p>Ramshackle Walls are mixed terrain with light, heavy and vantage elements and may include doors. There are also hatchways in the vantage elements that can be accessed vertically, both upwards and downwards, using the Operate Hatchway action.</p>
                 <h3>Scrap Piles</h3>
-                <p>An operative cannot climb over a Scrap Pile. Instead it must perform an action to navigate through and around a Scrap Pile.</p>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OctariusTerrain2.JPG" className="imgGraphic" />
+                    <p>An operative cannot climb over a Scrap Pile. Instead it must perform an action to navigate through and around a Scrap Pile.</p>
+                </figure>
+                <br />
                 <div className="actionLine"></div>
                 <div className="actionDiv">
                     <div className="titleBlock">

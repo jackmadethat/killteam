@@ -209,4 +209,34 @@ export const Killzones = [
     killzone: 'Open Maps',
     image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/map-op-6-min.png" className="mapImage" />
   },
+  {
+    id: 43,
+    killzone: 'Octarius',
+    image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Octarius_01.JPG" className="mapImage" />
+  },
+  {
+    id: 44,
+    killzone: 'Octarius',
+    image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Octarius_02.JPG" className="mapImage" />
+  },
+  {
+    id: 45,
+    killzone: 'Octarius',
+    image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Octarius_03.JPG" className="mapImage" />
+  },
+  {
+    id: 46,
+    killzone: 'Octarius',
+    image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Octarius_04.JPG" className="mapImage" />
+  },
+  {
+    id: 47,
+    killzone: 'Octarius',
+    image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Octarius_05.JPG" className="mapImage" />
+  },
+  {
+    id: 48,
+    killzone: 'Octarius',
+    image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Octarius_06.JPG" className="mapImage" />
+  },
 ]
