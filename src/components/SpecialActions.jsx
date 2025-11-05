@@ -55,6 +55,19 @@ const SpecialActions = () => {
             </ul>
         </div>
         <p className="indentNote"><em><b>Knock Back</b> is a high-risk action that can either save or doom an operative.</em></p>
+        <div className="actionLine"></div>
+        <div className="actionDiv">
+            <div className="titleBlock">
+                <p className="actionName">SIGNAL</p>
+                <p className="actionCost"><b>1AP</b></p>
+            </div>
+            <ul>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Nominate a visible friendly operative for the active operative to signal. That operative has +1 APL in it's next activation.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot nominate a friendly operative that is within control range of an enemy operative.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative or whlie it has an engage order.</li>
+            </ul>
+        </div>
+        <p className="indentNote"><em>Whether it's with a hand-wave, portable radio or psychic telepathy, clear and proper communication on the killzone is key to winning battles.</em></p>
     </div>
   )
 }
