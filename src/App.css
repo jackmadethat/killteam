@@ -207,6 +207,9 @@ Structural Styles
     margin-left: 5%;
     margin-right: 3%;
     margin-top: -20px;
+    h3 {
+        font-weight: bold;
+    }
 }
 
 /**
@@ -640,16 +643,13 @@ Media Rules
         margin-right: 10%;
     }
     .imgGraphic {
-        max-width: 600px;
+        max-width: 500px;
     }
 }
 
 @media (max-width: 900px) {
     .missionGrid {
         flex: 100%;
-    }
-    .imgGraphic {
-        max-width: 400px;
     }
 }
 
