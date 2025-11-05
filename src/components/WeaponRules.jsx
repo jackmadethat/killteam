@@ -5,91 +5,91 @@ const WeaponRules = () => {
       
       <h4>Accurate X</h4>
       <div className="weaponLine"></div>
-      <p>You can retain up to x attack dice as normal successes without rolling them. If a weapon has more than one instance of Accurate x, you can treat it as one instance of Accurate 2 instead (this takes precedence over x rules above).</p>
+      <p style={{ marginLeft: 3 + '%' }}>You can retain up to x attack dice as normal successes without rolling them. If a weapon has more than one instance of Accurate x, you can treat it as one instance of Accurate 2 instead (this takes precedence over x rules above).</p>
       
       <h4>Balanced</h4>
       <div className="weaponLine"></div>
-      <p>You can re-roll one of your attack dice.</p>
+      <p style={{ marginLeft: 3 + '%' }}>You can re-roll one of your attack dice.</p>
       
       <h4>Blast X</h4>
       <div className="weaponLine"></div>
-      <p>The target you select is the primary target. After shooting the primary target, shoot with this weapon against each secondary target in an order of your choice (roll each sequence separately). Secondary targets are other operatives visible to and within x of the primary target, e.g., Blast 2” (they are all valid targets, regardless of a Conceal order). Secondary targets are in cover and obscured if the primary target was.</p>
+      <p style={{ marginLeft: 3 + '%' }}>The target you select is the primary target. After shooting the primary target, shoot with this weapon against each secondary target in an order of your choice (roll each sequence separately). Secondary targets are other operatives visible to and within x of the primary target, e.g., Blast 2” (they are all valid targets, regardless of a Conceal order). Secondary targets are in cover and obscured if the primary target was.</p>
       
       <h4>Brutal</h4>
       <div className="weaponLine"></div>
-      <p>Your opponent can only block with critical successes.</p>
+      <p style={{ marginLeft: 3 + '%' }}>Your opponent can only block with critical successes.</p>
       
       <h4>Ceaseless</h4>
       <div className="weaponLine"></div>
-      <p>You can re-roll any of your attack dice results of one result (e.g., results of 2).</p>
+      <p style={{ marginLeft: 3 + '%' }}>You can re-roll any of your attack dice results of one result (e.g., results of 2).</p>
       
       <h4>Devastating X</h4>
       <div className="weaponLine"></div>
-      <p>Each retained critical success immediately inflicts x damage on the operative this weapon is being used against, e.g., Devastating 3. If the rule starts with a distance (e.g., 1” Devastating x), inflict x damage on that operative and each other operative visible to and within that distance of it. Note that success isn’t discarded after doing so—it can still be resolved later in the sequence.</p>
+      <p style={{ marginLeft: 3 + '%' }}>Each retained critical success immediately inflicts x damage on the operative this weapon is being used against, e.g., Devastating 3. If the rule starts with a distance (e.g., 1” Devastating x), inflict x damage on that operative and each other operative visible to and within that distance of it. Note that success isn’t discarded after doing so—it can still be resolved later in the sequence.</p>
       
       <h4>Heavy</h4>
       <div className="weaponLine"></div>
-      <p>An operative cannot use this weapon in an activation or counteraction in which it moved, and it cannot move in an activation or counteraction in which it used this weapon. If the rule is Heavy (x only), where x is a move action, only that move is allowed, e.g., Heavy (Dash only). This weapon rule has no effect on preventing the Guard action.</p>
+      <p style={{ marginLeft: 3 + '%' }}>An operative cannot use this weapon in an activation or counteraction in which it moved, and it cannot move in an activation or counteraction in which it used this weapon. If the rule is Heavy (x only), where x is a move action, only that move is allowed, e.g., Heavy (Dash only). This weapon rule has no effect on preventing the Guard action.</p>
       
       <h4>Hot</h4>
       <div className="weaponLine"></div>
-      <p>After an operative uses this weapon, roll one D6. If the result is less than the weapon’s Hit stat, inflict damage on that operative equal to the result multiplied by two. If it’s used multiple times in one action (e.g., Blast), still only roll one D6.</p>
+      <p style={{ marginLeft: 3 + '%' }}>After an operative uses this weapon, roll one D6. If the result is less than the weapon’s Hit stat, inflict damage on that operative equal to the result multiplied by two. If it’s used multiple times in one action (e.g., Blast), still only roll one D6.</p>
       
       <h4>Lethal X+</h4>
       <div className="weaponLine"></div>
-      <p>Your successes equal to or greater than x are critical successes, e.g., Lethal 5+.</p>
+      <p style={{ marginLeft: 3 + '%' }}>Your successes equal to or greater than x are critical successes, e.g., Lethal 3+.</p>
       
       <h4>Limited X</h4>
       <div className="weaponLine"></div>
-      <p>After an operative uses this weapon a number of times in the battle equal to x, they no longer have it. If it’s used multiple times in one action (e.g., Blast), treat this as one use.</p>
+      <p style={{ marginLeft: 3 + '%' }}>After an operative uses this weapon a number of times in the battle equal to x, they no longer have it. If it’s used multiple times in one action (e.g., Blast), treat this as one use.</p>
       
       <h4>Piercing X</h4>
       <div className="weaponLine"></div>
-      <p>The defender collects x less defence dice, e.g., Piercing 1. If the rule is Piercing Crits x, this only comes into effect if you retain any critical successes.</p>
+      <p style={{ marginLeft: 3 + '%' }}>The defender collects x less defence dice, e.g., Piercing 1. If the rule is Piercing Crits x, this only comes into effect if you retain any critical successes.</p>
       
       <h4>Punishing</h4>
       <div className="weaponLine"></div>
-      <p>If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it.</p>
+      <p style={{ marginLeft: 3 + '%' }}>If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it.</p>
       
       <h4>Range X</h4>
       <div className="weaponLine"></div>
-      <p>Only operatives within x of the active operative can be valid targets, e.g., Range 9”</p>
+      <p style={{ marginLeft: 3 + '%' }}>Only operatives within x of the active operative can be valid targets, e.g., Range 9”</p>
       
       <h4>Relentless</h4>
       <div className="weaponLine"></div>
-      <p>You can re-roll any of your attack dice.</p>
+      <p style={{ marginLeft: 3 + '%' }}>You can re-roll any of your attack dice.</p>
       
       <h4>Rending</h4>
       <div className="weaponLine"></div>
-      <p>If you retain any critical successes, you can retain one of your normal successes as a critical success instead.</p>
+      <p style={{ marginLeft: 3 + '%' }}>If you retain any critical successes, you can retain one of your normal successes as a critical success instead.</p>
       
       <h4>Saturate</h4>
       <div className="weaponLine"></div>
-      <p>The defender cannot retain cover saves.</p>
+      <p style={{ marginLeft: 3 + '%' }}>The defender cannot retain cover saves.</p>
       
       <h4>Seek</h4>
       <div className="weaponLine"></div>
-      <p>When selecting a valid target, operatives cannot use terrain for cover. If the rule is Seek Light, operatives cannot use Light terrain for cover. Whilst this can allow such operatives to be targeted (assuming they’re visible), it doesn’t remove their cover save (if any).</p>
+      <p style={{ marginLeft: 3 + '%' }}>When selecting a valid target, operatives cannot use terrain for cover. If the rule is Seek Light, operatives cannot use Light terrain for cover. Whilst this can allow such operatives to be targeted (assuming they’re visible), it doesn’t remove their cover save (if any).</p>
       
       <h4>Severe</h4>
       <div className="weaponLine"></div>
-      <p>If you don’t retain any critical successes, you can change one of your normal successes to a critical success. The Devastating and Piercing Crits weapon rules still take effect, but Punishing and Rending don’t.</p>
+      <p style={{ marginLeft: 3 + '%' }}>If you don’t retain any critical successes, you can change one of your normal successes to a critical success. The Devastating and Piercing Crits weapon rules still take effect, but Punishing and Rending don’t.</p>
       
       <h4>Shock</h4>
       <div className="weaponLine"></div>
-      <p>The first time you strike with a critical success in each sequence, also discard one of your opponent’s unresolved normal successes (or a critical success if there are none).</p>
+      <p style={{ marginLeft: 3 + '%' }}>The first time you strike with a critical success in each sequence, also discard one of your opponent’s unresolved normal successes (or a critical success if there are none).</p>
       
       <h4>Silent</h4>
       <div className="weaponLine"></div>
-      <p>An operative can perform the Shoot action with this weapon while it has a Conceal order.</p>
+      <p style={{ marginLeft: 3 + '%' }}>An operative can perform the Shoot action with this weapon while it has a Conceal order.</p>
       
       <h4>Stun</h4>
       <div className="weaponLine"></div>
-      <p>If you retain any critical successes, subtract 1 from the APL stat of the operative this weapon is being used against until the end of its next activation.</p>
+      <p style={{ marginLeft: 3 + '%' }}>If you retain any critical successes, subtract 1 from the APL stat of the operative this weapon is being used against until the end of its next activation.</p>
       
       <h4>Torrent X</h4>
       <div className="weaponLine"></div>
-      <p>Select a valid target as normal as the primary target, then select any number of other valid targets within x of the first valid target as secondary targets, e.g., Torrent 2”. Shoot with this weapon against all of them in an order of your choice (roll each sequence separately).</p>
+      <p style={{ marginLeft: 3 + '%' }}>Select a valid target as normal as the primary target, then select any number of other valid targets within x of the first valid target as secondary targets, e.g., Torrent 2”. Shoot with this weapon against all of them in an order of your choice (roll each sequence separately).</p>
     </div>
   )
 }
