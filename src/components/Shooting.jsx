@@ -17,7 +17,7 @@ const Shooting = () => {
 
         <ol>
             <li>Select Weapon
-                <p>The attacker selects one of their operative's ranged weapons (<img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" />) and attack dice (D6) equal to the weapon’s Atk stat.</p>
+                <p>The attacker selects one of their operative's ranged weapons (<img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" />) and attack dice (d6) equal to the weapon’s Atk stat.</p>
             </li>
             <li>Select Valid Target
                 <p>The attacker selects an enemy operative that’s a valid target and has no friendly operatives within its control range.</p>

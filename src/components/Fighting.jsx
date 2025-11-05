@@ -21,7 +21,7 @@ const Fighting = () => {
                 <p style={{ paddingLeft: 5 + '%', paddingRight: 10 + '%' }}><em>The difference between a fighting operative and a retaliating one is important. The fighting operative is the active operative, while the retaliating operative is the chosen enemy operative.</em></p>
             </li>
             <li>Select Weapons
-                <p>Both players select one of their operative's melee weapons (<img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" />) collect their attack dice (D6) equal to the weapon’s Atk stat.</p>
+                <p>Both players select one of their operative's melee weapons (<img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/attack.svg" className="svgImg" />) collect their attack dice (d6) equal to the weapon’s Atk stat.</p>
                 <p style={{ paddingLeft: 5 + '%', paddingRight: 10 + '%' }}><em>If a rule indicates that an operative cannot retaliate, you can still fight against them, but no attack dice can be gathered or resolved for them.</em></p>
             </li>
             <li>Roll Attack Dice

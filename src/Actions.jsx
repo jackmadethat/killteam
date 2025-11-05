@@ -5,6 +5,7 @@ import Guard from './components/Guard'
 import Counteract from './components/Counteract'
 import Shooting from './components/Shooting'
 import Fighting from './components/Fighting'
+import SpecialActions from './components/SpecialActions'
 
 const Actions = () => {
   const [visible_UniversalActions, setVisible_UniversalActions] = useState(false);
@@ -12,6 +13,7 @@ const Actions = () => {
   const [visible_Counteract, setVisible_Counteract] = useState(false);
   const [visible_Shooting, setVisible_Shooting] = useState(false);
   const [visible_Fighting, setVisible_Fighting] = useState(false);
+  const [visible_SpecialActions, setVisible_SpecialActions] = useState(false);
 
   const toggleUniversalActions = () => {
     setVisible_UniversalActions(!visible_UniversalActions);
@@ -33,6 +35,10 @@ const Actions = () => {
     setVisible_Fighting(!visible_Fighting);
   };
 
+  const toggleSpecialActions = () => {
+    setVisible_SpecialActions(!visible_SpecialActions);
+  };
+
   return (
     <div style={{ marginBottom: 40 + 'px' }}>
       <div>
@@ -50,6 +56,10 @@ const Actions = () => {
       <div>
         <div className="hovered" onClick={toggleGuard}><h2 className="subcategoryBtn">Guard</h2></div>
         {visible_Guard && <Guard />}
+      </div>
+      <div>
+        <div className="hovered" onClick={toggleSpecialActions}><h2 className="subcategoryBtn">Special Actions</h2></div>
+        {visible_SpecialActions && <SpecialActions />}
       </div>
       {/*
       <div>

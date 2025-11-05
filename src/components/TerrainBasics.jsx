@@ -9,7 +9,7 @@ const TerrainBasics = () => {
         <p>Larger terrain is Heavy. It provides cover and can obscure operatives.</p>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-heavy-1.png" className="imgGraphic" />
-            <p><em>It’s good to have a mixture of Light and Heavy terrain in your killzone, as some other rules interact with each type differently.</em></p>
+            <p><em>It’s good to have a mixture of Light and Heavy terrain in your killzone, as rules and operatives interact with each type differently.</em></p>
         </figure>
         
         <h3>Light</h3>
