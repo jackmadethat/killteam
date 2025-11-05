@@ -643,13 +643,16 @@ Media Rules
         margin-right: 10%;
     }
     .imgGraphic {
-        max-width: 500px;
+        max-width: 400px;
     }
 }
 
 @media (max-width: 900px) {
     .missionGrid {
         flex: 100%;
+    }
+    .imgGraphic {
+        max-width: 350px;
     }
 }
 
@@ -667,7 +670,7 @@ Media Rules
         min-height: 150px;
     }
     .imgGraphic {
-        max-width: 400px;
+        max-width: 300px;
     }
     #bgImageContainer {
         translate: -960px -153px;

@@ -84,42 +84,74 @@ const App = () => {
       {visible_Rules && 
         <div>
           <div onClick={togglePvPReference}>
-            <h2 className="categoryBtn hovered">Overview</h2>
+            <h2 className="categoryBtn hovered">
+            <svg width="20" height="20" style={{ transform: visible_PvPReference ? 'scale(0.75) rotate(90deg)' : 'scale(0.75) rotate(0deg)', marginRight: '10px' }}>
+              <polygon points="0,0 0,20 20,10" fill="#f80" />
+            </svg>
+            Overview</h2>
           </div>
           {visible_PvPReference && <PvPReference />}
 
           <div onClick={toggleCorePrinciples}>
-            <h2 className="categoryBtn hovered">Fundamentals</h2>
+            <h2 className="categoryBtn hovered">
+            <svg width="20" height="20" style={{ transform: visible_CorePrinciples ? 'scale(0.75) rotate(90deg)' : 'scale(0.75) rotate(0deg)', marginRight: '10px' }}>
+              <polygon points="0,0 0,20 20,10" fill="#f80" />
+            </svg>
+            Fundamentals</h2>
           </div>
           {visible_CorePrinciples && <CorePrinciples />}
 
           <div onClick={toggleActions}>
-            <h2 className="categoryBtn hovered">Actions</h2>
+            <h2 className="categoryBtn hovered">
+            <svg width="20" height="20" style={{ transform: visible_Actions ? 'scale(0.75) rotate(90deg)' : 'scale(0.75) rotate(0deg)', marginRight: '10px' }}>
+              <polygon points="0,0 0,20 20,10" fill="#f80" />
+            </svg>
+            Actions</h2>
           </div>
           {visible_Actions && <Actions />}
 
           <div onClick={toggleWeapons}>
-            <h2 className="categoryBtn hovered">Weapons</h2>
+            <h2 className="categoryBtn hovered">
+            <svg width="20" height="20" style={{ transform: visible_Weapons ? 'scale(0.75) rotate(90deg)' : 'scale(0.75) rotate(0deg)', marginRight: '10px' }}>
+              <polygon points="0,0 0,20 20,10" fill="#f80" />
+            </svg>
+            Weapons</h2>
           </div>
           {visible_Weapons && <Weapons />}
 
           <div onClick={toggleEquipment}>
-            <h2 className="categoryBtn hovered">Equipment</h2>
+            <h2 className="categoryBtn hovered">
+            <svg width="20" height="20" style={{ transform: visible_Equipment ? 'scale(0.75) rotate(90deg)' : 'scale(0.75) rotate(0deg)', marginRight: '10px' }}>
+              <polygon points="0,0 0,20 20,10" fill="#f80" />
+            </svg>
+            Equipment</h2>
           </div>
           {visible_Equipment && <Equipment />}
 
           <div onClick={toggleMissions}>
-            <h2 className="categoryBtn hovered">Missions</h2>
+            <h2 className="categoryBtn hovered">
+            <svg width="20" height="20" style={{ transform: visible_Missions ? 'scale(0.75) rotate(90deg)' : 'scale(0.75) rotate(0deg)', marginRight: '10px' }}>
+              <polygon points="0,0 0,20 20,10" fill="#f80" />
+            </svg>
+            Missions</h2>
           </div>
           {visible_Missions && <Missions />}
 
           <div onClick={toggleKillzones}>
-            <h2 className="categoryBtn hovered">Killzones</h2>
+            <h2 className="categoryBtn hovered">
+            <svg width="20" height="20" style={{ transform: visible_Killzones ? 'scale(0.75) rotate(90deg)' : 'scale(0.75) rotate(0deg)', marginRight: '10px' }}>
+              <polygon points="0,0 0,20 20,10" fill="#f80" />
+            </svg>
+            Killzones</h2>
           </div>
           {visible_Killzones && <Killzones />}
 
           <div onClick={toggleTerrain}>
-            <h2 className="categoryBtn hovered">Terrain</h2>
+            <h2 className="categoryBtn hovered">
+            <svg width="20" height="20" style={{ transform: visible_Terrain ? 'scale(0.75) rotate(90deg)' : 'scale(0.75) rotate(0deg)', marginRight: '10px' }}>
+              <polygon points="0,0 0,20 20,10" fill="#f80" />
+            </svg>
+            Terrain</h2>
           </div>
           {visible_Terrain && <Terrain />}
         </div>
