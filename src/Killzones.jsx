@@ -6,6 +6,7 @@ import MapsBhetaDecima from './components/Maps_BhetaDecima'
 import MapsGallowdark from './components/Maps_Gallowdark'
 import MapsVolkus from './components/Maps_Volkus'
 import MapsOctarius from './components/Maps_Octarius'
+import MapsMechelen from './components/Maps_Mechelen'
 
 const Killzones = () => {
   const [visible_mapsOpen, setVisible_mapsOpen] = useState(false);
@@ -14,6 +15,7 @@ const Killzones = () => {
   const [visible_mapsGallowdark, setVisible_mapsGallowdark] = useState(false);
   const [visible_mapsVolkus, setVisible_mapsVolkus] = useState(false);
   const [visible_mapsOctarius, setVisible_mapsOctarius] = useState(false);
+  const [visible_mapsMechelen, setVisible_mapsMechelen] = useState(false);
 
   const toggleOpenMaps = () => {
     setVisible_mapsOpen(!visible_mapsOpen);
@@ -39,6 +41,10 @@ const Killzones = () => {
     setVisible_mapsOctarius(!visible_mapsOctarius);
   };
 
+  const toggleMechelen = () => {
+    setVisible_mapsMechelen(!visible_mapsMechelen);
+  };
+
   return (
     <div style={{ marginBottom: 40 + 'px' }}>
       <div>
@@ -54,6 +60,11 @@ const Killzones = () => {
       <div>
         <div className="hovered" onClick={toggleGallowdark}><h2 className="subcategoryBtn">Gallowdark</h2></div>
         {visible_mapsGallowdark && <MapsGallowdark />}
+      </div>
+
+      <div>
+        <div className="hovered" onClick={toggleMechelen}><h2 className="subcategoryBtn">Mechelen</h2></div>
+        {visible_mapsMechelen && <MapsMechelen />}
       </div>
 
       <div>

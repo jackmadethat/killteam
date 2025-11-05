@@ -51,7 +51,7 @@ const UniversalEquipment = () => {
             <li>More than 2" from other equipment terrain features.</li>
             <li>More than 1" from doors and access points.</li>
         </ul>
-        <p>Additionally, an operative can either move thorugh ladders as if they aren\'t there (but cannot finish on them), or climb them. Once per action, whenever an operative is climbing this terrain feature, treat the vertical distance as 1". Note that if an operative then continues climbing another terrain feature during that action (including another ladder), that distance is determined as normal.</p>
+        <p>Additionally, an operative can either move thorugh ladders as if they aren't there (but cannot finish on them), or climb them. Once per action, whenever an operative is climbing this terrain feature, treat the vertical distance as 1". Note that if an operative then continues climbing another terrain feature during that action (including another ladder), that distance is determined as normal.</p>
         
         <h3>Portable Barricade</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/portable-barricade.png" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%' }} />

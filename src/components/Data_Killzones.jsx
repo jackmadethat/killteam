@@ -239,4 +239,34 @@ export const Killzones = [
     killzone: 'Octarius',
     image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Octarius_06.JPG" className="mapImage" />
   },
+  {
+    id: 49,
+    killzone: 'Mechelen',
+    image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Mechelen_01.JPG" className="mapImage" />
+  },
+  {
+    id: 50,
+    killzone: 'Mechelen',
+    image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Mechelen_02.JPG" className="mapImage" />
+  },
+  {
+    id: 51,
+    killzone: 'Mechelen',
+    image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Mechelen_03.JPG" className="mapImage" />
+  },
+  {
+    id: 52,
+    killzone: 'Mechelen',
+    image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Mechelen_04.JPG" className="mapImage" />
+  },
+  {
+    id: 53,
+    killzone: 'Mechelen',
+    image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Mechelen_05.JPG" className="mapImage" />
+  },
+  {
+    id: 54,
+    killzone: 'Mechelen',
+    image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Mechelen_06.JPG" className="mapImage" />
+  },
 ]

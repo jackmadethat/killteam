@@ -6,6 +6,7 @@ const TerrainRules = () => {
   const [visible_TombWorld, setVisible_TombWorld] = useState(false);
   const [visible_GallowDark, setVisible_GallowDark] = useState(false);
   const [visible_Octarius, setVisible_Octarius] = useState(false);
+  const [visible_Mechelen, setVisible_Mechelen] = useState(false);
 
   const toggleBhetaDecima = () => {
     setVisible_BhetaDecima(!visible_BhetaDecima);
@@ -25,6 +26,10 @@ const TerrainRules = () => {
 
   const toggleOctarius = () => {
     setVisible_Octarius(!visible_Octarius);
+  };
+
+  const toggleMechelen = () => {
+    setVisible_Mechelen(!visible_Mechelen);
   };
 
   return (
@@ -102,7 +107,10 @@ const TerrainRules = () => {
                 <p>Killzone: Gallowdark uses a 606mm x 703mm game board with a 6x7 grid system for setting up. It has 4x short walls with hatchway and pillars and 2x each other terrain feature. It also has 8x left and 8x right pillars, and 30x pillar caps to complete terrain configuration. Note that some mission maps use less than this.</p>
                 
                 <h3>Gallowdark Wall</h3>
-                <p>A Gallowdark wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway.</p>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/gallowdark-esceno.png" className="imgGraphic" />
+                    <p>A Gallowdark wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway.</p>
+                </figure>
                 <p><b>Wall terrain:</b></p>
                 <ul>
                     <li>Operatives cannot move over or through Wall terrain (this takes precedence over all other rules).</li>
@@ -111,7 +119,7 @@ const TerrainRules = () => {
                     <li>For the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene, unless the active operative has passed it.</li>
                 </ul>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-1.png" className="imgGraphic" />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-1.png" className="imgGraphic" style={{ maxWidth: 500 + 'px' }} />
                     <p>Operative A would usually be within 3” of operative B, but as distances cannot be measured over or through Wall terrain, it must be measured around the Gallowdark wall. This would make operative A more than 3” from operative B.</p>
                 </figure>
                 <figure>
@@ -131,8 +139,32 @@ const TerrainRules = () => {
                     <p>An end of the wall is intervening, therefore operative B is in cover.</p>
                 </figure>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-6.png" className="imgGraphic" />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-6.png" className="imgGraphic"  style={{ maxWidth: 500 + 'px' }}/>
                     <p>As the hatchway is open, an end of the wall is intervening. It’s more than 1” from both operatives, therefore operative B is obscured.</p>
+                </figure>
+            </>
+        }
+
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleMechelen}><em>Mechelen</em></h2>
+        <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
+
+        {visible_Mechelen &&
+            <>
+                <p>Killzone: Mechelen uses a mix of standing wall structures, taller building structures, barricades and boxes. Additionally, the map may contain doors, hatches and breach points.</p>
+                <h3>Structures</h3>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/MechelenTerrain_01.JPG" className="imgGraphic" />
+                    <p>Similar to the structural terrain in Volkus, Mechelen structures include vantage terrain and a mix of light and heavy terrain, as well as doors, holes and windows that can affect visibility and traversal.</p>
+                </figure>
+                <h3>Walls</h3>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/MechelenTerrain_02.JPG" className="imgGraphic" />
+                    <p>Walls, similar to that used in Gallowdark and Tomb World, can contain doors, hatchways, breachpoints, and act as heavy terrain.</p>
+                </figure>
+                <h3>Smaller Features</h3>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/MechelenTerrain_03.JPG" className="imgGraphic" />
+                    <p>Small walls, barricades and obstacles that are scattered about the killzone. As a gameplay option, players can manually place these features (taking turns) at the start of the game independent of their selected equipment options.</p>
                 </figure>
             </>
         }
@@ -143,11 +175,11 @@ const TerrainRules = () => {
         {visible_Octarius &&
             <>
                 <p>Killzone: Octarius uses 4x Ramshackle Walls, 3x Ramshackle Barricades, 3x Scrap Piles and 1x Oil Pump.</p>
+                <h3>Ramshackle Wall</h3>
                 <figure>
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OctariusTerrain.JPG" className="imgGraphic" />
+                    <p>Ramshackle Walls are mixed terrain with light, heavy and vantage elements and may include doors. There are also hatchways in the vantage elements that can be accessed vertically, both upwards and downwards, using the Operate Hatchway action.</p>
                 </figure>
-                <h3>Ramshackle Wall</h3>
-                <p>Ramshackle Walls are mixed terrain with light, heavy and vantage elements and may include doors. There are also hatchways in the vantage elements that can be accessed vertically, both upwards and downwards, using the Operate Hatchway action.</p>
                 <h3>Scrap Piles</h3>
                 <figure>
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OctariusTerrain2.JPG" className="imgGraphic" />
@@ -177,10 +209,9 @@ const TerrainRules = () => {
                         <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative and/or if it has a conceal order. This action is treated as a <b>Charge</b> action, however, an operative can still perform the <b>Dash</b> action before or after a <b>Scramble Charge</b>.</li>
                     </ul>
                 </div>
-
-
             </>
         }
+
 
         <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleTombWorld}><em>Tomb World</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
@@ -190,7 +221,10 @@ const TerrainRules = () => {
                 <p>Killzone: Tomb World uses a 606mm x 703mm game board with a 6x7 grid system for setting up. It has 1x sarcophagus, 4x debris and 2x each other terrain feature. It also has 16x half pillars to complete terrain configuration. Note that some mission maps use less than this.</p>
                 
                 <h3>Tomb World Wall</h3>
-                <p>A Tomb World wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway or a breach point.</p>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/tomb-world-walls-1.png" className="imgGraphic" />
+                    <p>A Tomb World wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway or a breach point.</p>
+                </figure>
                 <p>Wall terrain:</p>
                 <ul>
                     <li>Operatives cannot move over or through Wall terrain (this takes precedence over all other rules).</li>
@@ -198,9 +232,6 @@ const TerrainRules = () => {
                     <li>Other than to areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be measured over or through Wall terrain; they must be measured around it using the shortest possible route.</li>
                     <li>For the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene, unless the active operative has passed it.</li>
                 </ul>
-                <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/tomb-world-walls-1.png" className="imgGraphic" />
-                </figure>
                 <figure>
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/tw-walls-example-1.png" className="imgGraphic" /> 
                     Operative A would usually be within 3” of operative B, but as distances cannot be measured over or through Wall terrain, it must be measured around the Tomb World wall. This would make operative A more than 3” from operative B.
