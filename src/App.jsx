@@ -69,9 +69,11 @@ const App = () => {
 
   return (
     <div id="content">
-      <div className="primaryButton" onClick={toggleTracker}>
-        <h2 className="textCenter">Game Tracker</h2>
-      </div>
+      <div className="textCenter">
+        <button className="mainBtn" onClick={toggleTracker}>
+          <h2>Game Tracker</h2>
+        </button>
+      </div> 
 
       {visible_Tracker && 
         <div>
@@ -79,8 +81,10 @@ const App = () => {
         </div>
       }
 
-      <div className="primaryButton" onClick={toggleRules}>
-        <h2 className="textCenter">Rulebook</h2>
+      <div className="textCenter">
+        <button className="mainBtn" onClick={toggleRules}>
+          <h2>Rulebook</h2>
+        </button>
       </div>
 
       {visible_Rules && 

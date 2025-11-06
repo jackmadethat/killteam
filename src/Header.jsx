@@ -39,7 +39,7 @@ const Header = () => {
             <div className="logoImg" style={{ backgroundColor: isNightMode ? '#F80' : '#000' }}></div>
             <h1>Kill Team</h1>
         </div>
-        <div className="textCenter">
+        <div className="textCenter" style={{ marginBottom: 17 + 'px' }}>
           <button className="disclaimerBtn" onClick={toggleVisibility}><span style={{ color: 'white' }}>DISCLAIMER</span></button>
           {isVisible && <p id="disclaimer"><i>This is a hand-made personal project created for the love of the game. It should not be used as a substitute for the official Kill Team rulebook as the information provided here may differ from official rules and is out-of-date. The information displayed here has been compiled from freely available, legal sources such as reddit, YouTube, the Warhammer Community website, and various public forums. The author accepts no payments, donations or compensation of any kind for this work.<br /><br />Kill Team is the property of Games Workshop. Support the hobby and your local game store; buy a physical copy of Kill Team Core Rules and a Kill Team box set.</i></p>}
         </div>

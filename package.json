@@ -1,7 +1,7 @@
 {
   "name": "killteam",
   "private": true,
-  "version": "1.1.4",
+  "version": "1.2.0",
   "homepage": "http://github.com/jackmadethat/killteam.git",
   "type": "module",
   "scripts": {
