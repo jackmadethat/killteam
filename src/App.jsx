@@ -59,10 +59,12 @@ const App = () => {
 
   const toggleRules = () => {
     setVisible_Rules(!visible_Rules);
+    window.scrollTo(0, 0);
   };
 
   const toggleTracker = () => {
     setVisible_Tracker(!visible_Tracker);
+    window.scrollTo(0, 0);
   };
 
   // https://ktdash.app/
