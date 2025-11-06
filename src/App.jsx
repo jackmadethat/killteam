@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import './index.css'
 import PvPReference from './PvPReference'
 import CorePrinciples from './CorePrinciples'
 import Equipment from './Equipment'
@@ -8,6 +9,7 @@ import Weapons from './Weapons'
 import Terrain from './Terrain'
 import Missions from './Missions'
 import Killzones from './Killzones'
+import Tracker from './components/Tracker'
 
 const App = () => {
   const [visible_PvPReference, setVisible_PvPReference] = useState(false);
@@ -73,7 +75,7 @@ const App = () => {
 
       {visible_Tracker && 
         <div>
-          <p>Coming Soon</p>
+          <Tracker />
         </div>
       }
 

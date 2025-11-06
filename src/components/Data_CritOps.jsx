@@ -276,9 +276,8 @@ export const CritOpsData = [
             <li><b>3</b>, but you must spend an <b>additional 1AP</b> (that action cannot be free and its AP cannot be reduced)</li>
             <li><b>4</b> (as normal)</li>
           </ul>
-          <p>Whenever an operative is carrying an objective marker, that operative cannot be removed and set up again more than 6" away.</p>
         </p>
-
+        <p>Whenever an operative is carrying an objective marker, that operative cannot be removed and set up again more than 6" away.</p>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
         <p>At the end of each turning point, if friendly operatives control more objective markers than enemy operatives do, you score 1VP.</p>
         <p>At the end of the battle, for each objective marker friendly operatives are carrying, you score 1VP.</p>
