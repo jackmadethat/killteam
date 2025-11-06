@@ -137,7 +137,11 @@ const GameGenerator = () => {
       {killzoneImage && (
         <div>
           <h2>Killzone</h2>
-          {killzoneImage}
+          <div className="mapGrid">
+            <div>
+              {killzoneImage}
+            </div>
+          </div>
         </div>
       )}
     </>
