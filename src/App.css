@@ -359,6 +359,7 @@ Mission Ops
     font-size: 0.85em;
     max-width: 350px;
     width: 350px;
+    text-align: left;
     ul {
         margin-left: -10px;
     }

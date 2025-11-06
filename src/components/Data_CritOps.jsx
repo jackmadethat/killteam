@@ -251,14 +251,12 @@ export const CritOpsData = [
       <div className="missionOp">
         <h3 className="opTitle">STAKE CLAIM</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>ADDITIONAL RULES</h3>
-        <p>At the start of the Gambit step of each Strategy phase after the first, starting with the player with initiative, each player must select both one objective marker and one of the following claims for that turning point:
-          <ul>
-            <li>Friendly operatives will control that objective marker at the end of this turning point</li>
-            <li>Enemy operatives won’t contest that objective marker at the end of this turning point</li>
-          </ul>
-          <p>Each player cannot select each objective marker more than once per battle (so they must select each objective marker once during the battle).</p>
-        </p>
-
+        <p>At the start of the Gambit step of each Strategy phase after the first, starting with the player with initiative, each player must select both one objective marker and one of the following claims for that turning point:</p>
+        <ul>
+          <li>Friendly operatives will control that objective marker at the end of this turning point</li>
+          <li>Enemy operatives won’t contest that objective marker at the end of this turning point</li>
+        </ul>
+        <p>Each player cannot select each objective marker more than once per battle (so they must select each objective marker once during the battle).</p>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
         <p>If friendly operatives control more objective markers than enemy operatives do, you score 1VP.</p>
         <p>If your selected claim is true, you score 1VP.</p>

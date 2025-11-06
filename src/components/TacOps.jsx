@@ -33,7 +33,7 @@ const TacOps = () => {
 
       {visible_Infiltration &&
         <div className="missionGrid">
-          {TacOpsData.filter((item) => item.archetype === 'infiltration').map((item) => (
+          {TacOpsData.filter((item) => item.archetype === 'Infiltration').map((item) => (
             <div key={item.id}>{item.content}</div>
           ))}
         </div>
@@ -44,7 +44,7 @@ const TacOps = () => {
 
       {visible_Recon &&
         <div className="missionGrid">
-          {TacOpsData.filter((item) => item.archetype === 'recon').map((item) => (
+          {TacOpsData.filter((item) => item.archetype === 'Recon').map((item) => (
             <div key={item.id}>{item.content}</div>
           ))}
         </div>
@@ -55,7 +55,7 @@ const TacOps = () => {
 
       {visible_SeekDestroy &&
         <div className="missionGrid">
-          {TacOpsData.filter((item) => item.archetype === 'seekdestroy').map((item) => (
+          {TacOpsData.filter((item) => item.archetype === 'Seek & Destroy').map((item) => (
             <div key={item.id}>{item.content}</div>
           ))}
         </div>
@@ -66,7 +66,7 @@ const TacOps = () => {
 
       {visible_Security &&
         <div className="missionGrid">
-          {TacOpsData.filter((item) => item.archetype === 'security').map((item) => (
+          {TacOpsData.filter((item) => item.archetype === 'Security').map((item) => (
             <div key={item.id}>{item.content}</div>
           ))}
         </div>

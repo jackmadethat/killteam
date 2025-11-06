@@ -3,8 +3,8 @@ const KillOpsTable = () => {
     <table className="killOptable">
       <thead>
         <tr>
-          <th colspan="2" rowspan="2" className="topLeftCell"></th>
-          <th colspan="6" className="headerCell" style={{ height: 40 + 'px' }}>KILL GRADE</th>
+          <th colSpan="2" rowSpan="2" className="topLeftCell"></th>
+          <th colSpan="6" className="headerCell" style={{ height: 40 + 'px' }}>KILL GRADE</th>
         </tr>
         <tr style={{ height: 40 + 'px'}}>
           <th className="boxCell">1</th>
@@ -16,7 +16,7 @@ const KillOpsTable = () => {
       </thead>
       <tbody>
         <tr>
-          <td rowspan="10" className="sidewaysCell headerCell" style={{ width: 22 + 'px' }}><span style={{ margin: 55 + 'px' }}><b>STARTING NUMBER OF ENEMY OPERATIVES</b></span></td>
+          <td rowSpan="10" className="sidewaysCell headerCell" style={{ width: 22 + 'px' }}><span style={{ margin: 55 + 'px' }}><b>STARTING NUMBER OF ENEMY OPERATIVES</b></span></td>
           <td data-row="1" className="boxCell">5</td>
           <td data-row="1">1</td>
           <td data-row="1">2</td>
