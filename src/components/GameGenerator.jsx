@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Killzones } from './Data_Killzones'
 import { CritOpsData } from './Data_CritOps'
 import { TacOpsData } from './Data_TacOps'
+import MapsKey from './Maps_Key'
 
 const GameGenerator = () => {
   const [selectedKillzones, setSelectedKillzones] = useState([]);
@@ -137,6 +138,7 @@ const GameGenerator = () => {
       {killzoneImage && (
         <div>
           <h2>Killzone</h2>
+          <MapsKey />
           <div className="mapGrid">
             <div>
               {killzoneImage}

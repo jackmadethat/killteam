@@ -11,13 +11,16 @@ export const MapsKey = () => {
     <>
       <div className="textCenter">
         <button className="disclaimerBtn" onClick={toggleKey} style={{ marginBottom: 20 + 'px' }}><span style={{ color: 'white' }}>SHOW KEY</span></button>
+        {keyVisible && 
+          <div className="mapGrid">
+              <figure>
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/MapRule.JPG" className="imgGraphic" style={{ maxWidth: 350 + 'px' }} />
+                <p>View the Terrain Rules section for killzone-specific rules.</p>
+                <br />
+              </figure>
+          </div>
+        }
       </div>
-      {keyVisible && 
-      <figure>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/MapRule.JPG" className="imgGraphic" style={{ maxWidth: 400 + 'px', paddingBottom: 20 + 'px' }} />
-        <p>View the Terrain Rules section for killzone-specific rules.</p>
-        <br />
-      </figure>}
     </>
   )
 }

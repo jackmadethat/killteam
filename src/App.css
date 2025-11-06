@@ -156,6 +156,10 @@ Formatting
     margin-right: auto;
     margin-bottom: 10px;
     max-width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .blackIcon {
@@ -458,7 +462,10 @@ Map Grid
 .mapImage {
     max-width: 400px;
     max-height: 400px;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /**
@@ -706,5 +713,8 @@ Media Rules
     }
     .subsectionNo {
         margin-left: 89%;
+    }
+    .mapImage {
+        padding-left: 0px;
     }
 }
