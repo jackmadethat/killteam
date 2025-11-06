@@ -3,13 +3,12 @@ import { Killzones } from './Data_Killzones'
 import { CritOpsData } from './Data_CritOps'
 import { TacOpsData } from './Data_TacOps'
 
-const Tracker = () => {
+const GameGenerator = () => {
   const [selectedKillzones, setSelectedKillzones] = useState([]);
   const [selectedTacOps, setSelectedTacOps] = useState([]);
   const [critOp, setCritOp] = useState(null);
   const [tacOps, setTacOps] = useState([]);
   const [killzoneImage, setKillzoneImage] = useState(null);
-  const [generateGame, setGenerateGame] = useState(false);
 
   const killzoneOptions = [
     'Open', 'Bheta-Decima', 'Gallowdark', 'Mechelen', 'Octarius', 'Tomb World', 'Volkus'
@@ -73,10 +72,6 @@ const Tracker = () => {
     setSelectedTacOps([]);
   };
 
-  const toggleGenerateGame = () => {
-    setGenerateGame(!generateGame);
-  }
-
   const zipArrays = (arr1, arr2) => {
     const maxLength = Math.max(arr1.length, arr2.length);
     return Array(maxLength).fill().map((_, index) => ({
@@ -86,71 +81,67 @@ const Tracker = () => {
   }
 
   return (
-    <div className="sectionContent" id="tracker" style={{ textAlign: 'center' }}>
-      <button className="disclaimerBtn" style={{ marginTop: 25 + 'px' }} onClick={toggleGenerateGame}><span style={{ color: 'white' }}>GENERATE GAME</span></button>
-      {generateGame && 
-        <>
-          <table className="optionsTable">
-            <thead>
-              <tr>
-                <th>Select Killzone</th>
-                <th>Select Tac Ops</th>
-              </tr>
-            </thead>
-            <tbody>
-              {zipArrays(killzoneOptions, tacOpOptions).map((item, index) => (
-                <tr key={index}>
-                  <td>
-                    {item.killzone && (
-                      <div>
-                        <input type="checkbox" checked={selectedKillzones.includes(item.killzone)} onChange={() => handleKillzoneChange(item.killzone)} />
-                        <label>{item.killzone}</label>
-                      </div>
-                    )}
-                  </td>
-                  <td>
-                    {item.tacOp && (
-                      <div>
-                        <input type="checkbox" checked={selectedTacOps.includes(item.tacOp)} onChange={() => handleTacOpChange(item.tacOp)} />
-                        <label>{item.tacOp}</label>
-                      </div>
-                    )}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-          <div style={{ marginTop: 20 + 'px' }}>
-            <button className="disclaimerBtn" onClick={handleGenerate}><span style={{ color: 'white' }}>GENERATE</span></button>
-            <button className="disclaimerBtn" onClick={handleClear}><span style={{ color: 'white' }}>CLEAR</span></button>
+    <>
+      <table className="optionsTable">
+        <thead>
+          <tr>
+            <th>Select Killzone</th>
+            <th>Select Tac Ops</th>
+          </tr>
+        </thead>
+        <tbody>
+          {zipArrays(killzoneOptions, tacOpOptions).map((item, index) => (
+            <tr key={index}>
+              <td>
+                {item.killzone && (
+                  <div>
+                    <input type="checkbox" checked={selectedKillzones.includes(item.killzone)} onChange={() => handleKillzoneChange(item.killzone)} />
+                    <label>{item.killzone}</label>
+                  </div>
+                )}
+              </td>
+              <td>
+                {item.tacOp && (
+                  <div>
+                    <input type="checkbox" checked={selectedTacOps.includes(item.tacOp)} onChange={() => handleTacOpChange(item.tacOp)} />
+                    <label>{item.tacOp}</label>
+                  </div>
+                )}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <div style={{ marginTop: 20 + 'px' }}>
+        <button className="disclaimerBtn" onClick={handleGenerate}><span style={{ color: 'white' }}>GENERATE</span></button>
+        <br />
+        <button className="disclaimerBtn" style={{ marginTop: 10 + 'px' }} onClick={handleClear}><span style={{ color: 'white' }}>CLEAR</span></button>
+      </div>
+      {critOp && (
+        <div>
+          <h2>Crit Op</h2>
+          <div className="missionGrid">
+            {critOp}
           </div>
-          {critOp && (
-            <div>
-              <h2>Crit Op</h2>
-              <div className="missionGrid">
-                {critOp}
-              </div>
+        </div>
+      )}
+      {tacOps.length > 0 && (
+        <div style={{ textAlign: 'left' }}>
+          <h2 style={{ textAlign: 'center' }}>Tac Ops</h2>
+            <div className="missionGrid">
+              {tacOps[0]}
+              {tacOps[1]}
             </div>
-          )}
-          {tacOps.length > 0 && (
-            <div style={{ textAlign: 'left' }}>
-              <h2 style={{ textAlign: 'center' }}>Tac Ops</h2>
-                <div className="missionGrid">
-                  {tacOps[0]}
-                  {tacOps[1]}
-                </div>
-            </div>
-          )}
-          {killzoneImage && (
-            <div>
-              <h2>Killzone</h2>
-              {killzoneImage}
-            </div>
-          )}
-        </>
-      }
-    </div>
+        </div>
+      )}
+      {killzoneImage && (
+        <div>
+          <h2>Killzone</h2>
+          {killzoneImage}
+        </div>
+      )}
+    </>
   );
 };
 
-export default Tracker;
+export default GameGenerator;

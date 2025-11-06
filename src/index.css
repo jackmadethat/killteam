@@ -2,6 +2,7 @@
 :root {
     --bg: #F80;
     --darkerOrange: #f05e25;
+    --buttonHighlight: #ff880038;
 }
 
 * {
@@ -78,4 +79,8 @@ li::marker {
 
 a {
     color: #F00;
+}
+
+button:hover {
+    background-color: var(--buttonHighlight);
 }

@@ -9,7 +9,7 @@ import Weapons from './Weapons'
 import Terrain from './Terrain'
 import Missions from './Missions'
 import Killzones from './Killzones'
-import Tracker from './components/Tracker'
+import Tracker from './Tracker'
 
 const App = () => {
   const [visible_PvPReference, setVisible_PvPReference] = useState(false);

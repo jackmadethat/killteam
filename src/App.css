@@ -1,5 +1,3 @@
-
-
 /**
 Structural Styles
 **/
@@ -405,7 +403,6 @@ Kill Op Table
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
-    margin-bottom: 35px;
     text-align: center;
 	max-width: 400px;
     background-color: white;
@@ -571,6 +568,7 @@ Options Table
     margin-right: auto;
     th {
         border-bottom: 1px var(--bg) solid;
+        padding: 5px;
     }
     td {
         text-align: left;
@@ -582,6 +580,44 @@ Options Table
             margin-left: 5px;
         }
     }
+}
+
+.trackerTable {
+    max-width: 400px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    th {
+        border-bottom: 1px var(--bg) solid;
+        padding: 5px;
+    }
+    td {
+        span {
+            font-size: 1.5em;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+}
+
+.pointsBtn {
+    background-color: #00000000;
+    color: white;
+    border: 1px var(--bg) solid;
+    border-radius: 5px;
+    font-family: 'Kode Mono';
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    font-size: 1.25em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /**
