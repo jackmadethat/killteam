@@ -17,7 +17,7 @@ const Strategy = () => {
 
       <h4>Don't be Afraid to Trade</h4>
       <div className="weaponLine"></div>
-      <p style={{ marginLeft: 3 + '%' }}>Gaining an advantage rarely comes without sacrifice. If you're too afraid to commit to a strategy your opponent can easily out-stage you, taking all the favorable positions on the killzone and your team gets destroyed in the later turning points. Put out bait and be prepared to lose operatives and then, when it happens, be in a good position to capitalize. An example might be positioning an operative in a forward location to threaten an objective, score an easy point or pressure the opponent. The purpose of doing so may be to draw enemy operatives away from other positions leaving them isolated and exposed, scoring points, or misdirecting the opponent. Don't treat your operatives like kamikaze pilots; a high-risk play needs to have some kind of pay-off, but playing passively or too defensively because you don't want to lose operatives will not win you games.</p>
+      <p style={{ marginLeft: 3 + '%' }}>Gaining an advantage rarely comes without sacrifice. If you're too afraid to commit to a strategy your opponent can easily out-stage you, taking all the favorable positions on the killzone and your team gets destroyed in the later turning points. Put out bait and be prepared to lose operatives and then, when it happens, be in a good position to capitalize. An example might be positioning an operative in a forward location to threaten an objective, score an easy point or pressure the opponent. The purpose of doing so may be to draw enemy operatives away from other positions leaving them isolated and exposed, scoring points, or misdirecting the opponent. Don't treat your operatives like kamikaze pilots; a high-risk play needs to have some kind of pay-off, but playing passively or too defensively because you don't want to lose operatives will not win you games. Likewise, if you have more operatives than your opponent, trading 1-for-1 is usually wise, but if you have fewer operatives than your opponent, try to gain a point with your activation before risking an elimination.</p>
 
       <h4>Charge Into Cover</h4>
       <div className="weaponLine"></div>
@@ -34,6 +34,10 @@ const Strategy = () => {
       <h4>Mind Your Inches</h4>
       <div className="weaponLine"></div>
       <p style={{ marginLeft: 3 + '%' }}>Remember that movement is calculated in straight lines with a minimum of 1", even if. To move around corners, for example, you may have to spend a whole inch to get your operative's base around an edge before proceeding forward. This can be costly for operatives with larger bases, such as 40mm, as you may have to take 2" just to clear the base. Some players like to be very precise with their movements (to a fault) so try to keep an inch in the bag when calculating your movements. One potential solution to this is to bend the rules slightly and use a 'bicycle chain' ruler, but this almost certainly won't be permitted in tournament play.</p>
+
+      <h4>Don't Bet on Initiative</h4>
+      <div className="weaponLine"></div>
+      <p style={{ marginLeft: 3 + '%' }}>Activation order (initiative) is determined at the start of each turning point in the strategy phase - don't count on having it. What this means is don't leave your operatives exposed or vulnerable because you're counting on having initiative in the next turning point. Play as if you won't.</p>
       
     </div>
   )
