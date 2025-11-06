@@ -10,8 +10,7 @@ const Strategy = () => {
       <h4>Sequencing</h4>
       <div className="weaponLine"></div>
       <p style={{ marginLeft: 3 + '%' }}>The order you activate your operatives changes the flow of the game. Think about action and target priority and get the important stuff done before it's too late. A well-placed sniper can shoot twice (or more) in a single activation, which can be devastating for an exposed operative, but a hopeful pot-shot is far less important than scoring a point by fulfilling an objectve before going for the lucky shot, if you can or should do so. Don't be lucky, be smarter. </p>
-      <p style={{ marginLeft: 3 + '%' }}>
-      Furthermore, consider activating your weaker operatives early in the turning point - Kill teams with smaller numbers can be put at an easy disadvantage by forcing the activation of all their operatives before stronger and more valuable operatives are activated in larger kill teams. Counteracting is only a single 1AP action and a counteracting operative can't move more than 2", after all. That said, multiple weaker operatives can be more dangerous than a single, stronger operative, so plan ahead and remember that points are more important than eliminations.</p>
+      <p style={{ marginLeft: 3 + '%' }}>Furthermore, consider activating your weaker operatives early in the turning point - Kill teams with smaller numbers can be put at an easy disadvantage by forcing the activation of all their operatives before stronger and more valuable operatives are activated in larger kill teams. Counteracting is only a single 1AP action and a counteracting operative can't move more than 2", after all. That said, multiple weaker operatives can be more dangerous than a single, stronger operative, so plan ahead and remember that points are more important than eliminations.</p>
       
       <h4>Target Ready Operatives</h4>
       <div className="weaponLine"></div>
