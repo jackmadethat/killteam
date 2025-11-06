@@ -4,12 +4,14 @@ import StrategyPhase from './components/StrategyPhase'
 import FirefightPhase from './components/FirefightPhase'
 import Considerations from './components/Considerations'
 import KeyPrinciples from './components/KeyPrinciples'
+import Strategy from './components/Strategy'
 
 const CorePrinciples = () => {
   const [visible_StrategyPhase, setVisible_StrategyPhase] = useState(false);
   const [visible_FirefightPhase, setVisible_FirefightPhase] = useState(false);
   const [visible_Considerations, setVisible_Considerations] = useState(false);
   const [visible_KeyPrinciples, setVisible_KeyPrinciples] = useState(false);
+  const [visible_Strategy, setVisible_Strategy] = useState(false);
 
   const toggleStrategyPhase = () => {
     setVisible_StrategyPhase(!visible_StrategyPhase);
@@ -25,6 +27,10 @@ const CorePrinciples = () => {
 
   const toggleKeyPrinciples = () => {
     setVisible_KeyPrinciples(!visible_KeyPrinciples);
+  };
+
+  const toggleStrategy = () => {
+    setVisible_Strategy(!visible_Strategy);
   };
 
   return (
@@ -56,6 +62,13 @@ const CorePrinciples = () => {
           <p className="subsectionNo">2.4</p>
         </div>
         {visible_KeyPrinciples && <KeyPrinciples />}
+      </div>
+      <div>
+        <div className="hovered" onClick={toggleStrategy}>
+          <h2 className="subcategoryBtn">Strategy & Tactics</h2>
+          <p className="subsectionNo">2.5</p>
+        </div>
+        {visible_Strategy && <Strategy />}
       </div>
     </div>
   )
