@@ -356,12 +356,11 @@ export const CritOpsData = [
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>ADDITIONAL RULES</h3>
         <p>When setting up the battle, after setting up objective markers, number each objective marker 1–3.</p>
-        <p>At the start of the Gambit step of each Strategy phase, each player secretly selects one objective marker by putting a number of dice in their hand that matches that marker’s number, then reveal simultaneously:
+        <p>At the start of the Gambit step of each Strategy phase, each player secretly selects one objective marker by putting a number of dice in their hand that matches that marker’s number, then reveal simultaneously:</p>
           <ul>
             <li>If both players selected the same one, that objective marker is inert during this turning point</li>
             <li>If not, the objective marker that neither player selected is inert during this turning point</li>
           </ul>
-        </p>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
         <p>At the end of each turning point after the first, for each objective marker friendly operatives control, you score 1VP. Ignore inert objective markers when determining this.</p>
       </div>

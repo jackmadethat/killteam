@@ -118,6 +118,7 @@ const GameGenerator = () => {
         <br />
         <button className="disclaimerBtn" style={{ marginTop: 10 + 'px' }} onClick={handleClear}><span style={{ color: 'white' }}>CLEAR</span></button>
       </div>
+
       {critOp && (
         <div>
           <h2>Crit Op</h2>
@@ -126,13 +127,13 @@ const GameGenerator = () => {
           </div>
         </div>
       )}
-      {tacOps.length > 0 && (
+      {tacOps[0] && (
         <div style={{ textAlign: 'left' }}>
           <h2 style={{ textAlign: 'center' }}>Tac Ops</h2>
-            <div className="missionGrid">
-              {tacOps[0]}
-              {tacOps[1]}
-            </div>
+          <div className="missionGrid">
+            {tacOps[0]}
+            {tacOps[1]}
+          </div>
         </div>
       )}
       {killzoneImage && (
