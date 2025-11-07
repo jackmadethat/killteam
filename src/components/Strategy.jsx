@@ -39,7 +39,7 @@ const Strategy = () => {
 
       <h4>Don't Bet on Initiative</h4>
       <div className="weaponLine"></div>
-      <p style={{ marginLeft: 3 + '%' }}>Activation order (initiative) is determined at the start of each turning point in the strategy phase - don't count on having it. What this means is don't leave your operatives exposed or vulnerable because you're counting on having initiative in the next turning point. Play as if you won't.</p>
+      <p style={{ marginLeft: 3 + '%' }}>The player that activates first (initiative) is determined at the start of each turning point in the strategy phase - don't count on having it. What this means is don't leave your operatives exposed or vulnerable because you're counting on having initiative in the next turning point. Play as if you won't.</p>
       
     </div>
   )
