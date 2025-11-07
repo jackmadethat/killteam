@@ -332,7 +332,7 @@ export const TacOpsData = [
         <p>When you first score VP from this Op.</p>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
         <ul>
-          <li>Once per turning point after the first, if an enemy operative is incapacitated by a friendly operative, and that friendly operative is whilly within your opponent's territory when it does so, you score 1VP.</li>
+          <li>Once per turning point after the first, if an enemy operative is incapacitated by a friendly operative, and that friendly operative is wholly within your opponent's territory when it does so, you score 1VP.</li>
           <li>At the end of each turning point after the first, if the total APL stat of friendly operatives that both fulfilled the above condition that turning point (regardless of scoring you the VP) and are still wholly within your opponent's territory is 3 or more, you score 1VP.</li>
         </ul>
       </div>
