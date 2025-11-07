@@ -47,7 +47,7 @@ const PvESequence = () => {
       <ol style={{ fontSize: 0.9 + 'em' }}>
         <li><b>Activation Priority</b><br /><br />Select the ready NPO that:<br />
           <ol><br />
-            <li>Can perform a <b>Fight</b> or <b>Shoot</b> action using their best weapon to incapacitate a player's operative</li>
+            <li>Can perform a <b>Fight</b> or <b>Shoot</b> action (as determined by it's behavior)and is the most threatening to do so (e.g. is more likely to incapacitate a friendly operative), using their best weapon to incapacitate a player's operative</li>
             <li>Is <b>not in cover</b> from player operatives</li>
             <li>Is <b>closest to</b> a player operative</li>
           </ol><br />
@@ -66,7 +66,7 @@ const PvESequence = () => {
         </li>
         <li><b>Fight Action</b><br /><br />If there are multiple valid Fight targets, pick one that fulfils the most of these conditions:
           <ul><br />
-            <li>Is <b>wounded</b></li>
+            <li>Is <b>wounded</b> or more likely to be incapacitated</li>
             <li>Is <b>in control range</b> of an objective marker</li>
             <li>Is <b>ready</b></li>
           </ul>
