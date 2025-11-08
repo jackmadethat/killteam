@@ -101,7 +101,7 @@ const Considerations = () => {
                   <td colspan="5"><div className="actionLine" style={{ width: 100 + '%' }}></div></td>
                 </tr>
                 <tr>
-                    <td colspan="4" className="datacardKeywords" style={{ paddingLeft: 10 + 'px' }}><span>ANGELS OF DEATH</span>, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, GRENADIER</td>
+                    <td colspan="4" className="datacardKeywords" style={{ paddingLeft: 10 + 'px' }}><span><b style={{ fontSize: 1.185 + 'em' }}>ANGELS OF DEATH</b><img src="https://raw.githubusercontent.com/jackmadethat/killteam/8c93ba3a2e264ab26877e9ba861363731e544023/src/img/skull.svg" className="svgImg blackIcon" /></span>, IMPERIUM, ADEPTUS ASTARTES, ELIMINATOR, SNIPER</td>
                     <td colspan="5" style={{ textAlign: 'right' }}><span className="baseSize">40</span></td>
                 </tr>
                 <tr>
