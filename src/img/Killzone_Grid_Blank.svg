@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 1992.76 1717.8">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+        stroke-width: 5.26px;
+      }
+
+      .st0, .st1, .st2 {
+        stroke: #000;
+        stroke-miterlimit: 11.34;
+      }
+
+      .st1 {
+        stroke-width: 2.82px;
+      }
+
+      .st1, .st2 {
+        fill: none;
+      }
+
+      .st3 {
+        opacity: .5;
+      }
+
+      .st2 {
+        stroke-width: 2.8px;
+      }
+    </style>
+  </defs>
+  <sodipodi:namedview id="base" bordercolor="#000000" borderopacity="0.3" inkscape:current-layer="layer6" inkscape:cx="1183.8988" inkscape:cy="1286.9343" inkscape:deskcolor="#505050" inkscape:document-units="mm" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:showpageshadow="0" inkscape:window-height="1048" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="0" inkscape:window-y="0" inkscape:zoom="0.24748737" pagecolor="#ffffff"/>
+  <g id="layer6" inkscape:groupmode="layer" inkscape:label="WhiteBG" sodipodi:insensitive="true">
+    <rect id="rect1" class="st0" x="2.63" y="2.63" width="1987.49" height="1712.53"/>
+  </g>
+  <g id="layer9" class="st3" inkscape:groupmode="layer" inkscape:label="GridLines" sodipodi:insensitive="true">
+    <g id="layer8" inkscape:groupmode="layer" inkscape:label="Horizontals">
+      <path id="path8" class="st1" d="M0,287.72h1992.76"/>
+      <path id="path8-9" class="st1" d="M0,574.01h1992.76"/>
+      <path id="path8-2" class="st1" d="M0,860.31h1992.76"/>
+      <path id="path8-0" class="st1" d="M0,1146.61h1992.76"/>
+      <path id="path8-09" class="st1" d="M0,1432.91h1992.76"/>
+    </g>
+    <g id="layer7" inkscape:groupmode="layer" inkscape:label="Verticals">
+      <path id="path1" class="st2" d="M286.28,0v1717.8"/>
+      <path id="path1-7" class="st2" d="M569.75,0v1717.8"/>
+      <path id="path1-2" class="st2" d="M853.21,0v1717.8"/>
+      <path id="path1-5" class="st2" d="M1136.68,0v1717.8"/>
+      <path id="path1-1" class="st2" d="M1420.14,0v1717.8"/>
+      <path id="path1-9" class="st2" d="M1703.61,0v1717.8"/>
+    </g>
+  </g>
+</svg>
