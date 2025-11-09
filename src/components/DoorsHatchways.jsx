@@ -18,27 +18,19 @@ const DoorsHatchways = () => {
             </ul>
         </div>
         <p><em>Opening a door can cause the operative to be within control range of an enemy operative, in which case its Dash or Reposition action would immediately end (unless it has rules that allow it to move within control range of an enemy operative).</em></p>
-        
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-hatchway-1.png" className="imgGraphic" />
-            <p>Closed</p>
-            <p>While a door is closed:</p>
-            <ul style={{ textAlign: 'left' }}>
-                <li>Its door must be fully shut.</li>
-                <li>The access point and door itself are Heavy and Wall terrain.</li>
-            </ul>
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-hatchway-2.png" className="imgGraphic" />
-            <p>Open</p>
-            <p>While a door is open:</p>
-            <ul style={{ textAlign: 'left' }}>
-                <li>Its door must be fully open (it cannot be ajar).</li>
-                <li>Its access point is Accessible, Insignificant and Exposed terrain.</li>
-                <li>Its door is Heavy and Wall terrain, and the gap directly underneath it is Blocking terrain.</li>
-            </ul>
-            <p className="indentNote"><em>If the door has a physical hinge and operatives would prevent the door from fully opening or closing, just pick up the model, open the door, then place the model back as close as possible to it's original position. If an operative is within an enemy operative’s control range before a door is opened, it must be returned there.</em></p>
-        </figure>
+        <p>While a door is closed:</p>
+        <ul style={{ textAlign: 'left' }}>
+            <li>Its door must be fully shut.</li>
+            <li>The access point and door itself are Heavy and Wall terrain.</li>
+        </ul>
+        <p>Open</p>
+        <p>While a door is open:</p>
+        <ul style={{ textAlign: 'left' }}>
+            <li>Its door must be fully open (it cannot be ajar).</li>
+            <li>Its access point is Accessible, Insignificant and Exposed terrain.</li>
+            <li>Its door is Heavy and Wall terrain, and the gap directly underneath it is Blocking terrain.</li>
+        </ul>
+        <p className="indentNote"><em>If the door has a physical hinge and operatives would prevent the door from fully opening or closing, just pick up the model, open the door, then place the model back as close as possible to it's original position. If an operative is within an enemy operative’s control range before a door is opened, it must be returned there.</em></p>
 
         <div className="actionLine"></div>
         <div className="actionDiv">

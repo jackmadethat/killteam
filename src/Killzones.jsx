@@ -49,6 +49,38 @@ const Killzones = () => {
     <div style={{ marginBottom: 40 + 'px' }}>
       <div>
         <div className="hovered" onClick={toggleOpenMaps}>
+          <h2 className="subcategoryBtn">Open</h2>
+          <p className="subsectionNo">7.1</p>
+        </div>
+        {visible_mapsOpen && <MapsOpen />}
+      </div>
+
+      <div>
+        <div className="hovered" onClick={toggleOpenMaps}>
+          <h2 className="subcategoryBtn">Ocean Rig</h2>
+          <p className="subsectionNo">7.2</p>
+        </div>
+        {visible_mapsOpen && <MapsOpen />}
+      </div>
+
+      <div>
+        <div className="hovered" onClick={toggleOpenMaps}>
+          <h2 className="subcategoryBtn">Dungeon</h2>
+          <p className="subsectionNo">7.3</p>
+        </div>
+        {visible_mapsOpen && <MapsOpen />}
+      </div>
+
+      <div>
+        <div className="hovered" onClick={toggleOpenMaps}>
+          <h2 className="subcategoryBtn">Ruins</h2>
+          <p className="subsectionNo">7.4</p>
+        </div>
+        {visible_mapsOpen && <MapsOpen />}
+      </div>
+      {/* 
+      <div>
+        <div className="hovered" onClick={toggleOpenMaps}>
           <h2 className="subcategoryBtn">Open Maps</h2>
           <p className="subsectionNo">7.1</p>
         </div>
@@ -102,6 +134,7 @@ const Killzones = () => {
         </div>
         {visible_mapsVolkus && <MapsVolkus />}
       </div>
+      */}
     </div>
   )
 }

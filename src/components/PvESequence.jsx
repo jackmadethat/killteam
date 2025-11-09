@@ -384,10 +384,9 @@ const PvESequence = () => {
       
       <h3><em>Breach</em></h3>
       <p>An enemy facility has been identified as a vital command post, supply base or other strategic asset that must be eliminated. With your operatives assembled, you must now secure entrance to the site.</p>
-      <figure>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/JointOps_Breach.JPG" className="imgGraphic" />
-      </figure> 
-
+      <div className="mapGrid">
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/39af57cdc7abb37e3e13096a408731afd62629c4/src/img/JointOps_Breach.svg" className="mapImage" style={{ maxWidth: 600 + 'px' }} />
+      </div>
       <b>Mission Rule</b>
       <ul>
         <li><b>NPOs</b>: Any combination of NPOs with a combined wounds stat of up to 90. Set them up with a conceal order wholly within the NPO Deployment Zone and spread out in cover.</li>
@@ -400,10 +399,9 @@ const PvESequence = () => {
 
       <h3><em>Sabotage</em></h3>
       <p>Having forced passage into the enemy facility, it now falls to your operatives to locate and sabotage key systems and strategic assets while eleminating the waves of the enemy soldiers rushing to defend them.</p>
-      <figure>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/JointOps_Sabotage.JPG" className="imgGraphic" />
-      </figure> 
-
+      <div className="mapGrid">
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/39af57cdc7abb37e3e13096a408731afd62629c4/src/img/JointOps_Sabotage.svg" className="mapImage" style={{ maxWidth: 600 + 'px' }} />
+      </div>
       <b>Mission Rule</b>
       <ul>
         <li><b>NPOs</b>: Any combination of NPOs with a combined wounds stat of up to 90. Set them up with a conceal order wholly within the NPO Deployment Zone and spread out in cover.</li>
@@ -428,10 +426,9 @@ const PvESequence = () => {
 
       <h3><em>Escape</em></h3>
       <p>The facility burns. Vital enemy assets have been annihilated thanks to your operatives’ efforts. With vengeful foes closing in from all sides, now is the time to make good your escape.</p>
-      <figure>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/JointOps_Escape.JPG" className="imgGraphic" />
-      </figure> 
-
+      <div className="mapGrid">
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/39af57cdc7abb37e3e13096a408731afd62629c4/src/img/JointOps_Escape.svg" className="mapImage" style={{ maxWidth: 600 + 'px' }} />
+      </div>
       <b>Mission Rule</b>
       <ul>
         <li><b>NPOs</b>: Any combination of NPOs with a combined wounds stat of up to 77. Set them up with a conceal order wholly within the NPO Deployment Zone and spread out in cover.</li>

@@ -37,9 +37,21 @@ const TerrainRules = () => {
         <p style={{ marginBottom: 40 + 'px' }}>Different killzones can have different rules, terrain types, and features.<br /><br />
         <em>Click on a sub-heading below to see various killzone-specific rules.</em></p>
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleBhetaDecima}><em>Bheta-Decima</em></h2>
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }}><em>Open</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
 
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }}><em>Ocean Rig</em></h2>
+        <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
+
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }}><em>Dungeon</em></h2>
+        <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
+
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }}><em>Ruins</em></h2>
+        <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
+
+        {/*
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleBhetaDecima}><em>Bheta-Decima</em></h2>
+        <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
         {visible_BhetaDecima &&
             <>
                 <p>Killzone: Bheta-Decima has 2x short gantries, 4x medium gantries, 2x long gantries, 1x thermometric condenser (the big round piece) and 9 miscellaneous markers.</p>
@@ -94,10 +106,9 @@ const TerrainRules = () => {
                 </figure>
             </>
         }
-        
+
         <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleGallowDark}><em>Gallowdark</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
-
         {visible_GallowDark &&
             <>
                 <p>Killzone: Gallowdark uses a 606mm x 703mm game board with a 6x7 grid system for setting up. It has 4x short walls with hatchway and pillars and 2x each other terrain feature. It also has 8x left and 8x right pillars, and 30x pillar caps to complete terrain configuration. Note that some mission maps use less than this.</p>
@@ -143,7 +154,6 @@ const TerrainRules = () => {
 
         <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleMechelen}><em>Mechelen</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
-
         {visible_Mechelen &&
             <>
                 <p>Killzone: Mechelen uses a mix of standing wall structures, taller building structures, barricades and boxes. Additionally, the map may contain doors, hatches and breach points.</p>
@@ -167,7 +177,6 @@ const TerrainRules = () => {
 
         <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleOctarius}><em>Octarius</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
-
         {visible_Octarius &&
             <>
                 <p>Killzone: Octarius uses 4x Ramshackle Walls, 3x Ramshackle Barricades, 3x Scrap Piles and 1x Oil Pump.</p>
@@ -208,10 +217,8 @@ const TerrainRules = () => {
             </>
         }
 
-
         <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleTombWorld}><em>Tomb World</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
-
         {visible_TombWorld &&
             <>
                 <p>Killzone: Tomb World uses a 606mm x 703mm game board with a 6x7 grid system for setting up. It has 1x sarcophagus, 4x debris and 2x each other terrain feature. It also has 16x half pillars to complete terrain configuration. Note that some mission maps use less than this.</p>
@@ -303,7 +310,6 @@ const TerrainRules = () => {
 
         <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleVolkus}><em>Volkus</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
-
         {visible_Volkus &&
             <>
                 <p>Killzone: Volkus has 2x strongholds, 2x large ruins, 2x small ruins, 2x heavy rubble, and 3x light rubble.</p>
@@ -364,6 +370,7 @@ const TerrainRules = () => {
                 <p>When an operative wholly within a stronghold terrain feature is retaliating against an operative that isn’t, the defender resolves first (this takes precedence over the normal fight resolution order).</p>
             </>
         }
+        */}
     </div>
   )
 }
