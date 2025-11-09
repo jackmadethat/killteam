@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 2160 1584">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke-width: 2.76px;
+      }
+
+      .st0, .st1, .st2 {
+        stroke: #000;
+        stroke-miterlimit: 11.34;
+      }
+
+      .st3 {
+        fill: #fff;
+      }
+
+      .st4 {
+        opacity: .3;
+      }
+
+      .st5 {
+        fill: blue;
+      }
+
+      .st6 {
+        fill: red;
+      }
+
+      .st1 {
+        stroke-width: 5px;
+      }
+
+      .st7 {
+        opacity: .5;
+      }
+
+      .st2 {
+        stroke-width: 2.67px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_3">
+    <g id="layer4">
+      <rect id="rect1" class="st3" x="1.42" y="1.42" width="2157.17" height="1581.17"/>
+    </g>
+  </g>
+  <g id="Layer_4">
+    <g id="layer41" data-name="layer4" class="st4">
+      <rect id="rect11" data-name="rect1" class="st5" y="0" width="433.39" height="1584"/>
+    </g>
+    <g id="layer42" data-name="layer4" class="st4">
+      <rect id="rect12" data-name="rect1" class="st6" x="1513.43" width="646.57" height="1583.92"/>
+    </g>
+  </g>
+  <g id="svg1">
+    <g id="layer3" class="st7" inkscape:groupmode="layer" inkscape:label="GridLines" sodipodi:insensitive="true">
+      <g id="layer2" inkscape:groupmode="layer" inkscape:label="Horizontals">
+        <path id="path2-1" class="st2" d="M0,73.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-7" class="st2" d="M0,145.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-9" class="st2" d="M0,217.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-5" class="st2" d="M0,289.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-7-2" class="st2" d="M0,361.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-9-5" class="st2" d="M0,433.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-4" class="st2" d="M0,505.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-7-3" class="st2" d="M0,577.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-9-0" class="st2" d="M0,649.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-8" class="st2" d="M0,721.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-7-8" class="st2" d="M0,793.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-9-4" class="st2" d="M0,865.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-5-3" class="st2" d="M0,937.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-7-2-1" class="st2" d="M0,1009.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-9-5-4" class="st2" d="M0,1081.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-4-9" class="st2" d="M0,1153.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-7-3-2" class="st2" d="M0,1225.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-9-0-0" class="st2" d="M0,1297.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-9-5-4-2" class="st2" d="M0,1369.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-4-9-6" class="st2" d="M0,1441.34h2160" sodipodi:nodetypes="cc"/>
+        <path id="path2-1-7-3-2-6" class="st2" d="M0,1513.34h2160" sodipodi:nodetypes="cc"/>
+      </g>
+      <g id="layer1" inkscape:groupmode="layer" inkscape:label="Verticals">
+        <path id="path2" class="st0" d="M73.38,0v1584"/>
+        <path id="path2-5" class="st0" d="M145.38,0v1584"/>
+        <path id="path2-0" class="st0" d="M217.38,0v1584"/>
+        <path id="path2-5-9" class="st0" d="M289.39,0v1584"/>
+        <path id="path2-6" class="st0" d="M361.39,0v1584"/>
+        <path id="path2-5-2" class="st0" d="M433.39,0v1584"/>
+        <path id="path2-0-6" class="st0" d="M505.39,0v1584"/>
+        <path id="path2-5-9-1" class="st0" d="M577.4,0v1584"/>
+        <path id="path2-2" class="st0" d="M649.4,0v1584"/>
+        <path id="path2-5-0" class="st0" d="M721.4,0v1584"/>
+        <path id="path2-0-2" class="st0" d="M793.41,0v1584"/>
+        <path id="path2-5-9-3" class="st0" d="M865.41,0v1584"/>
+        <path id="path2-6-7" class="st0" d="M937.41,0v1584"/>
+        <path id="path2-5-2-5" class="st0" d="M1009.41,0v1584"/>
+        <path id="path2-0-6-9" class="st0" d="M1081.42,0v1584"/>
+        <path id="path2-5-9-1-2" class="st0" d="M1153.42,0v1584"/>
+        <path id="path2-7" class="st0" d="M1225.42,0v1584"/>
+        <path id="path2-5-3" class="st0" d="M1297.43,0v1584"/>
+        <path id="path2-0-61" class="st0" d="M1369.43,0v1584"/>
+        <path id="path2-5-9-2" class="st0" d="M1441.43,0v1584"/>
+        <path id="path2-6-9" class="st0" d="M1513.43,0v1584"/>
+        <path id="path2-5-2-3" class="st0" d="M1585.44,0v1584"/>
+        <path id="path2-0-6-1" class="st0" d="M1657.44,0v1584"/>
+        <path id="path2-5-9-1-9" class="st0" d="M1729.44,0v1584"/>
+        <path id="path2-4" class="st0" d="M1801.45,0v1584"/>
+        <path id="path2-5-5" class="st0" d="M1873.45,0v1584"/>
+        <path id="path2-0-0" class="st0" d="M1945.45,0v1584"/>
+        <path id="path2-5-9-36" class="st0" d="M2017.45,0v1584"/>
+        <path id="path2-6-1" class="st0" d="M2089.46,0v1584"/>
+      </g>
+    </g>
+  </g>
+  <g id="centerline">
+    <path id="path2-0-6-91" data-name="path2-0-6-9" class="st1" d="M1080,0v1584"/>
+    <path id="path2-1-7-81" data-name="path2-1-7-8" class="st1" d="M0,793.34h2160" sodipodi:nodetypes="cc"/>
+  </g>
+  <g id="Layer_5">
+    <g>
+      <path d="M43.51,741.59l3.56,5.36v7.08l-3.64,3.72h-10.88v11.84h-4.84v-28h15.8ZM32.55,754.63l2.24-1.32h6.68l.76-.76v-4.68l-1.16-1.76h-8.52v8.52Z"/>
+      <path d="M58.47,739.67l3.8,2.24v21.48l1.16,1.72h6.8v4.48h-9.16l-3.6-5.32v-20.12h-4.96v-4.48h5.96Z"/>
+      <path d="M92.27,747.47l2.8,4.12v18h-4.84v-1.32l-2.2,1.32h-8.72l-3.6-5.36v-2.12l6.44-6.72h8.08v-3.48h-11.32v-4.44h13.36ZM81.47,765.07h8.6v-5.12h-6.12l-3.24,3.32v.08l.76,1.72Z"/>
+      <path d="M119.03,747.55v23.48l-6.96,7.24h-12.32v-4.52h10.32l4.12-4.16h-10.08l-4.36-6.44v-15.6h4.84v14.72l1.96,2.84h7.64v-17.56h4.84Z"/>
+      <path d="M139.3,747.47l3.64,5.44-7.08,7.28h-7.32v2.88l1.28,1.88h7.68l2.2-2.28,2.8,3.52-3.28,3.4h-11.8l-3.48-5.2v-13.24l3.56-3.68h11.8ZM128.54,756.15h5.56l2.96-3.12-.64-.92h-6.96l-.92.96v3.08Z"/>
+      <path d="M150.14,747.55l3.48,2.04,1.96-2.04h9.08l2.72,4.08-3.72,2.52-1.36-2.12h-4.8l-1.28,1.36v11.72h5.68v4.48h-14.52v-4.48h4.04v-11.36l-1.16-1.72h-2.88v-4.48h2.76Z"/>
+      <path d="M196.1,741.59h13.6l5.76,8.6v15.6l-3.64,3.8h-15.72v-28ZM200.94,746.11v19h8.88l.8-.8v-13.2l-3.4-5h-6.28Z"/>
+      <path d="M222.14,747.55l3.48,2.04,1.96-2.04h9.08l2.72,4.08-3.72,2.52-1.36-2.12h-4.8l-1.28,1.36v11.72h5.68v4.48h-14.52v-4.48h4.04v-11.36l-1.16-1.72h-2.88v-4.48h2.76Z"/>
+      <path d="M247.46,747.55h12.04l3.6,5.36v12.88l-3.68,3.8h-12l-3.64-5.36v-12.88l3.68-3.8ZM248.58,763.35l1.16,1.72h7.76l.72-.76v-10.56l-1.16-1.72h-7.72l-.76.84v10.48Z"/>
+      <path d="M283.5,747.55l3.52,5.36v12.88l-3.68,3.8h-8.56l-2.2-1.28v9.92h-4.84v-30.68h4.84v1.32l2.12-1.32h8.8ZM273.74,765.11h7.72l.72-.76v-10.52l-1.16-1.76h-7.68l-.76.76v10.52l1.16,1.76Z"/>
+      <path d="M335.06,741.59v7.8l-2.8,3h.4v4.48h-5.52l.4.24-7,7.24v.72h14.52v4.52h-19.36v-6.64l5.84-6.08h-1v-4.48h6.24l-.48-.32,3.92-4.16v-1.8h-14.52v-4.52h19.36Z"/>
+      <path d="M343.46,747.55h12.04l3.6,5.36v12.88l-3.68,3.8h-12l-3.64-5.36v-12.88l3.68-3.8ZM344.58,763.35l1.16,1.72h7.76l.72-.76v-10.56l-1.16-1.72h-7.72l-.76.84v10.48Z"/>
+      <path d="M368.58,747.55v1.32l2.2-1.32h8.68l3.6,5.32v16.72h-4.84v-15.84l-1.16-1.72h-7.76l-.72.84v16.72h-4.84v-22.04h4.84Z"/>
+      <path d="M403.3,747.47l3.64,5.44-7.08,7.28h-7.32v2.88l1.28,1.88h7.68l2.2-2.28,2.8,3.52-3.28,3.4h-11.8l-3.48-5.2v-13.24l3.56-3.68h11.8ZM392.54,756.15h5.56l2.96-3.12-.64-.92h-6.96l-.92.96v3.08Z"/>
+    </g>
+    <g>
+      <path d="M1702.4,741.59v28h-4.84v-8.8l-9.32-13.88h-.32v22.68h-4.84v-28h7.56l6.92,10.96v-10.96h4.84Z"/>
+      <path d="M1722.84,741.59l3.56,5.36v7.08l-3.64,3.72h-10.88v11.84h-4.84v-28h15.8ZM1711.88,754.63l2.24-1.32h6.68l.76-.76v-4.68l-1.16-1.76h-8.52v8.52Z"/>
+      <path d="M1734.8,741.59h12.04l3.52,5.36v18.8l-3.64,3.84h-12l-3.64-5.36v-18.8l3.72-3.84ZM1735.92,763.35l1.16,1.72h7.68l.76-.8v-16.44l-1.16-1.72h-7.72l-.72.8v16.44Z"/>
+      <path d="M1779.44,741.59h13.6l5.76,8.6v15.6l-3.64,3.8h-15.72v-28ZM1784.28,746.11v19h8.88l.8-.8v-13.2l-3.4-5h-6.28Z"/>
+      <path d="M1805.48,747.55l3.48,2.04,1.96-2.04h9.08l2.72,4.08-3.72,2.52-1.36-2.12h-4.8l-1.28,1.36v11.72h5.68v4.48h-14.52v-4.48h4.04v-11.36l-1.16-1.72h-2.88v-4.48h2.76Z"/>
+      <path d="M1830.8,747.55h12.04l3.6,5.36v12.88l-3.68,3.8h-12l-3.64-5.36v-12.88l3.68-3.8ZM1831.92,763.35l1.16,1.72h7.76l.72-.76v-10.56l-1.16-1.72h-7.72l-.76.84v10.48Z"/>
+      <path d="M1866.84,747.55l3.52,5.36v12.88l-3.68,3.8h-8.56l-2.2-1.28v9.92h-4.84v-30.68h4.84v1.32l2.12-1.32h8.8ZM1857.08,765.11h7.72l.72-.76v-10.52l-1.16-1.76h-7.68l-.76.76v10.52l1.16,1.76Z"/>
+      <path d="M1918.4,741.59v7.8l-2.8,3h.4v4.48h-5.52l.4.24-7,7.24v.72h14.52v4.52h-19.36v-6.64l5.84-6.08h-1v-4.48h6.24l-.48-.32,3.92-4.16v-1.8h-14.52v-4.52h19.36Z"/>
+      <path d="M1926.8,747.55h12.04l3.6,5.36v12.88l-3.68,3.8h-12l-3.64-5.36v-12.88l3.68-3.8ZM1927.92,763.35l1.16,1.72h7.76l.72-.76v-10.56l-1.16-1.72h-7.72l-.76.84v10.48Z"/>
+      <path d="M1951.92,747.55v1.32l2.2-1.32h8.68l3.6,5.32v16.72h-4.84v-15.84l-1.16-1.72h-7.76l-.72.84v16.72h-4.84v-22.04h4.84Z"/>
+      <path d="M1986.63,747.47l3.64,5.44-7.08,7.28h-7.32v2.88l1.28,1.88h7.68l2.2-2.28,2.8,3.52-3.28,3.4h-11.8l-3.48-5.2v-13.24l3.56-3.68h11.8ZM1975.88,756.15h5.56l2.96-3.12-.64-.92h-6.96l-.92.96v3.08Z"/>
+    </g>
+  </g>
+</svg>
