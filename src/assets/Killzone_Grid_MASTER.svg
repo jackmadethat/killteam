@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="703mm"
+   height="606mm"
+   viewBox="0 0 703 606"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="Killzone_Grid_MASTER.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.3"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="1183.8988"
+     inkscape:cy="1286.9343"
+     inkscape:document-units="mm"
+     inkscape:showpageshadow="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:window-width="1920"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer6" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="WhiteBG"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.85722;stroke-opacity:1"
+       id="rect1"
+       width="701.14282"
+       height="604.14276"
+       x="0.92860782"
+       y="0.92860782" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="GridLines"
+     sodipodi:insensitive="true"
+     style="display:inline;opacity:0.5">
+    <g
+       inkscape:groupmode="layer"
+       id="layer8"
+       inkscape:label="Horizontals">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.995171;stroke-opacity:1"
+         d="M 0,101.50241 H 703"
+         id="path8" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.995171;stroke-opacity:1"
+         d="M 0,202.49759 H 703"
+         id="path8-9" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.995171;stroke-opacity:1"
+         d="M 0,303.49759 H 703"
+         id="path8-2" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.995171;stroke-opacity:1"
+         d="M 0,404.49759 H 703"
+         id="path8-0" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.995171;stroke-opacity:1"
+         d="M 0,505.49759 H 703"
+         id="path8-09" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer7"
+       inkscape:label="Verticals">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98874;stroke-opacity:1"
+         d="M 100.99437,0 V 606"
+         id="path1" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98874;stroke-opacity:1"
+         d="M 200.99437,0 V 606"
+         id="path1-7" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98874;stroke-opacity:1"
+         d="M 300.99437,0 V 606"
+         id="path1-2" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98874;stroke-opacity:1"
+         d="M 400.99437,0 V 606"
+         id="path1-5" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98874;stroke-opacity:1"
+         d="M 500.99437,0 V 606"
+         id="path1-1" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98874;stroke-opacity:1"
+         d="M 600.99437,0 V 606"
+         id="path1-9" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="Layer 1" />
+</svg>
