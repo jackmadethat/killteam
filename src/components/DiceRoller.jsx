@@ -9,6 +9,14 @@ const DiceRoller = () => {
     "https://raw.githubusercontent.com/jackmadethat/killteam/30719b7cb34a24ee3be913a3c8c13c46b4a72b55/src/img/dice/Dice_5.svg",
     "https://raw.githubusercontent.com/jackmadethat/killteam/30719b7cb34a24ee3be913a3c8c13c46b4a72b55/src/img/dice/Dice_6.svg",
   ];
+  const scatterDiceImageSrcs = [
+    "https://raw.githubusercontent.com/jackmadethat/killteam/537fbdd606f7d4b33ff95c628622480a768155da/src/img/dice/Scatter_1.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/537fbdd606f7d4b33ff95c628622480a768155da/src/img/dice/Scatter_2.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/537fbdd606f7d4b33ff95c628622480a768155da/src/img/dice/Scatter_2.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/537fbdd606f7d4b33ff95c628622480a768155da/src/img/dice/Scatter_2.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/537fbdd606f7d4b33ff95c628622480a768155da/src/img/dice/Scatter_2.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/537fbdd606f7d4b33ff95c628622480a768155da/src/img/dice/Scatter_1.svg",
+  ];
   const diceImages = diceImageSrcs.map((src, index) => ({ src, value: index + 1 }));
   const [dice, setDice] = useState([
     { ...diceImages[Math.floor(Math.random() * diceImages.length)], id: 0, top: 0, left: 0, state: 'blank' },
@@ -114,8 +122,14 @@ const DiceRoller = () => {
 
   return (
     <div className="sectionContent" id="diceroller">
-        <button className="disclaimerBtn" style={{ marginTop: 25 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addDice}>ADD DICE</span></button>
-        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={removeDice}>REMOVE DICE</span></button>
+        <button className="disclaimerBtn" style={{ marginTop: 25 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addDice}>ADD D6</span></button>
+        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={removeDice}>REMOVE D6</span></button>
+        <br />
+        <button className="disclaimerBtn" style={{ marginTop: 5 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addDice}>ADD D3</span></button>
+        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={removeDice}>REMOVE D3</span></button>
+        <br />
+        <button className="disclaimerBtn" style={{ marginTop: 5 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addDice}>ADD SCATTER</span></button>
+        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={removeDice}>REMOVE SCATTER</span></button>
         <table className="trackerTable" style={{ marginTop: 10 + 'px', maxWidth: 200 + 'px' }}>
           <thead>
           <tr>
