@@ -647,6 +647,10 @@ Dice  Roller
     margin: 30px;
 }
 
+.d3 {
+    clip-path: polygon(50% 6%, 100% 93%, 100% 94%, 0 94%, 0 93%);
+}
+
 /**
 Media Rules
 **/

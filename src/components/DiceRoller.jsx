@@ -87,43 +87,34 @@ const DiceRoller = () => {
           break;
       }
 
-      let newSrc;
+      let newValue, newSrc;
       switch (die.type) {
         case 'd6':
-          newSrc = diceImages[Math.floor(Math.random() * diceImages.length)].src;
+          newValue = Math.floor(Math.random() * 6) + 1;
+          newSrc = diceImages.find(img => img.value === newValue).src;
           break;
         case 'd3':
-          newSrc = D3DiceImages[Math.floor(Math.random() * D3DiceImages.length)].src;
+          newValue = Math.floor(Math.random() * 3) + 1;
+          newSrc = D3DiceImages.find(img => img.value === newValue).src;
           break;
         case 'scatter':
-          newSrc = scatterDiceImages[Math.floor(Math.random() * scatterDiceImages.length)].src;
+          newValue = Math.floor(Math.random() * 6) + 1;
+          newSrc = scatterDiceImages.find(img => img.value === newValue).src;
           break;
         default:
+          newValue = die.value;
           newSrc = die.src;
       }
 
       return { 
         ...die, 
+        value: newValue,
         src: newSrc,
         rotation: Math.floor(Math.random() * 360 - 180),
         top,
         left,
         state: 'none'
       };
-    }));
-  };
-
-  const finishRoll = () => {
-    setCanRoll(true);
-    setDice(dice.map((die) => {
-      if (goalVal == 0) {
-        return { ...die, state: 'blank' };
-      }
-      if (die.value >= goalVal) {
-        return { ...die, state: 'selected' };
-      } else {
-        return { ...die, state: 'not-selected' };
-      }
     }));
   };
 
@@ -160,16 +151,26 @@ const DiceRoller = () => {
     }
   }
 
+  const finishRoll = () => {
+    setCanRoll(true);
+    setDice(prevDice => prevDice.map((die) => {
+      if (die.type === 'scatter' || goalVal == 0) {
+        return { ...die, state: 'blank' };
+      }
+      return { ...die, state: die.value >= goalVal ? 'selected' : 'not-selected' };
+    }));
+  }
+
   return (
     <div className="sectionContent" id="diceroller">
-        <button className="disclaimerBtn" style={{ marginTop: 25 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addD6}>ADD D6</span></button>
-        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={() => removeDie('d6')}>REMOVE D6</span></button>
+        <button className="disclaimerBtn" style={{ marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={() => removeDie('d6')}>REMOVE D6</span></button>
+        <button className="disclaimerBtn" style={{ marginTop: 25 + 'px', marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addD6}>ADD D6</span></button>
         <br />
-        <button className="disclaimerBtn" style={{ marginTop: 5 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addD3}>ADD D3</span></button>
-        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={() => removeDie('d3')}>REMOVE D3</span></button>
+        <button className="disclaimerBtn" style={{ marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={() => removeDie('d3')}>REMOVE D3</span></button>
+        <button className="disclaimerBtn" style={{ marginTop: 5 + 'px', marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addD3}>ADD D3</span></button>
         <br />
-        <button className="disclaimerBtn" style={{ marginTop: 5 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addScatter}>ADD SCATTER</span></button>
-        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={() => removeDie('scatter')}>REMOVE SCATTER</span></button>
+        <button className="disclaimerBtn" style={{ marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={() => removeDie('scatter')}>REMOVE SCATTER</span></button>
+        <button className="disclaimerBtn" style={{ marginTop: 5 + 'px', marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addScatter}>ADD SCATTER</span></button>
         <table className="trackerTable" style={{ marginTop: 10 + 'px', maxWidth: 200 + 'px' }}>
           <thead>
           <tr>
@@ -187,7 +188,7 @@ const DiceRoller = () => {
             <img
               key={die.id}
               src={die.src}
-              className="diceImg"
+              className={`diceImg ${die.type === 'd3' ? 'd3' : ''}`}
               style={{ 
                 transform: `rotate(${die.rotation}deg)`,
                 position: 'relative',
