@@ -24,7 +24,7 @@ const Guard = () => {
             </ul>
         </div>
         <p>Once during each enemy operative’s activation, after that enemy operative performs an action, you can interrupt that activation and select one friendly operative on guard to perform the <b>Fight</b> or <b>Shoot</b> action for free (including actions that are treated as such, e.g. <b>Door Fight</b>).</p>
-        <p>That friendly operative can even perform the <b>Shoot</b> action while within control range of an enemy operative (this takes precedence over the normal <b>Shoot</b> action conditions). This is known as a point-blank shot and has the following additional rules while your operative is doing it:</p>
+        <p>That friendly operative can even perform the <b>Shoot</b> action while within control range of an enemy operative (this takes precedence over the normal <b>Shoot</b> action conditions). This is known as a <em>point-blank shot</em> and has the following additional rules while your operative is doing it:</p>
         <ul>
             <li>Target the enemy operative within your operative’s control range (even if it wouldn’t normally be a valid target).</li>
             <li>Worsen the Hit stat of your operative’s weapons by 1.</li>
