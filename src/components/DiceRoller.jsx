@@ -188,7 +188,7 @@ const DiceRoller = () => {
             <img
               key={die.id}
               src={die.src}
-              className={`diceImg ${die.type === 'd3' ? 'd3' : ''}`}
+              className={`diceImg ${die.type}`}
               style={{ 
                 transform: `rotate(${die.rotation}deg)`,
                 position: 'relative',
