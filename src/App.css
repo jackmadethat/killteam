@@ -660,7 +660,7 @@ Media Rules
 
 @media (max-width: 1920px) {
     .imgGraphic {
-        max-width: 800px;
+        max-width: 1000px;
     }
     #disclaimer {
         margin-left: 25%;
@@ -677,7 +677,7 @@ Media Rules
         margin-right: 10%;
     }
     .imgGraphic {
-        max-width: 400px;
+        max-width: 650px;
     }
 }
 
