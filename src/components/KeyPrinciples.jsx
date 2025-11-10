@@ -15,13 +15,7 @@ const KeyPrinciples = () => {
         </figure>
 
         <h3>Visibility</h3>
-        <p>For something to be visible, the operative must be able to see it. To check visibility, look from behind the operative and determine if you can draw an unobstructed straight line 1mm in diameter from its head to any part of what it’s trying to see. Ignore operatives’ bases when determining this. An operative is always visible to itself. The enemy operative is visible in both images below, even when partially behind the nearby ruin.</p>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/visible-example-1.png" className="imgGraphic" alt="Visible Example" /><p>Full visibility example.</p>
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/visible-example-2.png" className="imgGraphic" alt="Visible Example" /><p>Partial visibility example.</p>
-        </figure>
+        <p>For something to be visible, the operative must be able to see it. To check visibility, look from behind the operative and determine if you can draw an unobstructed straight line 1mm in diameter from its head to any part of what it is trying to see. Ignore operatives’ bases when determining this. Partial visibility is still visibility, and an operative is always visible to itself.</p>
 
         <h3>Cover</h3>
         <p>Cover is determined from one operative to another. An operative is in cover if there’s intervening terrain within its control range. However, it cannot be in cover within 2" of the other operative.</p>
@@ -72,7 +66,7 @@ const KeyPrinciples = () => {
         </figure>
 
         <h3>Valid Target</h3>
-        <p>Some rules require you to select a valid target for an operative. This is most common when an operative is shooting, but some rare rules require it too. If the intended target has an Engage order, it’s a valid target if it’s visible to the operative. If the intended target has a Conceal order, it’s a valid target if it’s visible to the operative and <i>not</i> in cover.</p>
+        <p>Some rules, especially shooting, require you to select a valid target for an operative. If the intended target has an Engage order, it’s a valid target if it’s visible to the operative. If the intended target has a Conceal order, it’s a valid target if it’s visible to the operative and <i>not</i> in cover.</p>
 
         <h3>Damage</h3>
         <p>When damage is inflicted on an operative, reduce their wounds by that amount. An operative’s starting number of wounds is determined by its Wounds stat. If an operative’s wounds are reduced to 0 or less, it’s incapacitated, then removed from the killzone.</p>
@@ -94,9 +88,9 @@ const KeyPrinciples = () => {
                                                 
         <h3>Orders</h3>
         <p><b>Engage: The operative can perform actions as normal and can counteract.</b></p>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/30b319db789fa06cdf62208f11fc57b0f85300e4/src/img/Orders_Engage.svg" className="imgGraphic" style={{ maxWidth: 100 + 'px', maxHeight: 100 + 'px', marginLeft: 2 + '%' }} alt="Order" />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/1bcd0612ecd057396ea0c9f37042789f7944fae6/src/img/Orders_Engage.svg" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%' }} alt="Order" />
         <p><b>Conceal: The operative cannot perform Shoot and Charge actions, and it cannot counteract. However, it’s not a valid target while it’s in cover.</b></p>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/30b319db789fa06cdf62208f11fc57b0f85300e4/src/img/Orders_Conceal.svg" className="imgGraphic" style={{ maxWidth: 100 + 'px', maxHeight: 100 + 'px', marginLeft: 2 + '%' }} alt="Order" />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/1bcd0612ecd057396ea0c9f37042789f7944fae6/src/img/Orders_Conceal.svg" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%' }} alt="Order" />
         <p>Operatives are given a Conceal order when they are set up before the battle. You can change an operative’s order whenever it’s activated.</p>
         <p>Order tokens have two sides. The lighter side shows an operative is ready (it can be activated in the Firefight phase) and the darker side shows an operative is expended (it has been activated in the Firefight phase).</p>
         
