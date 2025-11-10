@@ -73,7 +73,7 @@ const App = () => {
     <div id="content">
       <div className="textCenter">
         <button className="mainBtn" onClick={toggleTracker}>
-          <h2>Game Tracker</h2>
+          <h2>Toolbox</h2>
         </button>
       </div> 
 
