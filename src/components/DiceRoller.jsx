@@ -10,12 +10,12 @@ const DiceRoller = () => {
     "https://raw.githubusercontent.com/jackmadethat/killteam/30719b7cb34a24ee3be913a3c8c13c46b4a72b55/src/img/dice/Dice_6.svg",
   ];
   const scatterDiceImageSrcs = [
-    "https://raw.githubusercontent.com/jackmadethat/killteam/e9cf675b7f634345986cbd39ae2a28a06e95d057/src/img/dice/Scatter_1.svg",
-    "https://raw.githubusercontent.com/jackmadethat/killteam/e9cf675b7f634345986cbd39ae2a28a06e95d057/src/img/dice/Scatter_2.svg",
-    "https://raw.githubusercontent.com/jackmadethat/killteam/e9cf675b7f634345986cbd39ae2a28a06e95d057/src/img/dice/Scatter_2.svg",
-    "https://raw.githubusercontent.com/jackmadethat/killteam/e9cf675b7f634345986cbd39ae2a28a06e95d057/src/img/dice/Scatter_2.svg",
-    "https://raw.githubusercontent.com/jackmadethat/killteam/e9cf675b7f634345986cbd39ae2a28a06e95d057/src/img/dice/Scatter_2.svg",
-    "https://raw.githubusercontent.com/jackmadethat/killteam/e9cf675b7f634345986cbd39ae2a28a06e95d057/src/img/dice/Scatter_1.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/12b71d9c792672057e1c817cd547aeb646d5b073/src/img/dice/Scatter_1.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/12b71d9c792672057e1c817cd547aeb646d5b073/src/img/dice/Scatter_2.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/12b71d9c792672057e1c817cd547aeb646d5b073/src/img/dice/Scatter_2.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/12b71d9c792672057e1c817cd547aeb646d5b073/src/img/dice/Scatter_2.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/12b71d9c792672057e1c817cd547aeb646d5b073/src/img/dice/Scatter_2.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/12b71d9c792672057e1c817cd547aeb646d5b073/src/img/dice/Scatter_1.svg",
   ];
   const D3ImageSrcs = [
     "https://raw.githubusercontent.com/jackmadethat/killteam/b1786f2b70ad4473c09c3a27187b2714e0e06a10/src/img/dice/D3_1.svg",
