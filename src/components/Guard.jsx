@@ -10,10 +10,10 @@ const Guard = () => {
             </div>
             <ul>
                 <li>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The operative is on guard until any of the following are true:
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Place a Guard token beside the active operative. The operative is on guard until any of the following are true:
                     <ul style={{ listStyleType: 'disc', marginLeft: -50 + 'px' }}>
                         <li style={{ marginBottom: 3 + 'px',  marginTop: 4 + 'px' }}>It performs any action, including Reposition.</li>
-                        <li style={{ marginBottom: 3 + 'px' }}>An enemy operative ends an action within its control range and you don’t interrupt that activation (see below).</li>
+                        <li style={{ marginBottom: 3 + 'px' }}>An enemy operative ends an action within it's control range and you don’t interrupt that activation (see below).</li>
                         <li style={{ marginBottom: 3 + 'px' }}>It's order is changed.</li>
                         <li style={{ marginBottom: 3 + 'px' }}>It’s the start of the next turning point.</li>
                     </ul>
