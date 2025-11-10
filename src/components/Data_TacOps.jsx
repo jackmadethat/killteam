@@ -486,11 +486,7 @@ export const TacOpsData = [
         <p>An operative contests a stronghold terrain feature it's wholly within. An operative contests all other terrain features within their control range, or while underneath a terrain feature's Vantage terrian. Friendly operatives control each such terrain feature if the total APL stat of those contesting it is greater than that of enemy operatives.</p>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
         <p>At the end of each turning point after the first:</p>
-        <ul>
-          <li>If <b>Killzone: Volkus</b> - If friendly operatives control any stronghold terrain features within your opponent's territory, you score 2VP; for each ruin (large or small) terrain feature within your opponent's territory that friendly operatives control, you score 1VP.</li>
-          <li>If <b>Killzone: Gallowdark</b> - For each access point that's on the centreline or within your opponent's territory that friendly operatives control, you score 1VP.</li>
-          <li>If <b>any other killzone</b> - For each terrain feature with Heavy terrain within your opponent's territoy that friendly operatives control, you score 1VP.</li>
-        </ul>
+        <p>For each Heavy Terrain feature within your opponent's territory that friendly operatives control, you score 1VP.</p>
       </div>
   },
 ];
