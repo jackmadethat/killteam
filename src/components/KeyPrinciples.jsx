@@ -9,7 +9,7 @@ const KeyPrinciples = () => {
         <p>Control range between operatives is mutual, therefore operatives are within each other’s control range if one of them is visible to and within 1" of the other.</p>
         <p className="indentNote"><em>Imagine control range as an area of interaction the operative has with things close to it.</em></p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/106a4ac6795e203c18a5801b51b203a73becbe5d/src/img/OperativeDiagram_ControlRange.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/abd83c4fece39a445fccd952eb72d097521f5108/src/img/OperativeDiagram_ControlRange.svg" className="imgGraphic" />
             <p>Operatives A and B are within each other’s control range.</p>
             <p>The terrain is within both operative B and C’s control range.</p><p>Because of the terrain, operative B is not visible to operative C, and vice versa, therefore they are not within each other’s control range.</p>
         </figure>
