@@ -68,8 +68,10 @@ const DiceRoller = () => {
   const finishRoll = () => {
     setCanRoll(true);
     setDice(dice.map((die) => {
-      const value = die.value;
-      if (value >= goalVal) {
+      if (goalVal == 0) {
+        return { ...die, state: 'blank' };
+      }
+      if (die.value >= goalVal) {
         return { ...die, state: 'selected' };
       } else {
         return { ...die, state: 'not-selected' };
