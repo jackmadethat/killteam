@@ -23,19 +23,19 @@ const Tracker = () => {
   return (
     <div className="sectionContent" id="tracker" style={{ textAlign: 'center' }}>
       <div className="hovered" onClick={toggleDiceRoller}>
-        <h2 className="subcategoryBtn textCenter">Dice Roller</h2>
+        <h2 className="subcategoryBtn textCenter" style={{ maxWidth: 500 + 'px', marginLeft: 'auto', marginRight: 'auto' }}>Dice Roller</h2>
       </div>
       {diceRoller &&
         <DiceRoller />
       }
       <div className="hovered" onClick={toggleGameTracker}>
-        <h2 className="subcategoryBtn textCenter">Score Tracker</h2>
+        <h2 className="subcategoryBtn textCenter" style={{ maxWidth: 500 + 'px', marginLeft: 'auto', marginRight: 'auto' }}>Score Tracker</h2>
       </div>
       {gameTracker &&
         <TrackerTable />
       }
       <div className="hovered" onClick={toggleGenerateGame}>
-        <h2 className="subcategoryBtn textCenter">Game Generator</h2>
+        <h2 className="subcategoryBtn textCenter" style={{ maxWidth: 500 + 'px', marginLeft: 'auto', marginRight: 'auto' }}>Game Generator</h2>
       </div>
       {generateGame && 
         <GameGenerator />
