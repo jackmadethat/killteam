@@ -29,8 +29,11 @@
   <g id="Layer_2" class="st4">
     <rect width="512" height="512"/>
   </g>
-  <g id="Layer_1">
+  <g id="Square">
     <path class="st2" d="M502,10v492H10V10h492M512,0H0v512h512V0h0Z"/>
+  </g>
+  <g id="Triangle" class="st4">
+    <path class="st2" d="M256,54.3l238.68,413.41H17.32L256,54.3M256,34.3L0,477.7h512L256,34.3h0Z"/>
   </g>
   <g id="_x36_" class="st4">
     <circle class="st0" cx="149" cy="128.25" r="51.58"/>
@@ -65,15 +68,23 @@
   <g id="_x31_" class="st4">
     <circle class="st0" cx="256.5" cy="255.58" r="78.62"/>
   </g>
-  <g id="_x31__copy">
-    <circle class="st3" cx="256.5" cy="256.5" r="97.35"/>
-    <circle class="st3" cx="256.5" cy="256.5" r="158.01"/>
-    <rect class="st0" x="247.15" y="56.31" width="18.7" height="131.79"/>
-    <rect class="st0" x="247.15" y="324.89" width="18.7" height="131.79"/>
-    <rect class="st0" x="381.44" y="190.6" width="18.7" height="131.79" transform="translate(647.29 -134.29) rotate(90)"/>
-    <rect class="st0" x="112.86" y="190.6" width="18.7" height="131.79" transform="translate(378.71 134.29) rotate(90)"/>
+  <g id="D3_2" class="st4">
+    <circle class="st0" cx="256.5" cy="239.01" r="51.58"/>
+    <circle class="st0" cx="173.16" cy="384.45" r="51.58"/>
+    <circle class="st0" cx="338.84" cy="384.45" r="51.58"/>
   </g>
-  <g id="_x31__copy_2" class="st4">
+  <g id="D3_1" class="st4">
+    <circle class="st0" cx="256.5" cy="338.48" r="78.62"/>
+  </g>
+  <g id="Scatter_1">
+    <circle class="st3" cx="256.5" cy="256.5" r="77.52"/>
+    <circle class="st3" cx="256.5" cy="256.5" r="125.82"/>
+    <rect class="st0" x="249.06" y="97.09" width="14.89" height="104.94"/>
+    <rect class="st0" x="249.06" y="310.96" width="14.89" height="104.94"/>
+    <rect class="st0" x="355.99" y="204.03" width="14.89" height="104.94" transform="translate(619.93 -106.93) rotate(90)"/>
+    <rect class="st0" x="142.12" y="204.03" width="14.89" height="104.94" transform="translate(406.07 106.93) rotate(90)"/>
+  </g>
+  <g id="Scatter_2" class="st4">
     <polygon class="st1" points="406.89 103.3 172.83 122.59 226.32 176.08 52.05 350.36 158.99 457.3 333.24 283.05 386.7 336.51 406.89 103.3"/>
   </g>
 </svg>

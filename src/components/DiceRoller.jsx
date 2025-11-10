@@ -17,7 +17,17 @@ const DiceRoller = () => {
     "https://raw.githubusercontent.com/jackmadethat/killteam/537fbdd606f7d4b33ff95c628622480a768155da/src/img/dice/Scatter_2.svg",
     "https://raw.githubusercontent.com/jackmadethat/killteam/537fbdd606f7d4b33ff95c628622480a768155da/src/img/dice/Scatter_1.svg",
   ];
-  const diceImages = diceImageSrcs.map((src, index) => ({ src, value: index + 1 }));
+  const D3ImageSrcs = [
+    "https://raw.githubusercontent.com/jackmadethat/killteam/b1786f2b70ad4473c09c3a27187b2714e0e06a10/src/img/dice/D3_1.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/b1786f2b70ad4473c09c3a27187b2714e0e06a10/src/img/dice/D3_2.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/b1786f2b70ad4473c09c3a27187b2714e0e06a10/src/img/dice/D3_3.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/b1786f2b70ad4473c09c3a27187b2714e0e06a10/src/img/dice/D3_1.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/b1786f2b70ad4473c09c3a27187b2714e0e06a10/src/img/dice/D3_2.svg",
+    "https://raw.githubusercontent.com/jackmadethat/killteam/b1786f2b70ad4473c09c3a27187b2714e0e06a10/src/img/dice/D3_3.svg",
+  ];
+  const diceImages = diceImageSrcs.map((src, index) => ({ src, value: index + 1, type: 'd6' }));
+  const scatterDiceImages = scatterDiceImageSrcs.map((src, index) => ({ src, value: index + 1, type: 'scatter' }));
+  const D3DiceImages = D3ImageSrcs.map((src, index) => ({ src, value: index + 1, type: 'd3' }));
   const [dice, setDice] = useState([
     { ...diceImages[Math.floor(Math.random() * diceImages.length)], id: 0, top: 0, left: 0, state: 'blank' },
     { ...diceImages[Math.floor(Math.random() * diceImages.length)], id: 1, top: 0, left: 0, state: 'blank' },
@@ -27,14 +37,29 @@ const DiceRoller = () => {
   const directions = ['up', 'down', 'left', 'right'];
   const nudgeAmount = 12;
 
-  const addDice = () => {
+  const addD6 = () => {
     const randomDice = diceImages[Math.floor(Math.random() * diceImages.length)];
     const newDice = [...dice, { ...randomDice, id: dice.length, top: 0, left: 0 }];
     setDice(newDice);
   };
 
-  const removeDice = () => {
-    setDice(dice.slice(0, -1));
+  const addD3 = () => {
+    const randomDice = D3DiceImages[Math.floor(Math.random() * D3DiceImages.length)];
+    const newDice = [...dice, { ...randomDice, id: dice.length, top: 0, left: 0, state: 'blank' }];
+    setDice(newDice);
+  };
+
+  const addScatter = () => {
+    const randomDice = scatterDiceImages[Math.floor(Math.random() * scatterDiceImages.length)];
+    const newDice = [...dice, { ...randomDice, id: dice.length, top: 0, left: 0, state: 'blank' }];
+    setDice(newDice);
+  };
+
+  const removeDie = (type) => {
+    const index = [...dice].reverse().findIndex(die => die.type === type);
+    if (index !== -1) {
+      setDice(dice.filter((_, i) => i !== dice.length - 1 - index));
+    }
   };
 
   const adjustValue = (add) => {
@@ -62,9 +87,24 @@ const DiceRoller = () => {
           break;
       }
 
+      let newSrc;
+      switch (die.type) {
+        case 'd6':
+          newSrc = diceImages[Math.floor(Math.random() * diceImages.length)].src;
+          break;
+        case 'd3':
+          newSrc = D3DiceImages[Math.floor(Math.random() * D3DiceImages.length)].src;
+          break;
+        case 'scatter':
+          newSrc = scatterDiceImages[Math.floor(Math.random() * scatterDiceImages.length)].src;
+          break;
+        default:
+          newSrc = die.src;
+      }
+
       return { 
         ...die, 
-        src: diceImages[Math.floor(Math.random() * diceImages.length)].src,
+        src: newSrc,
         rotation: Math.floor(Math.random() * 360 - 180),
         top,
         left,
@@ -122,14 +162,14 @@ const DiceRoller = () => {
 
   return (
     <div className="sectionContent" id="diceroller">
-        <button className="disclaimerBtn" style={{ marginTop: 25 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addDice}>ADD D6</span></button>
-        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={removeDice}>REMOVE D6</span></button>
+        <button className="disclaimerBtn" style={{ marginTop: 25 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addD6}>ADD D6</span></button>
+        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={() => removeDie('d6')}>REMOVE D6</span></button>
         <br />
-        <button className="disclaimerBtn" style={{ marginTop: 5 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addDice}>ADD D3</span></button>
-        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={removeDice}>REMOVE D3</span></button>
+        <button className="disclaimerBtn" style={{ marginTop: 5 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addD3}>ADD D3</span></button>
+        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={() => removeDie('d3')}>REMOVE D3</span></button>
         <br />
-        <button className="disclaimerBtn" style={{ marginTop: 5 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addDice}>ADD SCATTER</span></button>
-        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={removeDice}>REMOVE SCATTER</span></button>
+        <button className="disclaimerBtn" style={{ marginTop: 5 + 'px', marginRight: 7 + 'px' }}><span style={{ color: 'white' }} onClick={addScatter}>ADD SCATTER</span></button>
+        <button className="disclaimerBtn" style={{ marginLeft: 7 + 'px' }}><span style={{ color: 'white' }} onClick={() => removeDie('scatter')}>REMOVE SCATTER</span></button>
         <table className="trackerTable" style={{ marginTop: 10 + 'px', maxWidth: 200 + 'px' }}>
           <thead>
           <tr>
