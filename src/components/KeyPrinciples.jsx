@@ -36,36 +36,35 @@ const KeyPrinciples = () => {
             <li>The attacker must discard one success of their choice instead of retaining it.</li>
             <li>All the attacker’s critical successes are retained as normal successes and cannot be changed to critical successes (this takes precedence over all other rules).</li>
         </ul>
-        <p className="indentNote"><em>Obscured is when an operative is a valid target, but intervening obstacles (usually terrain) make it a less efficient target. Imagine the operative having to target the enemy through a ruin or distant window.</em></p>
+        <p className="indentNote"><em>Obscured is when an operative is a valid target, but intervening obstacles (usually terrain) make it a less efficient target. Imagine the operative having to target the enemy through a ruin or window.</em></p>
         <figure className="figure">
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/f13d866be771542ece5ed173f262cf0dd3ac36ff/src/img/OperativeDiagram_Obscurity_01.svg" className="imgGraphic" />
             <p>Operative B is visible to operative A through a window. However, there’s intervening Heavy terrain more than 1” from both operatives, therefore operative B is obscured.</p>
         </figure>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/f13d866be771542ece5ed173f262cf0dd3ac36ff/src/img/OperativeDiagram_Obscurity_02.svg" className="imgGraphic" />
-            <p>There’s intervening Heavy terrain, but it’s within 1” of A, therefore operative B is not obscured.</p>
+            <p>There’s intervening Heavy terrain, but it’s within 1” of operative A and there's a window, therefore operative B is not obscured, as if operative A is using the window as a perch.</p>
         </figure>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/f13d866be771542ece5ed173f262cf0dd3ac36ff/src/img/OperativeDiagram_Obscurity_03.svg" className="imgGraphic" />
-            <p>There’s intervening Heavy terrain. Whilst parts of it are within 1” of the operatives, part of it isn’t, therefore operative B is obscured.</p>
-            <p className="indentNote"><em>In other words, an operative being within 1" of a terrain feature doesn’t prevent the whole terrain feature from being obscuring, only the part within 1" of the operative.</em></p>
+            <p>There’s intervening Heavy terrain. Whilst parts of it are within 1” of the operatives, part of it isn’t, therefore operative B is obscured. In other words, an operative being within 1" of a terrain feature doesn’t prevent the whole terrain feature from being obscuring, only the part within 1" of the operative.</p>
         </figure>
 
         <h3>Intervening</h3>
         <p>Rules such as cover and obscurity require you to determine if something is intervening, e.g., terrain. Most of the time this is easily determined – if it’s between the operative and the intended target it’s intervening. Sometimes this will be unclear, so we use targeting lines.</p>
         <p>To use targeting lines, the operative’s player draws imaginary straight lines 1mm in diameter from any point of its base to every facing part of the intended target’s base. Anything at least one of these lines cross is intervening. Anything all of these lines cross is wholly intervening.</p>
-        <p className="indentNote"><em>The operative’s player decides from which point of the base targeting lines are drawn from. This can allow the operative to get a more favourable targeting angle — imagine the operative leaning right or left as appropriate.</em></p>
+        <p>The targeting operative’s player decides from which point of the base targeting lines are drawn from. This can allow the operative to get a more favourable targeting angle — imagine the operative leaning right or left as appropriate.</p>
         <p className="indentNote"><em>Intervening is usually determined from one operative to another, but some rare rules will require you to determine it from other things such as markers. In such instances, treat all parts of that thing as the ‘base’ when determining this.</em></p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/intervening-example-1.png" className="imgGraphic" alt="Intervening Example" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/72abe53e7f891bbd1f82c1d0f82914ae3cac00fe/src/img/OperativeDiagram_Intervening_01.svg" className="imgGraphic" />
             <p>Targeting lines cross terrain, therefore it’s intervening.</p>
         </figure>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/intervening-example-2.png" className="imgGraphic" alt="Intervening Example" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/72abe53e7f891bbd1f82c1d0f82914ae3cac00fe/src/img/OperativeDiagram_Intervening_02.svg" className="imgGraphic" />
             <p>Due to where operative A’s player has decided to draw the targeting lines from, the terrain is not intervening.</p>
         </figure>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/intervening-example-3.png" className="imgGraphic" alt="Intervening Example" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/intervening-example-3.png" className="imgGraphic" />
             <p>Most commonly, targeting lines can be drawn in a two-dimensional (top down) manner for ease. However, if there’s a difference in height between the operatives (e.g., one of them is on Vantage terrain), targeting lines should be drawn in a three-dimensional manner.</p>
             <p>None of these targeting lines cross terrain feature A, therefore it’s not intervening.</p>
         </figure>
