@@ -686,7 +686,7 @@ Media Rules
         flex: 100%;
     }
     .imgGraphic {
-        max-width: 500px;
+        max-width: 550px;
     }
     .chapterNo {
         margin-left: 92%;
@@ -710,7 +710,7 @@ Media Rules
         min-height: 150px;
     }
     .imgGraphic {
-        max-width: 400px;
+        max-width: 450px;
     }
     #bgImageContainer {
         translate: -960px -153px;

@@ -56,7 +56,7 @@ const KeyPrinciples = () => {
         <p>The targeting operative’s player decides from which point of the base targeting lines are drawn from. This can allow the operative to get a more favourable targeting angle — imagine the operative leaning right or left as appropriate.</p>
         <p className="indentNote"><em>Intervening is usually determined from one operative to another, but some rare rules will require you to determine it from other things such as markers. In such instances, treat all parts of that thing as the ‘base’ when determining this.</em></p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/72abe53e7f891bbd1f82c1d0f82914ae3cac00fe/src/img/OperativeDiagram_Intervening_01.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/9a8c2348b6ba73c836cba478b483609f9bd68cee/src/img/OperativeDiagram_Intervening_01.svg" className="imgGraphic" />
             <p>Targeting lines cross terrain even though they partially pass through a window, therefore the terrain is intervening.</p>
         </figure>
         <figure>
