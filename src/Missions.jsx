@@ -23,11 +23,8 @@ const Missions = () => {
 
   return (
     <div style={{ marginBottom: 40 + 'px' }}>
-      {/*
       <h3 style={{ marginLeft: 5 + '%', fontSize: 1.8 + 'em' }}>PvP</h3>
-      <h3 style={{ marginLeft: 5 + '%', fontSize: 1.8 + 'em' }}>PvE</h3>
-      */}
-      
+    
       <div>
         <div className="hovered" onClick={toggleCritOps}>
           <h2 className="subcategoryBtn">Critical Ops</h2>
@@ -51,6 +48,8 @@ const Missions = () => {
         </div>
         {visible_KillOps && <KillOps />}
       </div>
+
+      <h3 style={{ marginLeft: 5 + '%', fontSize: 1.8 + 'em' }}>PvE</h3>
     </div>
   )
 }

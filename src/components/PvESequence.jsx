@@ -2,13 +2,14 @@ const PvESequence = () => {
   return (
     <div className="sectionContent" id="pveSequence">
       <p>Kill Team can be played alone or cooperatively with another player versus procedurally-managed non-player operatives (NPOs). NPOs have their own rules regarding stats and behavior, so they require minimal micro-management and provide a functional 'CPU' side.</p>
+      <p>For co-op games, unless specified otherwise, the players select a kill team to share, splitting it evenly or alternating operative selection until every operative is allocated to a player. Some solo and PvE games use a single operative per player, others may use a whole kill team per player; refer to your chosen mission's rules for details.</p>
       <ol>
         <li>Setup Mission & Killzone
           <ul>
-            <br /><li>Select Kill Team(s) for the battle</li>
+            <br /><li>Select a Kill Team for the battle</li>
             <li>Select the killzone and setup terrain</li>
             <li>Select the mission/Crit Op and setup objective markers
-              <p className="indentNote"><em>Some single-player and co-op missions specify special rules for NPOs. Refer to your mission pack for details.</em></p>
+              <p className="indentNote"><em>Some single-player and co-op missions specify special rules for NPOs. Refer to your mission rules for details.</em></p>
             </li>
             <li>Roll for initiative, both for the player(s) and non-player side
               <p className="indentNote"><em>If the non-player wins initiative, it always chooses to keep it.</em></p>
