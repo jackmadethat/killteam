@@ -151,14 +151,12 @@ Formatting
 }
 
 .imgGraphic {
-    display: block;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    max-width: 900px;
 }
 
 .blackIcon {
@@ -659,9 +657,6 @@ Media Rules
 **/
 
 @media (max-width: 1920px) {
-    .imgGraphic {
-        max-width: 800px;
-    }
     #disclaimer {
         margin-left: 25%;
         margin-right: 25%;
@@ -676,17 +671,11 @@ Media Rules
         margin-left: 10%;
         margin-right: 10%;
     }
-    .imgGraphic {
-        max-width: 700px;
-    }
 }
 
 @media (max-width: 900px) {
     .missionGrid {
         flex: 100%;
-    }
-    .imgGraphic {
-        max-width: 650px;
     }
     .chapterNo {
         margin-left: 92%;
@@ -708,9 +697,6 @@ Media Rules
     .logoImg {
         min-width: 150px;
         min-height: 150px;
-    }
-    .imgGraphic {
-        width: 450px;
     }
     #bgImageContainer {
         translate: -960px -153px;
