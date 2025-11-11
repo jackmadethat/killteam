@@ -33,12 +33,14 @@ body {
     height: 100%;
 }
 
+/*
 img:active {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(2); 
 }
+*/
 
 h1 {
     font-size: 3.5em;

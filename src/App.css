@@ -710,8 +710,7 @@ Media Rules
         min-height: 150px;
     }
     .imgGraphic {
-        width: 500px;
-        margin-left: -70px;
+        width: 450px;
     }
     #bgImageContainer {
         translate: -960px -153px;
