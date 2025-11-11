@@ -9,7 +9,7 @@ const KeyPrinciples = () => {
         <p>Control range between operatives is mutual, therefore operatives are within each other’s control range if one of them is visible to and within 1" of the other.</p>
         <p className="indentNote"><em>Imagine control range as an area of interaction the operative has with things close to it.</em></p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/ae2071a65914daa53f1ca2ca87ae4d968ba609f4/src/img/OperativeDiagram_ControlRange.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/81a3091408c29b40b09744c29c27a1bbc2d7fdf8/src/img/OperativeDiagram_ControlRange.svg" className="imgGraphic" />
             <p>Operatives A and B are within each other’s control range.</p>
             <p>The terrain is within both operative B and C’s control range.</p><p>Because of the terrain, operative B is not visible to operative C, and vice versa, therefore they are not within each other’s control range.</p>
         </figure>
@@ -21,11 +21,11 @@ const KeyPrinciples = () => {
         <p>Cover is determined from one operative to another. An operative is in cover if there’s intervening terrain within its control range. However, it cannot be in cover within 2" of the other operative.</p>
         <p>An operative in cover with a Conceal order is not a valid target. An operative in cover with an Engage order is a valid target, but <em>takes 1 defense success without rolling</em> (a cover save).</p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/c9e363ef8a60ce6a4b794fb1ee1b550b27e4443e/src/img/OperativeDiagram_Cover_01.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/3f2244246d1a33aae7b8d017014653db56efb7bc/src/img/OperativeDiagram_Cover_01.svg" className="imgGraphic" />
             <p>Operative B is in cover from operative A.</p>
         </figure>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/c9e363ef8a60ce6a4b794fb1ee1b550b27e4443e/src/img/OperativeDiagram_Cover_02.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/3f2244246d1a33aae7b8d017014653db56efb7bc/src/img/OperativeDiagram_Cover_02.svg" className="imgGraphic" />
             <p>Operative B is not in cover from operative A.</p>
         </figure>
 
@@ -38,15 +38,15 @@ const KeyPrinciples = () => {
         </ul>
         <p className="indentNote"><em>Obscured is when an operative is a valid target, but intervening obstacles (usually terrain) make it a less efficient target. Imagine the operative having to target the enemy through a ruin or window.</em></p>
         <figure className="figure">
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/f13d866be771542ece5ed173f262cf0dd3ac36ff/src/img/OperativeDiagram_Obscurity_01.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/3f2244246d1a33aae7b8d017014653db56efb7bc/src/img/OperativeDiagram_Obscurity_01.svg" className="imgGraphic" />
             <p>Operative B is visible to operative A through a window. However, there’s intervening Heavy terrain more than 1” from both operatives, therefore operative B is obscured.</p>
         </figure>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/f13d866be771542ece5ed173f262cf0dd3ac36ff/src/img/OperativeDiagram_Obscurity_02.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/3f2244246d1a33aae7b8d017014653db56efb7bc/src/img/OperativeDiagram_Obscurity_02.svg" className="imgGraphic" />
             <p>There’s intervening Heavy terrain, but it’s within 1” of operative A and there's a window, therefore operative B is not obscured, as if operative A is using the window as a perch.</p>
         </figure>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/f13d866be771542ece5ed173f262cf0dd3ac36ff/src/img/OperativeDiagram_Obscurity_03.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/3f2244246d1a33aae7b8d017014653db56efb7bc/src/img/OperativeDiagram_Obscurity_03.svg" className="imgGraphic" />
             <p>There’s intervening Heavy terrain. Whilst parts of it are within 1” of the operatives, part of it isn’t, therefore operative B is obscured. In other words, an operative being within 1" of a terrain feature doesn’t prevent the whole terrain feature from being obscuring, only the part within 1" of the operative.</p>
         </figure>
 
@@ -56,15 +56,15 @@ const KeyPrinciples = () => {
         <p>The targeting operative’s player decides from which point of the base targeting lines are drawn from. This can allow the operative to get a more favourable targeting angle — imagine the operative leaning right or left as appropriate.</p>
         <p className="indentNote"><em>Intervening is usually determined from one operative to another, but some rare rules will require you to determine it from other things such as markers. In such instances, treat all parts of that thing as the ‘base’ when determining this.</em></p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/9a8c2348b6ba73c836cba478b483609f9bd68cee/src/img/OperativeDiagram_Intervening_01.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/3f2244246d1a33aae7b8d017014653db56efb7bc/src/img/OperativeDiagram_Intervening_01.svg" className="imgGraphic" />
             <p>Targeting lines cross terrain even though they partially pass through a window, therefore the terrain is intervening.</p>
         </figure>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/72abe53e7f891bbd1f82c1d0f82914ae3cac00fe/src/img/OperativeDiagram_Intervening_02.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/3f2244246d1a33aae7b8d017014653db56efb7bc/src/img/OperativeDiagram_Intervening_02.svg" className="imgGraphic" />
             <p>Due to where operative A’s player has decided to draw the targeting lines from, the terrain is not intervening.</p>
         </figure>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/36cc6baeacaaa8b4eedd1c33e35a15d8f3d98439/src/img/OperativeDiagram_Intervening_03.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/3f2244246d1a33aae7b8d017014653db56efb7bc/src/img/OperativeDiagram_Intervening_03.svg" className="imgGraphic" />
             <p>Most commonly, targeting lines can be drawn in a two-dimensional (top down) manner for ease. However, if there’s a difference in height between the operatives (e.g., one of them is on Vantage terrain), targeting lines should be drawn in a three-dimensional manner. None of these targeting lines cross terrain feature A, therefore it’s not intervening.</p>
         </figure>
 
@@ -82,7 +82,7 @@ const KeyPrinciples = () => {
         <p>If a rule requires something to be ‘within’ a distance, the requirement is fulfilled if any part of it is that distance or less. If a rule requires something to be ‘wholly within’ a distance, the requirement is fulfilled if every part of it is that distance or less. An operative is always within and wholly within distance requirements of itself and a marker it’s carrying. If an operative is carrying a marker, that marker is the same distance as that operative.</p>
         <p className="indentNote"><em>Operatives within a certain distance of an operative that’s carrying a marker are also within the same distance of that marker.</em></p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/7d543f870c3eb09a1a355d418454877bc8baf3b6/src/img/OperativeDiagram_Distances.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/3f2244246d1a33aae7b8d017014653db56efb7bc/src/img/OperativeDiagram_Distances.svg" className="imgGraphic" />
             <p>Distance measuring example: Operative B is within 2" of operative A. The objective marker is within 2" of operative A. Operative C is wholly within 2" of operative A.</p>
         </figure>
         
@@ -132,7 +132,7 @@ const KeyPrinciples = () => {
         <p className="indentNote"><em>Objective markers are the most common marker, representing vital locations in the killzone. Controlling them is often required to achieve victory.</em></p>
         <p className="indentNote"><em>It’s fine to use a miniature to represent a marker, but have a normal marker available if it creates rules issues (e.g., it’s too big).</em></p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/7d543f870c3eb09a1a355d418454877bc8baf3b6/src/img/OperativeDiagram_Markers.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/3f2244246d1a33aae7b8d017014653db56efb7bc/src/img/OperativeDiagram_Markers.svg" className="imgGraphic" />
             <p>Example of markers in play. Only three operatives contest the objective marker, as it isn’t within control range of the top-left operative (the terrain feature prevents it from being visible). The total APL of the red operatives contesting the objective marker is 2. The total APL of the blue operatives contesting it is 4, so they control it.</p>
         </figure>
 
