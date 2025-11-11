@@ -82,7 +82,7 @@ const KeyPrinciples = () => {
         <p>If a rule requires something to be ‘within’ a distance, the requirement is fulfilled if any part of it is that distance or less. If a rule requires something to be ‘wholly within’ a distance, the requirement is fulfilled if every part of it is that distance or less. An operative is always within and wholly within distance requirements of itself and a marker it’s carrying. If an operative is carrying a marker, that marker is the same distance as that operative.</p>
         <p className="indentNote"><em>Operatives within a certain distance of an operative that’s carrying a marker are also within the same distance of that marker.</em></p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/distances-example-1.png" className="imgGraphic" alt="Distance Example" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/3ae2048132942bd9dfb45f71ab7e6a4e1bb89e61/src/img/OperativeDiagram_Distances.svg" className="imgGraphic" />
             <p>Distance measuring example: Operative B is within 2" of operative A. The objective marker is within 2" of operative A. Operative C is wholly within 2" of operative A.</p>
         </figure>
         
@@ -132,7 +132,7 @@ const KeyPrinciples = () => {
         <p className="indentNote"><em>Objective markers are the most common marker, representing vital locations in the killzone. Controlling them is often required to achieve victory.</em></p>
         <p className="indentNote"><em>It’s fine to use a miniature to represent a marker, but have a normal marker available if it creates rules issues (e.g., it’s too big).</em></p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/markers-example-1.png" className="imgGraphic" alt="Markers Example" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/3ae2048132942bd9dfb45f71ab7e6a4e1bb89e61/src/img/OperativeDiagram_Markers.svg" className="imgGraphic" />
             <p>Example of markers in play. Only three operatives contest the objective marker, as it isn’t within control range of the orange operative on the left (the terrain feature prevents it from being visible). The total APL of the orange operatives contesting the objective marker is 2. The total APL of the white operatives contesting it is 4, so they control it.</p>
         </figure>
 
