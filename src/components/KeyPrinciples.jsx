@@ -57,16 +57,15 @@ const KeyPrinciples = () => {
         <p className="indentNote"><em>Intervening is usually determined from one operative to another, but some rare rules will require you to determine it from other things such as markers. In such instances, treat all parts of that thing as the ‘base’ when determining this.</em></p>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/72abe53e7f891bbd1f82c1d0f82914ae3cac00fe/src/img/OperativeDiagram_Intervening_01.svg" className="imgGraphic" />
-            <p>Targeting lines cross terrain, therefore it’s intervening.</p>
+            <p>Targeting lines cross terrain even though they partially pass through a window, therefore the terrain is intervening.</p>
         </figure>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/72abe53e7f891bbd1f82c1d0f82914ae3cac00fe/src/img/OperativeDiagram_Intervening_02.svg" className="imgGraphic" />
             <p>Due to where operative A’s player has decided to draw the targeting lines from, the terrain is not intervening.</p>
         </figure>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/intervening-example-3.png" className="imgGraphic" />
-            <p>Most commonly, targeting lines can be drawn in a two-dimensional (top down) manner for ease. However, if there’s a difference in height between the operatives (e.g., one of them is on Vantage terrain), targeting lines should be drawn in a three-dimensional manner.</p>
-            <p>None of these targeting lines cross terrain feature A, therefore it’s not intervening.</p>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/36cc6baeacaaa8b4eedd1c33e35a15d8f3d98439/src/img/OperativeDiagram_Intervening_03.svg" className="imgGraphic" />
+            <p>Most commonly, targeting lines can be drawn in a two-dimensional (top down) manner for ease. However, if there’s a difference in height between the operatives (e.g., one of them is on Vantage terrain), targeting lines should be drawn in a three-dimensional manner. None of these targeting lines cross terrain feature A, therefore it’s not intervening.</p>
         </figure>
 
         <h3>Valid Target</h3>
