@@ -133,7 +133,7 @@ const KeyPrinciples = () => {
         <p className="indentNote"><em>It’s fine to use a miniature to represent a marker, but have a normal marker available if it creates rules issues (e.g., it’s too big).</em></p>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/7d543f870c3eb09a1a355d418454877bc8baf3b6/src/img/OperativeDiagram_Markers.svg" className="imgGraphic" />
-            <p>Example of markers in play. Only three operatives contest the objective marker, as it isn’t within control range of the orange operative on the left (the terrain feature prevents it from being visible). The total APL of the orange operatives contesting the objective marker is 2. The total APL of the white operatives contesting it is 4, so they control it.</p>
+            <p>Example of markers in play. Only three operatives contest the objective marker, as it isn’t within control range of the top-left operative (the terrain feature prevents it from being visible). The total APL of the red operatives contesting the objective marker is 2. The total APL of the blue operatives contesting it is 4, so they control it.</p>
         </figure>
 
         <h3>Killzone Floor</h3>
