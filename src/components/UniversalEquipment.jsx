@@ -44,7 +44,7 @@ const UniversalEquipment = () => {
         
         <h3>Ladders</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_Ladder.PNG" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
-        <p>Ladders are Exposed terrain. Before the battle, you can set up any number of them as follows:</p>
+        <p>Ladders are Exposed terrain. Before the battle, you can set them up as follows:</p>
         <ul>
             <li>Wholly within your territory.</li>
             <li>Upright against terrain that has a height of at least 2".</li>
