@@ -21,11 +21,11 @@ const KeyPrinciples = () => {
         <p>Cover is determined from one operative to another. An operative is in cover if there’s intervening terrain within its control range. However, it cannot be in cover within 2" of the other operative.</p>
         <p>An operative in cover with a Conceal order is not a valid target. An operative in cover with an Engage order is a valid target, but <em>takes 1 defense success without rolling</em> (a cover save).</p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/cover.JPG" className="imgGraphic" alt="Cover Example" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/c9e363ef8a60ce6a4b794fb1ee1b550b27e4443e/src/img/OperativeDiagram_Cover_01.svg" className="imgGraphic" />
             <p>Operative B is in cover from operative A.</p>
         </figure>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/cover.JPG" className="imgGraphic" alt="Cover Example" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/c9e363ef8a60ce6a4b794fb1ee1b550b27e4443e/src/img/OperativeDiagram_Cover_02.svg" className="imgGraphic" />
             <p>Operative B is not in cover from operative A.</p>
         </figure>
 
