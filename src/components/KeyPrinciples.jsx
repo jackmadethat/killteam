@@ -38,15 +38,15 @@ const KeyPrinciples = () => {
         </ul>
         <p className="indentNote"><em>Obscured is when an operative is a valid target, but intervening obstacles (usually terrain) make it a less efficient target. Imagine the operative having to target the enemy through a ruin or distant window.</em></p>
         <figure className="figure">
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/obscured-example-1.png" className="imgGraphic" alt="Obscured Example" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/f13d866be771542ece5ed173f262cf0dd3ac36ff/src/img/OperativeDiagram_Obscurity_01.svg" className="imgGraphic" />
             <p>Operative B is visible to operative A through a window. However, there’s intervening Heavy terrain more than 1” from both operatives, therefore operative B is obscured.</p>
         </figure>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/obscured-example-2.png" className="imgGraphic" alt="Obscured Example" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/f13d866be771542ece5ed173f262cf0dd3ac36ff/src/img/OperativeDiagram_Obscurity_02.svg" className="imgGraphic" />
             <p>There’s intervening Heavy terrain, but it’s within 1” of A, therefore operative B is not obscured.</p>
         </figure>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/obscured-example-3.png" className="imgGraphic" alt="Obscured Example" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/f13d866be771542ece5ed173f262cf0dd3ac36ff/src/img/OperativeDiagram_Obscurity_03.svg" className="imgGraphic" />
             <p>There’s intervening Heavy terrain. Whilst parts of it are within 1” of the operatives, part of it isn’t, therefore operative B is obscured.</p>
             <p className="indentNote"><em>In other words, an operative being within 1" of a terrain feature doesn’t prevent the whole terrain feature from being obscuring, only the part within 1" of the operative.</em></p>
         </figure>
