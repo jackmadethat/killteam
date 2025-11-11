@@ -30,20 +30,20 @@ const UniversalEquipment = () => {
         <p>Before the battle, you can set up up to one of your Mines markers wholly within your territory and more than 2" from other markers, access points and accesible terrain. The first time that marker is within an operative’s control range, remove that marker and inflict D3+3 damage on that operative.</p>
         
         <h3>Razor Wire</h3>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/razor-wire.png" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_RazorWire.PNG" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
         <p>Razor wire is Exposed and Obstructing terrain. Before the battle, you can set it up wholly within your territory, on the killzone floor and more than 2" from all other equipment terrain features, access points and accesible terrain.</p>
         <p><strong>Obstructing:</strong> Whenever an operative would cross over this terrain feature within 1" of it, treat the distance as an additional 1".</p>
         
         <h3>Light Barricades</h3>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/light-barricade.png" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_LightBarricade.PNG" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
         <p>Light barricades are Light terrain, except the feet, which are Insignificant and Exposed. Before the battle, you can set up any number of them wholly within your territory, on the killzone floor and more than 2" from other equipment terrain features, access points and accesible terrain.</p>
         
         <h3>Heavy Barricade</h3>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/heavy-barricade.png" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_HeavyBarricade.PNG" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
         <p>A heavy barricade is Heavy terrain. Before the battle, you can set it up wholly within 4" of your drop zone, on the killzone floor and more than 2” from other equipment terrain features, access points and accesible terrain.</p>
         
         <h3>Ladders</h3>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/ladder.png" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_Ladder.PNG" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
         <p>Ladders are Exposed terrain. Before the battle, you can set up any number of them as follows:</p>
         <ul>
             <li>Wholly within your territory.</li>
@@ -54,7 +54,7 @@ const UniversalEquipment = () => {
         <p>Additionally, an operative can either move thorugh ladders as if they aren't there (but cannot finish on them), or climb them. Once per action, whenever an operative is climbing this terrain feature, treat the vertical distance as 1". Note that if an operative then continues climbing another terrain feature during that action (including another ladder), that distance is determined as normal.</p>
         
         <h3>Portable Barricade</h3>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/portable-barricade.png" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_PortableBarricade.PNG" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
         <p>A portable barricade is Light, Protective and Portable terrain. Before the battle, you can set it up wholly within your territory, on the killzone floor and more than 2" from all other equipment terrain features, access points and accesible terrain.</p>
         <p><b>Protective:</b> While an operative is in Cover behind this terrain feature, improve its Save stat by 1 (to a maximum of 2+).</p>
         <p><b>Portable:</b> This terrain feature only provides cover while an operative is connected to it and if the shield is intervening (ignore its feet). Operatives connected to the inside of it can perform the following unique action during the battle.</p>
@@ -66,7 +66,7 @@ const UniversalEquipment = () => {
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except the active operative can move no more than its Move stat minus 2" and cannot climb, drop, jump or use any kill team\'s rules that remove it and set it back up again (e.g. HEARTHKYN SALVAGER FLY, MANDRAKE SHADOW PASSAGE).</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except the active operative can move no more than its Move stat minus 2" and cannot climb, drop, jump or use any kill team's rules that remove it and set it back up again.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Before this operative moves, remove the portable barricade it is connected to. After the operative moves, set up the portable barricade so that it is once again, but the portable barricade cannot be set up within 2" of other equipment terrain features, access points or Accessible terrain. If this is not possible, the portable barricade is not set up again.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> This action is treated as a <b>Reposition</b> action. An operative cannot perform the Move with Barricade action in the same turning point in which it performed the <b>Fall Back</b> or <b>Charge</b> actions.</li>
             </ul>
@@ -74,7 +74,7 @@ const UniversalEquipment = () => {
 
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/portable_barricade-1.png" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px' }} />
-            <p>The operative must contact both feet of the inside of the portable barricade to be connected to it.</p>
+            <p>The operative's base must contact both feet of the inside of the portable barricade to be connected to it.</p>
         </figure>
     </div>
   )
