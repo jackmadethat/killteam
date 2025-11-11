@@ -31,12 +31,12 @@ const UniversalActions = () => {
         </div>
         <p className="indentNote"><em>Moving in increments allows for greater precision and clarity.</em></p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/reposition-example-1.png" className="imgGraphic" alt="Heavy terrain" style={{ maxWidth: 500 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/60977a27a47c17b9587a851c13035cb0e7389da3/src/img/OperativeDiagram_Reposition_01.svg" className="imgGraphic" />
             <p>The operative has a Move stat of 6”. It first moves in a straight-line increment of 2” to clear the corner of a wall. It then moves in a straight-line increment of 4” — the remaining distance it can move without exceeding its Move stat.</p>
             <p><em>These movements are made in straight-line increments, instead of curving around the corner.</em></p>
         </figure>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/reposition-example-2.png" className="imgGraphic" alt="Heavy terrain" style={{ maxWidth: 500 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/60977a27a47c17b9587a851c13035cb0e7389da3/src/img/OperativeDiagram_Reposition_02.svg" className="imgGraphic" />
             <p>The operative first moves in a straight-line increment of 0.5” to clear the corner of a wall, but as increments are rounded up, this is treated as 1”. It then moves in a straight-line increment of 2.75”, but again, this is rounded up to 3”. It has moved 4” in total.</p>
         </figure>
 
