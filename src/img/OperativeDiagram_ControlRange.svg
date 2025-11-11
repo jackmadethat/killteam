@@ -18,9 +18,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="1.1923913"
-     inkscape:cx="453.71011"
-     inkscape:cy="354.32999"
+     inkscape:zoom="0.84314797"
+     inkscape:cx="275.15929"
+     inkscape:cy="337.42594"
      inkscape:window-width="1920"
      inkscape:window-height="1048"
      inkscape:window-x="0"
@@ -190,30 +190,20 @@
        height="52.31"
        transform="translate(-255.09 399.88) rotate(-42.34)"
        id="rect11" />
-    <rect
+    <path
+       id="rect12"
        class="st1"
-       x="80.53"
-       y="646.45"
-       width="332.27"
-       height="24.62"
-       transform="translate(-379.34 337.94) rotate(-42.34)"
-       id="rect12" />
-    <rect
+       transform="rotate(-42.34,246.63812,658.7289)"
+       style="fill:#727272;stroke:#544e4e;stroke-width:2.83px;stroke-miterlimit:11.34"
+       d="m 168.95566,649.02045 243.84433,-2.57044 0,24.62 -225.52848,-5.70119 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="rect14"
        class="st1"
-       x="387.81"
-       y="-40.02"
-       width="52.31"
-       height="52.31"
-       transform="translate(703.02 282.79) rotate(-132.34)"
-       id="rect13" />
-    <rect
-       class="st1"
-       x="377.29"
-       y="115.92"
-       width="332.27"
-       height="24.62"
-       transform="translate(814.65 616.28) rotate(-132.34)"
-       id="rect14" />
+       transform="rotate(-132.34,543.4237,128.23345)"
+       style="fill:#727272;stroke:#544e4e;stroke-width:2.83px;stroke-miterlimit:11.34"
+       d="M 377.29001,115.92 721.3076,116.41311 699.7445,140.10554 377.29001,140.54 Z"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      id="Operative_A">
