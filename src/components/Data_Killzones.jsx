@@ -269,4 +269,9 @@ export const Killzones = [
     killzone: 'Mixed',
     image: <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/maps/Mixed_06.JPG" className="mapImage" />
   },
+  {
+    id: 55,
+    killzone: 'Sprawl',
+    image: <></>
+  },
 ]

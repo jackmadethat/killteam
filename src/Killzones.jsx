@@ -78,6 +78,15 @@ const Killzones = () => {
         </div>
         {visible_mapsOpen && <MapsOpen />}
       </div>
+
+      <div>
+        <div className="hovered" onClick={toggleOpenMaps}>
+          <h2 className="subcategoryBtn">Sprawl</h2>
+          <p className="subsectionNo">7.5</p>
+        </div>
+        {visible_mapsOpen && <MapsOpen />}
+      </div>
+
       {/* 
       <div>
         <div className="hovered" onClick={toggleOpenMaps}>

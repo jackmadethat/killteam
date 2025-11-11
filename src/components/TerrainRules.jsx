@@ -49,6 +49,9 @@ const TerrainRules = () => {
         <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }}><em>Ruins</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
 
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }}><em>Sprawl</em></h2>
+        <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
+
         {/*
         <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleBhetaDecima}><em>Bheta-Decima</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
