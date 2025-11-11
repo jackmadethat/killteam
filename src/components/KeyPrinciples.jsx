@@ -22,6 +22,11 @@ const KeyPrinciples = () => {
         <p>An operative in cover with a Conceal order is not a valid target. An operative in cover with an Engage order is a valid target, but <em>takes 1 defense success without rolling</em> (a cover save).</p>
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/cover.JPG" className="imgGraphic" alt="Cover Example" />
+            <p>Operative B is in cover from operative A.</p>
+        </figure>
+        <figure>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/cover.JPG" className="imgGraphic" alt="Cover Example" />
+            <p>Operative B is not in cover from operative A.</p>
         </figure>
 
         <h3>Obscured</h3>
