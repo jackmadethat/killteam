@@ -5,7 +5,9 @@ const Grenades = () => {
         <h3>Utility Grenades</h3>
         <p>When you select this equipment, select two utility grenades (2 smoke, 2 stun, or 1 smoke and 1 stun). Each selection is a unique action your operatives can perform, limited by the number you choose.</p>
 
-        <div className="actionLine"></div>
+        <figure>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/5e53ebbd66b0b0f5f0a7a29666da3c53f279ea8b/src/img/Equipment_SmokeGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
+        </figure>        <div className="actionLine"></div>
         <div className="actionDiv">
             <div className="titleBlock">
                 <p className="actionName">SMOKE GRENADE</p>
@@ -20,9 +22,8 @@ const Grenades = () => {
         </div>
 
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/utilitygrenades-example-1.png" className="imgGraphic" style={{ marginTop: 20 + 'px', marginBottom: 30 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/5e53ebbd66b0b0f5f0a7a29666da3c53f279ea8b/src/img/Equipment_StunGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
         </figure>
-
         <div className="actionLine"></div>
         <div className="actionDiv">
             <div className="titleBlock">
@@ -35,13 +36,12 @@ const Grenades = () => {
             </ul>
         </div>
 
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/utilitygrenades-example-2.png" className="imgGraphic" />
-        </figure>
-
         <h3>Explosive Grenades</h3>
         <p>When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak). Each selection is a ranged weapon your operatives can use as a Shoot action, limited by the number you choose.</p>
         
+        <figure>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/5e53ebbd66b0b0f5f0a7a29666da3c53f279ea8b/src/img/Equipment_FragGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
+        </figure>
         <table className="weaponTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
                 <tr>
@@ -68,11 +68,11 @@ const Grenades = () => {
                 </tr>
             </tbody>
         </table>
-
+        <div style={{ marginTop: 50 + 'px' }}></div>
+        
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/explosivegrenades-example-1.png" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/5e53ebbd66b0b0f5f0a7a29666da3c53f279ea8b/src/img/Equipment_KrakGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginBottom: 30 + 'px' }} />
         </figure>
-
         <table className="weaponTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
                 <tr>
@@ -99,9 +99,6 @@ const Grenades = () => {
                 </tr>
             </tbody>
         </table>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/explosivegrenades-example-2.png" className="imgGraphic" />
-        </figure>
 
         <h3>Grenade Rules</h3>
         <p>Grenades are a Universal equipment option so any operative can use them (limited by the number that the player selects and availability detailed in your kill team's rules), Utility grenades as an action and Explosive grenades as a ranged weapon. You do not need to nominate which operative is carrying which grenade ahead of time, you only need to track the number of grenades team-wide. The exception to this is operatives with the Grenadier type, which have different grenade rules and limitations.</p>
