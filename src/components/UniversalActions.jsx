@@ -24,7 +24,7 @@ const UniversalActions = () => {
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Move the active operative up to its Move stat to a location it can be placed. This must be done in one or more straight-line increments, and increments are always rounded up to the nearest inch.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Move the active operative no more than it's Move stat to a location it can be placed. This must be done in one or more straight-line increments, and increments are always rounded up to the nearest inch.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> It cannot move within control range of an enemy operative, unless one or more other friendly operatives are already within control range of that enemy operative, in which case it can move within control range of that enemy operative but cannot finish the move there.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the <b>Fall Back</b> or <b>Charge</b> action.</li>
             </ul>
@@ -47,7 +47,7 @@ const UniversalActions = () => {
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except don’t use the active operative’s Move stat – it can move up to 3” instead. In addition, it cannot climb during this move, but it can drop and jump.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Move like a <b>Reposition</b> action, except the active operative can't move more than 3” or climb, but it can drop and jump.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the <b>Charge</b> action.</li>
             </ul>
         </div>
@@ -60,8 +60,8 @@ const UniversalActions = () => {
                 <p className="actionCost"><b>2AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except the active operative can move within control range of an enemy operative, but cannot finish the move there.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action unless an enemy operative is within its control range. It cannot perform this action during the same activation in which it performed the <b>Reposition</b> or <b>Charge</b> action.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Move like a <b>Reposition</b> action, except the active operative can move within control range of an enemy operative, but cannot finish the move there.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action unless an enemy operative is within its control range and it cannot perform this action during the same activation in which it performed the <b>Reposition</b> or <b>Charge</b> action.</li>
             </ul>
         </div>
         <p className="indentNote"><em>If an operative is activated within the control range of an enemy operative, the Fall Back action is a way to withdraw. It costs 2AP, so most operatives will not be able to perform more actions in that activation.</em></p>
@@ -73,7 +73,7 @@ const UniversalActions = () => {
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The same as the <b>Reposition</b> action, except the active operative can move an additional 2”.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Move like a <b>Reposition</b> action, except the active operative can move an additional 2”.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> It can move, and must finish the move, within control range of an enemy operative. If it moves within control range of an enemy operative that no other friendly operatives are within control range of, it cannot leave that operative’s control range.</li>
                 <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while it has a Conceal order, if it’s already within control range of an enemy operative, or during the same activation in which it performed the <b>Reposition</b>, <b>Dash</b> or <b>Fall Back</b> action.</li>
             </ul>
