@@ -52,7 +52,7 @@ const Killzones = () => {
           <h2 className="subcategoryBtn">Open</h2>
           <p className="subsectionNo">7.1</p>
         </div>
-        {visible_mapsOpen && <MapsOpen />}
+        {/* visible_mapsOpen && <MapsOpen /> */}
       </div>
 
       <div>
