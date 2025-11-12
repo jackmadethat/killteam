@@ -74,7 +74,7 @@ const UniversalEquipment = () => {
             <li>More than 2" from other equipment terrain features.</li>
             <li>More than 1" from doors and access points.</li>
         </ul>
-        <p>Additionally, an operative can either move thorugh ladders as if they aren't there (but cannot finish on them), or climb them. Once per action, whenever an operative is climbing this terrain feature, treat the vertical distance as 1". Note that if an operative then continues climbing another terrain feature during that action (including another ladder), that distance is determined as normal.</p>
+        <p>Additionally, an operative can either move through ladders as if they aren't there (but cannot finish on them), or climb them. Once per action, whenever an operative is climbing this terrain feature, treat the vertical distance as 1". Note that if an operative then continues climbing another terrain feature during that action (including another ladder), that distance is determined as normal.</p>
     </div>
   )
 }
