@@ -6,7 +6,7 @@ const TerrainRules = () => {
   const [visible_Dungeon, setVisible_Dungeon] = useState(false);
   const [visible_Sprawl, setVisible_Sprawl] = useState(false);
   const [visible_Octarius, setVisible_Octarius] = useState(false);
-  const [visible_Mixed, setVisible_Mixed] = useState(false);
+  const [visible_Open, setVisible_Open] = useState(false);
 
   const toggleOceanRig = () => {
     setVisible_OceanRig(!visible_OceanRig);
