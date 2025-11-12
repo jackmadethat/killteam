@@ -560,7 +560,7 @@ Datacard
     font-size: 0.9em;
     padding-top: 0px;
     span {
-        color: var(--darkerOrange);
+        color: var(--bg);
     }
 }
 
