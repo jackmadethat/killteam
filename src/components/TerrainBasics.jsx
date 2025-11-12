@@ -7,31 +7,14 @@ const TerrainBasics = () => {
         
         <h3>Heavy</h3>
         <p>Larger terrain is Heavy. It provides cover and can obscure operatives.</p>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-heavy-1.png" className="imgGraphic" />
-            <p><em>It’s good to have a mixture of Light and Heavy terrain in your killzone, as rules and operatives interact with each type differently.</em></p>
-        </figure>
-        
+
         <h3>Light</h3>
         <p>Smaller terrain is Light. It provides cover without obscuring operatives.</p>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-light-1.png" className="imgGraphic" />
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-light-2.png" className="imgGraphic" />
-        </figure>
+        <p className="indentNote"><em>It’s good to have a mixture of Light and Heavy terrain in your killzone, as rules and operatives interact with each type differently.</em></p>
         
         <h3>Blocking</h3>
         <p>Blocking terrain is usually attributed to gaps between or underneath a terrain feature. Visibility cannot be drawn through such gaps, and for the purposes of cover and obscured, the gaps are intervening like the terrain around it.</p>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-blocking-1.png" className="imgGraphic" />
-            <p>The gap under this pipe is blocking terrain.</p>
-            <p><em>Technically, Blocking terrain isn’t actually physical terrain, but rather the gaps operatives shouldn’t be able to see through. Blocking terrain is rare, but it exists for necessary instances.</em></p>
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-blocking-2.png" className="imgGraphic" />
-            <p>The door’s viewpoint or the broken vent is blocking terrain.</p>
-        </figure>
+        <p className="indentNote"><em>Technically, Blocking terrain isn’t actually physical terrain, but rather the gaps operatives shouldn’t be able to see through. Blocking terrain is rare, but it exists for necessary instances.</em></p>
         
         <h3>Vantage</h3>
         <p>Vantage terrain is the upper levels of the killzone - areas operatives can be placed upon above the killzone floor. If terrain is not Vantage terrain, then operatives can move over it, but they cannot finish a move or be set up on it. Vantage terrain is also Light terrain. Vantage terrain has the following main features:</p>
@@ -40,37 +23,26 @@ const TerrainBasics = () => {
             <li>Whenever you are selecting a valid target for an operative on Vantage terrain, operatives at least 2" lower than that operative with a Conceal order cannot use Light terrain for cover. Whilst this can allow such operatives to be targeted (assuming they’re visible), it doesn’t remove their cover save, and the defender can retain it as a critical success instead, or retain one additional cover save.</li>
             <li>For the purposes of obscured, ignore Heavy terrain connected to Vantage terrain the active operative or the intended target is on.</li>
         </ul>
+        <p>As Vantage terrain is also Light, an operative on Vantage terrain will often be in cover from operatives lower than them — imagine them crouching down to gain a cover save or avoid being a valid target.</p>
+        <p>An operative on Vantage terrain can target an operative with a Conceal order that’s 2” lower than them and only in cover from Light terrain.</p><p>If an operative is obstructed from moving across Vantage terrain by enemy operatives or other terrain features, it can move around these obstructions (without dropping off) so long as part of its base is always on the Vantage terrain.</p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-vantage-1.png" className="imgGraphic" />
-            <p>As Vantage terrain is also Light, an operative on Vantage terrain will often be in cover from operatives lower than them — imagine them crouching down to gain a cover save or avoid being a valid target.</p>
-            <p>An operative on Vantage terrain can target an operative with a Conceal order that’s 2” lower than them and only in cover from Light terrain.</p><p>If an operative is obstructed from moving across Vantage terrain by enemy operatives or other terrain features, it can move around these obstructions (without dropping off) so long as part of its base is always on the Vantage terrain.</p>
-        </figure>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-vantage-2.png" className="imgGraphic" alt="Vantage terrain" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/d3a5c41aa0cb2e2a18514e952a8003c796e30df0/src/img/OperativeDiagram_Vantage.svg" className="imgGraphic" />
             <p>Operative B has a Conceal order and is in cover from Light terrain, but since operative A is on Vantage terrain and at least 2” higher, operative B is a valid target.</p>
         </figure>
         
         <h3>Accessible</h3>
-        <p>Operatives can move through Accessible terrain (this takes precedence over Bases, and Terrain and Movement), but it counts as an additional 1" to do so. Only the centre of an operative’s base needs to move through Accessible terrain, so base sizes are irrelevant.</p>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-accessible-1.png" className="imgGraphic" alt="Accessible terrain" />
-            <p>The door is accessible terrain.</p>
-        </figure>
+        <p>Operatives can move through Accessible terrain, such as doors and hatchways (this takes precedence over Bases, and Terrain and Movement), but it counts as an additional 1" to do so. Only the centre of an operative’s base needs to move through Accessible terrain, so base sizes are irrelevant.</p>
         
         <h3>Insignificant</h3>
         <p>Insignificant terrain is usually very small, such as small piles of rubble. For the purposes of climbing and dropping, ignore it.</p>
-        <p className="indentNote"><em>An operative can move over and across Insignificant terrain without going up and down.</em></p>
+        <p>An operative can move over and across Insignificant terrain without going up and down.</p>
         
         <h3>Exposed</h3>
         <p>Exposed terrain is usually very small, or terrain with large gaps that operatives shouldn’t be able to take cover behind.</p>
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain-exposed-1.png" className="imgGraphic" alt="Exposed terrain" />
-            <p>This ladder and these hanging chains are exposed terrain.</p>
-            <p><em>It’s particularly important to identify Insignificant and Exposed terrain before the battle, to prevent misunderstandings later on.</em></p>
-        </figure>
+        <p>It’s particularly important to identify Insignificant and Exposed terrain before the battle, to prevent misunderstandings later on.</p>
         
         <h3>Ceiling</h3>
-        <p>Operatives with a round base of 50mm or less, or an oval base of 60x35mm, can move underneath Ceiling terrain regardless of the operative’s height (this takes precedence over Terrain and Movement on pg 56). The operative must still finish the action in a location it can be placed.</p>
+        <p>Operatives with a round base of 50mm or less, or an oval base of 60x35mm, can move underneath Ceiling terrain regardless of the operative’s height (this takes precedence over Terrain and Movement on pg 56). The operative must still finish the action in a location it can be placed. If the operative is too tall, temporarily substitute it for a token matching it's base size.</p>
 
         <h3>Equipment</h3>
         <p>Equipment can be set up on Vantage terrain, on the killzone floor and within 2" of Accessible terrain (this takes precedence over the usual restrictions).</p>
