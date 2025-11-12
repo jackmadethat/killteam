@@ -60,7 +60,6 @@ const Killzones = () => {
           <h2 className="subcategoryBtn">Ocean Rig</h2>
           <p className="subsectionNo">7.2</p>
         </div>
-        {visible_mapsOpen && <MapsOpen />}
       </div>
 
       <div>
@@ -68,7 +67,6 @@ const Killzones = () => {
           <h2 className="subcategoryBtn">Dungeon</h2>
           <p className="subsectionNo">7.3</p>
         </div>
-        {visible_mapsOpen && <MapsOpen />}
       </div>
 
       <div>
@@ -76,7 +74,6 @@ const Killzones = () => {
           <h2 className="subcategoryBtn">Ruins</h2>
           <p className="subsectionNo">7.4</p>
         </div>
-        {visible_mapsOpen && <MapsOpen />}
       </div>
 
       <div>
@@ -84,7 +81,6 @@ const Killzones = () => {
           <h2 className="subcategoryBtn">Sprawl</h2>
           <p className="subsectionNo">7.5</p>
         </div>
-        {visible_mapsOpen && <MapsOpen />}
       </div>
 
       {/* 

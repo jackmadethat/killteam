@@ -1,65 +1,85 @@
 import { useState } from 'react'
 
 const TerrainRules = () => {
-  const [visible_BhetaDecima, setVisible_BhetaDecima] = useState(false);
-  const [visible_Volkus, setVisible_Volkus] = useState(false);
-  const [visible_TombWorld, setVisible_TombWorld] = useState(false);
-  const [visible_GallowDark, setVisible_GallowDark] = useState(false);
+  const [visible_OceanRig, setVisible_OceanRig] = useState(false);
+  const [visible_Ruins, setVisible_Ruins] = useState(false);
+  const [visible_Dungeon, setVisible_Dungeon] = useState(false);
+  const [visible_Sprawl, setVisible_Sprawl] = useState(false);
   const [visible_Octarius, setVisible_Octarius] = useState(false);
-  const [visible_Mechelen, setVisible_Mechelen] = useState(false);
+  const [visible_Mixed, setVisible_Mixed] = useState(false);
 
-  const toggleBhetaDecima = () => {
-    setVisible_BhetaDecima(!visible_BhetaDecima);
+  const toggleOceanRig = () => {
+    setVisible_OceanRig(!visible_OceanRig);
   };
 
-  const toggleVolkus = () => {
-    setVisible_Volkus(!visible_Volkus);
+  const toggleRuins = () => {
+    setVisible_Ruins(!visible_Ruins);
   };
 
-  const toggleTombWorld = () => {
-    setVisible_TombWorld(!visible_TombWorld);
+  const toggleDungeon = () => {
+    setVisible_Dungeon(!visible_Dungeon);
   };
 
-  const toggleGallowDark = () => {
-    setVisible_GallowDark(!visible_GallowDark);
+  const toggleSprawl = () => {
+    setVisible_Sprawl(!visible_Sprawl);
   };
 
   const toggleOctarius = () => {
     setVisible_Octarius(!visible_Octarius);
   };
 
-  const toggleMechelen = () => {
-    setVisible_Mechelen(!visible_Mechelen);
+  const toggleOpen = () => {
+    setVisible_Open(!visible_Open);
   };
 
   return (
     <div className="sectionContent" id="terrainRules">
-        <p style={{ marginBottom: 40 + 'px' }}>Different killzones can have different rules, terrain types, and features.<br /><br />
+        <p style={{ marginBottom: 10 + 'px' }}>Different killzones have different rules, terrain types, and features.<br /><br />
         <em>Click on a sub-heading below to see various killzone-specific rules.</em></p>
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }}><em>Open</em></h2>
-        <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
+        <h2 className="subHeading hovered" style={{ fontSize: 1.3 + 'em', marginLeft: 2 + '%' }} onClick={toggleOpen}>Open</h2>
+        <div className="weaponLine" style={{ marginBottom: 20 + 'px', marginLeft: 1 + '%' }}></div>
+        {visible_Open &&
+            <>
+            </>
+        }
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }}><em>Ocean Rig</em></h2>
-        <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
+        <h2 className="subHeading hovered" style={{ fontSize: 1.3 + 'em', marginLeft: 2 + '%' }} onClick={toggleOceanRig}>Ocean Rig</h2>
+        <div className="weaponLine" style={{ marginBottom: 20 + 'px', marginLeft: 1 + '%' }}></div>
+        {visible_OceanRig &&
+            <>
+            </>
+        }
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }}><em>Dungeon</em></h2>
-        <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
+        <h2 className="subHeading hovered" style={{ fontSize: 1.3 + 'em', marginLeft: 2 + '%' }} onClick={toggleDungeon}>Dungeon</h2>
+        <div className="weaponLine" style={{ marginBottom: 20 + 'px', marginLeft: 1 + '%' }}></div>
+        {visible_Dungeon &&
+            <>
+            </>
+        }
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }}><em>Ruins</em></h2>
-        <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
+        <h2 className="subHeading hovered" style={{ fontSize: 1.3 + 'em', marginLeft: 2 + '%' }} onClick={toggleRuins}>Ruins</h2>
+        <div className="weaponLine" style={{ marginBottom: 20 + 'px', marginLeft: 1 + '%' }}></div>
+        {visible_Ruins &&
+            <>
+            </>
+        }
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }}><em>Sprawl</em></h2>
-        <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
+        <h2 className="subHeading hovered" style={{ fontSize: 1.3 + 'em', marginLeft: 2 + '%' }} onClick={toggleSprawl}>Sprawl</h2>
+        <div className="weaponLine" style={{ marginBottom: 20 + 'px', marginLeft: 1 + '%' }}></div>
+        {visible_Sprawl &&
+            <>
+            </>
+        }
 
         {/*
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleBhetaDecima}><em>Bheta-Decima</em></h2>
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleOceanRig}><em>Bheta-Decima</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
-        {visible_BhetaDecima &&
+        {visible_OceanRig &&
             <>
                 <p>Killzone: Bheta-Decima has 2x short gantries, 4x medium gantries, 2x long gantries, 1x thermometric condenser (the big round piece) and 9 miscellaneous markers.</p>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/BhetaDecimaTerrain.JPG" className="imgGraphic" />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OceanRigTerrain.JPG" className="imgGraphic" />
                 </figure>
                 
                 <h3>Gantry</h3>
@@ -110,16 +130,16 @@ const TerrainRules = () => {
             </>
         }
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleGallowDark}><em>Gallowdark</em></h2>
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleSprawl}><em>Sprawl</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
-        {visible_GallowDark &&
+        {visible_Sprawl &&
             <>
-                <p>Killzone: Gallowdark uses a 606mm x 703mm game board with a 6x7 grid system for setting up. It has 4x short walls with hatchway and pillars and 2x each other terrain feature. It also has 8x left and 8x right pillars, and 30x pillar caps to complete terrain configuration. Note that some mission maps use less than this.</p>
+                <p>Killzone: Sprawl uses a 606mm x 703mm game board with a 6x7 grid system for setting up. It has 4x short walls with hatchway and pillars and 2x each other terrain feature. It also has 8x left and 8x right pillars, and 30x pillar caps to complete terrain configuration. Note that some mission maps use less than this.</p>
                 
-                <h3>Gallowdark Wall</h3>
+                <h3>Sprawl Wall</h3>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/gallowdark-esceno.png" className="imgGraphic" />
-                    <p>A Gallowdark wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway.</p>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Sprawl-esceno.png" className="imgGraphic" />
+                    <p>A Sprawl wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway.</p>
                 </figure>
                 <p><b>Wall terrain:</b></p>
                 <ul>
@@ -130,7 +150,7 @@ const TerrainRules = () => {
                 </ul>
                 <figure>
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-1.png" className="imgGraphic" style={{ maxWidth: 500 + 'px' }} />
-                    <p>Operative A would usually be within 3” of operative B, but as distances cannot be measured over or through Wall terrain, it must be measured around the Gallowdark wall. This would make operative A more than 3” from operative B.</p>
+                    <p>Operative A would usually be within 3” of operative B, but as distances cannot be measured over or through Wall terrain, it must be measured around the Sprawl wall. This would make operative A more than 3” from operative B.</p>
                 </figure>
                 <figure>
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-2.png" className="imgGraphic" />
@@ -155,24 +175,24 @@ const TerrainRules = () => {
             </>
         }
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleMechelen}><em>Mechelen</em></h2>
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleMixed}><em>Mixed</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
-        {visible_Mechelen &&
+        {visible_Mixed &&
             <>
-                <p>Killzone: Mechelen uses a mix of standing wall structures, taller building structures, barricades and boxes. Additionally, the map may contain doors, hatches and breach points.</p>
+                <p>Killzone: Mixed uses a mix of standing wall structures, taller building structures, barricades and boxes. Additionally, the map may contain doors, hatches and breach points.</p>
                 <h3>Structures</h3>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/MechelenTerrain_01.JPG" className="imgGraphic" />
-                    <p>Similar to the structural terrain in Volkus, Mechelen structures include vantage terrain and a mix of light and heavy terrain, as well as doors, holes and windows that can affect visibility and traversal.</p>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/MixedTerrain_01.JPG" className="imgGraphic" />
+                    <p>Similar to the structural terrain in Ruins, Mixed structures include vantage terrain and a mix of light and heavy terrain, as well as doors, holes and windows that can affect visibility and traversal.</p>
                 </figure>
                 <h3>Walls</h3>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/MechelenTerrain_02.JPG" className="imgGraphic" />
-                    <p>Walls, similar to that used in Gallowdark and Tomb World, can contain doors, hatchways, breachpoints, and act as heavy terrain.</p>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/MixedTerrain_02.JPG" className="imgGraphic" />
+                    <p>Walls, similar to that used in Sprawl and Tomb World, can contain doors, hatchways, breachpoints, and act as heavy terrain.</p>
                 </figure>
                 <h3>Smaller Features</h3>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/MechelenTerrain_03.JPG" className="imgGraphic" />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/MixedTerrain_03.JPG" className="imgGraphic" />
                     <p>Small walls, barricades and obstacles that are scattered about the killzone. As a gameplay option, players can manually place these features (taking turns) at the start of the game independent of their selected equipment options.</p>
                 </figure>
             </>
@@ -220,9 +240,9 @@ const TerrainRules = () => {
             </>
         }
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleTombWorld}><em>Tomb World</em></h2>
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleDungeon}><em>Tomb World</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
-        {visible_TombWorld &&
+        {visible_Dungeon &&
             <>
                 <p>Killzone: Tomb World uses a 606mm x 703mm game board with a 6x7 grid system for setting up. It has 1x sarcophagus, 4x debris and 2x each other terrain feature. It also has 16x half pillars to complete terrain configuration. Note that some mission maps use less than this.</p>
                 
@@ -311,11 +331,11 @@ const TerrainRules = () => {
             </>
         }
 
-        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleVolkus}><em>Volkus</em></h2>
+        <h2 className="textCenter subHeading hovered" style={{ fontSize: 1.3 + 'em' }} onClick={toggleRuins}><em>Ruins</em></h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px' }}></div>
-        {visible_Volkus &&
+        {visible_Ruins &&
             <>
-                <p>Killzone: Volkus has 2x strongholds, 2x large ruins, 2x small ruins, 2x heavy rubble, and 3x light rubble.</p>
+                <p>Killzone: Ruins has 2x strongholds, 2x large ruins, 2x small ruins, 2x heavy rubble, and 3x light rubble.</p>
                 
                 <h3>Stronghold</h3>
                 <figure>
