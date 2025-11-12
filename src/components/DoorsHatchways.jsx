@@ -52,7 +52,7 @@ const DoorsHatchways = () => {
         <p className="indentNote"><em>This action allows an operative to fight across an open door — useful if the enemy is obstructing it and preventing your operatives from moving through.</em></p>
         
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/hatchwayfight-example-1.png" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/c7e142c74e3e2f9efbffae8116ff652161bde949/src/img/OperativeDiagram_DoorFight.svg" className="imgGraphic" />
             <p>Operative A’s base is touching an open door’s access point. It can perform the <b>Door Fight</b> action to fight against either operative B or C.</p>
         </figure>
     </div>
