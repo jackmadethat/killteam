@@ -42,17 +42,6 @@ const UniversalEquipment = () => {
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_HeavyBarricade.PNG" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
         <p>A heavy barricade is Heavy terrain. Before the battle, you can set it up wholly within 4" of your drop zone, on the killzone floor and more than 2” from other equipment terrain features, access points and accesible terrain.</p>
         
-        <h3>Ladders</h3>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_Ladder.PNG" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
-        <p>Ladders are Exposed terrain. Before the battle, you can set them up as follows:</p>
-        <ul>
-            <li>Wholly within your territory.</li>
-            <li>Upright against terrain that has a height of at least 2".</li>
-            <li>More than 2" from other equipment terrain features.</li>
-            <li>More than 1" from doors and access points.</li>
-        </ul>
-        <p>Additionally, an operative can either move thorugh ladders as if they aren't there (but cannot finish on them), or climb them. Once per action, whenever an operative is climbing this terrain feature, treat the vertical distance as 1". Note that if an operative then continues climbing another terrain feature during that action (including another ladder), that distance is determined as normal.</p>
-        
         <h3>Portable Barricade</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_PortableBarricade.PNG" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
         <p>A portable barricade is Light, Protective and Portable terrain. Before the battle, you can set it up wholly within your territory, on the killzone floor and more than 2" from all other equipment terrain features, access points and accesible terrain.</p>
@@ -72,6 +61,17 @@ const UniversalEquipment = () => {
             </ul>
         </div>
 
+        <h3>Ladders</h3>
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_Ladder.PNG" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+        <p>Ladders are Exposed terrain. Before the battle, you can set them up as follows:</p>
+        <ul>
+            <li>Wholly within your territory.</li>
+            <li>Upright against terrain that has a height of at least 2".</li>
+            <li>More than 2" from other equipment terrain features.</li>
+            <li>More than 1" from doors and access points.</li>
+        </ul>
+        <p>Additionally, an operative can either move thorugh ladders as if they aren't there (but cannot finish on them), or climb them. Once per action, whenever an operative is climbing this terrain feature, treat the vertical distance as 1". Note that if an operative then continues climbing another terrain feature during that action (including another ladder), that distance is determined as normal.</p>
+        
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/a7e4b7e8400ec7c21981b106633c3ef93c4cd71e/src/img/OperativeDiagram_PortableBarricade.svg" className="imgGraphic" />
             <p>The operative's base must contact both feet of the inside of the portable barricade to be connected to it.</p>
