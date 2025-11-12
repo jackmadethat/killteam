@@ -50,6 +50,38 @@ const Missions = () => {
       </div>
 
       <h3 style={{ marginLeft: 5 + '%', fontSize: 1.8 + 'em' }}>PvE</h3>
+
+      <div>
+        <div className="hovered">
+          <h2 className="subcategoryBtn">A Silent Tomb</h2>
+          <p className="subsectionNo">6.4</p>
+        </div>
+
+      </div>
+
+      <div>
+        <div className="hovered">
+          <h2 className="subcategoryBtn">The Head of the Swarm</h2>
+          <p className="subsectionNo">6.5</p>
+        </div>
+
+      </div>
+
+      <div>
+        <div className="hovered">
+          <h2 className="subcategoryBtn">Deadly Sniper</h2>
+          <p className="subsectionNo">6.6</p>
+        </div>
+
+      </div>
+
+      <div>
+        <div className="hovered">
+          <h2 className="subcategoryBtn">The Great Gun Fires</h2>
+          <p className="subsectionNo">6.7</p>
+        </div>
+
+      </div>
     </div>
   )
 }

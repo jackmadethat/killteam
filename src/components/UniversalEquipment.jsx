@@ -47,7 +47,11 @@ const UniversalEquipment = () => {
         <p>A portable barricade is Light, Protective and Portable terrain. Before the battle, you can set it up wholly within your territory, on the killzone floor and more than 2" from all other equipment terrain features, access points and accesible terrain.</p>
         <p><b>Protective:</b> While an operative is in Cover behind this terrain feature, improve its Save stat by 1 (to a maximum of 2+).</p>
         <p><b>Portable:</b> This terrain feature only provides cover while an operative is connected to it and if the shield is intervening (ignore its feet). Operatives connected to the inside of it can perform the following unique action during the battle.</p>
-        
+        <figure>
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/a7e4b7e8400ec7c21981b106633c3ef93c4cd71e/src/img/OperativeDiagram_PortableBarricade.svg" className="imgGraphic" />
+            <p>The operative's base must contact both feet of the inside of the portable barricade to be connected to it.</p>
+        </figure>
+
         <div className="actionLine"></div>
         <div className="actionDiv">
             <div className="titleBlock">
@@ -71,11 +75,6 @@ const UniversalEquipment = () => {
             <li>More than 1" from doors and access points.</li>
         </ul>
         <p>Additionally, an operative can either move thorugh ladders as if they aren't there (but cannot finish on them), or climb them. Once per action, whenever an operative is climbing this terrain feature, treat the vertical distance as 1". Note that if an operative then continues climbing another terrain feature during that action (including another ladder), that distance is determined as normal.</p>
-        
-        <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/a7e4b7e8400ec7c21981b106633c3ef93c4cd71e/src/img/OperativeDiagram_PortableBarricade.svg" className="imgGraphic" />
-            <p>The operative's base must contact both feet of the inside of the portable barricade to be connected to it.</p>
-        </figure>
     </div>
   )
 }
