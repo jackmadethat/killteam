@@ -12,7 +12,7 @@ const GameGenerator = () => {
   const [killzoneImage, setKillzoneImage] = useState(null);
 
   const killzoneOptions = [
-    'Open', 'Bheta-Decima', 'Gallowdark', 'Mechelen', 'Octarius', 'Tomb World', 'Volkus'
+    'Open', 'Dungeon', 'Ocean Rig', 'Ruins', 'Sprawl'
   ];
 
   const tacOpOptions = [

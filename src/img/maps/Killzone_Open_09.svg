@@ -40,6 +40,10 @@
         stroke-width: 5px;
       }
 
+      .st11 {
+        opacity: .7;
+      }
+
       .st6 {
         stroke-width: 2.76px;
       }
@@ -48,7 +52,7 @@
         isolation: isolate;
       }
 
-      .st11 {
+      .st12 {
         opacity: .5;
       }
     </style>
@@ -58,7 +62,7 @@
       <rect id="rect1" class="st0" x="1.42" y="1.42" width="2157.17" height="1581.17"/>
     </g>
   </g>
-  <g id="Layer_4">
+  <g id="Layer_4" class="st11">
     <g id="layer41" class="st8">
       <polygon id="rect11" class="st1" points="2160 0 2160 793.34 2160 793.34 1081.42 0 2160 0"/>
     </g>
@@ -68,10 +72,10 @@
     <polygon class="st3" points="1080 1.42 1.42 792 1.42 1.42 1080 1.42"/>
     <polygon class="st3" points="2160 792 2160 0 1080 1.42 2160 792"/>
     <g id="layer43" class="st7">
-      <rect id="rect13" class="st2" x="0" y="0" width="1081.42" height="1584"/>
+      <rect id="rect13" class="st2" width="1081.42" height="1584"/>
     </g>
     <g id="layer44" class="st7">
-      <rect id="rect14" class="st1" x="1081.42" y="0" width="1078.58" height="1584"/>
+      <rect id="rect14" class="st1" x="1081.42" width="1078.58" height="1584"/>
     </g>
     <g id="layer45" class="st8">
       <polygon id="rect15" class="st2" points="2160 1584 1081.42 1584 0 1584 0 0 2160 1584"/>
@@ -81,7 +85,7 @@
     </g>
   </g>
   <g id="svg1" inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)">
-    <g id="layer3" class="st11" inkscape:groupmode="layer" inkscape:label="GridLines" sodipodi:insensitive="true">
+    <g id="layer3" class="st12" inkscape:groupmode="layer" inkscape:label="GridLines" sodipodi:insensitive="true">
       <g id="layer2" inkscape:groupmode="layer" inkscape:label="Horizontals">
         <path id="path2-1" class="st4" d="M0,73.34h2160" sodipodi:nodetypes="cc"/>
         <path id="path2-1-7" class="st4" d="M0,145.34h2160" sodipodi:nodetypes="cc"/>
@@ -169,7 +173,7 @@
       <circle cx="937.41" cy="935.54" r="56.69"/>
     </g>
     <g id="Layer_3">
-      <path class="st0" d="M942.37,904.95v48.55h14.32v9.04h-38.55v-9.04h14.48v-34.63l-8.64,9.04-5.2-7.76,14.8-15.2h8.8-.01Z"/>
+      <path class="st0" d="M942.37,904.95v48.55h14.32v9.04h-38.55v-9.04h14.48v-34.63l-8.64,9.04-5.2-7.76,14.8-15.2h8.8-.01,0Z"/>
     </g>
   </g>
   <g>
