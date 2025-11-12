@@ -1,21 +1,20 @@
 import { useState } from 'react'
 import './App.css'
 import MapsOpen from './components/Maps_Open'
-import MapsTombWorld from './components/Maps_TombWorld'
-import MapsBhetaDecima from './components/Maps_BhetaDecima'
-import MapsGallowdark from './components/Maps_Gallowdark'
-import MapsVolkus from './components/Maps_Volkus'
-import MapsOctarius from './components/Maps_Octarius'
-import MapsMechelen from './components/Maps_Mechelen'
+import MapsDungeon from './components/Maps_Dungeon'
+import MapsOceanRig from './components/Maps_OceanRig'
+import MapsRuins from './components/Maps_Ruins'
+import MapsSprawl from './components/Maps_Sprawl'
+
 
 const Killzones = () => {
   const [visible_mapsOpen, setVisible_mapsOpen] = useState(false);
   const [visible_mapsTombWorld, setVisible_mapsTombWorld] = useState(false);
-  const [visible_mapsBhetaDecima, setVisible_mapsBhetaDecima] = useState(false);
-  const [visible_mapsGallowdark, setVisible_mapsGallowdark] = useState(false);
-  const [visible_mapsVolkus, setVisible_mapsVolkus] = useState(false);
+  const [visible_mapsOceanRig, setVisible_mapsOceanRig] = useState(false);
+  const [visible_mapsDungeon, setVisible_mapsDungeon] = useState(false);
+  const [visible_mapsRuins, setVisible_mapsRuins] = useState(false);
   const [visible_mapsOctarius, setVisible_mapsOctarius] = useState(false);
-  const [visible_mapsMechelen, setVisible_mapsMechelen] = useState(false);
+  const [visible_mapsSprawl, setVisible_mapsSprawl] = useState(false);
 
   const toggleOpenMaps = () => {
     setVisible_mapsOpen(!visible_mapsOpen);
@@ -25,24 +24,24 @@ const Killzones = () => {
     setVisible_mapsTombWorld(!visible_mapsTombWorld);
   };
 
-  const toggleBhetaDecima = () => {
-    setVisible_mapsBhetaDecima(!visible_mapsBhetaDecima);
+  const toggleOceanRig = () => {
+    setVisible_mapsOceanRig(!visible_mapsOceanRig);
   };
 
-  const toggleGallowdark = () => {
-    setVisible_mapsGallowdark(!visible_mapsGallowdark);
+  const toggleDungeon = () => {
+    setVisible_mapsDungeon(!visible_mapsDungeon);
   };
 
-  const toggleVolkus = () => {
-    setVisible_mapsVolkus(!visible_mapsVolkus);
+  const toggleRuins = () => {
+    setVisible_mapsRuins(!visible_mapsRuins);
   };
 
   const toggleOctarius = () => {
     setVisible_mapsOctarius(!visible_mapsOctarius);
   };
 
-  const toggleMechelen = () => {
-    setVisible_mapsMechelen(!visible_mapsMechelen);
+  const toggleSprawl = () => {
+    setVisible_mapsSprawl(!visible_mapsSprawl);
   };
 
   return (
@@ -52,35 +51,39 @@ const Killzones = () => {
           <h2 className="subcategoryBtn">Open</h2>
           <p className="subsectionNo">7.1</p>
         </div>
-        {/*visible_mapsOpen && <MapsOpen />*/}
+        {visible_mapsOpen && <MapsOpen />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleOpenMaps}>
+        <div className="hovered" onClick={toggleOceanRig}>
           <h2 className="subcategoryBtn">Ocean Rig</h2>
           <p className="subsectionNo">7.2</p>
         </div>
+        {visible_mapsOceanRig && <MapsOceanRig />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleOpenMaps}>
+        <div className="hovered" onClick={toggleDungeon}>
           <h2 className="subcategoryBtn">Dungeon</h2>
           <p className="subsectionNo">7.3</p>
         </div>
+        {visible_mapsDungeon && <MapsDungeon />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleOpenMaps}>
+        <div className="hovered" onClick={toggleRuins}>
           <h2 className="subcategoryBtn">Ruins</h2>
           <p className="subsectionNo">7.4</p>
         </div>
+        {visible_mapsRuins && <MapsRuins />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleOpenMaps}>
+        <div className="hovered" onClick={toggleSprawl}>
           <h2 className="subcategoryBtn">Sprawl</h2>
           <p className="subsectionNo">7.5</p>
         </div>
+        {visible_mapsSprawl && <MapsSprawl />}
       </div>
 
       {/* 
@@ -93,27 +96,27 @@ const Killzones = () => {
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleBhetaDecima}>
+        <div className="hovered" onClick={toggleOceanRig}>
           <h2 className="subcategoryBtn">Bheta-Decima</h2>
           <p className="subsectionNo">7.2</p>
         </div>
-        {visible_mapsBhetaDecima && <MapsBhetaDecima />}
+        {visible_mapsOceanRig && <MapsOceanRig />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleGallowdark}>
-          <h2 className="subcategoryBtn">Gallowdark</h2>
+        <div className="hovered" onClick={toggleDungeon}>
+          <h2 className="subcategoryBtn">Dungeon</h2>
           <p className="subsectionNo">7.3</p>
         </div>
-        {visible_mapsGallowdark && <MapsGallowdark />}
+        {visible_mapsDungeon && <MapsDungeon />}
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleMechelen}>
-          <h2 className="subcategoryBtn">Mechelen</h2>
+        <div className="hovered" onClick={toggleSprawl}>
+          <h2 className="subcategoryBtn">Sprawl</h2>
           <p className="subsectionNo">7.4</p>
         </div>
-        {visible_mapsMechelen && <MapsMechelen />}
+        {visible_mapsSprawl && <MapsSprawl />}
       </div>
 
       <div>
@@ -133,11 +136,11 @@ const Killzones = () => {
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleVolkus}>
-          <h2 className="subcategoryBtn">Volkus</h2>
+        <div className="hovered" onClick={toggleRuins}>
+          <h2 className="subcategoryBtn">Ruins</h2>
           <p className="subsectionNo">7.7</p>
         </div>
-        {visible_mapsVolkus && <MapsVolkus />}
+        {visible_mapsRuins && <MapsRuins />}
       </div>
       */}
     </div>
