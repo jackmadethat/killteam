@@ -18,13 +18,12 @@ const DoorsHatchways = () => {
             </ul>
         </div>
         <p><em>Opening a door can cause the operative to be within control range of an enemy operative, in which case its Dash or Reposition action would immediately end (unless it has rules that allow it to move within control range of an enemy operative).</em></p>
-        <p>While a door is closed:</p>
+        <p>While a door is <b>closed</b>:</p>
         <ul style={{ textAlign: 'left' }}>
             <li>Its door must be fully shut.</li>
             <li>The access point and door itself are Heavy and Wall terrain.</li>
         </ul>
-        <p>Open</p>
-        <p>While a door is open:</p>
+        <p>While a door is <b>open</b>:</p>
         <ul style={{ textAlign: 'left' }}>
             <li>Its door must be fully open (it cannot be ajar).</li>
             <li>Its access point is Accessible, Insignificant and Exposed terrain.</li>
