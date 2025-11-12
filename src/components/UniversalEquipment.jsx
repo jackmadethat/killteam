@@ -73,7 +73,7 @@ const UniversalEquipment = () => {
         </div>
 
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/portable_barricade-1.png" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/a7e4b7e8400ec7c21981b106633c3ef93c4cd71e/src/img/OperativeDiagram_PortableBarricade.svg" className="imgGraphic" />
             <p>The operative's base must contact both feet of the inside of the portable barricade to be connected to it.</p>
         </figure>
     </div>
