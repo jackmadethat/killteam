@@ -39,7 +39,7 @@ const DoorsHatchways = () => {
             </div>
             <ul>
                 <li>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Fight with the active operative
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Fight with the active operative.
                 </li>
                 <li>
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> In the Select Enemy Operative step, instead select an enemy operative within 2” of, and on the other side of, an open door’s access point the active operative is touching. For the duration of that action, those operatives are treated as being within each other’s control range.
