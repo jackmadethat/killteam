@@ -63,8 +63,8 @@ const TerrainRules = () => {
         {visible_Ruins &&
             <>
                 <h3>Ruined Structures</h3>
-                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Ruins_01.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
-                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Ruins_02.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Ruins_01.png" className="imgGraphic" />
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Ruins_02.png" className="imgGraphic" />
                 <p>Ruined Structures are mixed terrain with light, heavy and vantage elements and may include doors. There are also hatchways in the vantage elements that can be accessed vertically, both upwards and downwards, using the <b>Operate Hatchway</b> action.</p>
                 <p>Operatives can climb up and drop down through open hatchways.</p>
                 <div className="actionLine"></div>
@@ -91,7 +91,7 @@ const TerrainRules = () => {
                     <li>Its door is Heavy and Ceiling terrain, and the gap directly underneath it is Blocking terrain.</li>
                 </ul>
                 <h3>Scrap Piles</h3>
-                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Scrap.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Scrap.png" className="imgGraphic" />
                 <p>An operative cannot climb over a Scrap Pile. Instead it must perform an action to navigate through and around a Scrap Pile.</p>
                 <div className="actionLine"></div>
                 <div className="actionDiv">
@@ -138,7 +138,7 @@ const TerrainRules = () => {
                 
                 <h3>Gantry</h3>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/gantry-example-1.png" className="imgGraphic" style={{ maxWidth: 500 + 'px' }} />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/gantry-example-1.png" className="imgGraphic" />
                 </figure>
                 <ul>
                     <li>Gantry floors are Accessible and Vantage terrain.</li>
@@ -165,7 +165,7 @@ const TerrainRules = () => {
                 <p>When selecting a valid target for an operative on Vantage terrain, an intended target on the killzone floor is not a valid target if the footprint of a gantry is between them. The same is also true in reverse (an operative on the killzone floor to an intended target on Vantage terrain). However, in both cases, ignore the footprint of gantry terrain features the operative or the intended target is on or in.</p>
                 <p className="indentNote"><em>Relentless waves, sea mist, and industrial smog make it harder for operatives to see targets over the ocean’s surface.</em></p>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/targeting-example-1.png" className="imgGraphic" style={{ maxWidth: 500 + 'px' }} />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/targeting-example-1.png" className="imgGraphic" />
                     <p>In both cases, use targeting lines to determine if a hazardous area or the footprint of a gantry is between them.</p>
                     <p style={{ paddingLeft: 5 + '%', paddingRight: 10 + '%' }}><em>Restricted targeting only matters if one or more of the operatives in question are on the killzone floor; if they are both on Vantage terrain, it has no effect.</em></p>
                 </figure>
@@ -203,7 +203,7 @@ const TerrainRules = () => {
                     <li>For the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene, unless the active operative has passed it.</li>
                 </ul>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-1.png" className="imgGraphic" style={{ maxWidth: 500 + 'px' }} />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-1.png" className="imgGraphic" />
                     <p>Operative A would usually be within 3” of operative B, but as distances cannot be measured over or through Wall terrain, it must be measured around the Sprawl wall. This would make operative A more than 3” from operative B.</p>
                 </figure>
                 <figure>
@@ -223,7 +223,7 @@ const TerrainRules = () => {
                     <p>An end of the wall is intervening, therefore operative B is in cover.</p>
                 </figure>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-6.png" className="imgGraphic" style={{ maxWidth: 500 + 'px' }} />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/walls-example-6.png" className="imgGraphic" />
                     <p>As the hatchway is open, an end of the wall is intervening. It’s more than 1” from both operatives, therefore operative B is obscured.</p>
                 </figure>
             </>
@@ -313,7 +313,7 @@ const TerrainRules = () => {
                     <li>For the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene, unless the active operative has passed it.</li>
                 </ul>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/tw-walls-example-1.png" className="imgGraphic" style={{ maxWidth: 500 + 'px' }} /> 
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/tw-walls-example-1.png" className="imgGraphic" /> 
                     Operative A would usually be within 3” of operative B, but as distances cannot be measured over or through Wall terrain, it must be measured around the Tomb World wall. This would make operative A more than 3” from operative B.
                 </figure>
                 <figure>

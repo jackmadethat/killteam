@@ -14,7 +14,7 @@ export const MapsKey = () => {
         {keyVisible && 
           <div className="mapGrid">
               <figure>
-                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/e8d52443d51a4881e372065a015fd275f8069a35/src/img/maps/MapRule.svg" className="imgGraphic" style={{ maxWidth: 500 + 'px' }} />
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/e8d52443d51a4881e372065a015fd275f8069a35/src/img/maps/MapRule.svg" className="imgGraphic" />
                 <p>View the Terrain Rules section (8.3) for killzone-specific rules.</p>
                 <br />
               </figure>

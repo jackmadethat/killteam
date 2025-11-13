@@ -6,11 +6,11 @@ const TerrainBasics = () => {
         <p>The most common types of terrain are below, but some killzones have their own types.</p>
         
         <h3>Heavy</h3>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Heavy.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Heavy.png" className="imgGraphic" />
         <p>Larger terrain is Heavy. It provides cover and can obscure operatives.</p>
 
         <h3>Light</h3>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Light.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Light.png" className="imgGraphic" />
         <p>Smaller terrain is Light. It provides cover without obscuring operatives.</p>
         <p className="indentNote"><em>It’s good to have a mixture of Light and Heavy terrain in your killzone, as rules and operatives interact with each type differently.</em></p>
         
@@ -19,7 +19,7 @@ const TerrainBasics = () => {
         <p className="indentNote"><em>Technically, Blocking terrain isn’t actually physical terrain, but rather the gaps operatives shouldn’t be able to see through. Blocking terrain is rare, but it exists for necessary instances.</em></p>
         
         <h3>Vantage</h3>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Vantage.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Vantage.png" className="imgGraphic" />
         <p>Vantage terrain is the upper levels of the killzone - areas operatives can be placed upon above the killzone floor. If terrain is not Vantage terrain, then operatives can move over it, but they cannot finish a move or be set up on it. Vantage terrain is also Light terrain. Vantage terrain has the following main features:</p>
         <ul>
             <li>Whenever an operative on Vantage terrain is shooting an operative that has an Engage order, its ranged weapon has the Accurate 1 weapon rule if the target operative is at least 2" lower than it, or Accurate 2 if the target operative is at least 4" lower than it.</li>
@@ -29,13 +29,15 @@ const TerrainBasics = () => {
         <p>As Vantage terrain is also Light, an operative on Vantage terrain will often be in cover from operatives lower than them — imagine them crouching down to gain a cover save or avoid being a valid target.</p>
         <p>An operative on Vantage terrain can target an operative with a Conceal order that’s 2” lower than them and only in cover from Light terrain.</p><p>If an operative is obstructed from moving across Vantage terrain by enemy operatives or other terrain features, it can move around these obstructions (without dropping off) so long as part of its base is always on the Vantage terrain.</p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/operativediagrams/OperativeDiagram_Vantage.svg" className="imgGraphic" />
+            <div className="diagramDiv">
+              <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/operativediagrams/OperativeDiagram_Vantage.svg" className="imgGraphic diagramClipFix" style={{ border: "1px solid #f80" }} />
+            </div>
             <p>Operative B has a Conceal order and is in cover from Light terrain, but since operative A is on Vantage terrain and at least 2” higher, operative B is a valid target.</p>
         </figure>
         
         <h3>Accessible</h3>
         <figure>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Accessible.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Accessible.png" className="imgGraphic" />
         <p>The hatch in the above image is Accessible while it's open and Heavy Terrain while it's closed.</p>
         </figure>
         <p>Operatives can move through Accessible terrain, such as doors and hatchways (this takes precedence over Bases, and Terrain and Movement), but it counts as an additional 1" to do so. Only the centre of an operative’s base needs to move through Accessible terrain, so base sizes are irrelevant.</p>
