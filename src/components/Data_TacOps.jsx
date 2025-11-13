@@ -4,7 +4,7 @@ export const TacOpsData = [
     id: 1,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Infil.svg" className="archetype" />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Infil.svg" className="archetype" />
         <h3 className="opTitleTac" style={{ backgroundColor: '#4d4d4d' }}><span className="tacOpType">Infiltration</span><br />SURVEILLANCE</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>The first time a friendly operative performs the <b>SURVEILLANCE</b> action.</p>
@@ -16,9 +16,9 @@ export const TacOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> The active operative has gathered surveillance.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action while it has an engage order. It must be wholly within your opponent's territory to perform this action, and there must be an enemy operative that's a valid target for it.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point or while within control range of an enemy operative.
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> The active operative has gathered surveillance.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action while it has an engage order. It must be wholly within your opponent's territory to perform this action, and there must be an enemy operative that's a valid target for it.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point or while within control range of an enemy operative.
                 </li>
             </ul>
         </div>
@@ -34,7 +34,7 @@ export const TacOpsData = [
     id: 2,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Infil.svg" className="archetype" />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Infil.svg" className="archetype" />
         <h3 className="opTitleTac" style={{ backgroundColor: '#4d4d4d' }}><span className="tacOpType">Infiltration</span><br />WIRETAP</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>The first time a friendly operative performs the <b>WIRETAP</b> action.</p>
@@ -46,8 +46,8 @@ export const TacOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Place one of your Wiretap mission markers within the active operative's control range. In the ready step of the next Strategy Phase, remove that marker.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, during an activation in which it was set up, or if a friendly operative has already performed this action during the turning point.
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Place one of your Wiretap mission markers within the active operative's control range. In the ready step of the next Strategy Phase, remove that marker.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, during an activation in which it was set up, or if a friendly operative has already performed this action during the turning point.
                 </li>
             </ul>
         </div>
@@ -63,7 +63,7 @@ export const TacOpsData = [
     id: 3,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Infil.svg" className="archetype" />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Infil.svg" className="archetype" />
         <h3 className="opTitleTac" style={{ backgroundColor: '#4d4d4d' }}><span className="tacOpType">Infiltration</span><br />IMPLANT</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>When you first score VP from this Tac Op.</p>
@@ -83,7 +83,7 @@ export const TacOpsData = [
     id: 4,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Infil.svg" className="archetype" />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Infil.svg" className="archetype" />
         <h3 className="opTitleTac" style={{ backgroundColor: '#4d4d4d' }}><span className="tacOpType">Infiltration</span><br />STEAL INTELLIGENCE</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>The first time an enemy operative is incapacitated.</p>
@@ -102,7 +102,7 @@ export const TacOpsData = [
     id: 5,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Infil.svg" className="archetype" />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Infil.svg" className="archetype" />
         <h3 className="opTitleTac" style={{ backgroundColor: '#4d4d4d' }}><span className="tacOpType">Infiltration</span><br />TRACK ENEMY</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>The first time you score VP from this op.</p>
@@ -122,7 +122,7 @@ export const TacOpsData = [
     id: 6,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Infil.svg" className="archetype" />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Infil.svg" className="archetype" />
         <h3 className="opTitleTac" style={{ backgroundColor: '#4d4d4d' }}><span className="tacOpType">Infiltration</span><br />SIEZE DEFENCES</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>In the Target Reveal step of any Turning Point.</p>
@@ -141,7 +141,7 @@ export const TacOpsData = [
     id: 1,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Recon.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Recon.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#348300' }}><span className="tacOpType">Recon</span><br />CONFIRM KILL</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>The first time an enemy operative is incapacitated.</p>
@@ -159,7 +159,7 @@ export const TacOpsData = [
     id: 2,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Recon.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Recon.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#348300' }}><span className="tacOpType">Recon</span><br />PLANT BEACONS</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>The first time a friendly operative performs the <b>PLANT BEACON</b> action.</p>
@@ -171,7 +171,7 @@ export const TacOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Place one of your Beacon mission markers:
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Place one of your Beacon mission markers:
                   <ul style={{ marginLeft: -35 + 'px' }}>
                     <li>Within the active operative's control range</li>
                     <li>More than 4" from your drop zone</li>
@@ -179,7 +179,7 @@ export const TacOpsData = [
                     <li>With no part of it underneath Vantage terrain</li>
                   </ul>
                 </li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or during an activation in which it was set up.
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or during an activation in which it was set up.
                 </li>
             </ul>
         </div>
@@ -195,7 +195,7 @@ export const TacOpsData = [
     id: 3,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Recon.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Recon.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#348300' }}><span className="tacOpType">Recon</span><br />RECOVER ITEMS</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>At the start of set up, before equipment is placed.</p>
@@ -212,7 +212,7 @@ export const TacOpsData = [
     id: 4,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Recon.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Recon.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#348300' }}><span className="tacOpType">Recon</span><br />RETRIEVAL</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>The first time you score VP from this Op.</p>
@@ -224,9 +224,9 @@ export const TacOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> If the active operative controls an objective marker that hasn’t been searched by friendly operatives, that operative is now carrying one of your Retrieval mission markers and that objective marker has been searched by friendly operatives. Friendly operatives can perform the <b>Pick Up Marker</b> action on your Retrieval mission markers.
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> If the active operative controls an objective marker that hasn’t been searched by friendly operatives, that operative is now carrying one of your Retrieval mission markers and that objective marker has been searched by friendly operatives. Friendly operatives can perform the <b>Pick Up Marker</b> action on your Retrieval mission markers.
                 </li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, or while within control range of an enemy operative.
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, or while within control range of an enemy operative.
                 </li>
             </ul>
         </div>
@@ -242,7 +242,7 @@ export const TacOpsData = [
     id: 5,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Recon.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Recon.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#348300' }}><span className="tacOpType">Recon</span><br />SCOUT ENEMY MOVEMENT</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>The first time a friendly operative performs the <b>Scout</b> action.</p>
@@ -254,9 +254,9 @@ export const TacOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Select one ready enemy operative visible to and more than 6" from the active operative. That enemy operative is now monitored until the Ready step of the next Strategy phase.
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Select one ready enemy operative visible to and more than 6" from the active operative. That enemy operative is now monitored until the Ready step of the next Strategy phase.
                 </li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action while it has an Engage order, during the first turning point, or while within control range of an enemy operative.
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action while it has an Engage order, during the first turning point, or while within control range of an enemy operative.
                 </li>
             </ul>
         </div>
@@ -272,7 +272,7 @@ export const TacOpsData = [
     id: 6,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Recon.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Recon.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#348300' }}><span className="tacOpType">Recon</span><br />SECURE VANTAGE</h3>
         <p className="enviroNote">NOT USABLE IN CLOSE QUARTERS</p>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
@@ -291,7 +291,7 @@ export const TacOpsData = [
     id: 1,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_SeekDestroy.svg" className="archetype" style={{ marginTop: -2 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_SeekDestroy.svg" className="archetype" style={{ marginTop: -2 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#962222' }}><span className="tacOpType">SEEK & DESTROY</span><br />STORM OBJECTIVES</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>When you first score VP from this Op.</p>
@@ -309,7 +309,7 @@ export const TacOpsData = [
     id: 2,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_SeekDestroy.svg" className="archetype" style={{ marginTop: -2 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_SeekDestroy.svg" className="archetype" style={{ marginTop: -2 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#962222' }}><span className="tacOpType">SEEK & DESTROY</span><br />CHAMPION</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>When you select your first Champion.</p>
@@ -326,7 +326,7 @@ export const TacOpsData = [
     id: 3,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_SeekDestroy.svg" className="archetype" style={{ marginTop: -2 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_SeekDestroy.svg" className="archetype" style={{ marginTop: -2 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#962222' }}><span className="tacOpType">SEEK & DESTROY</span><br />OVERRUN</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>When you first score VP from this Op.</p>
@@ -342,7 +342,7 @@ export const TacOpsData = [
     id: 4,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_SeekDestroy.svg" className="archetype" style={{ marginTop: -2 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_SeekDestroy.svg" className="archetype" style={{ marginTop: -2 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#962222' }}><span className="tacOpType">SEEK & DESTROY</span><br />HEADHUNTER</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>When an enemy <b>LEADER</b> operative is incapacitated.</p>
@@ -358,7 +358,7 @@ export const TacOpsData = [
     id: 5,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_SeekDestroy.svg" className="archetype" style={{ marginTop: -2 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_SeekDestroy.svg" className="archetype" style={{ marginTop: -2 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#962222' }}><span className="tacOpType">SEEK & DESTROY</span><br />ROB & RANSACK</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>When an enemy operative is incapacitated by a friendly operative within its control range, and that friendly operative is more than 3" from other enemy operatives.</p>
@@ -374,7 +374,7 @@ export const TacOpsData = [
     id: 6,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_SeekDestroy.svg" className="archetype" style={{ marginTop: -2 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_SeekDestroy.svg" className="archetype" style={{ marginTop: -2 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#962222' }}><span className="tacOpType">SEEK & DESTROY</span><br />EXECUTIONER</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>In the Target Reveal step of any turning point.</p>
@@ -392,7 +392,7 @@ export const TacOpsData = [
     id: 1,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Security.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Security.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#222766ff' }}><span className="tacOpType">Security</span><br />CONTAIN</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>When you first score VP from this Op.</p>
@@ -409,7 +409,7 @@ export const TacOpsData = [
     id: 2,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Security.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Security.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#222766ff' }}><span className="tacOpType">Security</span><br />SECURE CENTRE</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>When you first score VP from this Op.</p>
@@ -426,7 +426,7 @@ export const TacOpsData = [
     id: 3,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Security.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Security.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#222766ff' }}><span className="tacOpType">Security</span><br />ESCORT OPERATIVE</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>The Target Reveal step of the first or second Turning Point.</p>
@@ -445,7 +445,7 @@ export const TacOpsData = [
     id: 4,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Security.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Security.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#222766ff' }}><span className="tacOpType">Security</span><br />HOLD THEM BACK</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>The Target Reveal step of any Turning Point after the first.</p>
@@ -461,7 +461,7 @@ export const TacOpsData = [
     id: 5,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Security.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Security.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#222766ff' }}><span className="tacOpType">Security</span><br />SIEZE GROUND</h3>
         <p className="enviroNote">NOT USABLE IN CLOSE QUARTERS</p>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
@@ -478,7 +478,7 @@ export const TacOpsData = [
     id: 6,
     content: 
       <div className="missionOp">
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/48d4ad031e87e40d199dc26b31ccb329d1f021aa/src/img/Archetype_Security.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/archetypes/Archetype_Security.svg" className="archetype" style={{ marginTop: -1 + 'px' }} />
         <h3 className="opTitleTac" style={{ backgroundColor: '#222766ff' }}><span className="tacOpType">Security</span><br />TAKE GROUND</h3>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>REVEAL</h3>
         <p>When you first score VP from this Op.</p>

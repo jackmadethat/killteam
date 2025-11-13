@@ -26,7 +26,7 @@ const TerrainBasics = () => {
         <p>As Vantage terrain is also Light, an operative on Vantage terrain will often be in cover from operatives lower than them — imagine them crouching down to gain a cover save or avoid being a valid target.</p>
         <p>An operative on Vantage terrain can target an operative with a Conceal order that’s 2” lower than them and only in cover from Light terrain.</p><p>If an operative is obstructed from moving across Vantage terrain by enemy operatives or other terrain features, it can move around these obstructions (without dropping off) so long as part of its base is always on the Vantage terrain.</p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OperativeDiagram_Vantage.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/operativediagrams/OperativeDiagram_Vantage.svg" className="imgGraphic" />
             <p>Operative B has a Conceal order and is in cover from Light terrain, but since operative A is on Vantage terrain and at least 2” higher, operative B is a valid target.</p>
         </figure>
         

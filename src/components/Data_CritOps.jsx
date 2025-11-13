@@ -12,8 +12,8 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls is secured by your Kill Team until the enemy Kill Team secures that objective marker.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, or while within control range of an enemy operative.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls is secured by your Kill Team until the enemy Kill Team secures that objective marker.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, or while within control range of an enemy operative.</li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
@@ -37,8 +37,8 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls is looted.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been looted during this turning point.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls is looted.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been looted during this turning point.</li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
@@ -58,8 +58,8 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls is transmitting until the start of the next turning point.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, or while within control range of an enemy operative.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls is transmitting until the start of the next turning point.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, or while within control range of an enemy operative.</li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
@@ -83,9 +83,9 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Remove all of your opponent's Upload points (if any) from an objective marker the active operative controls.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Then that same objective marker gains 1 of your Upload points, unless it's already gained 1 of your Upload points during this turning point, of you've scored from that objective marker.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, or while within control range of an enemy operative.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Remove all of your opponent's Upload points (if any) from an objective marker the active operative controls.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Then that same objective marker gains 1 of your Upload points, unless it's already gained 1 of your Upload points during this turning point, of you've scored from that objective marker.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, or while within control range of an enemy operative.</li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
@@ -105,8 +105,8 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls gains 1 Intel point.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already gained an Intel point during this turning point.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls gains 1 Intel point.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already gained an Intel point during this turning point.</li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>ADDITIONAL RULES</h3>
@@ -128,8 +128,8 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls is searched. If it's the last objective marker to be searched, that marker becomes the extraction objective marker.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been searched.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls is searched. If it's the last objective marker to be searched, that marker becomes the extraction objective marker.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been searched.</li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>ADDITIONAL RULES</h3>
@@ -152,8 +152,8 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> If the active operative controls the objective marker wholly within your opponent's territory, that marker is sabotaged.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been sabotaged during this turning point.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> If the active operative controls the objective marker wholly within your opponent's territory, that marker is sabotaged.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been sabotaged during this turning point.</li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
@@ -179,8 +179,8 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One surged objective marker the active operative controls is rerouted.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been rerouted.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One surged objective marker the active operative controls is rerouted.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been rerouted.</li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>ADDITIONAL RULES</h3>
@@ -205,8 +205,8 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls gains 1 of your Objective points.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already gained 1 of your Objective points this turning point.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls gains 1 of your Objective points.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already gained 1 of your Objective points this turning point.</li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
@@ -230,13 +230,13 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> If the active operative controls the objective marker that has the Orb token, move that token as follows: 
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> If the active operative controls the objective marker that has the Orb token, move that token as follows: 
                 <ul style={{ marginLeft: -35 + 'px' }}>
                   <li>If the centre objective marker has it, move it to either player’s objective marker (your choice)</li>
                   <li>If a player’s objective marker has it, move it to the centre objective marker</li>
                 </ul>
                 </li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if it doesn’t control the objective marker that has the Orb token. </li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if it doesn’t control the objective marker that has the Orb token. </li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>ADDITIONAL RULES</h3>
@@ -294,8 +294,8 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One centre or opponent's objective marker the active operative controls is downloaded.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first or second turning point, while within control range of an enemy operative, or if that objective marker has already been downloaded during the battle. </li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One centre or opponent's objective marker the active operative controls is downloaded.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first or second turning point, while within control range of an enemy operative, or if that objective marker has already been downloaded during the battle. </li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
@@ -317,8 +317,8 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls gains 1 Data point. Use a dice as a token to keep track of Data points at that objective marker.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already gained a Data point during this turning point.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One objective marker the active operative controls gains 1 Data point. Use a dice as a token to keep track of Data points at that objective marker.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already gained a Data point during this turning point.</li>
             </ul>
         </div>
         <div className="actionLine" style={{ marginTop: 10 + 'px' }}></div>
@@ -328,8 +328,8 @@ export const CritOpsData = [
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Remove all Data points from an objective marker the active operative controls.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first, second or third turning point, while within control range of an enemy operative, or if that objective marker doesn’t have any Data points to remove.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Remove all Data points from an objective marker the active operative controls.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first, second or third turning point, while within control range of an enemy operative, or if that objective marker doesn’t have any Data points to remove.</li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
@@ -350,8 +350,8 @@ export const CritOpsData = [
                 <p className="actionCost"><b>2AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One inert objective marker the active operative controls is no longer inert.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, or while within control range of an enemy operative.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> One inert objective marker the active operative controls is no longer inert.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action during the first turning point, or while within control range of an enemy operative.</li>
             </ul>
         </div>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>ADDITIONAL RULES</h3>

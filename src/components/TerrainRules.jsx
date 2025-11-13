@@ -63,8 +63,8 @@ const TerrainRules = () => {
         {visible_Ruins &&
             <>
                 <h3>Ruined Structures</h3>
-                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Terrain_Ruins_01.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
-                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Terrain_Ruins_02.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Ruins_01.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Ruins_02.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
                 <p>Ruined Structures are mixed terrain with light, heavy and vantage elements and may include doors. There are also hatchways in the vantage elements that can be accessed vertically, both upwards and downwards, using the <b>Operate Hatchway</b> action.</p>
                 <p>Operatives can climb up and drop down through open hatchways.</p>
                 <div className="actionLine"></div>
@@ -74,9 +74,9 @@ const TerrainRules = () => {
                         <p className="actionCost"><b>1AP</b></p>
                     </div>
                     <ul>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Open or close a hatch that’s access point is within the operative’s control range.</li>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative can perform this action during a <b>Dash</b> or <b>Reposition</b> action, and any remaining move distance can be used after it does so.</li>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or if that hatchway is open and its access point is within an enemy operative’s control range.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Open or close a hatch that’s access point is within the operative’s control range.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> An operative can perform this action during a <b>Dash</b> or <b>Reposition</b> action, and any remaining move distance can be used after it does so.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or if that hatchway is open and its access point is within an enemy operative’s control range.</li>
                     </ul>
                 </div>
                 <p>While a hatch is <b>closed</b>:</p>
@@ -91,7 +91,7 @@ const TerrainRules = () => {
                     <li>Its door is Heavy and Ceiling terrain, and the gap directly underneath it is Blocking terrain.</li>
                 </ul>
                 <h3>Scrap Piles</h3>
-                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Terrain_Scrap.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Scrap.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
                 <p>An operative cannot climb over a Scrap Pile. Instead it must perform an action to navigate through and around a Scrap Pile.</p>
                 <div className="actionLine"></div>
                 <div className="actionDiv">
@@ -100,8 +100,8 @@ const TerrainRules = () => {
                         <p className="actionCost"><b>1AP</b></p>
                     </div>
                     <ul>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative can perform this action while within control range of a Scrap Pile. Remove this operative from the killzone then set it up within control range of the Scrap Pile it started within range of for this action. It cannot be setup within control range of enemy operatives.</li>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative. This action is treated as a <b>Reposition</b> action.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> An operative can perform this action while within control range of a Scrap Pile. Remove this operative from the killzone then set it up within control range of the Scrap Pile it started within range of for this action. It cannot be setup within control range of enemy operatives.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative. This action is treated as a <b>Reposition</b> action.</li>
                     </ul>
                 </div>
                 <br />
@@ -112,8 +112,8 @@ const TerrainRules = () => {
                         <p className="actionCost"><b>1AP</b></p>
                     </div>
                     <ul>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative can perform this action while within control range of a Scrap Pile. Remove this operative from the killzone then set it up within control range of the Scrap Pile it started within range of for this action. It must be setup within control range of at least 1 enemy operative after being placed.</li>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative and/or if it has a conceal order. This action is treated as a <b>Charge</b> action, however, an operative can still perform the <b>Dash</b> action before or after a <b>Scramble Charge</b>.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> An operative can perform this action while within control range of a Scrap Pile. Remove this operative from the killzone then set it up within control range of the Scrap Pile it started within range of for this action. It must be setup within control range of at least 1 enemy operative after being placed.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative and/or if it has a conceal order. This action is treated as a <b>Charge</b> action, however, an operative can still perform the <b>Dash</b> action before or after a <b>Scramble Charge</b>.</li>
                     </ul>
                 </div>
             </>
@@ -133,7 +133,7 @@ const TerrainRules = () => {
             <>
                 <p>Killzone: Bheta-Decima has 2x short gantries, 4x medium gantries, 2x long gantries, 1x thermometric condenser (the big round piece) and 9 miscellaneous markers.</p>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OceanRigTerrain.JPG" className="imgGraphic" />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/operativediagrams/OceanRigTerrain.JPG" className="imgGraphic" />
                 </figure>
                 
                 <h3>Gantry</h3>
@@ -259,12 +259,12 @@ const TerrainRules = () => {
                 <p>Killzone: Octarius uses 4x Ramshackle Walls, 3x Ramshackle Barricades, 3x Scrap Piles and 1x Oil Pump.</p>
                 <h3>Ramshackle Wall</h3>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OctariusTerrain.JPG" className="imgGraphic" />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/operativediagrams/OctariusTerrain.JPG" className="imgGraphic" />
                     <p>Ramshackle Walls are mixed terrain with light, heavy and vantage elements and may include doors. There are also hatchways in the vantage elements that can be accessed vertically, both upwards and downwards, using the Operate Hatchway action.</p>
                 </figure>
                 <h3>Scrap Piles</h3>
                 <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OctariusTerrain2.JPG" className="imgGraphic" />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/operativediagrams/OctariusTerrain2.JPG" className="imgGraphic" />
                     <p>An operative cannot climb over a Scrap Pile. Instead it must perform an action to navigate through and around a Scrap Pile.</p>
                 </figure>
                 <br />
@@ -275,8 +275,8 @@ const TerrainRules = () => {
                         <p className="actionCost"><b>1AP</b></p>
                     </div>
                     <ul>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative can perform this action while within control range of a Scrap Pile. Remove this operative from the killzone then set it up within control range of the Scrap Pile it started within range of for this action. It cannot be setup within control range of enemy operatives.</li>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative. This action is treated as a <b>Reposition</b> action.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> An operative can perform this action while within control range of a Scrap Pile. Remove this operative from the killzone then set it up within control range of the Scrap Pile it started within range of for this action. It cannot be setup within control range of enemy operatives.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative. This action is treated as a <b>Reposition</b> action.</li>
                     </ul>
                 </div>
                 <br />
@@ -287,8 +287,8 @@ const TerrainRules = () => {
                         <p className="actionCost"><b>1AP</b></p>
                     </div>
                     <ul>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative can perform this action while within control range of a Scrap Pile. Remove this operative from the killzone then set it up within control range of the Scrap Pile it started within range of for this action. It must be setup within control range of at least 1 enemy operative after being placed.</li>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative and/or if it has a conceal order. This action is treated as a <b>Charge</b> action, however, an operative can still perform the <b>Dash</b> action before or after a <b>Scramble Charge</b>.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> An operative can perform this action while within control range of a Scrap Pile. Remove this operative from the killzone then set it up within control range of the Scrap Pile it started within range of for this action. It must be setup within control range of at least 1 enemy operative after being placed.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative and/or if it has a conceal order. This action is treated as a <b>Charge</b> action, however, an operative can still perform the <b>Dash</b> action before or after a <b>Scramble Charge</b>.</li>
                     </ul>
                 </div>
             </>
@@ -345,10 +345,10 @@ const TerrainRules = () => {
                         <p className="actionCost"><b>2AP</b></p>
                     </div>
                     <ul>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Open a closed breach point with an access point within the operative’s control range.</li>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative that has the word(s) “breach marker”, “grenadier” or “mine” on its datacard, or has a weapon with the Piercing 2 or Piercing Crits 2 weapon rule (excluding weapons that have the Blast or Torrent weapon rule) can perform this action for 1 less AP (to a minimum of 1AP), but it cannot do so during an activation/counteraction in which it performed the Charge or Shoot action (or vice versa).</li>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Roll one D6 separately for each operative that’s on the other side of the access point and has that access point within its control range: on a 4+, subtract 1 from that operative’s APL stat until the end of its next activation and inflict damage on it equal to the dice result halved (rounding up).</li>
-                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an operative, or if that breach point is open.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Open a closed breach point with an access point within the operative’s control range.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> An operative that has the word(s) “breach marker”, “grenadier” or “mine” on its datacard, or has a weapon with the Piercing 2 or Piercing Crits 2 weapon rule (excluding weapons that have the Blast or Torrent weapon rule) can perform this action for 1 less AP (to a minimum of 1AP), but it cannot do so during an activation/counteraction in which it performed the Charge or Shoot action (or vice versa).</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Roll one D6 separately for each operative that’s on the other side of the access point and has that access point within its control range: on a 4+, subtract 1 from that operative’s APL stat until the end of its next activation and inflict damage on it equal to the dice result halved (rounding up).</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an operative, or if that breach point is open.</li>
                     </ul>
                 </div>
                 <p>The elite operatives that form kill teams are specially equipped to overcome all manner of barriers. Some draw upon esoteric traits and adaptable skills to inventively force a route to their target. From point-blank firepower and atomic destabilisers to bio-acids and raw strength fuelled by faith, operatives have a variety of methods at their disposal to breach weak points. The forces involved can result in extreme damage, with whizzing debris and violent shock waves hitting those unlucky enough to be on the other side.</p>

@@ -420,8 +420,8 @@ const PvESequence = () => {
           <p className="actionCost"><b>1AP</b></p>
         </div>
         <ul>
-          <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> One objective marker the active operative controls is sabotaged.</li>
-          <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been sabotaged.</li>
+          <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> One objective marker the active operative controls is sabotaged.</li>
+          <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been sabotaged.</li>
         </ul>
       </div>
 
@@ -447,7 +447,7 @@ const PvESequence = () => {
           <p className="actionCost"><b>0AP</b></p>
         </div>
         <ul>
-          <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> The player’s operatives can move wholly over the NPO’s killzone edge (this takes precedence over bases and the edge of the killzone) Any that do so have escaped - remove them from the killzone.</li>
+          <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> The player’s operatives can move wholly over the NPO’s killzone edge (this takes precedence over bases and the edge of the killzone) Any that do so have escaped - remove them from the killzone.</li>
         </ul>
       </div>
 

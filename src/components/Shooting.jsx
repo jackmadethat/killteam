@@ -9,8 +9,8 @@ const Shooting = () => {
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Shoot with the active operative by following the sequence below. The active operative’s player is the attacker. The selected enemy operative’s player is the defender.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Shoot with the active operative by following the sequence below. The active operative’s player is the attacker. The selected enemy operative’s player is the defender.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative.</li>
             </ul>
         </div>
         <p className="indentNote"><em>To no one’s surprise, Kill Team can be a very lethal game, so if you frequently lose operatives to enemy shooting, consider playing more defensively, placing your operatives in cover and using a Conceal order.</em></p>

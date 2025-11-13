@@ -9,8 +9,8 @@ const Fighting = () => {
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Fight with the active operative by following the sequence below. The active operative’s player is the attacker. The selected enemy operative’s player is the defender.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action unless an enemy operative is within its control range.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Fight with the active operative by following the sequence below. The active operative’s player is the attacker. The selected enemy operative’s player is the defender.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action unless an enemy operative is within its control range.</li>
             </ul>
         </div>
         <p className="indentNote"><em>Unlike shooting, combat is a brutal back-and-forth. Be careful when choosing who you fight, as they will fight back.</em></p>

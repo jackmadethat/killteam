@@ -6,7 +6,7 @@ const Grenades = () => {
         <p>When you select this equipment, select two utility grenades (2 smoke, 2 stun, or 1 smoke and 1 stun). Each selection is a unique action your operatives can perform, limited by the number you choose.</p>
 
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_SmokeGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_SmokeGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
         </figure>        <div className="actionLine"></div>
         <div className="actionDiv">
             <div className="titleBlock">
@@ -14,15 +14,15 @@ const Grenades = () => {
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Place one of your smoke grenade markers within 6" of this operative. It must be visible to this operative or set on vantage terrain or a terrain feature visible to this operative. The marker creates a 1" horizontally and vertically unlimited smoke area from it (but not below it).</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> While an operative is wholly within a smoke area, it is considered obscured to operatives more than 2" away from it and vice versa. Additionally, when an operative shoots at an enemy operative that is wholly within a smoke area, the Piercing rule is ignored unless both operatives are within 2" of each other.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> In the Ready step of the next Strategy Phase, roll a D3. Remove that smoke grenade marker once a number of activations equal to the result of that D3 is completed, or at the end of the turning point (whichever occurs first).</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within the control range of an enemy operative, or if the total number of times your kill team can perform it has been reached.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Place one of your smoke grenade markers within 6" of this operative. It must be visible to this operative or set on vantage terrain or a terrain feature visible to this operative. The marker creates a 1" horizontally and vertically unlimited smoke area from it (but not below it).</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> While an operative is wholly within a smoke area, it is considered obscured to operatives more than 2" away from it and vice versa. Additionally, when an operative shoots at an enemy operative that is wholly within a smoke area, the Piercing rule is ignored unless both operatives are within 2" of each other.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> In the Ready step of the next Strategy Phase, roll a D3. Remove that smoke grenade marker once a number of activations equal to the result of that D3 is completed, or at the end of the turning point (whichever occurs first).</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action while within the control range of an enemy operative, or if the total number of times your kill team can perform it has been reached.</li>
             </ul>
         </div>
 
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_StunGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_StunGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
         </figure>
         <div className="actionLine"></div>
         <div className="actionDiv">
@@ -31,8 +31,8 @@ const Grenades = () => {
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Select an enemy operative within 6" of this operative and visible to it. That operative and each other operative within 1" of it makes a stun check. To make a stun check, roll a D6: if the result is 3+, subtract 1 from its APL stat until the end of its next activation.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Select an enemy operative within 6" of this operative and visible to it. That operative and each other operative within 1" of it makes a stun check. To make a stun check, roll a D6: if the result is 3+, subtract 1 from its APL stat until the end of its next activation.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it.</li>
             </ul>
         </div>
 
@@ -40,7 +40,7 @@ const Grenades = () => {
         <p>When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak). Each selection is a ranged weapon your operatives can use as a Shoot action, limited by the number you choose.</p>
         
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_FragGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_FragGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
         </figure>
         <table className="weaponTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
@@ -71,7 +71,7 @@ const Grenades = () => {
         <div style={{ marginTop: 50 + 'px' }}></div>
         
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_KrakGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginBottom: 30 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_KrakGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginBottom: 30 + 'px' }} />
         </figure>
         <table className="weaponTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
@@ -116,7 +116,7 @@ const Grenades = () => {
         </ul>
         <br />
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/scatter-dice.jpg" className="imgGraphic" style={{ maxWidth: 200 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/ScatterDice.jpg" className="imgGraphic" style={{ maxWidth: 200 + 'px' }} />
             <p>Scatter dice. If the die lands on the crosshair, the throw is accurate and the grenade lands on target.</p>
         </figure>
     </div>

@@ -12,9 +12,9 @@ const DoorsHatchways = () => {
                 <p className="actionCost"><b>1AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Open or close a door that’s access point is within the operative’s control range.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative can perform this action during a <b>Dash</b> or <b>Reposition</b> action, and any remaining move distance can be used after it does so.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or if that door/hatchway is open and its access point is within an enemy operative’s control range.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Open or close a door that’s access point is within the operative’s control range.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> An operative can perform this action during a <b>Dash</b> or <b>Reposition</b> action, and any remaining move distance can be used after it does so.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or if that door/hatchway is open and its access point is within an enemy operative’s control range.</li>
             </ul>
         </div>
         <p><em>Opening a door can cause the operative to be within control range of an enemy operative, in which case its Dash or Reposition action would immediately end (unless it has rules that allow it to move within control range of an enemy operative).</em></p>
@@ -39,20 +39,20 @@ const DoorsHatchways = () => {
             </div>
             <ul>
                 <li>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Fight with the active operative.
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Fight with the active operative.
                 </li>
                 <li>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> In the Select Enemy Operative step, instead select an enemy operative within 2” of, and on the other side of, an open door’s access point the active operative is touching. For the duration of that action, those operatives are treated as being within each other’s control range.
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> In the Select Enemy Operative step, instead select an enemy operative within 2” of, and on the other side of, an open door’s access point the active operative is touching. For the duration of that action, those operatives are treated as being within each other’s control range.
                 </li>
                 <li>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> This action is treated as a <b>Fight</b> action. An operative cannot perform this action while within control range of an enemy operative, or if it's base isn’t touching an open door’s access point.
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> This action is treated as a <b>Fight</b> action. An operative cannot perform this action while within control range of an enemy operative, or if it's base isn’t touching an open door’s access point.
                 </li>
             </ul>
         </div>
         <p className="indentNote"><em>This action allows an operative to fight across an open door — useful if the enemy is obstructing it and preventing your operatives from moving through.</em></p>
         
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/c7e142c74e3e2f9efbffae8116ff652161bde949/src/img/OperativeDiagram_DoorFight.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/operativediagrams/OperativeDiagram_DoorFight.svg" className="imgGraphic" />
             <p>Operative A’s base is touching an open door’s access point. It can perform the <b>Door Fight</b> action to fight against either operative B or C.</p>
         </figure>
     </div>
