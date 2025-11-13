@@ -62,6 +62,35 @@ const TerrainRules = () => {
         <div className="weaponLine" style={{ marginBottom: 20 + 'px', marginLeft: 1 + '%' }}></div>
         {visible_Ruins &&
             <>
+                <h3>Scrap Piles</h3>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OctariusTerrain2.JPG" className="imgGraphic" />
+                    <p>An operative cannot climb over a Scrap Pile. Instead it must perform an action to navigate through and around a Scrap Pile.</p>
+                </figure>
+                <br />
+                <div className="actionLine"></div>
+                <div className="actionDiv">
+                    <div className="titleBlock">
+                        <p className="actionName">SCRAMBLE REPOSITION</p>
+                        <p className="actionCost"><b>1AP</b></p>
+                    </div>
+                    <ul>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative can perform this action while within control range of a Scrap Pile. Remove this operative from the killzone then set it up within control range of the Scrap Pile it started within range of for this action. It cannot be setup within control range of enemy operatives.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative. This action is treated as a <b>Reposition</b> action.</li>
+                    </ul>
+                </div>
+                <br />
+                <div className="actionLine"></div>
+                <div className="actionDiv">
+                    <div className="titleBlock">
+                        <p className="actionName">SCRAMBLE CHARGE</p>
+                        <p className="actionCost"><b>1AP</b></p>
+                    </div>
+                    <ul>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative can perform this action while within control range of a Scrap Pile. Remove this operative from the killzone then set it up within control range of the Scrap Pile it started within range of for this action. It must be setup within control range of at least 1 enemy operative after being placed.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative and/or if it has a conceal order. This action is treated as a <b>Charge</b> action, however, an operative can still perform the <b>Dash</b> action before or after a <b>Scramble Charge</b>.</li>
+                    </ul>
+                </div>
             </>
         }
 
