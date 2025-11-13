@@ -63,8 +63,11 @@ const TerrainRules = () => {
         {visible_Ruins &&
             <>
                 <h3>Ruined Structures</h3>
-                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Ruins_01.png" className="imgGraphic" />
-                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Ruins_02.png" className="imgGraphic" />
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Ruins_01.png" className="imgGraphic" />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Ruins_02.png" className="imgGraphic" />
+                    <p>The above examples aren't, strictly speaking, 'ruins' but are examples of the kinds of structures used for Ruins killzones.</p>
+                </figure>
                 <p>Ruined Structures are mixed terrain with light, heavy and vantage elements and may include doors. There are also hatchways in the vantage elements that can be accessed vertically, both upwards and downwards, using the <b>Operate Hatchway</b> action.</p>
                 <p>Operatives can climb up and drop down through open hatchways.</p>
                 <div className="actionLine"></div>

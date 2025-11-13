@@ -111,9 +111,9 @@ const KeyPrinciples = () => {
                                                 
         <h3>Orders</h3>
         <p><b>Engage: The operative can perform actions as normal and can counteract.</b></p>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Orders_Engage.svg" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%', border: 'none' }} alt="Order" />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Orders_Engage.svg" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%', border: 'none', outline: 'none' }} alt="Order" />
         <p><b>Conceal: The operative cannot perform Shoot and Charge actions, and it cannot counteract. However, it’s not a valid target while it’s in cover.</b></p>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Orders_Conceal.svg" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%', border: 'none' }} alt="Order" />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Orders_Conceal.svg" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%', border: 'none', outline: 'none' }} alt="Order" />
         <p>Operatives are given a Conceal order when they are set up before the battle. You can change an operative’s order whenever it’s activated.</p>
         <p>Order tokens have two sides. The lighter side shows an operative is ready (it can be activated in the Firefight phase) and the darker side shows an operative is expended (it has been activated in the Firefight phase).</p>
         

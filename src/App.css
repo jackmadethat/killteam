@@ -159,6 +159,8 @@ Formatting
     max-width: 600px;
     width: 100%;
     border: 1px solid var(--bg);
+    outline: 4px solid black;
+    outline-offset: -5px;
 }
 
 .diagramClipFix {
