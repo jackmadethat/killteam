@@ -126,6 +126,27 @@ const TerrainRules = () => {
         <div className="weaponLine" style={{ marginBottom: 20 + 'px', marginLeft: 1 + '%' }}></div>
         {visible_Sprawl &&
             <>
+                <h3>Buildings</h3>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Sprawl_01.png" className="imgGraphic" />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Sprawl_02.png" className="imgGraphic" />
+                    <p>Buildings are tall, blocking structures such as skyscrapers and towering pillars. Whole, realistically scaled models can be impractical on the tabletop, so things like cardboard boxes or Dungeon Wall terrain set up in enclosed squares can be used.</p>
+                </figure>
+                <p>Buildings are heavy terrain and are impassable. They constrict the killzone to a maze of narrow corridors, restricting movement.</p>
+                <h3>Exhaust Vents</h3>
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_ExhaustVent.png" className="imgGraphic" />
+                <p>Exhaust vents are light terrain and have two states: Open and closed. While open, exhaust vents produce a smoke area with a 3" radius around their middle point. Refer to Smoke Grenade rules (5.2) for more information regarding smoke areas.</p>
+                <div className="actionLine"></div>
+                <div className="actionDiv">
+                    <div className="titleBlock">
+                        <p className="actionName">TOGGLE VENT</p>
+                        <p className="actionCost"><b>1AP</b></p>
+                    </div>
+                    <ul>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> An operative can perform this action while within control range of an Exhaust Vent. Switch the state of the Exhaust Vent to either open or closed.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action if it is within control range of an enemy operative and/or if it has a conceal order</li>
+                    </ul>
+                </div>
             </>
         }
 
