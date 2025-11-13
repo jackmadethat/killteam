@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import './index.css'
+import './structuralstyles.css'
+import './mediarules.css'
 import PvPReference from './PvPReference'
 import CorePrinciples from './CorePrinciples'
 import Equipment from './Equipment'

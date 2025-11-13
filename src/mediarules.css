@@ -1,0 +1,81 @@
+/**
+Media Rules
+**/
+
+@media (max-width: 1920px) {
+    #disclaimer {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .missionGrid {
+        flex: 50%;
+    }
+    #disclaimer {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 900px) {
+    .missionGrid {
+        flex: 100%;
+    }
+    .chapterNo {
+        margin-left: 92%;
+    }
+    .subsectionNo {
+        margin-left: 91%;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    ul, ol {
+        li {
+            margin-left: -10px;
+        }
+    }
+    .logoImg {
+        min-width: 150px;
+        min-height: 150px;
+    }
+    #bgImageContainer {
+        translate: -960px -153px;
+    }
+    #bgImage {
+        scale: 35%;
+    }
+    .indentNote {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .sectionButton {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    body {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #disclaimer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .weaponTable {
+        width: 100%;
+    }
+    .chapterNo {
+        margin-left: 89%;
+    }
+    .subsectionNo {
+        margin-left: 89%;
+    }
+    .mapImage {
+        padding-left: 0px;
+    }
+}

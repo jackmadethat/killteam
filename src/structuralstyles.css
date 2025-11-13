@@ -1,0 +1,239 @@
+/**
+Structural Styles
+**/
+
+#bgImageContainer {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: -200px;
+    left: 50%;
+    translate: -960px 0px;
+    z-index: -1;
+}
+
+#bgImage {
+    user-select: none;
+    filter: opacity(0.25) saturate(40%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%), linear-gradient(to right, black 70%, transparent 100%), linear-gradient(to left, black 70%, transparent 100%);
+    mask-composite: intersect;
+}
+
+#content {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#disclaimer {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 0.75em;
+    opacity: 0.7;
+}
+
+.subHeading {
+    font-size: 1.8em;
+    letter-spacing: 0em;
+    font-weight: lighter;
+}
+
+.hovered {
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.65em;
+    user-select: none;
+    opacity: 0.4;
+    padding-bottom: 80px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.logoImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -15px;
+    min-width: 250px;
+    min-height: 250px;
+    background-color: var(--bg);
+    mask-image: url("https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/killteamLogo.svg");
+    mask-size: 100% 100%;
+}
+
+#header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -25px;
+}
+
+.disclaimerBtn {
+    background-color: #00000000;
+    color: white;
+    border: 1px var(--bg) solid;
+    border-radius: 10px;
+    padding: 7px;
+    margin-bottom: 0px;
+    font-family: 'Kode Mono';
+}
+
+.categoryBtn {
+    border-bottom: 1px var(--bg) solid;
+    font-size: 1.9em;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.subcategoryBtn {
+    border-bottom: 1px var(--bg) solid;
+    font-size: 1.4em;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.mainBtn {
+    font-family: 'Kode Mono';
+    border: 1px var(--bg) solid;
+    border-radius: 15px;
+    max-width: 350px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #00000000;
+}
+
+.sectionContent {
+    font-weight: 50;
+    padding: 1px 2% 2% 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: -20px;
+    h3 {
+        font-weight: bold;
+    }
+}
+
+/**
+Formatting
+**/
+
+.indentNote {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.svgImg {
+    width: 1.2em;
+    height: 1.2em;
+    transform: translate(0, 3px);
+}
+
+.archetype {
+    position: absolute;
+    width: 4.7em;
+    height: 4.7em;
+    padding-top: 17px;
+    margin-left: 267px;
+}
+
+.imgGraphic {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid var(--bg);
+    outline: 4px solid black;
+    outline-offset: -5px;
+}
+
+.roundToken {
+    max-width: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.diagramClipFix {
+    clip-path: polygon(1% 1%, 99% 1%, 99% 99%, 1% 99%);
+}
+
+.diagramDiv {
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid var(--bg);
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+}
+
+.blackIcon {
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(-5deg) brightness(100%) contrast(100%);
+    height: 17px;
+}
+
+.weaponLine {
+    height: 1px;
+    width: 100%;
+    margin-top: -1em;
+    border: 1px solid var(--darkerOrange);
+    opacity: 0.65;
+}
+
+.strategyPloy {
+    border: 2px solid rgba(116, 116, 116, 0.467);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    background-color: #ffffff10;
+}
+
+.enviroNote {
+    border: 2px solid rgba(255, 0, 0, 0.3);
+    text-align: center;
+    padding-bottom: 3px;
+    padding-top: 6px;
+    background-color: #ff00002d;
+}
+
+.chapterNo {
+    position: relative;
+    font-size: 1.1em;
+    margin-left: 93%;
+    margin-top: -61px;
+    padding-bottom: 10px;
+    opacity: 0.3;
+    user-select: none;
+}
+
+.subsectionNo {
+    position: relative;
+    font-size: 0.8em;
+    margin-left: 92%;
+    margin-top: -45px;
+    padding-bottom: 5px;
+    opacity: 0.3;
+    user-select: none;
+}
