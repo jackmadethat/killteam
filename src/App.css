@@ -163,6 +163,15 @@ Formatting
     outline-offset: -5px;
 }
 
+.roundToken {
+    max-width: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
 .diagramClipFix {
     clip-path: polygon(1% 1%, 99% 1%, 99% 99%, 1% 99%);
 }
