@@ -6,7 +6,7 @@ const Grenades = () => {
         <p>When you select this equipment, select two utility grenades (2 smoke, 2 stun, or 1 smoke and 1 stun). Each selection is a unique action your operatives can perform, limited by the number you choose.</p>
 
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/5e53ebbd66b0b0f5f0a7a29666da3c53f279ea8b/src/img/Equipment_SmokeGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_SmokeGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
         </figure>        <div className="actionLine"></div>
         <div className="actionDiv">
             <div className="titleBlock">
@@ -22,7 +22,7 @@ const Grenades = () => {
         </div>
 
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/5e53ebbd66b0b0f5f0a7a29666da3c53f279ea8b/src/img/Equipment_StunGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_StunGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
         </figure>
         <div className="actionLine"></div>
         <div className="actionDiv">
@@ -40,7 +40,7 @@ const Grenades = () => {
         <p>When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak). Each selection is a ranged weapon your operatives can use as a Shoot action, limited by the number you choose.</p>
         
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/5e53ebbd66b0b0f5f0a7a29666da3c53f279ea8b/src/img/Equipment_FragGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_FragGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginTop: 50 + 'px', marginBottom: 30 + 'px' }} />
         </figure>
         <table className="weaponTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
@@ -71,7 +71,7 @@ const Grenades = () => {
         <div style={{ marginTop: 50 + 'px' }}></div>
         
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/5e53ebbd66b0b0f5f0a7a29666da3c53f279ea8b/src/img/Equipment_KrakGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginBottom: 30 + 'px' }} />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_KrakGrenade.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%', padding: 20 + 'px', marginBottom: 30 + 'px' }} />
         </figure>
         <table className="weaponTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>

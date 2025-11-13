@@ -14,16 +14,16 @@ const TerrainMovement = () => {
           <p>Operatives can jump from Vantage terrain higher than 2” from the killzone floor when they move off it. You can move them up to 4” horizontally from the edge when they jump, done like any other move except in one straight-line increment. The operative must then drop or climb from there. When jumping from a terrain feature, if there is a rampart at the edge you would jump from, you must climb it first before doing so, but still jump from the level of the Vantage terrain. When jumping to a terrain feature, you can ignore its height difference of 1” or less, including its rampart (if any). However, when jumping from a terrain feature, if it has a rampart, you must climb it first.</p>
           <p className="indentNote"><em>Jumping means agents can move across gaps up to 4" wide and over things that are below them.</em></p>
           <figure>
-              <img src="https://raw.githubusercontent.com/jackmadethat/killteam/5c65af371d765a961f9eab9bfd639b74a2ead238/src/img/OperativeDiagram_Climb.svg" className="imgGraphic" />
+              <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OperativeDiagram_Climb.svg" className="imgGraphic" />
               <p>The operative moves up 4” until it’s above the highest point it must climb over. It moves across 2” until its base is fully past the rampart, then drops down for 0” (as the drop is less than 2”).</p>
               <p style={{ paddingLeft: 5 + '%', paddingRight: 10 + '%' }}><em>Remember that increments are rounded up, so if the operative moves 3.5”, this is treated as 4”</em></p>
           </figure>
           <figure>
-              <img src="https://raw.githubusercontent.com/jackmadethat/killteam/01bb60551df95996bfba75fb02c0b2a5baf61ff5/src/img/OperativeDiagram_Drop.svg" className="imgGraphic" />
+              <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OperativeDiagram_Drop.svg" className="imgGraphic" />
               <p>The operative moves across 2” until it’s fully off the ledge, then drops down for 2” (a 4” distance, but the first 2” is ignored). The operative could also jump off the terrain, moving 4” from one edge before it drops down.</p>
           </figure>
           <figure>
-              <img src="https://raw.githubusercontent.com/jackmadethat/killteam/01bb60551df95996bfba75fb02c0b2a5baf61ff5/src/img/OperativeDiagram_Jump.svg" className="imgGraphic" />
+              <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OperativeDiagram_Jump.svg" className="imgGraphic" />
               <p>The operative moves up for 2” (a 1” distance, but treated as the minimum 2”) until it’s above the highest point it must climb over. It moves across 3” until its base is fully past the terrain feature, then drops down for 0” (as the drop is less than 2”).</p>
           </figure>
       </div>

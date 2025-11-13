@@ -5,7 +5,7 @@ const UniversalEquipment = () => {
         <p>Equipment is either Universal (listed below) or Faction (specific to your particular kill team, detailed in your kill team's rules). Teams can choose a <em>maximum of 4 equipment options</em> from either Universal or Faction Equipment listed in that kill team's rules. Note that not all Universal equipment is available to all kill teams.</p>
         
         <h3>Ammo Cache</h3>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/5e53ebbd66b0b0f5f0a7a29666da3c53f279ea8b/src/img/Equipment_AmmoCache.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_AmmoCache.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%' }} />
         <p>Before the battle, you can set up one of your Ammo Cache markers wholly within your territory. Friendly operatives can perform the following mission action during the battle.</p>
         
         <div className="actionLine"></div>
@@ -22,11 +22,11 @@ const UniversalEquipment = () => {
         </div>
         
         <h3>Comms Device</h3>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/5e53ebbd66b0b0f5f0a7a29666da3c53f279ea8b/src/img/Equipment_CommsDevice.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_CommsDevice.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%' }} />
         <p>Before the battle, you can set up one of your Comms Device markers wholly within your territory. While a friendly operative controls this marker, add 3" to the distance requirements of its <b>SUPPORT</b> rules that refer to friendly operatives (e.g., "select a friendly operative within 6" would be "within 9" instead"). Note you cannot benefit from your opponent’s Comms Device markers.</p>
         
         <h3>Mines</h3>
-        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/5e53ebbd66b0b0f5f0a7a29666da3c53f279ea8b/src/img/Equipment_Mines.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%' }} />
+        <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Equipment_Mines.svg" className="imgGraphic pngIMG" style={{ maxWidth: 150 + 'px', borderRadius: 50 + '%' }} />
         <p>Before the battle, you can set up up to one of your Mines markers wholly within your territory and more than 2" from other markers, access points and accesible terrain. The first time that marker is within an operative’s control range, remove that marker and inflict D3+3 damage on that operative.</p>
         
         <h3>Razor Wire</h3>
@@ -48,7 +48,7 @@ const UniversalEquipment = () => {
         <p><b>Protective:</b> While an operative is in Cover behind this terrain feature, improve its Save stat by 1 (to a maximum of 2+).</p>
         <p><b>Portable:</b> This terrain feature only provides cover while an operative is connected to it and if the shield is intervening (ignore its feet). Operatives connected to the inside of it can perform the following unique action during the battle.</p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/a7e4b7e8400ec7c21981b106633c3ef93c4cd71e/src/img/OperativeDiagram_PortableBarricade.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OperativeDiagram_PortableBarricade.svg" className="imgGraphic" />
             <p>The operative's base must contact both feet of the inside of the portable barricade to be connected to it.</p>
         </figure>
 

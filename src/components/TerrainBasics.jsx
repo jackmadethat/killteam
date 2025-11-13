@@ -26,7 +26,7 @@ const TerrainBasics = () => {
         <p>As Vantage terrain is also Light, an operative on Vantage terrain will often be in cover from operatives lower than them — imagine them crouching down to gain a cover save or avoid being a valid target.</p>
         <p>An operative on Vantage terrain can target an operative with a Conceal order that’s 2” lower than them and only in cover from Light terrain.</p><p>If an operative is obstructed from moving across Vantage terrain by enemy operatives or other terrain features, it can move around these obstructions (without dropping off) so long as part of its base is always on the Vantage terrain.</p>
         <figure>
-            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/d3a5c41aa0cb2e2a18514e952a8003c796e30df0/src/img/OperativeDiagram_Vantage.svg" className="imgGraphic" />
+            <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OperativeDiagram_Vantage.svg" className="imgGraphic" />
             <p>Operative B has a Conceal order and is in cover from Light terrain, but since operative A is on Vantage terrain and at least 2” higher, operative B is a valid target.</p>
         </figure>
         
@@ -42,7 +42,7 @@ const TerrainBasics = () => {
         <p>It’s particularly important to identify Insignificant and Exposed terrain before the battle, to prevent misunderstandings later on.</p>
         
         <h3>Ceiling</h3>
-        <p>Operatives with a round base of 50mm or less, or an oval base of 60x35mm, can move underneath Ceiling terrain regardless of the operative’s height (this takes precedence over Terrain and Movement on pg 56). The operative must still finish the action in a location it can be placed. If the operative is too tall, temporarily substitute it for a token matching it's base size.</p>
+        <p>Operatives with a round base of 50mm or less, or an oval base of 60x35mm, can move underneath Ceiling terrain regardless of the operative’s height. The operative must still finish the action in a location it can be placed. If the operative is too tall, temporarily substitute it for a token matching it's base size.</p>
 
         <h3>Equipment</h3>
         <p>Equipment can be set up on Vantage terrain, on the killzone floor and within 2" of Accessible terrain (this takes precedence over the usual restrictions).</p>

@@ -62,12 +62,37 @@ const TerrainRules = () => {
         <div className="weaponLine" style={{ marginBottom: 20 + 'px', marginLeft: 1 + '%' }}></div>
         {visible_Ruins &&
             <>
+                <h3>Ruined Structures</h3>
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Terrain_Ruins_01.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Terrain_Ruins_02.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+                <p>Ruined Structures are mixed terrain with light, heavy and vantage elements and may include doors. There are also hatchways in the vantage elements that can be accessed vertically, both upwards and downwards, using the <b>Operate Hatchway</b> action.</p>
+                <p>Operatives can climb up and drop down through open hatchways.</p>
+                <div className="actionLine"></div>
+                <div className="actionDiv">
+                    <div className="titleBlock">
+                        <p className="actionName">OPERATE HATCHWAY</p>
+                        <p className="actionCost"><b>1AP</b></p>
+                    </div>
+                    <ul>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> Open or close a hatch that’s access point is within the operative’s control range.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/yes.svg" className="svgImg" /> An operative can perform this action during a <b>Dash</b> or <b>Reposition</b> action, and any remaining move distance can be used after it does so.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or if that hatchway is open and its access point is within an enemy operative’s control range.</li>
+                    </ul>
+                </div>
+                <p>While a hatch is <b>closed</b>:</p>
+                <ul style={{ textAlign: 'left' }}>
+                    <li>Its hatch must be fully shut.</li>
+                    <li>The access point and hatch itself are Heavy and Ceiling terrain.</li>
+                </ul>
+                <p>While a hatch is <b>open</b>:</p>
+                <ul style={{ textAlign: 'left' }}>
+                    <li>Its hatch must be fully open (it cannot be ajar).</li>
+                    <li>Its access point is Accessible, Insignificant and Exposed terrain.</li>
+                    <li>Its door is Heavy and Ceiling terrain, and the gap directly underneath it is Blocking terrain.</li>
+                </ul>
                 <h3>Scrap Piles</h3>
-                <figure>
-                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/OctariusTerrain2.JPG" className="imgGraphic" />
-                    <p>An operative cannot climb over a Scrap Pile. Instead it must perform an action to navigate through and around a Scrap Pile.</p>
-                </figure>
-                <br />
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Terrain_Scrap.png" className="imgGraphic pngIMG" style={{ maxWidth: 500 + 'px' }} />
+                <p>An operative cannot climb over a Scrap Pile. Instead it must perform an action to navigate through and around a Scrap Pile.</p>
                 <div className="actionLine"></div>
                 <div className="actionDiv">
                     <div className="titleBlock">
