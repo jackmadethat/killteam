@@ -27,26 +27,30 @@ const UniversalEquipment = () => {
         
         <h3>Mines</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_Mines.svg" className="imgGraphic roundToken" />
-        <p>Before the battle, you can set up up to one of your Mines markers wholly within your territory and more than 2" from other markers, access points and accesible terrain. The first time that marker is within an operative’s control range, remove that marker and inflict D3+3 damage on that operative.</p>
+        <p>Before the battle, you can set up up to one of your Mines markers wholly within your territory and more than 2" from other markers, access points and accessible terrain. The first time that marker is within an operative’s control range, remove that marker and inflict D3+3 damage on that operative.</p>
         
         <h3>Razor Wire</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_RazorWire.PNG" className="imgGraphic" />
-        <p>Razor wire is Exposed and Obstructing terrain. Before the battle, you can set it up wholly within your territory, on the killzone floor and more than 2" from all other equipment terrain features, access points and accesible terrain.</p>
-        <p><strong>Obstructing:</strong> Whenever an operative would cross over this terrain feature within 1" of it, treat the distance as an additional 1".</p>
+        <p>Razor wire is exposed and obstructing terrain. Before the battle, you can set it up wholly within your territory, on the killzone floor and more than 2" from all other equipment terrain features, access points and accesible terrain.</p>
+        <ul>
+            <li><b>Obstructing:</b> Whenever an operative would cross over this terrain feature within 1" of it, treat the distance as an additional 1".</li>
+        </ul>
         
         <h3>Light Barricades</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_LightBarricade.PNG" className="imgGraphic" />
-        <p>Light barricades are Light terrain, except the feet, which are Insignificant and Exposed. Before the battle, you can set up any number of them wholly within your territory, on the killzone floor and more than 2" from other equipment terrain features, access points and accesible terrain.</p>
+        <p>Light barricades are light terrain, except the feet, which are Insignificant and Exposed. Before the battle, you can set up any number of them wholly within your territory, on the killzone floor and more than 2" from other equipment terrain features, access points and accessible terrain.</p>
         
         <h3>Heavy Barricade</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_HeavyBarricade.PNG" className="imgGraphic" />
-        <p>A heavy barricade is Heavy terrain. Before the battle, you can set it up wholly within 4" of your drop zone, on the killzone floor and more than 2” from other equipment terrain features, access points and accesible terrain.</p>
+        <p>A heavy barricade is heavy terrain. Before the battle, you can set it up wholly within 4" of your drop zone, on the killzone floor and more than 2” from other equipment terrain features, access points and accessible terrain.</p>
         
         <h3>Portable Barricade</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_PortableBarricade.PNG" className="imgGraphic" />
-        <p>A portable barricade is Light, Protective and Portable terrain. Before the battle, you can set it up wholly within your territory, on the killzone floor and more than 2" from all other equipment terrain features, access points and accesible terrain.</p>
-        <p><b>Protective:</b> While an operative is in Cover behind this terrain feature, improve its Save stat by 1 (to a maximum of 2+).</p>
-        <p><b>Portable:</b> This terrain feature only provides cover while an operative is connected to it and if the shield is intervening (ignore its feet). Operatives connected to the inside of it can perform the following unique action during the battle.</p>
+        <p>A portable barricade is light, protective and portable terrain. Before the battle, you can set it up wholly within your territory, on the killzone floor and more than 2" from all other equipment terrain features, access points and accessible terrain.</p>
+        <ul>
+            <li><b>Protective:</b> While an operative is in cover behind this terrain feature, improve its Save stat by 1 (to a maximum of 2+).</li>
+            <li><b>Portable:</b> This terrain feature only provides cover while an operative is connected to it and if the shield is intervening (ignore its feet). Operatives connected to the inside of it can perform the following unique action during the battle.</li>
+        </ul>
         <figure>
             <div className="diagramDiv">
                 <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/operativediagrams/OperativeDiagram_PortableBarricade.svg" className="imgGraphic diagramClipFix" />
@@ -69,7 +73,7 @@ const UniversalEquipment = () => {
 
         <h3>Ladders</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_Ladder.PNG" className="imgGraphic" />
-        <p>Ladders are Exposed terrain. Before the battle, you can set them up as follows:</p>
+        <p>Ladders are exposed terrain. Before the battle, you can set them up as follows:</p>
         <ul>
             <li>Wholly within your territory.</li>
             <li>Upright against terrain that has a height of at least 2".</li>
