@@ -7,7 +7,8 @@ const Grenades = () => {
 
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_SmokeGrenade.svg" className="imgGraphic roundToken" />
-        </figure>        <div className="actionLine"></div>
+        </figure>        
+        <div className="actionLine"></div>
         <div className="actionDiv">
             <div className="titleBlock">
                 <p className="actionName">SMOKE GRENADE</p>
@@ -42,7 +43,7 @@ const Grenades = () => {
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_FragGrenade.svg" className="imgGraphic roundToken" />
         </figure>
-        <table className="weaponTable">
+        <table className="weaponTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
                 <tr>
                     <th>NAME</th>
@@ -51,14 +52,14 @@ const Grenades = () => {
                     <th>DMG</th>
                 </tr>
                 <tr>
-                    <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Shoot" /> Frag Grenade</td>
+                    <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/shoot.svg" className="svgImg" alt="Shoot" /> Frag Grenade</td>
                     <td>4</td>
                     <td>4+</td>
                     <td>2/4</td>
                 </tr>
             </tbody>
         </table>
-        <table className="weaponRulesTable">
+        <table className="weaponRulesTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
                 <tr>
                     <th>WEAPON RULES</th>
@@ -73,7 +74,7 @@ const Grenades = () => {
         <figure>
             <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/equipment/Equipment_KrakGrenade.svg" className="imgGraphic roundToken" />
         </figure>
-        <table className="weaponTable">
+        <table className="weaponTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
                 <tr>
                     <th>NAME</th>
@@ -82,14 +83,14 @@ const Grenades = () => {
                     <th>DMG</th>
                 </tr>
                 <tr>
-                    <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/shoot.svg" className="svgImg" alt="Shoot" /> Krak Grenade</td>
+                    <td><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/shoot.svg" className="svgImg" alt="Shoot" /> Krak Grenade</td>
                     <td>4</td>
                     <td>4+</td>
                     <td>4/5</td>
                 </tr>
             </tbody>
         </table>
-        <table className="weaponRulesTable">
+        <table className="weaponRulesTable" style={{ maxWidth: 500 + 'px' }}>
             <tbody>
                 <tr>
                     <th>WEAPON RULES</th>
