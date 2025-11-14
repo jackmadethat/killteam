@@ -48,7 +48,8 @@ const TerrainRules = () => {
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Dungeon_Generic_01.png" className="imgGraphic" />
                     <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Dungeon_Generic_02.png" className="imgGraphic" />
                 </figure>
-                <p>If you're willing to spend the time, terrain can be crafted from paper or cut and glued from plywood or MDF sheeting. <a href="">Here</a> is a link to papercraft and plywood templates to create generic pieces such as is pictured above.</p>
+                <p>If you're willing to spend the time, terrain can be crafted from paper or cut and glued from plywood or MDF sheeting. Here are links to <a href="https://github.com/jackmadethat/killteam/raw/refs/heads/main/src/assets/KillzoneTerrain_Walls_Paper.pdf">papercraft</a> and <a href="https://github.com/jackmadethat/killteam/raw/refs/heads/main/src/assets/KillzoneTerrain_Walls_Plywood.pdf">plywood</a> templates to create generic pieces such as is pictured above, printable on A4.</p>
+                <p>Alternatively, a simple set of Jenga blocks can serve as improvized terrain suitable for dungeon walls, ad hoc structures, and other terrain features.</p>
             </>
         }
 
