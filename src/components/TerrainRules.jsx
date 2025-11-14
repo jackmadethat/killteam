@@ -41,7 +41,14 @@ const TerrainRules = () => {
         <div className="weaponLine" style={{ marginBottom: 20 + 'px', marginLeft: 1 + '%' }}></div>
         {visible_Open &&
             <>
-                <p></p>
+                <p>While there are no unique rules for Open killzones, players can roll-off and place terrain in turns, piece-by-piece, after selecting a killzone layout. This lends towards an interesting mix of terrain and terrain types, potentially blending any and all killzone themes. Alternatively, players can agree on limited terrain sets for a more consistent theme.</p>
+                <p>Below are some cost-effective terrain options for consideration.</p>
+                <h3>Generic Dungeon Walls</h3>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Dungeon_Generic_01.png" className="imgGraphic" />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Dungeon_Generic_02.png" className="imgGraphic" />
+                </figure>
+                <p>If you're willing to spend the time, terrain can be crafted from paper or cut and glued from plywood or MDF sheeting. <a href="">Here</a> is a link to papercraft and plywood templates to create generic pieces such as is pictured above.</p>
             </>
         }
 

@@ -9,8 +9,8 @@ const Introduction = () => {
         <li>A team for each player (between 6 and 15 models, depending on your faction)</li>
         <li>A play area (referred to as the 'killzone') of 30" x 22" or 703mm x 606mm divided into a 7x6 grid, depending on terrain setup</li>
         <div className="mapGrid">
-          <img src="https://raw.githubusercontent.com/jackmadethat/killteam/9c9d48ff20ecfaebda68982892d1960d12323766/src/img/Killzone_Standard_Blank.svg" className="mapImage" alt="30 x 22 inch killzone" />
-          <img src="https://raw.githubusercontent.com/jackmadethat/killteam/9c9d48ff20ecfaebda68982892d1960d12323766/src/img/Killzone_Grid_Blank.svg" className="mapImage" alt="703mm x 606mm, 7x6 Grid killzone" />
+          <img src="https://github.com/jackmadethat/killteam/raw/refs/heads/main/src/img/maps/Killzone_Standard_Blank.svg" className="mapImage" alt="30 x 22 inch killzone" />
+          <img src="https://github.com/jackmadethat/killteam/raw/refs/heads/main/src/img/maps/Killzone_Grid_Blank.svg" className="mapImage" alt="703mm x 606mm, 7x6 Grid killzone" />
         </div>
         <li>Game rules for reference, mission pack for game-specific rules, and rules for each kill team
           <p className="indentNote"><em>Much of the above is freely available online on the <a href="https://www.warhammer-community.com/en-gb/downloads/kill-team/">Warhammer Community website</a> or in the free <a href="https://play.google.com/store/apps/details?id=com.gamesworkshop.kt3">Kill Team mobile app</a>. The 'Lite Rules' document is a perfect, three-page reference containing enough of the core rules to play a complete game.</em></p>

@@ -7,12 +7,12 @@ const TerrainBasics = () => {
         
         <h3>Heavy</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Heavy.png" className="imgGraphic" />
-        <p>Larger terrain is Heavy. It provides cover and can obscure operatives. Heavy terrain can be walls, structures, boulders, vehicles, or anything large and impassable.</p>
+        <p>Larger terrain is heavy. It provides cover and can obscure operatives. Heavy terrain can be walls, structures, boulders, vehicles, or anything large and impassable.</p>
 
         <h3>Light</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Light.png" className="imgGraphic" />
-        <p>Smaller terrain is Light. It provides cover without obscuring operatives.</p>
-        <p className="indentNote"><em>It’s good to have a mixture of Light and Heavy terrain in your killzone, as rules and operatives interact with each type differently.</em></p>
+        <p>Smaller terrain is light. It provides cover without obscuring operatives.</p>
+        <p className="indentNote"><em>It’s good to have a mixture of light and heavy terrain in your killzone, as rules and operatives interact with each type differently.</em></p>
         
         <h3>Blocking</h3>
         <p>Blocking terrain is usually attributed to gaps between or underneath a terrain feature. Visibility cannot be drawn through such gaps, and for the purposes of cover and obscured, the gaps are intervening like the terrain around it.</p>
@@ -32,13 +32,13 @@ const TerrainBasics = () => {
             <div className="diagramDiv">
               <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/operativediagrams/OperativeDiagram_Vantage.svg" className="imgGraphic diagramClipFix" style={{ border: "1px solid #f80" }} />
             </div>
-            <p>Operative B has a Conceal order and is in cover from Light terrain, but since operative A is on Vantage terrain and at least 2” higher, operative B is a valid target.</p>
+            <p>Operative B has a Conceal order and is in cover from light terrain, but since operative A is on vantage terrain and at least 2” higher, operative B is a valid target.</p>
         </figure>
         
         <h3>Accessible</h3>
         <figure>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Accessible.png" className="imgGraphic" />
-        <p>The hatch in the above image is Accessible while it's open and Heavy Terrain while it's closed.</p>
+        <p>The hatch in the above image is accessible while it's open and heavy terrain while it's closed.</p>
         </figure>
         <p>Operatives can move through Accessible terrain, such as doors and hatchways (this takes precedence over Bases, and Terrain and Movement), but it counts as an additional 1" to do so. Only the centre of an operative’s base needs to move through Accessible terrain, so base sizes are irrelevant.</p>
         
