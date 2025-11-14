@@ -107,6 +107,7 @@ const Grenades = () => {
         <p>Explosive grenades, due to being a ranged weapon, require a <em>valid target</em> to use, while utility grenades can be thrown anywhere within their range.</p>
 
         <h3>Advanced Grenade Rules</h3>
+        <p>The following grenade rules are optional and their use must be agreed upon by both players before a game.</p>
         <ul>
             <li><b>Point Targeting</b>: All grenades can be thrown at specific locations rather than requiring valid targets.</li>
             <li><b>Ricochet</b>: Grenades can be thrown at walls to bounce them around corners. Angles must be approximated in a realistic way, bounces are limited to 1 per grenade throw, and the grenade can't travel further than it's maximum range.</li>
