@@ -33,7 +33,7 @@ const PvPReference = () => {
 
       <div>
         <div className="hovered" onClick={toggleGameSequence}>
-          <h2 className="subcategoryBtn">Core Gameplay</h2>
+          <h2 className="subcategoryBtn">Core (PvP) Gameplay</h2>
           <p className="subsectionNo">1.2</p>
         </div>
         {visible_GameSequence && <GameSequence />}
@@ -41,7 +41,7 @@ const PvPReference = () => {
 
       <div>
         <div className="hovered" onClick={togglePvEGameSequence}>
-          <h2 className="subcategoryBtn">Solo/Co-Op Gameplay</h2>
+          <h2 className="subcategoryBtn">Solo/Co-Op (PvE) Gameplay</h2>
           <p className="subsectionNo">1.3</p>
         </div>
         {visible_PvESequence && <PvESequence />}

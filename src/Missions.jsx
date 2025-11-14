@@ -82,6 +82,14 @@ const Missions = () => {
         </div>
 
       </div>
+
+      <div>
+        <div className="hovered">
+          <h2 className="subcategoryBtn">The Lurking Horror</h2>
+          <p className="subsectionNo">6.8</p>
+        </div>
+
+      </div>
     </div>
   )
 }

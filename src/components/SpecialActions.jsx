@@ -23,11 +23,13 @@ const SpecialActions = () => {
                 <p className="actionCost"><b>2AP</b></p>
             </div>
             <ul>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> If the active operative can perform an <b>Operate Door/Hatch</b> action, the operative can instead perform a <b>Breach</b> action. When breaching, the door or hatch is destroyed and will remain open for the remainder of the game. Any enemy operatives on the other side of the door are pushed back 2" and have -1 APL in their next activation.</li>
-                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the <b>Reposition</b>, <b>Fall Back</b> or <b>Charge</b> action.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Open a closed door, hatchway or breach point with an access point within the operative’s control range.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> An operative that has the word(s) “breach marker”, “grenadier” or “mine” on its datacard, or has a weapon with the Piercing 2 or Piercing Crits 2 weapon rule (excluding weapons that have the Blast or Torrent weapon rule) can perform this action for 1 less AP (to a minimum of 1AP), but it cannot do so during an activation/counteraction in which it performed the Charge or Shoot action (or vice versa).</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Roll one D6 separately for each operative that’s on the other side of the access point and has that access point within its control range: on a 4+, subtract 1 from that operative’s APL stat until the end of its next activation and inflict damage on it equal to the dice result halved (rounding up).</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative (on it's own side of the wall), or if that breach point is open.</li>
             </ul>
         </div>
-        <p className="indentNote"><em>The <b>Breach</b> action is akin to kicking in the door or bursting through it somehow, creating a shock-and-awe effect.</em></p>
+        <p className="indentNote"><em>Breaching is akin to kicking in the door or blasting through it with explosives or force, creating a shock-and-awe effect on those unlucky enough to be on the other side.</em></p>
         <div className="actionLine"></div>
         <div className="actionDiv">
             <div className="titleBlock">

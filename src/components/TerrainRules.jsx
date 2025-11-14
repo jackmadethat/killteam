@@ -41,6 +41,7 @@ const TerrainRules = () => {
         <div className="weaponLine" style={{ marginBottom: 20 + 'px', marginLeft: 1 + '%' }}></div>
         {visible_Open &&
             <>
+                <p></p>
             </>
         }
 
@@ -55,6 +56,38 @@ const TerrainRules = () => {
         <div className="weaponLine" style={{ marginBottom: 20 + 'px', marginLeft: 1 + '%' }}></div>
         {visible_Dungeon &&
             <>
+                <h3>Dungeon Walls</h3>
+                <figure>
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Dungeon_01.png" className="imgGraphic" />
+                    <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Heavy.png" className="imgGraphic" />
+                    <p>Dungeon walls are heavy terrain and can contain doors, hatchways or breach points.</p>
+                </figure>
+                <ul>
+                    <li>Operatives cannot move over or through Wall terrain (this takes precedence over all other rules).</li>
+                    <li>Visibility cannot be determined over or through Wall terrain.</li>
+                    <li>Other than theoretical areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be measured over or through Wall terrain; they must be measured around it using the shortest possible route.</li>
+                    <li>For the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene, unless the active operative has passed it.</li>
+                </ul>
+                <p>Dungeon killzones have an implied ceiling at the level of the top of the dungeon wall (generally 60-70mm from the killzone floor). </p>
+                <p>Dungeons are wholly considered condensed terrain.</p>
+                <p>Operatives are unable to use the <b>Pounce</b> action in a dungeon killzone.</p>
+                <h3>Breach Points</h3>
+                <p>In addition to doors or hatchways, dungeon walls may contain breach points. A breach point is a section of wall that's thinner, damaged, partially ruined, or otherwise compromised so that an operative can break through it with force.</p>
+                <p>Breach points have two statuses: Open and closed. All breach points start the game closed, and the only way to open them is to use the <b>Breach</b> action (shown below and in the Special Actions section (3.5))</p>
+                <div className="actionLine"></div>
+                <div className="actionDiv">
+                    <div className="titleBlock">
+                        <p className="actionName">BREACH</p>
+                        <p className="actionCost"><b>2AP</b></p>
+                    </div>
+                    <ul>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Open a closed breach point with an access point within the operative’s control range.</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> An operative that has the word(s) “breach marker”, “grenadier” or “mine” on its datacard, or has a weapon with the Piercing 2 or Piercing Crits 2 weapon rule (excluding weapons that have the Blast or Torrent weapon rule) can perform this action for 1 less AP (to a minimum of 1AP), but it cannot do so during an activation/counteraction in which it performed the Charge or Shoot action (or vice versa).</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Roll one D6 separately for each operative that’s on the other side of the access point and has that access point within its control range: on a 4+, subtract 1 from that operative’s APL stat until the end of its next activation and inflict damage on it equal to the dice result halved (rounding up).</li>
+                        <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative (on it's own side of the wall), or if that breach point is open.</li>
+                    </ul>
+                </div>
+                <p>The elite operatives that form kill teams are specially equipped to overcome all manner of barriers. Some draw upon esoteric traits and adaptable skills to force a route to their target. From point-blank firepower and atomic destabilisers to bio-acids and raw strength fuelled by faith, operatives have a variety of methods at their disposal to breach weak points. The forces involved can result in extreme damage, with whizzing debris and violent shock waves hitting those unlucky enough to be on the other side.</p>
             </>
         }
 

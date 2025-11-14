@@ -7,7 +7,7 @@ const TerrainBasics = () => {
         
         <h3>Heavy</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Heavy.png" className="imgGraphic" />
-        <p>Larger terrain is Heavy. It provides cover and can obscure operatives.</p>
+        <p>Larger terrain is Heavy. It provides cover and can obscure operatives. Heavy terrain can be walls, structures, boulders, vehicles, or anything large and impassable.</p>
 
         <h3>Light</h3>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/terrain/Terrain_Light.png" className="imgGraphic" />
