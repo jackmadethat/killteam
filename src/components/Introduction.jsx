@@ -1,7 +1,7 @@
 const Introduction = () => {
   return (
     <div className="sectionContent" id="introduction">
-      <p><em>Kill Team</em> is a tactical combat tabletop game set in a grim, dark future. Two rival teams of highly skilled operatives battle and complete objectives to achieve victory. It's a completely separate game from Warhammer 40k, focusing on small-scale battles between individual characters rather than big armies. The tight scale, shorter game length and low number of units makes Kill Team one of the most accessible ways to get into tabletop wargaming hobby.</p>
+      <p><em>Kill Team</em> is a tactical combat tabletop game set in a grim, dark future. Two rival teams of highly skilled operatives battle and complete objectives to achieve victory. It's a game focusing on small-scale battles between individual characters rather than big armies. The tight scale, shorter game length and low number of units makes Kill Team one of the most accessible ways to get into tabletop wargaming hobby.</p>
       <p>The game is originally designed for Warhammer 40k miniatures, but teams of other miniatures are fine (referred to as 'proxies') as long as they comply with Kill Team Rules (base sizes, for example).</p>
       <p>This compendium deviates greatly from the official ruleset, using many homebrew rules, details and features. While it loosely resembles the 2024 Kill Team rules, it shouldn't be used as a substitute for the official rulebook.</p>
       <p>While the game is primarily played with 2 players, Co-Op and single player missions are included, and a great way to learn the ropes before playing against other players.</p>
