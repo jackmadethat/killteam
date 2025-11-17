@@ -75,21 +75,26 @@ const Considerations = () => {
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" className="datacardAdditionalRules"><b>Camo Cloak</b>: Whenever an operative is shooting this operative, ignore the Saturate weapon rule. This operative has the Stealthy <b>CHAPTER TACTIC</b>. If you selected that <b>CHAPTER TACTIC</b>, you can do both of its options (i.e. retain two cover saves – one normal and one critical success).</td>
-                    <td colspan="3" className="datacardAdditionalRules">
-                        <div className="actionLine"></div>
-                        <div className="actionDiv">
-                            <div className="titleBlock">
-                                <p className="actionName">OPTICS</p>
-                                <p className="actionCost"><b>1AP</b></p>
+                    <td colspan="5" className="datacardAdditionalRules">
+                        <div className= "additionalRulesColumns">
+                            <div className= "col1">
+                                <p><b>Camo Cloak</b>: Whenever an operative is shooting this operative, ignore the Saturate weapon rule. This operative has the Stealthy <b>CHAPTER TACTIC</b>. If you selected that <b>CHAPTER TACTIC</b>, you can do both of its options (i.e. retain two cover saves – one normal and one critical success).</p>
                             </div>
-                            <ul style={{ textAlign: 'left' }}>
-                                <li style={{ marginLeft: 17 + 'px' }}><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Until the start of this operative’s next activation, whenever it’s shooting, enemy operatives cannot be obscured.</li>
-                                <li style={{ marginLeft: 17 + 'px' }}><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action while within control range of an enemy operative.
-                                </li>
-                            </ul>
+                            <div className= "col1">
+                                <div className="actionLine"></div>
+                                <div className="actionDiv">
+                                    <div className="titleBlock">
+                                        <p className="actionName">OPTICS</p>
+                                        <p className="actionCost"><b>1AP</b></p>
+                                    </div>
+                                    <ul>
+                                        <li style={{ marginLeft: 17 + 'px' }}><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> Until the start of this operative’s next activation, whenever it’s shooting, enemy operatives cannot be obscured.</li>
+                                        <li style={{ marginLeft: 17 + 'px' }}><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" style={{ marginLeft: -20 + 'px', marginRight: 1 + 'px' }}/> An operative cannot perform this action while within control range of an enemy operative.</li>
+                                    </ul>
+                                </div>
+                                <br />
+                            </div>
                         </div>
-                        <br />
                     </td>
                 </tr>
                 {/*

@@ -345,6 +345,24 @@ Datacard
     }
 }
 
+.additionalRulesColumns {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    .col1 {
+        flex-basis: 50%;
+        vertical-align: top;
+        align-items: top;
+        padding-left: 1%;
+    }
+    .col2 {
+        flex-basis: 100%;
+        vertical-align: top;
+        align-items: top;
+        padding-left: 1%;
+    }
+}
+
 /**
 Options Table
 **/
