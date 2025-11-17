@@ -3,11 +3,13 @@ import './App.css'
 import MissionOps from './components/MissionOps'
 import TacOps from './components/TacOps'
 import KillOps from './components/KillOps'
+import Mission_Swarm from './components/Mission_Swarm'
 
 const Missions = () => {
   const [visible_CritOps, setVisible_CritOps] = useState(false);
   const [visible_TacOps, setVisible_TacOps] = useState(false);
   const [visible_KillOps, setVisible_KillOps] = useState(false);
+  const [visible_Swarm, setVisible_Swarm] = useState(false);
 
   const toggleCritOps = () => {
     setVisible_CritOps(!visible_CritOps);
@@ -19,6 +21,10 @@ const Missions = () => {
 
   const toggleKillOps = () => {
     setVisible_KillOps(!visible_KillOps);
+  };
+
+  const toggleSwarm = () => {
+    setVisible_Swarm(!visible_Swarm);
   };
 
   return (
@@ -62,11 +68,11 @@ const Missions = () => {
       </div>
 
       <div>
-        <div className="hovered">
+        <div className="hovered" onClick={toggleSwarm}>
           <h2 className="subcategoryBtn">The Head of the Swarm</h2>
           <p className="subsectionNo">6.5</p>
         </div>
-
+        {visible_Swarm && <Mission_Swarm />}
       </div>
 
       <div>
