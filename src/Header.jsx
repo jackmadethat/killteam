@@ -36,7 +36,7 @@ const Header = () => {
       {/* <div id="nightModeToggle" className="hovered" onClick={toggleNightMode}></div> */}
 
         <div id="header">
-            <div className="logoImg" style={{ backgroundColor: isNightMode ? '#F80' : '#000' }}></div>
+            <div className="logoImg"></div>
             <h1>Kill Team</h1>
         </div>
         <div className="textCenter" style={{ marginBottom: 17 + 'px' }}>

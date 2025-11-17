@@ -61,17 +61,18 @@ Structural Styles
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -15px;
-    min-width: 250px;
-    min-height: 250px;
-    background-color: var(--bg);
-    mask-image: url("https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/killteamLogo.svg");
-    mask-size: 100% 100%;
+    background-image: url("https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/KillTeamLogo.png");
+    background-size: 400px;
+    max-width: 400px;
+    max-height: 280px;
+    height: 280px;
+    background-repeat: no-repeat;
 }
 
 #header {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: -25px;
+    margin-top: 15px;
+    margin-bottom: -10px;
 }
 
 .disclaimerBtn {

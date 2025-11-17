@@ -29,6 +29,12 @@ Media Rules
     .subsectionNo {
         margin-left: 91%;
     }
+    .logoImg {
+        background-size: 300px;
+        max-width: 300px;
+        max-height: 210px;
+        height: 210px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -41,8 +47,10 @@ Media Rules
         }
     }
     .logoImg {
-        min-width: 150px;
-        min-height: 150px;
+        background-size: 200px;
+        max-width: 200px;
+        max-height: 140px;
+        height: 140px;
     }
     #bgImageContainer {
         translate: -960px -153px;
