@@ -43,7 +43,7 @@ const GameGenerator = () => {
     const filteredKillzones = Killzones.filter(killzone => selectedKillzones.includes(killzone.killzone));
     if (filteredKillzones.length > 0) {
       const randomKillzone = filteredKillzones[Math.floor(Math.random() * filteredKillzones.length)];
-      setKillzoneImage(randomKillzone.image);
+      setKillzoneImage(randomKillzone);
     } else {
       setKillzoneImage(null);
     }
@@ -141,9 +141,7 @@ const GameGenerator = () => {
           <h2>Killzone</h2>
           <MapsKey />
           <div className="mapGrid">
-            <div>
-              {killzoneImage}
-            </div>
+            <img src={killzoneImage.imageSrc} className="mapImage" />
           </div>
         </div>
       )}
