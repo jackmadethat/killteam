@@ -1,15 +1,15 @@
 import { useState } from 'react'
 
 const TerrainRules = () => {
-  const [visible_OceanRig, setVisible_OceanRig] = useState(false);
+  const [visible_Platform, setVisible_Platform] = useState(false);
   const [visible_Ruins, setVisible_Ruins] = useState(false);
   const [visible_Dungeon, setVisible_Dungeon] = useState(false);
   const [visible_Sprawl, setVisible_Sprawl] = useState(false);
   const [visible_Octarius, setVisible_Octarius] = useState(false);
   const [visible_Open, setVisible_Open] = useState(false);
 
-  const toggleOceanRig = () => {
-    setVisible_OceanRig(!visible_OceanRig);
+  const togglePlatform = () => {
+    setVisible_Platform(!visible_Platform);
   };
 
   const toggleRuins = () => {
@@ -53,9 +53,9 @@ const TerrainRules = () => {
             </>
         }
 
-        <h2 className="subHeading hovered" style={{ fontSize: 1.3 + 'em', marginLeft: 2 + '%' }} onClick={toggleOceanRig}>Platform</h2>
+        <h2 className="subHeading hovered" style={{ fontSize: 1.3 + 'em', marginLeft: 2 + '%' }} onClick={togglePlatform}>Platform</h2>
         <div className="weaponLine" style={{ marginBottom: 20 + 'px', marginLeft: 1 + '%' }}></div>
-        {visible_OceanRig &&
+        {visible_Platform &&
             <>
                 <h3>Gantries</h3>
                 <figure>

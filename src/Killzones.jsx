@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import MapsOpen from './components/Maps_Open'
 import MapsDungeon from './components/Maps_Dungeon'
-import MapsOceanRig from './components/Maps_OceanRig'
+import MapsPlatform from './components/Maps_Platform'
 import MapsRuins from './components/Maps_Ruins'
 import MapsSprawl from './components/Maps_Sprawl'
 
@@ -10,7 +10,7 @@ import MapsSprawl from './components/Maps_Sprawl'
 const Killzones = () => {
   const [visible_mapsOpen, setVisible_mapsOpen] = useState(false);
   const [visible_mapsTombWorld, setVisible_mapsTombWorld] = useState(false);
-  const [visible_mapsOceanRig, setVisible_mapsOceanRig] = useState(false);
+  const [visible_mapsPlatform, setVisible_mapsPlatform] = useState(false);
   const [visible_mapsDungeon, setVisible_mapsDungeon] = useState(false);
   const [visible_mapsRuins, setVisible_mapsRuins] = useState(false);
   const [visible_mapsOctarius, setVisible_mapsOctarius] = useState(false);
@@ -24,8 +24,8 @@ const Killzones = () => {
     setVisible_mapsTombWorld(!visible_mapsTombWorld);
   };
 
-  const toggleOceanRig = () => {
-    setVisible_mapsOceanRig(!visible_mapsOceanRig);
+  const togglePlatform = () => {
+    setVisible_mapsPlatform(!visible_mapsPlatform);
   };
 
   const toggleDungeon = () => {
@@ -55,11 +55,11 @@ const Killzones = () => {
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleOceanRig}>
+        <div className="hovered" onClick={togglePlatform}>
           <h2 className="subcategoryBtn">Platform</h2>
           <p className="subsectionNo">7.2</p>
         </div>
-        {visible_mapsOceanRig && <MapsOceanRig />}
+        {visible_mapsPlatform && <MapsPlatform />}
       </div>
 
       <div>
@@ -96,11 +96,11 @@ const Killzones = () => {
       </div>
 
       <div>
-        <div className="hovered" onClick={toggleOceanRig}>
+        <div className="hovered" onClick={togglePlatform}>
           <h2 className="subcategoryBtn">Bheta-Decima</h2>
           <p className="subsectionNo">7.2</p>
         </div>
-        {visible_mapsOceanRig && <MapsOceanRig />}
+        {visible_mapsPlatform && <MapsPlatform />}
       </div>
 
       <div>

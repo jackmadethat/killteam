@@ -9,7 +9,7 @@ const MapsOpen = () => {
       <MapsKey />
       <div className="mapGrid">
         {Killzones.slice(0, 9).map((item) => (
-          <img src={item.imageSrc} className="mapImage" />
+          <img key={item.id} src={item.imageSrc} className="mapImage" />
         ))}
       </div>
     </div>
