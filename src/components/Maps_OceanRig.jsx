@@ -4,7 +4,7 @@ import { Killzones } from './Data_Killzones'
 const MapsOceanRig = () => {
   return (
     <div className="sectionContent" id="oceanrig">
-      <p>Gantries on a volcanic mining rig. Precarious surfaces over toxic waste. Scaffolding above infested waters. Ocean Rig killzones are dynamic, multi-level environments over hazardous terrain which limits movement and favors long-range sharpshooters and highly maneuverable operatives.</p>
+      <p>Gantries on a volcanic mining rig. Precarious surfaces over toxic waste. Scaffolding above infested waters. Platform killzones are dynamic, multi-level environments over hazardous terrain which limits movement and favors long-range sharpshooters and highly maneuverable operatives.</p>
       <br />
       <MapsKey />
       <div className="mapGrid">

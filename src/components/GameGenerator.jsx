@@ -12,7 +12,7 @@ const GameGenerator = () => {
   const [killzoneImage, setKillzoneImage] = useState(null);
 
   const killzoneOptions = [
-    'Open', 'Dungeon', 'Ocean Rig', 'Ruins', 'Sprawl'
+    'Open', 'Dungeon', 'Platform', 'Ruins', 'Sprawl'
   ];
 
   const tacOpOptions = [

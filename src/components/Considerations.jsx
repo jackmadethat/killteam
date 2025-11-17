@@ -142,7 +142,7 @@ const Considerations = () => {
             <li>Sometimes different weapons will have the same primary name but different secondary names, represented in brackets, e.g. “plasma gun (standard)” and “plasma gun (supercharge)”. These are effectively separate profiles of the same weapon, but used as different weapons. If a rule refers to just the primary name, it includes all weapons with that primary name.</li>
         </ul>
         <h3>Additional rules</h3>
-        <p>Beneath the operative's weapon loadout are any relevant additional rules for the operative and any unique acions that the operative can perform.</p>
+        <p>Beneath the operative's weapon loadout are any relevant additional rules for the operative and any unique actions that the operative can perform.</p>
         <h3>Keywords</h3>
         <p>At the bottom of the datacard are any relevant keywords for the operative. Keywords are used as identifiers for certain rules that apply to specific operatives and operative types. Keywords in orange with a skull symbol, e.g. <b style={{ color: '#F80' }}>ANGELS OF DEATH</b><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/skull.svg" className="svgImg blackIcon" />, are faction keywords – used to identify all operatives from that kill team.</p>
         <h3>Bases</h3>

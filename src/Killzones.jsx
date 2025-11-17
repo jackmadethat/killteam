@@ -56,7 +56,7 @@ const Killzones = () => {
 
       <div>
         <div className="hovered" onClick={toggleOceanRig}>
-          <h2 className="subcategoryBtn">Ocean Rig</h2>
+          <h2 className="subcategoryBtn">Platform</h2>
           <p className="subsectionNo">7.2</p>
         </div>
         {visible_mapsOceanRig && <MapsOceanRig />}
