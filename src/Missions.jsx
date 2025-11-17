@@ -24,6 +24,7 @@ const Missions = () => {
   return (
     <div style={{ marginBottom: 40 + 'px' }}>
       <h3 style={{ marginLeft: 5 + '%', fontSize: 1.8 + 'em' }}>PvP</h3>
+      <p style={{ marginLeft: 5 + '%', marginTop: -30 + 'px', fontSize: 0.85 + 'em' }}><em>Player-Versus-Player Competitive Missions</em></p>
     
       <div>
         <div className="hovered" onClick={toggleCritOps}>
@@ -50,6 +51,7 @@ const Missions = () => {
       </div>
 
       <h3 style={{ marginLeft: 5 + '%', fontSize: 1.8 + 'em' }}>PvE</h3>
+      <p style={{ marginLeft: 5 + '%', marginTop: -30 + 'px', fontSize: 0.85 + 'em' }}><em>Solo & Cooperative Missions Versus Non-Player Opponents</em></p>
 
       <div>
         <div className="hovered">
