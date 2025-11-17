@@ -70,6 +70,8 @@ const App = () => {
   };
 
   // https://ktdash.app/
+  // https://www.blkoutgame.com 
+  // https://ruinstars.com/
 
   return (
     <div id="content">
