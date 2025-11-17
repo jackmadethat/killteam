@@ -135,7 +135,7 @@ export const CritOpsData = [
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>ADDITIONAL RULES</h3>
         <p>The <b>PICK UP MARKER</b> action can be performed upon the extraction objective marker. While an operative is carrying that marker, worsen the Hit stat of it's weapons by 1, it cannot be removed and set up again more than 6" away, and it cannot perform <b>CHARGE</b> or <b>DASH</b> actions.</p>
         <h3 className="opSubHeading" style={{ marginBottom: -10 + 'px' }}>VICTORY POINTS</h3>
-        <p>Whenever a friendly operative performs the <b>SEARCH</b> action, you score 1VP if it's the <em>first</em> or <em>third</em> objective marker to be searched, or 2VP if it's the <em>second</em>.</p>
+        <p>Whenever a friendly operative performs the <b>SEARCH</b> action, you score 1VP if it's the <em>second</em> or <em>third</em> objective marker to be searched, or 2VP if it's the <em>first</em>.</p>
         <p>At the end of each turning point after the first, if friendly operatives control the extraction objective marker, you score 1VP or 2VP if it's the fourth turning point.</p>
       </div>
   },
