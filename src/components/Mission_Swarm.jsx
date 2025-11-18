@@ -4,6 +4,14 @@ const Mission_Swarm = () => {
         {/*<div style={{ marginBottom: 40 + 'px' }}></div>*/}
         <h3>Introduction</h3>
         <p>The desert planet of Arkalis Prime is a strategic outpost in the western region of the Milky Way galaxy, used by the Terran Federation to resupply, reinforce and regroup during long campaigns. Thanks to the many rocky moons and large asteroids in the system, weapons installations and supply depots are numerous. Despite this, the Swarm has made landfall and has begun burrowing it's tendrils deep into the planet. The low population and arid conditions slow the spread of the Xenos menace, but the Federation must scramble to purge the vile aliens swiftly and decisively or risk losing this critical location.</p>
+        <h3>Campaign Rules</h3>
+        <p>Head of the Swarm features 3 missions to be played in sequence with 1-3 players.</p>
+        <h4><em><b>Mission 1: Secure the Package</b></em></h4>
+        <p>Sergeant Anris is isolated, cut-off from his squad across a narrow canyon, and has detected the Swarm's mounting presence. He must transport his precious research material to the nearby base of operations in order to mobilize his forces into action.</p>
+        <h4><em><b>Mission 2: Extraction</b></em></h4>
+        <p>Regrouping at a nearby extraction site, Sergeant Anris must hold the line against the growing Swarm invasion until he can be removed from danger.</p>
+        <h4><em><b>Mission 3: Turning the Tide</b></em></h4>
+        <p>With Arkalis' governing authority notified of the Xenos invasion, a counter-offensive is launched that can begin scouring the world of the Swarm's touch.</p>
         <h3>Player Operatives</h3>
         <table className="weaponTable dataCard">
             <tbody>
@@ -30,7 +38,7 @@ const Mission_Swarm = () => {
                                     <td>4</td>
                                     <td>3+</td>
                                     <td>3/4</td>
-                                    <td>Range 8", Piercing Crits 1<super><em>1</em></super></td>
+                                    <td>Range 8", Piercing Crits 1</td>
                                 </tr>
                                 <tr>
                                     <td style={{ paddingLeft: 5 + 'px' }}><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/shoot.svg" className="svgImg" alt="Shoot" /> Knife</td>
@@ -55,7 +63,6 @@ const Mission_Swarm = () => {
                         <div className="additionalRulesColumns">
                             <div className="col1">
                                 <p><b>Lethal Parry</b>: Whenever this operative is retaliating, before resolving attack dice in the fight sequence, if you have any critical successes, you can immediately resolve one of them before the NPO resolves any.</p>
-                                <p><super><em>1</em></super><b>Piercing Crits 1</b>: Whenever this operative is using this weapon, if you retain any critical successes for it, roll 1 less defence dice for the target.</p>
                             </div>
                             <div className="col1">
                                 <div className="actionLine"></div>

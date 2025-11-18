@@ -4,12 +4,14 @@ import MissionOps from './components/MissionOps'
 import TacOps from './components/TacOps'
 import KillOps from './components/KillOps'
 import Mission_Swarm from './components/Mission_Swarm'
+import Mission_GreatGun from './components/Mission_GreatGun'
 
 const Missions = () => {
   const [visible_CritOps, setVisible_CritOps] = useState(false);
   const [visible_TacOps, setVisible_TacOps] = useState(false);
   const [visible_KillOps, setVisible_KillOps] = useState(false);
   const [visible_Swarm, setVisible_Swarm] = useState(false);
+  const [visible_Gun, setVisible_Gun] = useState(false);
 
   const toggleCritOps = () => {
     setVisible_CritOps(!visible_CritOps);
@@ -25,6 +27,10 @@ const Missions = () => {
 
   const toggleSwarm = () => {
     setVisible_Swarm(!visible_Swarm);
+  };
+
+  const toggleGun = () => {
+    setVisible_Gun(!visible_Gun);
   };
 
   return (
@@ -84,11 +90,11 @@ const Missions = () => {
       </div>
 
       <div>
-        <div className="hovered">
+        <div className="hovered" onClick={toggleGun}>
           <h2 className="subcategoryBtn">The Great Gun Fires</h2>
           <p className="subsectionNo">6.7</p>
         </div>
-
+        {visible_Gun && <Mission_GreatGun />}
       </div>
 
       <div>

@@ -384,7 +384,7 @@ const PvESequence = () => {
       <p>The following are example missions designed for co-op or single-player games. Place terrain and other details at your discretion, or in accordance with specific killzone rulesets.</p>
       <p>You can find more solo/co-op missions in the Missions section (6.0)</p>
       
-      <h3><em>Breach</em></h3>
+      <h4><em><b>Breach</b></em></h4>
       <p>An enemy facility has been identified as a vital command post, supply base or other strategic asset that must be eliminated. With your operatives assembled, you must now secure entrance to the site.</p>
       <div className="mapGrid">
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/39af57cdc7abb37e3e13096a408731afd62629c4/src/img/JointOps_Breach.svg" className="mapImage" style={{ maxWidth: 600 + 'px' }} />
@@ -399,7 +399,7 @@ const PvESequence = () => {
         <li><b>Lose</b>: If all player operatives are incapacitated or the game exceeds 4 turning points, the battle ends with a player defeat.</li>
       </ul>
 
-      <h3><em>Sabotage</em></h3>
+      <h4><em><b>Sabotage</b></em></h4>
       <p>Having forced passage into the enemy facility, it now falls to your operatives to locate and sabotage key systems and strategic assets while eleminating the waves of the enemy soldiers rushing to defend them.</p>
       <div className="mapGrid">
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/39af57cdc7abb37e3e13096a408731afd62629c4/src/img/JointOps_Sabotage.svg" className="mapImage" style={{ maxWidth: 600 + 'px' }} />
@@ -426,7 +426,7 @@ const PvESequence = () => {
         </ul>
       </div>
 
-      <h3><em>Escape</em></h3>
+      <h4><em><b>Escape</b></em></h4>
       <p>The facility burns. Vital enemy assets have been annihilated thanks to your operatives’ efforts. With vengeful foes closing in from all sides, now is the time to make good your escape.</p>
       <div className="mapGrid">
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/39af57cdc7abb37e3e13096a408731afd62629c4/src/img/JointOps_Escape.svg" className="mapImage" style={{ maxWidth: 600 + 'px' }} />
