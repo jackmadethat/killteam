@@ -382,6 +382,7 @@ const PvESequence = () => {
 
       <h3>Missions: Joint Operations</h3>
       <p>The following are example missions designed for co-op or single-player games. Place terrain and other details at your discretion, or in accordance with specific killzone rulesets.</p>
+      <p>You can find more solo/co-op missions in the Missions section (6.0)</p>
       
       <h3><em>Breach</em></h3>
       <p>An enemy facility has been identified as a vital command post, supply base or other strategic asset that must be eliminated. With your operatives assembled, you must now secure entrance to the site.</p>
