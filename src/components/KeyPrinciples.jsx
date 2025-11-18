@@ -110,9 +110,17 @@ const KeyPrinciples = () => {
         <p>Equipment are additional rules you can select before the battle, as specified in your game sequence. Universal equipment can be selected for any kill team whereas faction equipment is specific. Each player cannot select each equipment option more than once per game.</p>
                                                 
         <h3>Orders</h3>
-        <p><b>Engage: The operative can perform actions as normal and can counteract.</b></p>
+        <p><b>Engage</b>:</p>
+        <ul>
+            <li>Can perform any action</li>
+            <li>Valid target in cover</li>
+        </ul>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Orders_Engage.svg" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%', border: 'none', outline: 'none' }} alt="Order" />
-        <p><b>Conceal: The operative cannot perform Shoot and Charge actions, and it cannot counteract. However, it’s not a valid target while it’s in cover.</b></p>
+        <p><b>Conceal</b>:</p>
+        <ul>
+            <li>Can't perform <b>Shoot</b> or <b>Charge</b> actions</li>
+            <li>Not a valid target in cover</li>
+        </ul>
         <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/Orders_Conceal.svg" className="imgGraphic" style={{ maxWidth: 200 + 'px', maxHeight: 200 + 'px', marginLeft: 2 + '%', border: 'none', outline: 'none' }} alt="Order" />
         <p>Operatives are given a Conceal order when they are set up before the battle. You can change an operative’s order whenever it’s activated.</p>
         <p>Order tokens have two sides. The lighter side shows an operative is ready (it can be activated in the Firefight phase) and the darker side shows an operative is expended (it has been activated in the Firefight phase).</p>
