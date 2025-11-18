@@ -8,7 +8,7 @@ const Introduction = () => {
       <h3>What you'll need to play Kill Team:</h3>
       <ul>
         <li>A team for each player (between 6 and 15 models, depending on your faction)
-          <p className="indentNote"><em><a href="https://www.myminifactory.com/users/Puppetswar_Miniatures">Puppetswar</a> and <a href="https://www.myminifactory.com/users/onepagerules">One Page Rules</a> offer very affordable miniatures that are suitable for Kill Team.</em></p>
+          <p className="indentNote"><em><a href="https://www.myminifactory.com/users/Puppetswar_Miniatures">Puppetswar</a>, <a href="https://www.myminifactory.com/users/StationForge">StationForge</a> and <a href="https://www.myminifactory.com/users/onepagerules">One Page Rules</a> offer very affordable miniatures that are suitable for Kill Team.</em></p>
         </li>
         <li>A play area (referred to as the 'killzone') of 30" x 22" or 703mm x 606mm divided into a 7x6 grid, depending on terrain setup</li>
         <div className="mapGrid">
