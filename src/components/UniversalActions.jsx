@@ -15,6 +15,7 @@ const UniversalActions = () => {
                 </ul>
             </li>
         </ul>
+        <p>Operatives can only perform each action once per activation unless their faction rules specify otherwise. For example, chapters with the ASTARTES keyword can <b>Shoot</b> and <b>Fight</b> twice.</p>
         <p className="indentNote"><em>If an operative performs a free action outside of their activation, it does not prevent them from performing that action during their activation, or vice versa.</em></p>
         
         <div className="actionLine"></div>
