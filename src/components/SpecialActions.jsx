@@ -70,6 +70,31 @@ const SpecialActions = () => {
             </ul>
         </div>
         <p className="indentNote"><em>Whether it's with a hand-wave, portable radio or psychic telepathy, clear and proper communication on the killzone is key to winning battles.</em></p>
+        <div className="actionLine"></div>
+        <div className="actionDiv">
+            <div className="titleBlock">
+                <p className="actionName">LEAN OUT</p>
+                <p className="actionCost"><b>1AP</b></p>
+            </div>
+            <ul>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/yes.svg" className="svgImg" /> Place a 32mm marker in base-to-base contact with the active operative. Until the activation ends or it, this marker represents the location of the active operative for the purposes of line of sight, cover and distance considerations.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot use <b>Charge</b> or <b>Fall Back</b> actions after using <b>Lean Out</b>. Additionally, an operative cannot use this action after a <b>Reposition</b> action if it has moved further than half it's movement stat.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot move further than half it's movement stat if it has used this action during it's current activation.</li>
+                <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/no.svg" className="svgImg" /> An operative cannot perform this action while within control range of an enemy operative or whlie it has an engage order.</li>
+            </ul>
+        </div>
+        <figure>
+            <div className="diagramDiv">
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/operativediagrams/OperativeDiagram_LeanOut_01.svg" className="imgGraphic diagramClipFix" />
+            </div>
+            <p>Operative B can <b>Lean Out</b> in order to target Operative A (as long as Operative B has a conceal order).</p>
+        </figure>
+        <figure>
+            <div className="diagramDiv">
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/operativediagrams/OperativeDiagram_LeanOut_01.svg" className="imgGraphic diagramClipFix" />
+            </div>
+            <p>Operative B can <b>Lean Out</b> in order to target Operative A, but only if Operative A has an engage order since Operative A would be considered to be in cover and therefore not a valid target.</p>
+        </figure>
     </div>
   )
 }
