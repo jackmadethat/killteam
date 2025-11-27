@@ -1,7 +1,7 @@
 const Mission_Swarm = () => {
   return (
     <div className="sectionContent" id="swarm">
-        {/*<div style={{ marginBottom: 40 + 'px' }}></div>*/}
+        <div style={{ marginBottom: 10 + 'px' }}></div>
         <figure>
             <div className="diagramDiv">
                 <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/missions/HeartoftheSwarm.jpg" className="imgGraphic diagramClipFix" />

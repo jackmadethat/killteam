@@ -1,7 +1,7 @@
 const Mission_GreatGun = () => {
   return (
     <div className="sectionContent" id="greatgun">
-        {/*<div style={{ marginBottom: 40 + 'px' }}></div>*/}
+        <div style={{ marginBottom: 10 + 'px' }}></div>
         <figure>
             <div className="diagramDiv">
                 <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/missions/GreatGun.jpg" className="imgGraphic diagramClipFix" />

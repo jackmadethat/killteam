@@ -1,7 +1,7 @@
 const Mission_DeadlySniper = () => {
   return (
     <div className="sectionContent" id="deadlysniper">
-        {/*<div style={{ marginBottom: 40 + 'px' }}></div>*/}
+        <div style={{ marginBottom: 10 + 'px' }}></div>
         <figure>
             <div className="diagramDiv">
                 <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/missions/DeadlySniper.jpg" className="imgGraphic diagramClipFix" />
