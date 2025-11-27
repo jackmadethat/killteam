@@ -1,9 +1,17 @@
 const Mission_Swarm = () => {
   return (
-    <div className="sectionContent" id="considerations">
+    <div className="sectionContent" id="swarm">
         {/*<div style={{ marginBottom: 40 + 'px' }}></div>*/}
+        <figure>
+            <div className="diagramDiv">
+                <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/missions/HeartoftheSwarm.jpg" className="imgGraphic diagramClipFix" />
+            </div>
+            <p>Operative B is in cover from operative A.</p>
+        </figure>
         <h3>Introduction</h3>
         <p>The desert planet of Arkalis Prime is a strategic outpost in the western region of the Milky Way galaxy, used by the Terran Federation to resupply, reinforce and regroup during long campaigns. Thanks to the many rocky moons and large asteroids in the system, weapons installations and supply depots are numerous. Despite this, the Swarm has made landfall and has begun burrowing it's tendrils deep into the planet. The low population and arid conditions slow the spread of the Xenos menace, but the Federation must scramble to purge the vile aliens swiftly and decisively or risk losing this critical location.</p>
+        <h3>Premise</h3>
+        <p>This three-mission campaign escalates in scope from a single player model (or 2-3, depending on number of players) in the first mission to over a dozen in the third. The pace and flow of each mission, and the whole campaign in sequence, creates a gripping and tense co-op experience.</p>
         <h3>Campaign Rules</h3>
         <p>Head of the Swarm features 3 missions to be played in sequence with 1-3 players.</p>
         <h4><em><b>Mission 1: Secure the Package</b></em></h4>

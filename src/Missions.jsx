@@ -5,6 +5,7 @@ import TacOps from './components/TacOps'
 import KillOps from './components/KillOps'
 import Mission_Swarm from './components/Mission_Swarm'
 import Mission_GreatGun from './components/Mission_GreatGun'
+import Mission_LurkingHorror from './components/Mission_LurkingHorror'
 
 const Missions = () => {
   const [visible_CritOps, setVisible_CritOps] = useState(false);
@@ -12,6 +13,7 @@ const Missions = () => {
   const [visible_KillOps, setVisible_KillOps] = useState(false);
   const [visible_Swarm, setVisible_Swarm] = useState(false);
   const [visible_Gun, setVisible_Gun] = useState(false);
+  const [visible_Horror, setVisible_Horror] = useState(false);
 
   const toggleCritOps = () => {
     setVisible_CritOps(!visible_CritOps);
@@ -31,6 +33,10 @@ const Missions = () => {
 
   const toggleGun = () => {
     setVisible_Gun(!visible_Gun);
+  };
+
+  const toggleHorror = () => {
+    setVisible_Horror(!visible_Horror);
   };
 
   return (
@@ -98,11 +104,11 @@ const Missions = () => {
       </div>
 
       <div>
-        <div className="hovered">
+        <div className="hovered" onClick={toggleHorror}>
           <h2 className="subcategoryBtn">The Lurking Horror</h2>
           <p className="subsectionNo">6.8</p>
         </div>
-
+        {visible_Horror && <Mission_LurkingHorror />}
       </div>
     </div>
   )
