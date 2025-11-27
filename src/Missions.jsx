@@ -6,6 +6,8 @@ import KillOps from './components/KillOps'
 import Mission_Swarm from './components/Mission_Swarm'
 import Mission_GreatGun from './components/Mission_GreatGun'
 import Mission_LurkingHorror from './components/Mission_LurkingHorror'
+import Mission_DeadlySniper from './components/Mission_DeadlySniper'
+import Mission_SilentTomb from './components/Mission_SilentTomb'
 
 const Missions = () => {
   const [visible_CritOps, setVisible_CritOps] = useState(false);
@@ -14,6 +16,8 @@ const Missions = () => {
   const [visible_Swarm, setVisible_Swarm] = useState(false);
   const [visible_Gun, setVisible_Gun] = useState(false);
   const [visible_Horror, setVisible_Horror] = useState(false);
+  const [visible_Sniper, setVisible_Sniper] = useState(false);
+  const [visible_Tomb, setVisible_Tomb] = useState(false);
 
   const toggleCritOps = () => {
     setVisible_CritOps(!visible_CritOps);
@@ -37,6 +41,14 @@ const Missions = () => {
 
   const toggleHorror = () => {
     setVisible_Horror(!visible_Horror);
+  };
+
+  const toggleTomb = () => {
+    setVisible_Tomb(!visible_Tomb);
+  };
+
+  const toggleSniper = () => {
+    setVisible_Sniper(!visible_Sniper);
   };
 
   return (
@@ -72,11 +84,11 @@ const Missions = () => {
       <p style={{ marginLeft: 5 + '%', marginTop: -30 + 'px', fontSize: 0.85 + 'em' }}><em>Solo & Cooperative Missions Versus Non-Player Opponents</em></p>
 
       <div>
-        <div className="hovered">
+        <div className="hovered" onClick={toggleTomb}>
           <h2 className="subcategoryBtn">A Silent Tomb</h2>
           <p className="subsectionNo">6.4</p>
         </div>
-
+        {visible_Tomb && <Mission_SilentTomb />}
       </div>
 
       <div>
@@ -88,11 +100,11 @@ const Missions = () => {
       </div>
 
       <div>
-        <div className="hovered">
+        <div className="hovered" onClick={toggleSniper}>
           <h2 className="subcategoryBtn">Deadly Sniper</h2>
           <p className="subsectionNo">6.6</p>
         </div>
-
+        {visible_Sniper && <Mission_DeadlySniper />}
       </div>
 
       <div>

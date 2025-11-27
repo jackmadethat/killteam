@@ -6,7 +6,6 @@ const Mission_Swarm = () => {
             <div className="diagramDiv">
                 <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/missions/HeartoftheSwarm.jpg" className="imgGraphic diagramClipFix" />
             </div>
-            <p>Operative B is in cover from operative A.</p>
         </figure>
         <h3>Introduction</h3>
         <p>The desert planet of Arkalis Prime is a strategic outpost in the western region of the Milky Way galaxy, used by the Terran Federation to resupply, reinforce and regroup during long campaigns. Thanks to the many rocky moons and large asteroids in the system, weapons installations and supply depots are numerous. Despite this, the Swarm has made landfall and has begun burrowing it's tendrils deep into the planet. The low population and arid conditions slow the spread of the Xenos menace, but the Federation must scramble to purge the vile aliens swiftly and decisively or risk losing this critical location.</p>

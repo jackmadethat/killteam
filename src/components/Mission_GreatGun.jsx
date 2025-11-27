@@ -6,7 +6,6 @@ const Mission_GreatGun = () => {
             <div className="diagramDiv">
                 <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/missions/GreatGun.jpg" className="imgGraphic diagramClipFix" />
             </div>
-            <p>Operative B is in cover from operative A.</p>
         </figure>
         <h3>Introduction</h3>
         <p>The Shield World of Vespera marks one of the only navigational points linking the southern Terran sector of the Milky Way with the eastern Kingdom Worlds. Rebel forces and hostile alien armies have thrown the sector into turmoil, and the war threatens to breach Terran space. With a collossal fleet approaching, Vespera's great cannon has been primed and prepares to fire.</p>
