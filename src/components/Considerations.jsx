@@ -140,7 +140,7 @@ const Considerations = () => {
         <h3>Weapon stats</h3>
         <ul>
             <li>Beneath the operative's stats are the weapons it can equip. Your kill team's rules will specify the weapons each of your operatives can equip, and if it doesn’t specify, it can equip all the weapons on its datacard.</li>
-            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/shoot.svg" className="svgImg" alt="Shoot" /> <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/attack.svg" className="svgImg" alt="Attack" /> <b>Weapon type:</b> <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/shoot.svg" className="svgImg" alt="Shoot" /> are ranged weapons for whenever an operative is shooting, <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/icons/img/attack.svg" className="svgImg" alt="Attack" /> are melee weapons for whenever an operative is fighting or retaliating.</li>
+            <li><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/shoot.svg" className="svgImg" alt="Shoot" /> <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/attack.svg" className="svgImg" alt="Attack" /> <b>Weapon type:</b> <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/shoot.svg" className="svgImg" alt="Shoot" /> are ranged weapons for whenever an operative is shooting, <img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/attack.svg" className="svgImg" alt="Attack" /> are melee weapons for whenever an operative is fighting or retaliating.</li>
             <li><b>Atk:</b> The number of attack dice to roll whenever an operative uses this weapon.</li>
             <li><b>Hit:</b> The result required for successful attack dice whenever an operative uses this weapon.</li>
             <li><b>Dmg:</b> The damage each attack dice inflicts with this weapon. The first value is its <em>Normal Dmg stat</em> (damage from a normal success), the second value is its <em>Critical Dmg stat</em> (damage from a critical success).</li>
@@ -151,7 +151,7 @@ const Considerations = () => {
         <h3>Keywords</h3>
         <p>At the bottom of the datacard are any relevant keywords for the operative. Keywords are used as identifiers for certain rules that apply to specific operatives and operative types. Keywords in orange with a skull symbol, e.g. <b style={{ color: '#F80' }}>ANGELS OF DEATH</b><img src="https://raw.githubusercontent.com/jackmadethat/killteam/refs/heads/main/src/img/icons/skull.svg" className="svgImg blackIcon" />, are faction keywords – used to identify all operatives from that kill team.</p>
         <h3>Bases</h3>
-        <p>In the bottom-right corner of the datacard is the units base size in mm.</p>
+        <p>In the bottom-right corner of the datacard is the unit's base size in mm.</p>
     </div>
   )
 }
